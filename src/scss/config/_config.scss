@@ -2,6 +2,7 @@
 
 @use 'sprucecss/scss/spruce' with (
   $btn: (
+    'border-radius': 2rem,
     'font-family': #{'Manrope', sans-serif},
     'font-weight': 600,
   ),
@@ -36,8 +37,8 @@
     'prefix': 'cone'
   ),
   $typography: (
-    'font-family-base': #{'inter', sans-serif},
+    'font-family-base': #{'Manrope', sans-serif},
     'font-family-cursive': #{'Space Mono', monospace},
-    'font-family-heading': #{'Manrope', sans-serif},
+    'font-family-heading': #{'Inter', sans-serif},
   ),
 );
