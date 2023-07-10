@@ -12,3 +12,8 @@
     --section-gap: spacer-clamp('xl', 'xxl')
   ));
 }
+
+.section-title {
+  font-family: config('font-family-cursive', $typography);
+  margin-block: 0 spacer('m');
+}

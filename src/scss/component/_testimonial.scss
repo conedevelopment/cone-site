@@ -1,0 +1,18 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.testimonial {
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    @include layout-grid('12rem');
+    gap: spacer-clamp('xl', 'xxl');
+  }
+}
+
+.testimonial-card {
+  @include layout-stack('xs');
+  border: 3px solid #000;
+  border-radius: config('border-radius-lg', $display);
+  box-shadow: -0.5rem 0.5rem 0 #000;
+  padding: spacer-clamp('m', 'l');
+}

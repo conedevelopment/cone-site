@@ -1966,6 +1966,34 @@ pre[class*=language-] {
   font-style: italic;
 }
 
+.testimonial {
+  padding-block: var(--cone-section-gap);
+}
+.testimonial__inner {
+  display: grid;
+  gap: "12rem";
+  gap: clamp(4.5rem, 5vw, 7rem);
+}
+@supports (inline-size: min(12.5rem, 100%)) {
+  .testimonial__inner {
+    grid-template-columns: repeat(auto-fit, minmax(min(12.5rem, 100%), 1fr));
+  }
+}
+
+.testimonial-card {
+  border: 3px solid #000;
+  border-radius: 0.725rem;
+  box-shadow: -0.5rem 0.5rem 0 #000;
+  padding: clamp(1.5rem, 5vw, 3rem);
+}
+.testimonial-card > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.testimonial-card > * + * {
+  margin-block-start: 0.5rem;
+}
+
 .blog-card > * {
   margin-block-end: 0;
   margin-block-start: 0;
@@ -2053,6 +2081,7 @@ pre[class*=language-] {
 
 .hero-container {
   background-color: #fbf8f2;
+  border-bottom: 3px solid #000;
 }
 
 .intro__inner {
@@ -2138,6 +2167,7 @@ pre[class*=language-] {
 }
 
 .site-footer {
+  border-top: 3px solid #000;
   padding-block: clamp(4.5rem, 5vw, 7rem);
 }
 .site-footer__top {
@@ -2211,4 +2241,9 @@ pre[class*=language-] {
 
 :root {
   --cone-section-gap: clamp(4.5rem, 5vw, 7rem);
+}
+
+.section-title {
+  font-family: Space Mono, monospace;
+  margin-block: 0 1.5rem;
 }

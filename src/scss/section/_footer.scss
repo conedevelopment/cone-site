@@ -1,6 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-footer {
+  border-top: 3px solid #000;
   padding-block: spacer-clamp('xl', 'xxl');
 
   &__top {
