@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-header {
-  font-size: 1.2rem;
+  font-size: 1.175rem;
   position: relative;
 
   &__inner {
@@ -28,7 +28,7 @@
   }
 
   &__logo {
-    --dimension: 1.25rem;
+    --dimension: 1.35rem;
     block-size: var(--dimension);
     display: inline-flex;
 
