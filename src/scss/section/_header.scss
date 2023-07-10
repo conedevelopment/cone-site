@@ -1,10 +1,11 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-header {
+  font-size: 1.2rem;
   position: relative;
 
   &__inner {
-    --block-size: 6rem;
+    --block-size: 8rem;
     align-items: center;
     block-size: var(--block-size);
     display: flex;
@@ -27,14 +28,19 @@
   }
 
   &__logo {
-    --dimension: 4rem;
+    --dimension: 1.25rem;
     block-size: var(--dimension);
     display: inline-flex;
-    inline-size: var(--dimension);
+
+    img {
+      block-size: 100%;
+      inline-size: auto;
+    }
   }
 
   &__email {
     display: none;
+    font-family: config('font-family-cursive', $typography);
     text-decoration: none;
 
     @include breakpoint('sm') {

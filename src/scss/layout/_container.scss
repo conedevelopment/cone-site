@@ -1,8 +1,8 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .container {
-  --inline-size: #{config('container-inline-size', $layout)};
-  --gap: #{spacer-clamp(m, l)};
+  --inline-size: #{config('container-inline-size', $layout, false)};
+  --gap: #{spacer-clamp('m', 'l')};
 
   @include layout-center(
     var(--gap),

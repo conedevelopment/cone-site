@@ -1,18 +1,18 @@
 <footer class="site-footer">
-    <div class="container">
+    <div class="container container--wide">
         <div class="site-footer__top">
             <div class="site-footer__col">
-                <a class="site-footer__logo" href="/">
-                    <img
-                        src="/img/cone-made-logo-dark.svg"
-                        alt="Cone Made"
-                        width="72"
-                        height="72"
-                        data-theme-mode="data-theme-mode"
-                        data-light-asset="/img/cone-made-logo-dark.svg"
-                        data-dark-asset="/img/cone-made-logo-light.svg"
-                    />
-                </a>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <a class="site-footer__logo" href="/">
+                        <img
+                            src="/img/cone-logo-footer.svg"
+                            alt="Cone"
+                            width="72"
+                            height="72"
+                        />
+                    </a>
+                    {% include "partial/theme-switcher.html" %}
+                </div>
             </div>
             {% for block in navigation.footer %}
             <div class="site-footer__col">

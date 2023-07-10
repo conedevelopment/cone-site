@@ -1,18 +1,28 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.intro {
-  padding-block: get-css-variable(--section-gap);
+.hero-container {
+  background-color: #fbf8f2;
+}
 
+.intro {
   &__inner {
     @include layout-stack('l');
+    padding-block: get-css-variable(--section-gap) calc(#{get-css-variable(--section-gap)} * 1.75);
   }
 
   &__caption {
     @include layout-stack;
-    font-size: config('font-size-lead', $typography);
   }
 
   &__title {
-    font-size: responsive-font-size(3.5rem, 30, '3vw + 1rem');
+    color: color('primary');
+    font-size: responsive-font-size(6.5rem, 30, '6vw + 1rem');
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    max-inline-size: 40ch;
+    font-size: responsive-font-size(1.5rem, 30, '3vw + 1rem');
   }
 }

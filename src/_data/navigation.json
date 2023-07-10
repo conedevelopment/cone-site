@@ -1,13 +1,13 @@
 {
   "header": [
     {
-      "caption": "Home",
-      "url": "/",
+      "caption": "Services",
+      "url": "/services/",
       "external": false
     },
     {
-      "caption": "Blog",
-      "url": "/blog/",
+      "caption": "Works",
+      "url": "/works/",
       "external": false
     },
     {
@@ -19,11 +19,6 @@
       "caption": "Contact",
       "url": "/contact/",
       "external": false
-    },
-    {
-      "caption": "GitHub",
-      "url": "https://github.com/conedevelopment/sprucecss-eleventy-starter",
-      "external": true
     }
   ],
   "footer": [

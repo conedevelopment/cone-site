@@ -5,6 +5,7 @@
     'font-family': #{'Manrope', sans-serif},
     'font-weight': 600,
   ),
+  $color-primary: hsl(216deg 100% 50%),
   $colors: (
     'btn': (
       'pagination-background': hsl(263deg 40% 96%),
@@ -32,10 +33,11 @@
   ),
   $dark-colors: dark.$colors,
   $settings: (
-    'prefix': 'spruce-x-11ty'
+    'prefix': 'cone'
   ),
   $typography: (
-    'font-family-base': #{'Open Sans', sans-serif},
+    'font-family-base': #{'inter', sans-serif},
+    'font-family-cursive': #{'Space Mono', monospace},
     'font-family-heading': #{'Manrope', sans-serif},
   ),
 );
