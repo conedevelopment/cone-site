@@ -11,13 +11,13 @@
 
 .testimonial-card {
   @include layout-stack('xs');
-  aspect-ratio: 1;
-  border: 2px solid #000;
+  border: 1px solid #000;
   border-radius: config('border-radius-lg', $display);
   // box-shadow: 0.25rem 0.25rem 0 #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  block-size: 100%;
   padding: spacer-clamp('m', 'l');
 
   &__title {
@@ -30,7 +30,8 @@
 
   img {
     margin-inline: auto;
-    max-inline-size: 18rem;
+    max-block-size: 12rem;
+    inline-size: auto;
   }
 
   &__caption {
@@ -40,14 +41,14 @@
 
   &__footer {
     align-items: center;
-    border-block-start: 2px solid #000;
+    border-block-start: 1px solid color('border');
+    font-family: config('font-family-cursive', $typography);
     padding-block-start: spacer('m');
     display: flex;
     justify-content: space-between;
 
     span {
-      color: color('heading');
-      font-family: config('font-family-heading', $typography);
+      color: color('secondary');
       font-size: font-size('h3');
       font-weight: 800;
     }

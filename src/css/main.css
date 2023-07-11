@@ -362,7 +362,7 @@ template {
   --cone-base-color-mark-foreground: hsl(205, 100%, 2%);
   --cone-base-color-marker: hsl(216, 100%, 50%);
   --cone-base-color-primary: hsl(216, 100%, 50%);
-  --cone-base-color-secondary: hsl(227, 92%, 55%);
+  --cone-base-color-secondary: #FC008D;
   --cone-base-color-text: hsl(208, 9%, 42%);
 }
 
@@ -370,8 +370,8 @@ template {
   --cone-btn-color-primary-background: hsl(216, 100%, 50%);
   --cone-btn-color-primary-background-hover: #0052cc;
   --cone-btn-color-primary-foreground: hsl(0, 0%, 100%);
-  --cone-btn-color-secondary-background: hsl(227, 92%, 55%);
-  --cone-btn-color-secondary-background-hover: #0937dc;
+  --cone-btn-color-secondary-background: #FC008D;
+  --cone-btn-color-secondary-background-hover: #c90070;
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-pagination-background: hsl(263, 40%, 96%);
   --cone-btn-color-pagination-background-hover: hsl(262, 71%, 49%);
@@ -406,7 +406,7 @@ template {
 
 :root {
   --cone-selection-color-foreground: hsl(0, 0%, 100%);
-  --cone-selection-color-background: hsl(216, 100%, 50%);
+  --cone-selection-color-background: #FC008D;
 }
 
 :root {
@@ -1982,12 +1982,12 @@ pre[class*=language-] {
 }
 
 .testimonial-card {
-  aspect-ratio: 1;
-  border: 2px solid #000;
+  border: 1px solid #000;
   border-radius: 0.725rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  block-size: 100%;
   padding: clamp(1.5rem, 5vw, 3rem);
 }
 .testimonial-card > * {
@@ -2005,7 +2005,8 @@ pre[class*=language-] {
 }
 .testimonial-card img {
   margin-inline: auto;
-  max-inline-size: 18rem;
+  max-block-size: 12rem;
+  inline-size: auto;
 }
 .testimonial-card__caption {
   margin-block-end: 1.5rem;
@@ -2019,14 +2020,14 @@ pre[class*=language-] {
 }
 .testimonial-card__footer {
   align-items: center;
-  border-block-start: 2px solid #000;
+  border-block-start: 1px solid var(--cone-base-color-border);
+  font-family: Space Mono, monospace;
   padding-block-start: 1.5rem;
   display: flex;
   justify-content: space-between;
 }
 .testimonial-card__footer span {
-  color: var(--cone-base-color-heading);
-  font-family: Inter, sans-serif;
+  color: var(--cone-base-color-secondary);
   font-size: clamp(1.328125rem, 2vw + 1rem, 1.5625rem);
   font-weight: 800;
 }
@@ -2054,6 +2055,39 @@ pre[class*=language-] {
   flex-wrap: wrap;
   font-family: Inter, sans-serif;
   gap: 1.5rem;
+}
+
+.cta {
+  background-image: linear-gradient(70deg, hsl(238, 100%, 47%) 0%, hsl(260, 100%, 46%) 6%, hsl(269, 100%, 44%) 13%, hsl(276, 100%, 43%) 19%, hsl(282, 100%, 42%) 25%, hsl(288, 100%, 40%) 31%, hsl(294, 100%, 39%) 37%, hsl(299, 100%, 38%) 44%, hsl(305, 100%, 39%) 50%, hsl(309, 100%, 41%) 56%, hsl(313, 100%, 43%) 63%, hsl(316, 100%, 44%) 69%, hsl(318, 100%, 46%) 75%, hsl(321, 100%, 47%) 81%, hsl(323, 100%, 48%) 87%, hsl(325, 100%, 49%) 94%, hsl(326, 100%, 49%) 100%);
+  background-image: linear-gradient(70deg, hsl(238, 100%, 47%) 0%, hsl(229, 100%, 49%) 6%, hsl(224, 100%, 50%) 13%, hsl(221, 100%, 50%) 19%, hsl(217, 100%, 50%) 25%, hsl(215, 100%, 50%) 31%, hsl(212, 100%, 50%) 37%, hsl(210, 100%, 50%) 44%, hsl(207, 100%, 50%) 50%, hsl(205, 100%, 50%) 56%, hsl(203, 100%, 50%) 63%, hsl(201, 100%, 50%) 69%, hsl(199, 100%, 50%) 75%, hsl(196, 100%, 49%) 81%, hsl(194, 100%, 48%) 87%, hsl(194, 87%, 57%) 94%, hsl(194, 80%, 65%) 100%);
+  padding-block: var(--cone-section-gap);
+}
+.cta__inner {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  justify-content: space-between;
+}
+.cta__title {
+  font-size: clamp(2.0751953125rem, 2vw + 1rem, 2.44140625rem);
+}
+.cta__caption > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.cta__caption > * + * {
+  margin-block-start: 1rem;
+}
+.cta .heading {
+  margin-block-end: 0;
+}
+.cta * {
+  color: hsl(0, 0%, 100%);
+}
+.cta p {
+  font-size: 1.2rem;
+  max-inline-size: 55ch;
 }
 
 .site-header {
@@ -2278,6 +2312,31 @@ pre[class*=language-] {
 }
 .site-footer__copyright {
   margin-block: 0;
+}
+
+.who-we-are__inner {
+  align-items: center;
+  background-color: var(--cone-base-color-heading);
+  border-radius: 0.725rem;
+  padding: var(--cone-section-gap);
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.who-we-are .section-title {
+  align-items: start;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  margin-block: 0 !important;
+}
+.who-we-are p {
+  color: hsl(0, 0%, 95%);
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  max-width: 60ch;
+}
+.who-we-are p span {
+  color: var(--cone-base-color-secondary);
 }
 
 .m-block\:0 {

@@ -1,5 +1,7 @@
 @use 'dark-colors' as dark;
 
+$color-secondary: #FC008D;
+
 @use 'sprucecss/scss/spruce' with (
   $btn: (
     'border-radius': 2rem,
@@ -10,6 +12,7 @@
     'padding': 0.9em 1.75em,
   ),
   $color-primary: hsl(216deg 100% 50%),
+  $color-secondary: $color-secondary,
   $colors: (
     'btn': (
       'pagination-background': hsl(263deg 40% 96%),
@@ -20,6 +23,9 @@
     ),
     'navigation': (
       'arrow': hsl(0deg 0% 0% / 15%),
+    ),
+    selection: (
+      'background': $color-secondary,
     ),
     'prism': (
       'color': hsl(243deg 14% 29%),
