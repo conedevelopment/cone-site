@@ -5,14 +5,51 @@
 
   &__inner {
     @include layout-grid('12rem');
-    gap: spacer-clamp('xl', 'xxl');
+    gap: spacer-clamp('l', 'xl');
   }
 }
 
 .testimonial-card {
   @include layout-stack('xs');
+  aspect-ratio: 1;
   border: 2px solid #000;
   border-radius: config('border-radius-lg', $display);
-  box-shadow: 0.5rem 0.5rem 0 hsl(0deg 0% 0% / 2.5%);
+  // box-shadow: 0.25rem 0.25rem 0 #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: spacer-clamp('m', 'l');
+
+  &__title {
+    font-size: font-size('h2');
+  }
+
+  p {
+    font-size: 1.1375rem;
+  }
+
+  img {
+    margin-inline: auto;
+    max-inline-size: 18rem;
+  }
+
+  &__caption {
+    @include layout-stack('s');
+    margin-block-end: spacer('m');
+  }
+
+  &__footer {
+    align-items: center;
+    border-block-start: 2px solid #000;
+    padding-block-start: spacer('m');
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      color: color('heading');
+      font-family: config('font-family-heading', $typography);
+      font-size: font-size('h3');
+      font-weight: 800;
+    }
+  }
 }

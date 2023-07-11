@@ -6,6 +6,9 @@
     'font-family': #{'Manrope', sans-serif},
     'font-weight': 600,
   ),
+  $btn-lg: (
+    'padding': 0.9em 1.75em,
+  ),
   $color-primary: hsl(216deg 100% 50%),
   $colors: (
     'btn': (

@@ -11,11 +11,17 @@
   @include set-css-variable((
     --section-gap: spacer-clamp('xl', 'xxl')
   ));
+
+  @include breakpoint('lg') {
+    // font-size: 1.1375rem;
+  }
 }
 
 .section-title {
   align-items: center;
   display: flex;
+  font-weight: 800;
   gap: spacer('s');
   margin-block: 0 spacer('l');
+  text-transform: uppercase;
 }
