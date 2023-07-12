@@ -48,6 +48,21 @@
       ]
     },
     {
+      "title": "Social",
+      "items": [
+        {
+          "caption": "GitHub",
+          "url": "https://github.com/conedevelopment",
+          "external": true
+        },
+        {
+          "caption": "Twitter",
+          "url": "https://twitter.com/conedevelopments",
+          "external": true
+        }
+      ]
+    },
+    {
       "title": "Open Source",
       "items": [
         {

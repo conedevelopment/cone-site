@@ -1,6 +1,22 @@
 <footer class="site-footer">
     <div class="container container--wide">
         <div class="site-footer__top">
+            <div class="site-footer__col">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <a class="site-footer__logo" href="/">
+                        <img
+                            src="/img/cone-logo-footer.svg"
+                            alt="Cone"
+                            width="72"
+                            height="72"
+                        />
+                    </a>
+                    {% include "partial/theme-switcher.html" %}
+                </div>
+                <p class="site-footer__copyright" style="margin-block-start: 2rem;">
+                    © {{ global.year() }} Cone<br>All rights are reserved.
+                </p>
+            </div>
             {% for block in navigation.footer %}
             <div class="site-footer__col">
                 <h3 class="site-footer__title" id="site-footer-title-{{ block.title | slugify }}">
@@ -32,22 +48,6 @@
                 </ul>
             </div>
             {% endfor %}
-        </div>
-        <div class="site-footer__bottom">
-            <div style="display: flex; align-items: center; gap: 1rem;">
-                <a class="site-footer__logo" href="/">
-                    <img
-                        src="/img/cone-logo-footer.svg"
-                        alt="Cone"
-                        width="72"
-                        height="72"
-                    />
-                </a>
-                {% include "partial/theme-switcher.html" %}
-            </div>
-            <p class="site-footer__copyright">
-                © {{ global.year() }} Cone Made - Some rights are reserved.
-            </p>
         </div>
     </div>
 </footer>
