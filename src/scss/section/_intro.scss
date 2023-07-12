@@ -8,7 +8,7 @@
 .intro {
   &__inner {
     @include layout-stack('l');
-    padding-block: get-css-variable(--section-gap);
+    padding-block: get-css-variable(--section-gap) calc(#{get-css-variable(--section-gap)} * 1.75);
   }
 
   &__caption {

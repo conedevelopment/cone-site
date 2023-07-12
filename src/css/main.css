@@ -2151,7 +2151,7 @@ pre[class*=language-] {
 }
 
 .intro__inner {
-  padding-block: var(--cone-section-gap);
+  padding-block: var(--cone-section-gap) calc(var(--cone-section-gap) * 1.75);
 }
 .intro__inner > * {
   margin-block-end: 0;
@@ -2247,7 +2247,6 @@ pre[class*=language-] {
 }
 
 .site-footer {
-  border-top: 1px solid var(--cone-base-color-border);
   padding-block: clamp(4.5rem, 5vw, 7rem);
 }
 .site-footer__top {
@@ -2320,8 +2319,7 @@ pre[class*=language-] {
   border-radius: 0.725rem;
   padding: var(--cone-section-gap);
   display: flex;
-  justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
 }
 .who-we-are .section-title {
   align-items: start;

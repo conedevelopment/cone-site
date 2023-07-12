@@ -7,8 +7,7 @@
     border-radius: config('border-radius-lg', $display);
     padding: get-css-variable(--section-gap);
     display: flex;
-    justify-content: center;
-    gap: 4rem;
+    gap: 5rem;
   }
 
   .section-title {
