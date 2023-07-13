@@ -1,48 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .cta {
-  /*
-  background-image: linear-gradient(
-    70deg,
-    hsl(238deg 100% 47%) 0%,
-    hsl(260deg 100% 46%) 6%,
-    hsl(269deg 100% 44%) 13%,
-    hsl(276deg 100% 43%) 19%,
-    hsl(282deg 100% 42%) 25%,
-    hsl(288deg 100% 40%) 31%,
-    hsl(294deg 100% 39%) 37%,
-    hsl(299deg 100% 38%) 44%,
-    hsl(305deg 100% 39%) 50%,
-    hsl(309deg 100% 41%) 56%,
-    hsl(313deg 100% 43%) 63%,
-    hsl(316deg 100% 44%) 69%,
-    hsl(318deg 100% 46%) 75%,
-    hsl(321deg 100% 47%) 81%,
-    hsl(323deg 100% 48%) 87%,
-    hsl(325deg 100% 49%) 94%,
-    hsl(326deg 100% 49%) 100%
-  );
-  */
-  background-image: linear-gradient(
-    70deg,
-    hsl(238deg 100% 47%) 0%,
-    hsl(229deg 100% 49%) 6%,
-    hsl(224deg 100% 50%) 13%,
-    hsl(221deg 100% 50%) 19%,
-    hsl(217deg 100% 50%) 25%,
-    hsl(215deg 100% 50%) 31%,
-    hsl(212deg 100% 50%) 37%,
-    hsl(210deg 100% 50%) 44%,
-    hsl(207deg 100% 50%) 50%,
-    hsl(205deg 100% 50%) 56%,
-    hsl(203deg 100% 50%) 63%,
-    hsl(201deg 100% 50%) 69%,
-    hsl(199deg 100% 50%) 75%,
-    hsl(196deg 100% 49%) 81%,
-    hsl(194deg 100% 48%) 87%,
-    hsl(194deg 87% 57%) 94%,
-    hsl(194deg 80% 65%) 100%
-  );
+  background-color: hsl(15deg 98% 79%);
   padding-block: get-css-variable(--section-gap);
 
   &__inner {
@@ -66,7 +25,7 @@
   }
 
   * {
-    color: hsl(0deg 0% 100%);
+    color: color('heading');
   }
 
   p {
