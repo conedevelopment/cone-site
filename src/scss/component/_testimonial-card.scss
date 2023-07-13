@@ -1,52 +1,33 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .testimonial-card {
-  @include layout-stack('xs');
-  background-color: color('background');
+  align-items: center;
   border: 1px solid color('border');
   border-radius: config('border-radius-lg', $display);
-  // box-shadow: 0.25rem 0.25rem 0 #000;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  block-size: 100%;
-  padding: spacer-clamp('m', 'l');
+  flex-wrap: wrap;
+  gap: spacer-clamp('m', 'l');
+  padding-block: spacer-clamp('s', 'm');
+  padding-inline: spacer-clamp('m', 'l');
+
+  &__caption {
+    @include layout-stack('s');
+    max-inline-size: 60ch;
+  }
 
   &__title {
     font-size: font-size('h2');
   }
 
-  p {
-    font-size: 1.1375rem;
-  }
-
-  img {
-    margin-inline: auto;
+  &__illustration {
     max-block-size: 12rem;
     inline-size: auto;
   }
 
-  &__caption {
-    @include layout-stack('s');
-    margin-block-end: spacer('m');
-  }
-
-  &__footer {
-    align-items: center;
-    border-block-start: 1px solid color('border');
+  &__number {
+    color: color('secondary');
     font-family: config('font-family-cursive', $typography);
-    padding-block-start: spacer('m');
-    display: flex;
-    justify-content: space-between;
-
-    span {
-      color: color('secondary');
-      font-size: font-size('h2');
-      font-weight: 800;
-    }
-
-    svg {
-      color: color('secondary');
-    }
+    font-size: font-size('h1');
+    font-weight: 800;
   }
 }

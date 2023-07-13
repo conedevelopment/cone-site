@@ -27,7 +27,7 @@
   }
 
   &__description {
-    font-size: responsive-font-size(1.5rem, 30, '3vw + 1rem');
+    font-size: responsive-font-size(1.5rem, 30, '3vw + 0.25rem');
     max-inline-size: 40ch;
   }
 

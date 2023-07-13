@@ -1,9 +1,9 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.l-testimonial {
+.l-what-we-do {
   padding-block: get-css-variable(--section-gap);
 
   &__inner {
-    @include layout-grid(spacer-clamp('l', 'xl'), '20rem');
+    @include layout-stack(spacer-clamp('m', 'l'));
   }
 }
