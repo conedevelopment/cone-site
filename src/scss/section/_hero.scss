@@ -1,11 +1,6 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.hero-container {
-  //background-color: hsl(40deg 53% 97%);
-  //border-block-end: 1px solid color('border');
-}
-
-.intro {
+.hero {
   &__inner {
     @include layout-stack('l');
     padding-block: get-css-variable(--section-gap) calc(#{get-css-variable(--section-gap)} * 1.75);
@@ -16,7 +11,7 @@
   }
 
   &__title {
-    font-size: responsive-font-size(6.5rem, 30, '6vw + 1rem');
+    font-size: responsive-font-size(6.5rem, 40, '5vw + 1rem');
     font-weight: 800;
     text-transform: uppercase;
 

@@ -1,17 +1,9 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.testimonial {
-  padding-block: get-css-variable(--section-gap);
-
-  &__inner {
-    @include layout-grid('12rem');
-    gap: spacer-clamp('l', 'xl');
-  }
-}
-
 .testimonial-card {
   @include layout-stack('xs');
-  border: 1px solid #000;
+  background-color: color('background');
+  border: 1px solid color('border');
   border-radius: config('border-radius-lg', $display);
   // box-shadow: 0.25rem 0.25rem 0 #000;
   display: flex;
@@ -49,8 +41,12 @@
 
     span {
       color: color('secondary');
-      font-size: font-size('h3');
+      font-size: font-size('h2');
       font-weight: 800;
+    }
+
+    svg {
+      color: color('secondary');
     }
   }
 }

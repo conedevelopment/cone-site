@@ -4,6 +4,10 @@
   --inset-block-start: 6rem;
   font-family: config('font-family-heading', $typography);
 
+  @include breakpoint('md') {
+    --inset-block-start: 8rem;
+  }
+
   &__btn {
     @include breakpoint('md') {
       display: none;

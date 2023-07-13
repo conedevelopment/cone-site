@@ -1,13 +1,13 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .who-we-are {
+  background-color: color('heading');
   &__inner {
     align-items: center;
-    background-color: color('heading');
     border-radius: config('border-radius-lg', $display);
-    padding: get-css-variable(--section-gap);
+    padding-block: get-css-variable(--section-gap);
     display: flex;
-    gap: 5rem;
+    gap: 7rem;
   }
 
   .section-title {

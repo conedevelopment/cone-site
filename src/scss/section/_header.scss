@@ -1,17 +1,20 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-header {
-  font-size: 1.175rem;
   position: relative;
 
   &__inner {
-    --block-size: 8rem;
+    --block-size: 6rem;
     align-items: center;
     block-size: var(--block-size);
     display: flex;
     flex-wrap: wrap;
     gap: spacer-clamp('s', 'l');
     justify-content: space-between;
+
+    @include breakpoint('md') {
+      --block-size: 8rem;
+    }
   }
 
   &__column {

@@ -19,20 +19,18 @@
     </head>
     <body>
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>
-        <div class="hero-container">
-            {% include "partial/header.html" %}
-            {% include "partial/intro.html" %}
-        </div>
+        {% include "partial/header.html" %}
 
         <main id="content">
             {% block content %}{% endblock %}
         </main>
 
         {% include "partial/footer.html" %}
-
         <script src="/js/theme-change-assets.js?{{ assetHash }}" defer></script>
         <script src="/js/navigation.js?{{ assetHash }}" defer></script>
         <script src="/js/accordion-card.js?{{ assetHash }}" defer></script>
         <script src="/js/theme-switcher.js?{{ assetHash }}" defer></script>
+        <script src="/js/typewriter-effect.js?{{ assetHash }}" defer></script>
+        <script src="/js/typewriter-init.js?{{ assetHash }}" defer></script>
     </body>
 </html>
