@@ -1,6 +1,6 @@
 <footer class="site-footer">
     <div class="container container--wide">
-        <div class="site-footer__top">
+        <div class="site-footer__inner">
             <div class="site-footer__col">
                 <div style="display: flex; align-items: center; gap: 1rem;">
                     <a class="site-footer__logo" href="/">
@@ -37,7 +37,7 @@
                                 rel="noopener"
                             {% endif %}
                         >
-                            {{ item.caption }}
+                            <span>{{ item.caption }}</span>
                             {% if item.external %}
                                 <span class="sr-only">Open in new window</span>
                                 {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}

@@ -1,17 +1,30 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-footer {
-  padding-block: spacer-clamp('xl', 'xxl');
+  padding-block: get-css-variable(--section-gap);
 
-  &__top {
-    @include layout-grid(spacer('l'), 14rem);
+  &__inner {
+    display: grid;
+    gap: spacer-clamp('l', 'xl');
+    grid-template-columns: minmax(0, 1fr);
+
+    @include breakpoint('xs') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include breakpoint('md') {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    @include breakpoint('lg') {
+      grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+    }
   }
 
   &__logo {
-    --dimension: 2.9rem;
+    --dimension: 1.85rem;
     block-size: var(--dimension);
     display: inline-flex;
-    inline-size: var(--dimension);
   }
 
   &__title {
@@ -24,10 +37,7 @@
     @include layout-stack(spacer('xs'));
 
     a {
-      align-items: center;
       color: color('text');
-      display: flex;
-      gap: spacer('xs');
       text-decoration: none;
 
       &:hover,
@@ -41,10 +51,14 @@
         font-weight: 700;
       }
 
+      span {
+        margin-inline-end: spacer('xs');
+      }
+
       svg {
         --dimension: 0.65em;
         block-size: var(--dimension);
-        color: color('arrow', 'navigation');
+        color: color('border');
         inline-size: var(--dimension);
       }
     }

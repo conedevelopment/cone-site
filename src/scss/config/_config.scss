@@ -15,6 +15,9 @@ $color-secondary: hsl(326deg 100% 49%);
   $color-primary: hsl(216deg 100% 50%),
   $color-secondary: $color-secondary,
   $colors: (
+    'base': (
+      'border': $color-dark,
+    ),
     'btn': (
       'dark-background': $color-dark,
       'dark-background-hover': $color-secondary,

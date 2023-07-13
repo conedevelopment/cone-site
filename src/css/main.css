@@ -352,7 +352,7 @@ template {
 :root {
   --cone-base-color-background: hsl(0, 0%, 100%);
   --cone-base-color-blockquote-border: hsl(216, 100%, 50%);
-  --cone-base-color-border: hsl(215, 63%, 93%);
+  --cone-base-color-border: hsl(0, 0%, 0%);
   --cone-base-color-code-background: #f0f6ff;
   --cone-base-color-code-foreground: hsl(205, 100%, 2%);
   --cone-base-color-heading: hsl(205, 100%, 2%);
@@ -1987,6 +1987,9 @@ pre[class*=language-] {
 }
 
 .testimonial-card {
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
   align-items: center;
   border: 1px solid var(--cone-base-color-border);
   border-radius: 0.725rem;
@@ -1995,6 +1998,15 @@ pre[class*=language-] {
   gap: clamp(1.5rem, 5vw, 3rem);
   padding-block: clamp(1rem, 5vw, 1.5rem);
   padding-inline: clamp(1.5rem, 5vw, 3rem);
+}
+.testimonial-card:hover, .testimonial-card:focus {
+  background-color: var(--cone-base-color-border);
+}
+.testimonial-card:hover .testimonial-card__title, .testimonial-card:focus .testimonial-card__title {
+  color: hsl(0, 0%, 100%);
+}
+.testimonial-card:hover .testimonial-card__description, .testimonial-card:focus .testimonial-card__description {
+  color: hsla(0, 0%, 100%, 0.75);
 }
 .testimonial-card__caption {
   max-inline-size: 60ch;
@@ -2007,7 +2019,15 @@ pre[class*=language-] {
   margin-block-start: 1rem;
 }
 .testimonial-card__title {
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
   font-size: clamp(1.66015625rem, 2vw + 1rem, 1.953125rem);
+}
+.testimonial-card__description {
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
 }
 .testimonial-card__illustration {
   max-block-size: 12rem;
@@ -2269,22 +2289,32 @@ pre[class*=language-] {
 }
 
 .site-footer {
-  padding-block: clamp(4.5rem, 5vw, 7rem);
+  padding-block: var(--cone-section-gap);
 }
-.site-footer__top {
+.site-footer__inner {
   display: grid;
-  gap: 3rem;
+  gap: clamp(3rem, 5vw, 4.5rem);
+  grid-template-columns: minmax(0, 1fr);
 }
-@supports (inline-size: min(14rem, 100%)) {
-  .site-footer__top {
-    grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+@media (min-width: 32em) {
+  .site-footer__inner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 64em) {
+  .site-footer__inner {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (min-width: 80em) {
+  .site-footer__inner {
+    grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
   }
 }
 .site-footer__logo {
-  --dimension: 2.9rem;
+  --dimension: 1.85rem;
   block-size: var(--dimension);
   display: inline-flex;
-  inline-size: var(--dimension);
 }
 .site-footer__title {
   font-size: clamp(1.0625rem, 2vw + 1rem, 1.25rem);
@@ -2303,10 +2333,7 @@ pre[class*=language-] {
   margin-block-start: 0.5rem;
 }
 .site-footer__navigation a {
-  align-items: center;
   color: var(--cone-base-color-text);
-  display: flex;
-  gap: 0.5rem;
   text-decoration: none;
 }
 .site-footer__navigation a:hover, .site-footer__navigation a:focus, .site-footer__navigation a:active, .site-footer__navigation a[aria-current=page] {
@@ -2315,10 +2342,13 @@ pre[class*=language-] {
 .site-footer__navigation a[aria-current=page] {
   font-weight: 700;
 }
+.site-footer__navigation a span {
+  margin-inline-end: 0.5rem;
+}
 .site-footer__navigation a svg {
   --dimension: 0.65em;
   block-size: var(--dimension);
-  color: var(--cone-navigation-color-arrow);
+  color: var(--cone-base-color-border);
   inline-size: var(--dimension);
 }
 .site-footer__bottom {

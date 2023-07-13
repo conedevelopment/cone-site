@@ -1,6 +1,9 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .testimonial-card {
+  $this: &;
+
+  @include transition;
   align-items: center;
   border: 1px solid color('border');
   border-radius: config('border-radius-lg', $display);
@@ -10,13 +13,31 @@
   padding-block: spacer-clamp('s', 'm');
   padding-inline: spacer-clamp('m', 'l');
 
+  &:hover,
+  &:focus {
+    background-color: color('border');
+
+    #{$this}__title {
+      color: hsl(0deg 0% 100%);
+    }
+
+    #{$this}__description {
+      color: hsl(0deg 0% 100% / 75%);
+    }
+  }
+
   &__caption {
     @include layout-stack('s');
     max-inline-size: 60ch;
   }
 
   &__title {
+    @include transition;
     font-size: font-size('h2');
+  }
+
+  &__description {
+    @include transition;
   }
 
   &__illustration {
