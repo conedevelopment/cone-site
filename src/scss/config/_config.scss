@@ -10,7 +10,7 @@ $color-secondary: hsl(326deg 100% 49%);
     'font-weight': 600,
   ),
   $btn-lg: (
-    'padding': 1.15em 1.75em,
+    'padding': 1em 1.75em,
   ),
   $color-primary: hsl(216deg 100% 50%),
   $color-secondary: $color-secondary,
@@ -49,6 +49,9 @@ $color-secondary: hsl(326deg 100% 49%);
     ),
   ),
   $dark-colors: dark.$colors,
+  $display: (
+    'container': 88rem,
+  ),
   $settings: (
     'prefix': 'cone'
   ),

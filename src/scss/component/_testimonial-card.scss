@@ -3,21 +3,20 @@
 .testimonial-card {
   $this: &;
 
+  @include a11y-card-link('.testimonial-card__link', true);
   @include transition;
-  align-items: center;
   border: 1px solid color('border');
   border-radius: config('border-radius-lg', $display);
   display: flex;
-  flex-wrap: wrap;
-  gap: spacer-clamp('m', 'l');
-  padding-block: spacer-clamp('s', 'm');
-  padding-inline: spacer-clamp('m', 'l');
+  flex-direction: column;
+  gap: spacer('m');
+  padding: spacer-clamp('m', 'l');
 
   &:hover,
   &:focus {
     background-color: color('border');
 
-    #{$this}__title {
+    #{$this}__link {
       color: hsl(0deg 0% 100%);
     }
 
@@ -36,13 +35,19 @@
     font-size: font-size('h2');
   }
 
+  &__link {
+    color: color('heading');
+    text-decoration: none;
+  }
+
   &__description {
     @include transition;
   }
 
   &__illustration {
-    max-block-size: 12rem;
     inline-size: auto;
+    margin-inline: auto;
+    max-inline-size: 12rem;
   }
 
   &__number {
@@ -50,5 +55,6 @@
     font-family: config('font-family-cursive', $typography);
     font-size: font-size('h1');
     font-weight: 800;
+    line-height: 1;
   }
 }

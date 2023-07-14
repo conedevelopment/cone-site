@@ -2,7 +2,8 @@
 
 .cta {
   background-color: hsl(15deg 98% 79%);
-  padding-block: get-css-variable(--section-gap);
+  // background-color: hsl(169deg 100% 50%);
+  padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
 
   &__inner {
     align-items: center;

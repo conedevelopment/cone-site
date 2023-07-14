@@ -9,7 +9,7 @@
 
 :root {
   @include set-css-variable((
-    --section-gap: spacer-clamp(5rem, 6.5rem, 10vw)
+    --section-gap: spacer-clamp(5rem, 6rem, 10vw)
   ));
 
   @include breakpoint('md') {

@@ -26,8 +26,12 @@
 
   &__actions {
     align-items: center;
-    display: flex;
+    display: none;
     gap: spacer-clamp('s', 'm');
+
+    @include breakpoint('sm') {
+      display: flex;
+    }
   }
 
   &__logo {
@@ -42,13 +46,8 @@
   }
 
   &__email {
-    display: none;
     font-family: config('font-family-cursive', $typography);
     text-decoration: none;
-
-    @include breakpoint('sm') {
-      display: inline-block;
-    }
   }
 
   &__navigation {
