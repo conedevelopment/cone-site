@@ -3,6 +3,7 @@
 .cta {
   background-color: hsl(15deg 98% 79%);
   // background-color: hsl(169deg 100% 50%);
+  background-color: hsl(15deg 100% 85%);
   padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
 
   &__inner {
@@ -26,7 +27,7 @@
   }
 
   * {
-    color: color('heading');
+    color: color-value('heading');
   }
 
   p {

@@ -19,6 +19,10 @@
       background: linear-gradient(45deg, #0008EF, #2FC1EE);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+
+      &::selection {
+        -webkit-text-fill-color: hsl(0deg 0% 100%);
+      }
     }
 
     .dot {
