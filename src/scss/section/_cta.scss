@@ -1,9 +1,10 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .cta {
-  background-color: hsl(15deg 98% 79%);
+  // background-color: hsl(15deg 98% 79%);
   // background-color: hsl(169deg 100% 50%);
-  background-color: hsl(15deg 100% 85%);
+  // background-color: hsl(15deg 100% 85%);
+  border-block: 1px solid color('border');
   padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
 
   &__inner {
@@ -24,10 +25,6 @@
 
   .heading {
     margin-block-end: 0;
-  }
-
-  * {
-    color: color-value('heading');
   }
 
   p {

@@ -14,7 +14,8 @@
 
   &:hover,
   &:focus {
-    background-color: color('border');
+    background-color: color('heading');
+    border-color: color('heading');
 
     #{$this}__link {
       color: hsl(0deg 0% 100%);
@@ -56,5 +57,6 @@
     font-size: font-size('h1');
     font-weight: 800;
     line-height: 1;
+    margin-block-start: auto;
   }
 }

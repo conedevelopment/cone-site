@@ -352,7 +352,7 @@ template {
 :root {
   --cone-base-color-background: hsl(0, 0%, 100%);
   --cone-base-color-blockquote-border: hsl(216, 100%, 50%);
-  --cone-base-color-border: hsl(0, 0%, 0%);
+  --cone-base-color-border: hsl(215, 63%, 93%);
   --cone-base-color-code-background: #f0f6ff;
   --cone-base-color-code-foreground: hsl(205, 100%, 2%);
   --cone-base-color-heading: hsl(205, 100%, 2%);
@@ -2062,7 +2062,8 @@ pre[class*=language-] {
 }
 
 .testimonial-card:hover, .testimonial-card:focus {
-  background-color: var(--cone-base-color-border);
+  background-color: var(--cone-base-color-heading);
+  border-color: var(--cone-base-color-heading);
 }
 .testimonial-card:hover .testimonial-card__link, .testimonial-card:focus .testimonial-card__link {
   color: hsl(0, 0%, 100%);
@@ -2106,6 +2107,7 @@ pre[class*=language-] {
   font-size: clamp(2.0751953125rem, 2vw + 1rem, 2.44140625rem);
   font-weight: 800;
   line-height: 1;
+  margin-block-start: auto;
 }
 
 .section-title {
@@ -2156,8 +2158,7 @@ pre[class*=language-] {
 }
 
 .cta {
-  background-color: hsl(15, 98%, 79%);
-  background-color: hsl(15, 100%, 85%);
+  border-block: 1px solid var(--cone-base-color-border);
   padding-block: calc(var(--cone-section-gap) / 1.25);
 }
 .cta__inner {
@@ -2179,9 +2180,6 @@ pre[class*=language-] {
 }
 .cta .heading {
   margin-block-end: 0;
-}
-.cta * {
-  color: hsl(205, 100%, 2%);
 }
 .cta p {
   font-size: 1.2rem;
