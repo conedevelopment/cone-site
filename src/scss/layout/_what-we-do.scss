@@ -30,18 +30,19 @@
         border-inline: 0;
         border-radius: 0;
       }
-
+      /* stylelint-disable */
       > .testimonial-card:first-child {
         border-radius: config('border-radius-lg', $display);
-        border-start-end-radius: 0;
         border-end-end-radius: 0;
+        border-start-end-radius: 0;
       }
 
       > .testimonial-card:last-child {
         border-radius: config('border-radius-lg', $display);
-        border-start-start-radius: 0;
         border-end-start-radius: 0;
+        border-start-start-radius: 0;
       }
+      /* stylelint-enable */
     }
   }
 }

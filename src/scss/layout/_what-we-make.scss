@@ -1,0 +1,21 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-what-we-make {
+  &__inner {
+    align-items: center;
+    display: flex;
+    gap: spacer('m') spacer-clamp('l', 'xl');
+  }
+
+  &__preview {
+    display: grid;
+    background-color: color('heading');
+    background-color: hsl(15deg 98% 79%);
+    background-color: hsl(169deg 100% 50%);
+    border-start-start-radius: config('border-radius-lg', $display);
+    gap: spacer-clamp('m', 'l');
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    inline-size: 100%;
+    padding: spacer-clamp('l', 'xl');
+  }
+}

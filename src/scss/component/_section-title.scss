@@ -19,8 +19,8 @@
   }
 
   svg {
-    border-radius: config('border-radius-sm', $display);
     block-size: 1.25rem;
+    border-radius: config('border-radius-sm', $display);
     inline-size: auto;
   }
 }

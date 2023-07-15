@@ -16,8 +16,8 @@
     text-transform: uppercase;
 
     .highlighted {
-      background: linear-gradient(45deg, #0008EF, #2FC1EE);
-      -webkit-background-clip: text;
+      background: linear-gradient(45deg, hsl(238deg 100% 47%), hsl(194deg 85% 56%));
+      -webkit-background-clip: text; /* stylelint-disable-line */
       -webkit-text-fill-color: transparent;
 
       &::selection {
