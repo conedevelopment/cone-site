@@ -14,15 +14,12 @@
 
   &:hover,
   &:focus {
-    background-color: color('heading');
-    border-color: color('heading');
+    background-color: #def7ff;
+    border-color: #def7ff;
 
-    #{$this}__link {
-      color: hsl(0deg 0% 100%);
-    }
-
+    #{$this}__link,
     #{$this}__description {
-      color: hsl(0deg 0% 100% / 75%);
+      color: color('heading');
     }
   }
 

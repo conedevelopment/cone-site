@@ -1625,7 +1625,7 @@ legend {
   background-color: var(--cone-base-color-heading);
   background-color: hsl(15, 98%, 79%);
   background-color: hsl(169, 100%, 50%);
-  border-start-start-radius: 0.725rem;
+  border-radius: 0.725rem;
   gap: clamp(1.5rem, 5vw, 3rem);
   grid-template-columns: repeat(2, minmax(0, 1fr));
   inline-size: 100%;
@@ -2081,14 +2081,13 @@ pre[class*=language-] {
 }
 
 .testimonial-card:hover, .testimonial-card:focus {
-  background-color: var(--cone-base-color-heading);
-  border-color: var(--cone-base-color-heading);
+  background-color: #def7ff;
+  border-color: #def7ff;
 }
-.testimonial-card:hover .testimonial-card__link, .testimonial-card:focus .testimonial-card__link {
-  color: hsl(0, 0%, 100%);
-}
-.testimonial-card:hover .testimonial-card__description, .testimonial-card:focus .testimonial-card__description {
-  color: hsla(0, 0%, 100%, 0.75);
+.testimonial-card:hover .testimonial-card__link,
+.testimonial-card:hover .testimonial-card__description, .testimonial-card:focus .testimonial-card__link,
+.testimonial-card:focus .testimonial-card__description {
+  color: var(--cone-base-color-heading);
 }
 .testimonial-card__caption {
   max-inline-size: 60ch;
@@ -2127,6 +2126,45 @@ pre[class*=language-] {
   font-weight: 800;
   line-height: 1;
   margin-block-start: auto;
+}
+
+.reference-card {
+  background-color: var(--cone-base-color-background);
+  border-radius: 0.725rem;
+  box-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.15);
+  overflow: hidden;
+}
+.reference-card__caption {
+  background-color: var(--cone-base-color-heading);
+  color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+}
+.reference-card__caption > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.reference-card__caption > * + * {
+  margin-block-start: 0.25rem;
+}
+.reference-card__title {
+  color: hsl(0, 0%, 100%);
+  font-family: Space Mono, monospace;
+}
+.reference-card__link {
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.8);
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+.reference-card__link:hover, .reference-card__link:focus, .reference-card__link:active, .reference-card__link[aria-current=page] {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+.reference-card__link svg {
+  --dimension: 0.65em;
+  block-size: var(--dimension);
+  color: var(--cone-base-color-border);
+  inline-size: var(--dimension);
 }
 
 .section-title {
@@ -2205,7 +2243,7 @@ pre[class*=language-] {
 }
 
 .cta {
-  border-block: 1px solid var(--cone-base-color-border);
+  border-block-end: 1px solid var(--cone-base-color-border);
   padding-block: calc(var(--cone-section-gap) / 1.25);
 }
 .cta__inner {

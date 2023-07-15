@@ -1,0 +1,43 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.reference-card {
+  $this: &;
+  background-color: color('background');
+  border-radius: config('border-radius-lg', $display);
+  box-shadow: 0 0 2rem hsl(0deg 0% 0% / 15%);
+  overflow: hidden;
+
+  &__caption {
+    @include layout-stack('xxs');
+    background-color: color('heading');
+    color: hsl(0deg 0% 100%);
+    padding: spacer('m');
+  }
+
+  &__title {
+    color: hsl(0deg 0% 100%);
+    font-family: config('font-family-cursive', $typography);
+  }
+
+  &__link {
+    align-items: center;
+    color: hsl(0deg 0% 100% / 80%);
+    display: flex;
+    gap: spacer('xs');
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &[aria-current='page'] {
+      color: hsl(0deg 0% 100% / 80%);
+    }
+
+    svg {
+      --dimension: 0.65em;
+      block-size: var(--dimension);
+      color: color('border');
+      inline-size: var(--dimension);
+    }
+  }
+}
