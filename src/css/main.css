@@ -2179,7 +2179,7 @@ pre[class*=language-] {
 .reference-card__link svg {
   --dimension: 0.65em;
   block-size: var(--dimension);
-  color: var(--cone-base-color-border);
+  color: hsla(0, 0%, 100%, 0.25);
   inline-size: var(--dimension);
 }
 

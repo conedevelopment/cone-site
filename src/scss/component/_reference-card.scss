@@ -34,7 +34,7 @@
     svg {
       --dimension: 0.65em;
       block-size: var(--dimension);
-      color: color('border');
+      color: hsl(0deg 0% 100% / 25%);
       inline-size: var(--dimension);
     }
   }
