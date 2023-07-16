@@ -2,14 +2,13 @@
 
 .reference-card {
   $this: &;
-  background-color: color('background');
+  background-color: color('heading');
   border-radius: config('border-radius-lg', $display);
   box-shadow: 0 0 2rem hsl(0deg 0% 0% / 15%);
   overflow: hidden;
 
   &__caption {
     @include layout-stack('xxs');
-    background-color: color('heading');
     color: hsl(0deg 0% 100%);
     padding: spacer('m');
   }
@@ -28,8 +27,7 @@
 
     &:hover,
     &:focus,
-    &:active,
-    &[aria-current='page'] {
+    &:active {
       color: hsl(0deg 0% 100% / 80%);
     }
 
