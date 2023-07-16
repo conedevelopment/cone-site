@@ -2306,6 +2306,9 @@ pre[class*=language-] {
 .site-header--sticky {
   --block-size: 5rem;
 }
+.site-header--sticky .site-header__logo {
+  --dimension: 1.15rem;
+}
 .site-header--open {
   background-color: var(--cone-base-color-background);
 }
@@ -2338,6 +2341,9 @@ pre[class*=language-] {
 }
 .site-header__logo {
   --dimension: 1.35rem;
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
   block-size: var(--dimension);
   display: inline-flex;
 }

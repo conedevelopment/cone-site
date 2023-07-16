@@ -16,6 +16,10 @@
 
   &--sticky {
     --block-size: 5rem;
+
+    #{$this}__logo {
+      --dimension: 1.15rem;
+    }
   }
 
   &--open {
@@ -51,6 +55,7 @@
 
   &__logo {
     --dimension: 1.35rem;
+    @include transition;
     block-size: var(--dimension);
     display: inline-flex;
 
