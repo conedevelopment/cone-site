@@ -19,6 +19,7 @@
   }
 
   ul {
+    @include transition;
     background-color: color('background');
     display: none;
     flex-direction: column;

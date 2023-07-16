@@ -1621,11 +1621,11 @@ legend {
   gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
 }
 .l-what-we-make__preview {
-  display: grid;
   background-color: var(--cone-base-color-heading);
   background-color: hsl(15, 98%, 79%);
   background-color: hsl(169, 100%, 50%);
   border-radius: 0.725rem;
+  display: grid;
   gap: clamp(1.5rem, 5vw, 3rem);
   grid-template-columns: repeat(2, minmax(0, 1fr));
   inline-size: 100%;
@@ -1658,6 +1658,9 @@ legend {
   display: flex;
 }
 .site-navigation ul {
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
   background-color: var(--cone-base-color-background);
   display: none;
   flex-direction: column;
@@ -2272,21 +2275,37 @@ pre[class*=language-] {
 }
 
 .site-header {
-  position: relative;
+  --block-size: 6rem;
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
+  backdrop-filter: saturate(180%) blur(0.25rem);
+  background-color: hsla(0, 0%, 100%, 0.95);
+  inset-block-start: 0;
+  position: sticky;
+  z-index: 25;
+}
+@media (min-width: 64em) {
+  .site-header {
+    --block-size: 8rem;
+  }
+}
+.site-header--sticky {
+  --block-size: 5rem;
+}
+.site-header--open {
+  background-color: var(--cone-base-color-background);
 }
 .site-header__inner {
-  --block-size: 6rem;
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
   align-items: center;
   block-size: var(--block-size);
   display: flex;
   flex-wrap: wrap;
   gap: clamp(1rem, 5vw, 3rem);
   justify-content: space-between;
-}
-@media (min-width: 64em) {
-  .site-header__inner {
-    --block-size: 8rem;
-  }
 }
 .site-header__column {
   align-items: center;
@@ -2326,7 +2345,7 @@ pre[class*=language-] {
   }
 }
 .site-header__navigation ul {
-  border-block-start: 1px solid var(--cone-base-color-border);
+  border-block: 1px solid var(--cone-base-color-border);
 }
 @media (min-width: 48em) {
   .site-header__navigation ul {

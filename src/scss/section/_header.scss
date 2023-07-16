@@ -1,20 +1,35 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .site-header {
-  position: relative;
+  $this: &;
+  --block-size: 6rem;
+  @include transition;
+  backdrop-filter: saturate(180%) blur(.25rem);
+  background-color: hsl(0deg 0% 100% / 95%);
+  inset-block-start: 0;
+  position: sticky;
+  z-index: 25;
+
+  @include breakpoint('md') {
+    --block-size: 8rem;
+  }
+
+  &--sticky {
+    --block-size: 5rem;
+  }
+
+  &--open {
+    background-color: color('background');
+  }
 
   &__inner {
-    --block-size: 6rem;
+    @include transition;
     align-items: center;
     block-size: var(--block-size);
     display: flex;
     flex-wrap: wrap;
     gap: spacer-clamp('s', 'l');
     justify-content: space-between;
-
-    @include breakpoint('md') {
-      --block-size: 8rem;
-    }
   }
 
   &__column {
@@ -58,7 +73,7 @@
     }
 
     ul {
-      border-block-start: 1px solid color('border');
+      border-block: 1px solid color('border');
 
       @include breakpoint('sm') {
         border-block: none;
