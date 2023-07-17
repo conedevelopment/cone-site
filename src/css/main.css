@@ -2146,13 +2146,16 @@ pre[class*=language-] {
 }
 
 .reference-card {
-  background-color: var(--cone-base-color-heading);
   border-radius: 0.725rem;
   box-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.15);
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 .reference-card__caption {
+  background-color: var(--cone-base-color-heading);
   color: hsl(0, 0%, 100%);
+  flex-grow: 1;
   padding: 1.5rem;
 }
 .reference-card__caption > * {
