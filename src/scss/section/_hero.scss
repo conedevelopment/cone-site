@@ -1,9 +1,15 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .hero {
+  --offset: 6rem;
+
   &__inner {
     @include layout-stack('l');
-    padding-block: get-css-variable(--section-gap) calc(#{get-css-variable(--section-gap)} * 1.5);
+    padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) calc(#{get-css-variable(--section-gap)} * 1.5);
+
+    @include breakpoint('md') {
+      --offset: 8rem;
+    }
   }
 
   &__caption {

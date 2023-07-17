@@ -6,8 +6,8 @@
   @include transition;
   backdrop-filter: saturate(180%) blur(.25rem);
   background-color: hsl(0deg 0% 100% / 95%);
-  inset-block-start: 0;
-  position: sticky;
+  inset: 0 0 auto 0;
+  position: fixed;
   z-index: 25;
 
   @include breakpoint('md') {
