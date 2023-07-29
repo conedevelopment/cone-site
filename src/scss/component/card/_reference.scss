@@ -3,27 +3,26 @@
 .reference-card {
   $this: &;
   border-radius: config('border-radius-lg', $display);
-  box-shadow: 0 0 2rem hsl(0deg 0% 0% / 15%);
+  box-shadow: 0 0 2rem color('box-shadow', 'reference');
   display: flex;
   flex-direction: column;
   overflow: hidden;
 
   &__caption {
     @include layout-stack('xxs');
-    background-color: color('heading');
-    color: hsl(0deg 0% 100%);
+    background-color: color('background', 'reference');
     flex-grow: 1;
     padding: spacer('m');
   }
 
   &__title {
-    color: hsl(0deg 0% 100%);
+    color: color('title', 'reference');
     font-family: config('font-family-cursive', $typography);
   }
 
   &__link {
     align-items: center;
-    color: hsl(0deg 0% 100% / 80%);
+    color: color('link', 'reference');
     display: flex;
     gap: spacer('xs');
     text-decoration: none;
@@ -31,13 +30,13 @@
     &:hover,
     &:focus,
     &:active {
-      color: hsl(0deg 0% 100% / 80%);
+      color: color('link', 'reference');
     }
 
     svg {
       --dimension: 0.65em;
       block-size: var(--dimension);
-      color: hsl(0deg 0% 100% / 25%);
+      color: color('icon', 'reference');
       inline-size: var(--dimension);
     }
   }

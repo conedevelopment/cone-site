@@ -354,12 +354,12 @@ template {
   --cone-base-color-blockquote-border: hsl(216, 100%, 50%);
   --cone-base-color-border: hsl(215, 63%, 93%);
   --cone-base-color-code-background: #f0f6ff;
-  --cone-base-color-code-foreground: hsl(205, 100%, 2%);
-  --cone-base-color-heading: hsl(205, 100%, 2%);
+  --cone-base-color-code-foreground: hsl(0, 0%, 0%);
+  --cone-base-color-heading: hsl(0, 0%, 0%);
   --cone-base-color-link: hsl(216, 100%, 50%);
   --cone-base-color-link-hover: #0052cc;
   --cone-base-color-mark-background: hsl(50, 100%, 80%);
-  --cone-base-color-mark-foreground: hsl(205, 100%, 2%);
+  --cone-base-color-mark-foreground: hsl(0, 0%, 0%);
   --cone-base-color-marker: hsl(216, 100%, 50%);
   --cone-base-color-primary: hsl(216, 100%, 50%);
   --cone-base-color-secondary: hsl(326, 100%, 49%);
@@ -375,9 +375,6 @@ template {
   --cone-btn-color-secondary-background-hover: #c70071;
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-secondary-shadow: #ffaddc;
-  --cone-btn-color-dark-background: hsl(0, 0%, 0%);
-  --cone-btn-color-dark-background-hover: hsl(326, 100%, 49%);
-  --cone-btn-color-dark-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-pagination-background: hsl(263, 40%, 96%);
   --cone-btn-color-pagination-background-hover: hsl(262, 71%, 49%);
   --cone-btn-color-pagination-focus-ring: hsl(262, 71%, 49%);
@@ -398,14 +395,14 @@ template {
   --cone-form-color-group-label-foreground: hsl(208, 9%, 42%);
   --cone-form-color-invalid: hsl(0, 71%, 51%);
   --cone-form-color-invalid-focus-ring: rgba(219, 41, 41, 0.25);
-  --cone-form-color-label: hsl(205, 100%, 2%);
-  --cone-form-color-legend: hsl(205, 100%, 2%);
+  --cone-form-color-label: hsl(0, 0%, 0%);
+  --cone-form-color-legend: hsl(0, 0%, 0%);
   --cone-form-color-placeholder: hsl(208, 7%, 40%);
   --cone-form-color-range-thumb-background: hsl(216, 100%, 50%);
   --cone-form-color-range-thumb-focus-ring: hsl(216, 100%, 50%);
   --cone-form-color-range-track-background: hsl(215, 63%, 93%);
   --cone-form-color-ring-focus: rgba(0, 102, 255, 0.25);
-  --cone-form-color-select-foreground: hsl(205, 100%, 2%);
+  --cone-form-color-select-foreground: hsl(0, 0%, 0%);
   --cone-form-color-text: hsl(208, 9%, 42%);
   --cone-form-color-valid: hsl(150, 100%, 33%);
   --cone-form-color-valid-focus-ring: rgba(0, 168, 84, 0.25);
@@ -425,7 +422,7 @@ template {
 :root {
   --cone-table-color-border: hsl(215, 63%, 93%);
   --cone-table-color-caption: hsl(208, 9%, 42%);
-  --cone-table-color-heading: hsl(205, 100%, 2%);
+  --cone-table-color-heading: hsl(0, 0%, 0%);
   --cone-table-color-hover: hsla(0, 0%, 0%, 0.05);
   --cone-table-color-stripe: hsla(0, 0%, 0%, 0.025);
   --cone-table-color-text: hsl(208, 9%, 42%);
@@ -447,6 +444,14 @@ template {
   --cone-prism-color-constant: hsl(221, 57%, 52%);
   --cone-prism-color-class-name: hsl(0, 0%, 7%);
   --cone-prism-color-regex: hsl(1, 48%, 59%);
+}
+
+:root {
+  --cone-reference-color-background: hsl(0, 0%, 0%);
+  --cone-reference-color-box-shadow: hsla(0, 0%, 0%, 0.15);
+  --cone-reference-color-icon: hsla(0, 0%, 100%, 0.25);
+  --cone-reference-color-link: hsla(0, 0%, 100%, 0.8);
+  --cone-reference-color-title: hsl(0, 0%, 100%);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -1112,7 +1117,7 @@ html[dir=rtl] .form-control--valid, html[dir=rtl] .form-control--invalid {
 }
 
 select.form-control:not([multiple]):not([size]) {
-  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%28205, 100%, 2%%29;"/%3e%3c/svg%3e');
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%280, 0%, 0%%29;"/%3e%3c/svg%3e');
   background-position: center right 0.5em;
   background-repeat: no-repeat;
   background-size: 1.25em auto;
@@ -2161,14 +2166,13 @@ pre[class*=language-] {
 
 .reference-card {
   border-radius: 0.725rem;
-  box-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.15);
+  box-shadow: 0 0 2rem var(--cone-reference-color-box-shadow);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 .reference-card__caption {
-  background-color: var(--cone-base-color-heading);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--cone-reference-color-background);
   flex-grow: 1;
   padding: 1.5rem;
 }
@@ -2180,23 +2184,23 @@ pre[class*=language-] {
   margin-block-start: 0.25rem;
 }
 .reference-card__title {
-  color: hsl(0, 0%, 100%);
+  color: var(--cone-reference-color-title);
   font-family: Space Mono, monospace;
 }
 .reference-card__link {
   align-items: center;
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--cone-reference-color-link);
   display: flex;
   gap: 0.5rem;
   text-decoration: none;
 }
 .reference-card__link:hover, .reference-card__link:focus, .reference-card__link:active {
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--cone-reference-color-link);
 }
 .reference-card__link svg {
   --dimension: 0.65em;
   block-size: var(--dimension);
-  color: hsla(0, 0%, 100%, 0.25);
+  color: var(--cone-reference-color-icon);
   inline-size: var(--dimension);
 }
 
@@ -2633,21 +2637,6 @@ pre[class*=language-] {
   .oss__inner {
     grid-template-columns: repeat(auto-fit, minmax(min(12.5rem, 100%), 1fr));
   }
-}
-
-.btn--dark {
-  background-color: var(--cone-btn-color-dark-background);
-  border-color: var(--cone-btn-color-dark-background);
-  color: var(--cone-btn-color-dark-foreground);
-}
-.btn--dark:focus-visible {
-  outline: 2px solid var(--cone-btn-color-dark-background);
-  outline-offset: 2px;
-}
-.btn--dark:hover {
-  background-color: var(--cone-btn-color-dark-background-hover);
-  border-color: var(--cone-btn-color-dark-background-hover);
-  color: var(--cone-btn-color-dark-foreground);
 }
 
 .m-block\:0 {

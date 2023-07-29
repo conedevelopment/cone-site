@@ -1,6 +1,5 @@
 @use 'dark-colors' as dark;
 
-$color-dark: hsl(0deg 0% 0%);
 $color-secondary: hsl(326deg 100% 49%);
 
 @use 'sprucecss/scss/spruce' with (
@@ -12,13 +11,11 @@ $color-secondary: hsl(326deg 100% 49%);
   $btn-lg: (
     'padding': 1em 1.75em,
   ),
+  $color-black: hsl(0deg 0% 0%),
   $color-primary: hsl(216deg 100% 50%),
   $color-secondary: $color-secondary,
   $colors: (
     'btn': (
-      'dark-background': $color-dark,
-      'dark-background-hover': $color-secondary,
-      'dark-foreground': hsl(0deg 0% 100%),
       'pagination-background': hsl(263deg 40% 96%),
       'pagination-background-hover': hsl(262deg 71% 49%),
       'pagination-focus-ring': hsl(262deg 71% 49%),
@@ -43,6 +40,13 @@ $color-secondary: hsl(326deg 100% 49%);
       'constant': hsl(221deg 57% 52%),
       'class-name': hsl(0deg 0% 7%),
       'regex': hsl(1deg 48% 59%),
+    ),
+    'reference': (
+      'background': hsl(0deg 0% 0%),
+      'box-shadow': hsl(0deg 0% 0% / 15%),
+      'icon': hsl(0deg 0% 100% / 25%),
+      'link': hsl(0deg 0% 100% / 80%),
+      'title': hsl(0deg 0% 100%),
     ),
   ),
   $dark-colors: dark.$colors,
