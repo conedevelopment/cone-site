@@ -1,7 +1,12 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-post {
-  padding-block: get-css-variable(--section-gap);
+  --offset: 6rem;
+  padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) get-css-variable(--section-gap);
+
+  @include breakpoint('md') {
+    --offset: 8rem;
+  }
 
   &__inner {
     display: flex;

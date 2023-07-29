@@ -6,7 +6,7 @@
   @include transition;
   backdrop-filter: saturate(180%) blur(.25rem);
   background-color: hsl(0deg 0% 100% / 95%);
-  inset: 0 0 auto 0;
+  inset: 0 0 auto;
   position: fixed;
   z-index: 25;
 

@@ -1,15 +1,19 @@
-<div class="cta">
-    <div class="container">
-      <div class="cta__inner">
-        <div class="cta__caption">
-            <h2 class="cta__title">Find us on GitHub</h2>
-            <p>Did you found a bug? Have an idea or a question? Open an issue to help us develop the project.</p>
+{% if cta %}
+    <div class="cta {{ cta.classes }}">
+        <div class="container">
+        <div class="cta__inner">
+            <div class="cta__caption">
+                <h2 class="cta__title">{{ cta.title }}</h2>
+                <p>{{ cta.description }}</p>
+            </div>
+            {% if cta.btn %}
+                <div class="cta__actions">
+                    <a href="{{ cta.btn.url }}" class="btn btn--outline-primary btn--rounded btn--lg">
+                        {{ cta.btn.caption }}
+                    </a>
+                </div>
+            {% endif %}
         </div>
-        <div class="cta__actions">
-          <a href="https://github.com/conedevelopment/sprucecss" class="btn btn--outline-primary btn--rounded btn--lg">
-            GitHub
-          </a>
         </div>
-      </div>
     </div>
-</div>
+{% endif %}

@@ -1,11 +1,19 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .cta {
-  // background-color: hsl(15deg 98% 79%);
-  // background-color: hsl(169deg 100% 50%);
-  // background-color: hsl(15deg 100% 85%);
-  border-block-end: 1px solid color('border');
   padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
+
+  &--border-block {
+    border-block: 1px solid color('border');
+  }
+
+  &--border-block\:end {
+    border-block-end: 1px solid color('border');
+  }
+
+  &--border-block\:start {
+    border-block-start: 1px solid color('border');
+  }
 
   &__inner {
     align-items: center;
