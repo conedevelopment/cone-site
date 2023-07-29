@@ -2,11 +2,8 @@
     <div class="container">
         <div class="site-header__inner">
             <div class="site-header__column">
-                <a class="site-header__logo" href="/">
-                    <img
-                        src="/img/cone-logo.svg"
-                        alt="Cone"
-                    />
+                <a class="site-header__logo" href="/" aria-label="{{ site.name }}">
+                    {% svgIcon './src/img/cone-logo.svg' %}
                 </a>
                 <nav
                     class="site-navigation site-header__navigation"
