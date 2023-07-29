@@ -5,7 +5,7 @@
   --block-size: 6rem;
   @include transition;
   backdrop-filter: saturate(180%) blur(.25rem);
-  background-color: hsl(0deg 0% 100% / 95%);
+  background-color: color('background', 'header');
   inset: 0 0 auto;
   position: fixed;
   z-index: 25;

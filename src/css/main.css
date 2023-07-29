@@ -429,6 +429,10 @@ template {
 }
 
 :root {
+  --cone-header-color-background: hsla(0, 0%, 100%, 0.95);
+}
+
+:root {
   --cone-navigation-color-arrow: hsla(0, 0%, 0%, 0.15);
 }
 
@@ -1502,6 +1506,10 @@ legend {
 }
 
 :root[data-theme-mode=dark] {
+  --cone-header-color-background: hsla(192, 100%, 7%, 0.95);
+}
+
+:root[data-theme-mode=dark] {
   --cone-navigation-color-arrow: hsla(0, 0%, 100%, 0.25);
 }
 
@@ -2322,7 +2330,7 @@ pre[class*=language-] {
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);
   backdrop-filter: saturate(180%) blur(0.25rem);
-  background-color: hsla(0, 0%, 100%, 0.95);
+  background-color: var(--cone-header-color-background);
   inset: 0 0 auto;
   position: fixed;
   z-index: 25;

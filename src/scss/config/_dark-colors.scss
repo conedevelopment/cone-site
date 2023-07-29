@@ -1,6 +1,6 @@
 @use 'sass:color';
 
-$color-black: hsl(192, 100%, 7%);
+$color-black: hsl(192deg 100% 7%);
 $color-danger: hsl(0deg 71% 51%);
 $color-gray-dark: hsl(0deg 0% 100% / 8%);
 $color-gray: hsl(0deg 0% 90%);
@@ -19,7 +19,7 @@ $colors: (
     'heading': $color-white,
     'link': $color-primary,
     'link-hover': color.scale($color-primary, $lightness: 20%),
-    'mark-background': hsl(50 100% 80%),
+    'mark-background': hsl(50deg 100% 80%),
     'mark-foreground': $color-black,
     'marker': $color-primary,
     'primary': $color-primary,
@@ -61,6 +61,9 @@ $colors: (
     'text': $color-gray,
     'valid': $color-success,
     'valid-focus-ring': color.adjust($color-success, $alpha: -0.75),
+  ),
+  'header': (
+    'background': hsl(192deg 100% 7% / 95%),
   ),
   'navigation': (
     'arrow': hsl(0deg 0% 100% / 25%),
