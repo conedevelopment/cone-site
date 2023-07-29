@@ -1,4 +1,4 @@
-const moment = require('moment');
+const moment = require('moment'); // eslint-disable-line
 
 module.exports = (value, locale) => {
   moment.locale(locale);

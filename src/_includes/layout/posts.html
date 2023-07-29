@@ -23,7 +23,7 @@
                             </h2>
                             <div class="blog-card__meta">
                                 {% if post.data.date %}
-                                    <time datetime="{{ post.data.date | w3DateFilter }}">{{ post.data.date | dateFilter('en') }}</time>
+                                    <time datetime="{{ post.data.date | w3Date }}">{{ post.data.date | date('en') }}</time>
                                 {% endif %}
                                 {% include "partial/tags.html" %}
                             </div>

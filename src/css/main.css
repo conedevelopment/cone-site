@@ -1502,7 +1502,7 @@ legend {
 
 :root[data-theme-mode=dark] {
   --cone-selection-color-background: hsl(194, 85%, 56%);
-  --cone-selection-color-foreground: hsl(0, 0%, 95%);
+  --cone-selection-color-foreground: hsl(192, 100%, 7%);
 }
 
 :root[data-theme-mode=dark] {
@@ -1621,19 +1621,19 @@ legend {
   }
 }
 
-.l-what-we-make__inner {
+.l-highlighted-reference__inner {
   align-items: end;
   display: flex;
   flex-direction: column;
   gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
 }
 @media (min-width: 64em) {
-  .l-what-we-make__inner {
+  .l-highlighted-reference__inner {
     align-items: center;
     flex-direction: row;
   }
 }
-.l-what-we-make__preview {
+.l-highlighted-reference__preview {
   --columns: 1;
   background-color: var(--cone-base-color-heading);
   background-color: hsl(15, 98%, 79%);
@@ -1646,7 +1646,7 @@ legend {
   padding: clamp(1.5rem, 5vw, 4.5rem);
 }
 @media (min-width: 64em) {
-  .l-what-we-make__preview {
+  .l-highlighted-reference__preview {
     --columns: 2;
     order: -1;
   }

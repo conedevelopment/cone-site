@@ -4,12 +4,20 @@
     {% include "partial/hero.html" %}
     {% include "partial/who-we-are.html" %}
     {% include "partial/what-we-do.html" %}
-    {% include "partial/what-we-make.html" %}
+
+    {% set references = {
+        'title': 'What<br>We<br>Make'
+    } %}
+    {% include "partial/highlighted-reference.html" %}
 
     {% set cta = {
         'title': 'Get to Know Us',
         'classes': 'cta--border-block:end',
-        'description': 'We are passionate developers who like to give their best, develop, and learn.'
+        'description': 'We are passionate developers who like to give their best, develop, and learn.',
+        'btn': {
+            'url': '/about/',
+            'caption': 'About Us'
+        }
     } %}
     {% include "partial/cta.html" %}
 {% endblock %}
