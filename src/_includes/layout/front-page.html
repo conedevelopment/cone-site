@@ -5,8 +5,12 @@
     {% include "partial/who-we-are.html" %}
     {% include "partial/what-we-do.html" %}
 
-    {% set references = {
-        'title': 'What<br>We<br>Make'
+    {% set reference = {
+        'title': {
+            'caption': 'What<br>We<br>Make',
+            'image': './src/img/title-helper-primary.svg'
+        },
+        'classes': 'l-highlighted-reference--align-end'
     } %}
     {% include "partial/highlighted-reference.html" %}
 

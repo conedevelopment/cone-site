@@ -1,10 +1,12 @@
-<div class="l-highlighted-reference">
+<div class="l-highlighted-reference {{ reference.classes }}">
     <div class="container">
         <div class="l-highlighted-reference__inner">
-            <h2 class="section-title section-title--vertical" style="text-align: end;">
-                {% svgIcon './src/img/title-helper.svg' %}
-                {{ references.title | safe }}
-            </h2>
+            {% if reference.title %}
+                <h2 class="section-title section-title--vertical">
+                    {% svgIcon reference.title.image %}
+                    {{ reference.title.caption | safe }}
+                </h2>
+            {% endif %}
             <div class="l-highlighted-reference__preview">
                 <div class="reference-card">
                     <img src="/img/preview/sarvar.jpg" alt="">
