@@ -433,6 +433,10 @@ template {
 }
 
 :root {
+  --cone-highlighted-color-background: hsl(0, 0%, 0%);
+}
+
+:root {
   --cone-navigation-color-arrow: hsla(0, 0%, 0%, 0.15);
 }
 
@@ -1510,6 +1514,10 @@ legend {
 }
 
 :root[data-theme-mode=dark] {
+  --cone-highlighted-color-background: hsl(192, 100%, 6%);
+}
+
+:root[data-theme-mode=dark] {
   --cone-navigation-color-arrow: hsla(0, 0%, 100%, 0.25);
 }
 
@@ -1632,6 +1640,32 @@ legend {
     border-end-start-radius: 0;
     border-start-start-radius: 0;
   }
+}
+
+.l-highlighted-text {
+  background-color: var(--cone-highlighted-color-background);
+}
+.l-highlighted-text__inner {
+  align-items: start;
+  border-radius: 0.725rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
+  padding-block: var(--cone-section-gap);
+}
+@media (min-width: 64em) {
+  .l-highlighted-text__inner {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+.l-highlighted-text p {
+  color: hsl(0, 0%, 95%);
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  max-width: 60ch;
+}
+.l-highlighted-text p span {
+  color: var(--cone-base-color-secondary);
 }
 
 .l-highlighted-reference--align-end .section-title {
@@ -2589,32 +2623,6 @@ pre[class*=language-] {
 }
 .site-footer__copyright {
   margin-block: 1.5rem 0;
-}
-
-.who-we-are {
-  background-color: var(--cone-base-color-heading);
-}
-.who-we-are__inner {
-  align-items: start;
-  border-radius: 0.725rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
-  padding-block: var(--cone-section-gap);
-}
-@media (min-width: 64em) {
-  .who-we-are__inner {
-    align-items: center;
-    flex-direction: row;
-  }
-}
-.who-we-are p {
-  color: hsl(0, 0%, 95%);
-  font-size: clamp(1.15rem, 2vw, 1.35rem);
-  max-width: 60ch;
-}
-.who-we-are p span {
-  color: var(--cone-base-color-secondary);
 }
 
 .oss {

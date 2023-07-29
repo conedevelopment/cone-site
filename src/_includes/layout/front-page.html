@@ -2,7 +2,16 @@
 
 {% block content %}
     {% include "partial/hero.html" %}
-    {% include "partial/who-we-are.html" %}
+
+    {% set highlighted = {
+        'title': {
+            'caption': 'What<br>We<br>Make',
+            'image': './src/img/title-helper-primary.svg'
+        },
+        'description': '<p>Welcome at <span>Cone</span>, where innovation meets impeccable design. We are a cutting-edge web development studio dedicated to crafting <span>stunning digital experiences</span> that leave a lasting impact. With our team of highly skilled developers and designers, we bring your ideas to life, transforming them into visually captivating and user-friendly websites.</p>'
+    } %}
+    {% include "partial/highlighted-text.html" %}
+
     {% include "partial/what-we-do.html" %}
 
     {% set reference = {

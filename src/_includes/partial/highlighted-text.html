@@ -1,0 +1,13 @@
+<div class="l-highlighted-text">
+    <div class="container">
+        <div class="l-highlighted-text__inner">
+            {% if highlighted.title %}
+                <h2 class="section-title section-title--vertical section-title--light">
+                    {% svgIcon highlighted.title.image %}
+                    {{ highlighted.title.caption | safe }}
+                </h2>
+            {% endif %}
+            {{ highlighted.description | safe }}
+        </div>
+    </div>
+</div>

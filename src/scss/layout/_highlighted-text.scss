@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.who-we-are {
-  background-color: color('heading');
+.l-highlighted-text {
+  background-color: color('background', 'highlighted');
 
   &__inner {
     align-items: start;
