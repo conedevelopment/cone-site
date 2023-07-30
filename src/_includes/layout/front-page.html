@@ -1,6 +1,23 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
+    {% set hero = {
+        'title': {
+            'caption': '<span class="highlighted">Writing code</span><br><span id="typewriter">as it should be</span>',
+            'typewriter': "as it should be, like a maniac, that helps you, like nobady\'s watching"
+        },
+        'description': 'We compose websites and web applications from small to large scale in WordPress and Laravel.',
+        'btn': [
+            {
+                'url': '/services/laravel-development/',
+                'caption': 'Laravel Development'
+            },
+            {
+                'url': '/services/website-development/',
+                'caption': 'Website Development'
+            }
+        ]
+    } %}
     {% include "partial/hero.html" %}
 
     {% set highlighted = {
@@ -8,7 +25,7 @@
             'caption': 'What<br>We<br>Make',
             'image': './src/img/title-helper-primary.svg'
         },
-        'description': '<p>Welcome at <span>Cone</span>, where innovation meets impeccable design. We are a cutting-edge web development studio dedicated to crafting <span>stunning digital experiences</span> that leave a lasting impact. With our team of highly skilled developers and designers, we bring your ideas to life, transforming them into visually captivating and user-friendly websites.</p>'
+        'description': '<p>Welcome at <span class="highlighted">Cone</span>, where innovation meets impeccable design. We are a cutting-edge web development studio dedicated to crafting <span class="highlighted">stunning digital experiences</span> that leave a lasting impact. With our team of highly skilled developers and designers, we bring your ideas to life, transforming them into visually captivating and user-friendly websites.</p>'
     } %}
     {% include "partial/highlighted-text.html" %}
 
@@ -19,7 +36,7 @@
             'caption': 'What<br>We<br>Make',
             'image': './src/img/title-helper-primary.svg'
         },
-        'classes': 'l-highlighted-reference--align-end'
+        'classes': 'highlighted-reference--align-end'
     } %}
     {% include "partial/highlighted-reference.html" %}
 

@@ -1,6 +1,6 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.l-highlighted-text {
+.highlighted-text {
   background-color: color('background', 'highlighted');
 
   &__inner {
@@ -22,7 +22,7 @@
     font-size: config('font-size-lead', $typography);
     max-width: 60ch;
 
-    span {
+    .highlighted {
       color: color('secondary');
     }
   }

@@ -1,15 +1,15 @@
-<div class="l-highlighted-reference {{ reference.classes }}">
+<div class="highlighted-reference {{ reference.classes }}">
     <div class="container">
-        <div class="l-highlighted-reference__inner">
+        <div class="highlighted-reference__inner">
             {% if reference.title %}
                 <h2 class="section-title section-title--vertical">
                     {% svgIcon reference.title.image %}
                     {{ reference.title.caption | safe }}
                 </h2>
             {% endif %}
-            <div class="l-highlighted-reference__preview">
+            <div class="highlighted-reference__preview">
                 <div class="reference-card">
-                    <img src="/img/preview/sarvar.jpg" alt="">
+                    <img src="/img/preview/sarvar.jpg" alt="" loading="lazy">
                     <div class="reference-card__caption">
                         <h3 class="reference-card__title">
                             Sárvár
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="reference-card">
-                    <img src="/img/preview/sbr.jpg" alt="">
+                    <img src="/img/preview/sbr.jpg" alt="" loading="lazy">
                     <div class="reference-card__caption">
                         <h3 class="reference-card__title">
                             Smart Budapest Fórum

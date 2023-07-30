@@ -11,7 +11,8 @@
     "sourceType": "module"
   },
   "globals": {
-    "google": true
+    "google": true,
+    "Typewriter": true
   },
   "ignorePatterns": [
     "assets/js/fancybox.js",

@@ -1,6 +1,10 @@
 (() => {
+  if (!document.querySelector('#typewriter')) return;
+
+  const typewriter = document.querySelector('[data-typewriter]').dataset.typewriter.split(', ');
+
   new Typewriter('#typewriter', {
-    strings: ['as it should be', 'like a maniac', 'that helps you', 'like nobady\'s watching'],
+    strings: typewriter,
     autoStart: true,
     cursor: '',
     loop: true,
