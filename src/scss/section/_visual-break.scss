@@ -1,0 +1,39 @@
+@use 'sass:color';
+@use 'sprucecss/scss/spruce' as *;
+
+.visual-break {
+  background-size: cover;
+  background-position: center;
+  block-size: 20rem;
+  position: relative;
+
+  &--primary {
+    &::before {
+      background: linear-gradient(60deg, color('primary', $only-color: true), color.adjust(color('primary', $only-color: true), $hue: -35deg));
+      content: '';
+      inset: 0;
+      position: absolute;
+      opacity: 55%;
+    }
+  }
+
+  &--secondary {
+    &::before {
+      background: linear-gradient(60deg, color('secondary', $only-color: true), color.adjust(color('secondary', $only-color: true), $hue: -35deg));
+      content: '';
+      inset: 0;
+      position: absolute;
+      opacity: 55%;
+    }
+  }
+
+  &--tertiary {
+    &::before {
+      background: linear-gradient(60deg, color('tertiary', $only-color: true), color.adjust(color('tertiary', $only-color: true), $hue: -35deg));
+      content: '';
+      inset: 0;
+      position: absolute;
+      opacity: 55%;
+    }
+  }
+}
