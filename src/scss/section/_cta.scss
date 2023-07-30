@@ -1,7 +1,20 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .cta {
+  $this: &;
   padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
+
+  &--dark {
+    background-color: color('background', 'cta');
+
+    #{$this}__title {
+      color: hsl(0deg 0% 100%);
+    }
+
+    p {
+      color: hsl(0deg 0% 95%);
+    }
+  }
 
   &--border-block {
     border-block: 1px solid color('border');

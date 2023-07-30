@@ -1,18 +1,20 @@
 @use 'dark-colors' as dark;
 
+$color-black: hsl(0deg 0% 0%);
 $color-secondary: hsl(326deg 100% 49%);
 $color-tertiary: hsl(169deg 100% 50%);
 
 @use 'sprucecss/scss/spruce' with (
   $btn: (
     'border-radius': 2rem,
+    'border-width': 1px,
     'font-family': #{'Manrope', sans-serif},
     'font-weight': 600,
   ),
   $btn-lg: (
     'padding': 1em 1.75em,
   ),
-  $color-black: hsl(0deg 0% 0%),
+  $color-black: $color-black,
   $color-primary: hsl(216deg 100% 50%),
   $color-secondary: $color-secondary,
   $colors: (
@@ -26,11 +28,17 @@ $color-tertiary: hsl(169deg 100% 50%);
       'pagination-foreground': hsl(262deg 71% 49%),
       'pagination-foreground-hover': hsl(0deg 0% 100%),
     ),
+    'cta': (
+      'background': $color-black,
+    ),
+    'form': (
+      'border': $color-black,
+    ),
     'header': (
       'background': hsl(0deg 0% 100% / 95%),
     ),
     'highlighted': (
-      'background': hsl(0deg 0% 0%),
+      'background': $color-black,
     ),
     'navigation': (
       'arrow': hsl(0deg 0% 0% / 15%),
@@ -52,7 +60,7 @@ $color-tertiary: hsl(169deg 100% 50%);
       'regex': hsl(1deg 48% 59%),
     ),
     'reference': (
-      'background': hsl(0deg 0% 0%),
+      'background': $color-black,
       'box-shadow': hsl(0deg 0% 0% / 15%),
       'icon': hsl(0deg 0% 100% / 25%),
       'link': hsl(0deg 0% 100% / 80%),
@@ -64,7 +72,7 @@ $color-tertiary: hsl(169deg 100% 50%);
     'container': 88rem,
   ),
   $settings: (
-    'prefix': 'cone'
+    'prefix': 'cone',
   ),
   $typography: (
     'font-family-base': #{'Manrope', sans-serif},

@@ -6,6 +6,14 @@ hero:
         caption: "Development<br><span class='highlighted'>Team of Two</span>"
     description: "We are passionate web developers who work, learn, publish, and create together."
     classes: 'hero--two-column hero--smaller'
+cta:
+    title: "Get to Know Us"
+    type: "dark"
+    classes: "cta--dark"
+    description: "We are passionate developers who like to give their best, develop, and learn."
+    btn:
+        url: "/about/"
+        caption: "About Us"
 ---
 
 <div class="l-post l-post--narrow">

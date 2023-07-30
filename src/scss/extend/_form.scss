@@ -1,0 +1,5 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.form-control {
+  box-shadow: 0 2px 0 0 color('border', 'form');
+}

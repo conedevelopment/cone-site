@@ -8,7 +8,11 @@
             </div>
             {% if cta.btn %}
                 <div class="cta__actions">
-                    <a href="{{ cta.btn.url }}" class="btn btn--outline-primary btn--rounded btn--lg">
+                    {% if cta.type == "dark" %}
+                        <a href="{{ cta.btn.url }}" class="btn btn--outline-secondary btn--rounded btn--lg">
+                    {% else %}
+                        <a href="{{ cta.btn.url }}" class="btn btn--outline-primary btn--rounded btn--lg">
+                    {% endif %}
                         {{ cta.btn.caption }}
                     </a>
                 </div>
