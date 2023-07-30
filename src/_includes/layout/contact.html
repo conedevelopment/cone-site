@@ -1,19 +1,12 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-    <div class="l-contact">
+    {% include "partial/hero.html" %}
+    <div class="l-post l-post--contact">
         <div class="container">
-            <div class="l-contact__inner">
-                <div class="contact-content">
-                    <div class="hero__caption">
-                        <h1 class="hero__title" data-typewriter="{{ hero.title.typewriter }}">{{ hero.title.caption | safe }}</h1>
-                        {% if (hero.description) %}
-                            <p class="hero__description">{{ hero.description }}</p>
-                        {% endif %}
-                    </div>
+            <div class="l-post__inner">
+                <div class="post-content">
                     {{ content | safe }}
-                </div>
-                <div class="l-contact__form">
                     {% include "partial/contact-form.html" %}
                 </div>
             </div>

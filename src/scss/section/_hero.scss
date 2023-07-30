@@ -17,14 +17,32 @@
 
     @include breakpoint('md') {
       #{$this}__description {
-        max-inline-size: 25ch;
+        max-inline-size: 30ch;
       }
     }
   }
 
   &--smaller {
     #{$this}__title {
-      font-size: responsive-font-size(5.5rem, 50, '5vw + 1rem');
+      font-size: responsive-font-size(4.5rem, 50, '5vw + 1rem');
+    }
+
+    #{$this}__description {
+      font-size: responsive-font-size(1.25rem, 30, '3vw + 0.25rem');
+    }
+  }
+
+  &--center {
+    text-align: center;
+
+    #{$this}__description {
+      margin-inline: auto;
+    }
+  }
+
+  &--padding-block\:small {
+    #{$this}__inner {
+      padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) calc(#{get-css-variable(--section-gap)});
     }
   }
 
@@ -73,6 +91,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: spacer('m');
-    margin-block-start: 2.5rem;
+    margin-block-start: spacer('s');
   }
 }
