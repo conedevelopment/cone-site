@@ -1,11 +1,11 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-post {
-  --offset: 6rem;
-  padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) get-css-variable(--section-gap);
+  padding-block: get-css-variable(--section-gap);
 
-  @include breakpoint('md') {
-    --offset: 8rem;
+  &--narrow {
+    margin-inline: auto;
+    max-inline-size: 65rem;
   }
 
   &__inner {
@@ -15,13 +15,6 @@
   }
 
   &__list {
-    @include clear-list;
-    margin-block-start: spacer('l');
-
-    > * + * {
-      border-block-start: 1px dashed color('border');
-      margin-block-start: spacer('m');
-      padding-block-start: spacer('m');
-    }
+    @include layout-stack(spacer-clamp('m', 'xl'));
   }
 }

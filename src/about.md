@@ -8,17 +8,17 @@ hero:
     classes: 'hero--two-column hero--smaller'
 ---
 
-<div class="l-two-column-text-list">
+<div class="l-post l-post--narrow">
     <div class="container">
-        <div class="l-two-column-text-list__inner">
-            <div class="two-column-text-card">
-                <h2 class="two-column-text-card__title">About Us</h2>
+        <div class="l-post__list">
+            <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">About Us</h2>
                 <div class="post-content">
                     <p><strong>Adam is responsible for the design and the front-end</strong>, while <strong>Gergő takes care of the back-end and some front-end tasks as well</strong>. This way, we can extend each other’s skills, and we are able to ship well-crafted code. Currently, we are located in Switzerland and Hungary. We like to communicate in English.</p>
                 </div>
             </div>
-            <div class="two-column-text-card">
-                <h2 class="two-column-text-card__title">Our Skills</h2>
+            <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">Our Skills</h2>
                 <div class="post-content">
                     <p>On the front-end we do UI design, including working with CSS frameworks and writing custom CSS code for the needs that a framework cannot fill. Also, we work with several <strong>JavaScript technologies</strong> and frameworks – for example <strong>Vue.js</strong>, <strong>GreenSock</strong> – but we believe, frameworks can’t solve everything, so often we write more or less complex JavaScript codes as well.</p>
                     <p>Combining with Laravel, <strong>we can build comprehensive solutions with Vue.js</strong>. We know it well and like it much. </p>
@@ -36,6 +36,30 @@ hero:
                             <a href="https://packagist.org/users/conedevelopment/packages/">Our Laravel packages</a> were downloaded more than 40.000 times until today.
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">Our Values</h2>
+                <div class="post-content">
+                    <p>
+                        <strong>We are looking for partners and not for employers.</strong> If you just need a team, who ships what you want – <em>like robots</em> – we are not the guys you are searching for.&nbsp; <strong>But if you need:</strong>
+                    </p>
+                    <ul>
+                        <li>cooperation that lasts,</li>
+                        <li>excellent and up-to-date knowledge,</li>
+                        <li>respect for your organization and your goals,</li>
+                        <li>a small and agile team that delivers fulfills the undertaken tasks and more.</li>
+                    </ul>
+                    <p>
+                        <a href="/contact/">Let’s work together!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">We Are<br>Learners</h2>
+                <div class="post-content">
+                    <p>Web development is an infinite area if you want to learn. <strong> We think that it is a challenge to do our best in a continuously changing environment</strong>, but we can like it very much. No matter what we build, we try to do it in a new way, which we can learn from, a method that lasts.</p>
+                    <p>If you want to know more about how we think we can recommend you two book: <a href="https://www.amazon.com/ReWork-Change-Way-Work-Forever-ebook/dp/B003ELY7PG">Rework</a>, <a href="https://www.amazon.com/Remote-Required-David-Heinemeier-Hansson-ebook/dp/B00CZ7OC46/">Remote</a>.</p>
                 </div>
             </div>
         </div>

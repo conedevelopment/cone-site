@@ -1,0 +1,18 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.text-card {
+  $this: &;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: spacer('m') spacer-clamp('l', 'xl');
+
+  &--two-column {
+    @include breakpoint('sm') {
+      grid-template-columns: minmax(0, 12.5rem) minmax(0, 1fr);
+    }
+  }
+
+  &__title {
+    margin-block: 0;
+  }
+}
