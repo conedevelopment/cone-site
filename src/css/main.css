@@ -2276,14 +2276,8 @@ pre[class*=language-] {
 .cta {
   padding-block: calc(var(--cone-section-gap) / 1.25);
 }
-.cta--dark {
-  background-color: var(--cone-cta-color-background);
-}
-.cta--dark .cta__title {
-  color: hsl(0, 0%, 100%);
-}
-.cta--dark p {
-  color: hsl(0, 0%, 95%);
+.cta--tertiary {
+  background-color: hsl(169, 100%, 93.06%);
 }
 .cta--border-block {
   border-block: 1px solid var(--cone-base-color-border);

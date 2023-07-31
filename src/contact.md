@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "Contact"
 layout: "layout/contact.html"
 hero:
     title:
@@ -15,7 +15,6 @@ hero:
 ## Write to Us
 
 **Some useful information before you write to us:**
-
 
 - By name, we are Adam and Gergő.
 - Right now, we are located in Hungary.

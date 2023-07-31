@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "About"
 layout: "layout/about.html"
 hero:
     title:
@@ -8,8 +8,7 @@ hero:
     classes: 'hero--two-column hero--smaller'
 cta:
     title: "Get to Know Us"
-    type: "dark"
-    classes: "cta--dark"
+    classes: "cta--border-block"
     description: "We are passionate developers who like to give their best, develop, and learn."
     btn:
         url: "/about/"
