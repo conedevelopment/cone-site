@@ -22,7 +22,17 @@
     }
   }
 
-  &--smaller {
+  &--font-size\:medium {
+    #{$this}__title {
+      font-size: responsive-font-size(5.15rem, 50, '5vw + 1rem');
+    }
+
+    #{$this}__description {
+      font-size: responsive-font-size(1.25rem, 30, '3vw + 0.25rem');
+    }
+  }
+
+  &--font-size\:small {
     #{$this}__title {
       font-size: responsive-font-size(4.5rem, 50, '5vw + 1rem');
     }
@@ -67,11 +77,12 @@
 
   &__title {
     font-size: responsive-font-size(6.5rem, 50, '5vw + 1rem');
-    font-weight: 800;
+    font-weight: 400;
     text-transform: uppercase;
 
     .highlighted {
       background: linear-gradient(45deg, hsl(238deg 100% 47%), hsl(194deg 85% 56%));
+      font-weight: 800;
       -webkit-background-clip: text; /* stylelint-disable-line */
       -webkit-text-fill-color: transparent;
 

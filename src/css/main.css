@@ -2471,10 +2471,16 @@ pre[class*=language-] {
     max-inline-size: 30ch;
   }
 }
-.hero--smaller .hero__title {
+.hero--font-size\:medium .hero__title {
+  font-size: clamp(2.575rem, 5vw + 1rem, 5.15rem);
+}
+.hero--font-size\:medium .hero__description {
+  font-size: clamp(0.875rem, 3vw + 0.25rem, 1.25rem);
+}
+.hero--font-size\:small .hero__title {
   font-size: clamp(2.25rem, 5vw + 1rem, 4.5rem);
 }
-.hero--smaller .hero__description {
+.hero--font-size\:small .hero__description {
   font-size: clamp(0.875rem, 3vw + 0.25rem, 1.25rem);
 }
 .hero--center {
@@ -2511,11 +2517,12 @@ pre[class*=language-] {
 }
 .hero__title {
   font-size: clamp(3.25rem, 5vw + 1rem, 6.5rem);
-  font-weight: 800;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .hero__title .highlighted {
   background: linear-gradient(45deg, hsl(238, 100%, 47%), hsl(194, 85%, 56%));
+  font-weight: 800;
   -webkit-background-clip: text; /* stylelint-disable-line */
   -webkit-text-fill-color: transparent;
 }

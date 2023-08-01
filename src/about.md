@@ -5,7 +5,7 @@ hero:
     title:
         caption: "Development<br><span class='highlighted'>Team of Two</span>"
     description: "We are passionate web developers who work, learn, publish, and create together."
-    classes: 'hero--two-column hero--smaller'
+    classes: 'hero--two-column hero--font-size:medium'
 cta:
     title: "Get to Know Us"
     classes: "cta--dark"
