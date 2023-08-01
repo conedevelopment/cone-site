@@ -1,0 +1,44 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.reference-text-card {
+  $this: &;
+  align-items: start;
+  display: flex;
+  gap: spacer('m');
+  justify-content: space-between;
+
+  &__caption {
+    @include layout-stack('s');
+    max-inline-size: 70ch;
+  }
+
+  &__title {
+    font-family: config('font-family-cursive', $typography);
+  }
+
+  &__tags {
+    align-items: center;
+    display: flex;
+    gap: spacer('s');
+  }
+
+  &__tag {
+    border: 1px solid color('border');
+    border-radius: 2rem;
+    padding: 0.35em 1.25em;
+  }
+
+  &__link {
+    align-items: center;
+    display: flex;
+    gap: spacer('xs');
+    text-decoration: none;
+
+    svg {
+      --dimension: 0.65em;
+      block-size: var(--dimension);
+      color: color('border');
+      inline-size: var(--dimension);
+    }
+  }
+}

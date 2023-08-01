@@ -4,8 +4,16 @@
   $this: &;
   padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
 
-  &--tertiary {
-    background-color: hsl(169deg 100% 93.06%);
+  &--dark {
+    background-color: color('background', 'cta');
+
+    #{$this}__title {
+      color: hsl(0deg 0% 100%);
+    }
+
+    p {
+      color: hsl(0deg 0% 95%);
+    }
   }
 
   &--border-block {

@@ -1,0 +1,13 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-reference-list {
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    > * + * {
+      border-block-start: 1px solid color('border');
+      margin-block-start: spacer-clamp('m', 'l');
+      padding-block-start: spacer-clamp('m', 'l');
+    }
+  }
+}

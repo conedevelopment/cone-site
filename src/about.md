@@ -8,7 +8,8 @@ hero:
     classes: 'hero--two-column hero--smaller'
 cta:
     title: "Get to Know Us"
-    classes: "cta--border-block"
+    classes: "cta--dark"
+    type: "dark"
     description: "We are passionate developers who like to give their best, develop, and learn."
     btn:
         url: "/about/"

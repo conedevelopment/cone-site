@@ -2,8 +2,6 @@
 
 {% block content %}
     {% include "partial/hero.html" %}
-    {% set reference = {
-        'classes': 'highlighted-reference--align-end'
-    } %}
     {% include "partial/highlighted-reference.html" %}
+    {% include "partial/list-reference.html" %}
 {% endblock %}
