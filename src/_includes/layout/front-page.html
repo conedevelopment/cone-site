@@ -29,6 +29,13 @@
     } %}
     {% include "partial/highlighted-text.html" %}
 
+    {% set testimonial = {
+        'title': {
+            'caption': 'What We Do',
+            'image': './src/img/title-helper-primary.svg'
+        },
+        'classes': 'testimonial--secondary'
+    } %}
     {% include "partial/what-we-do.html" %}
 
     {% set reference = {

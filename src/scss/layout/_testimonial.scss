@@ -1,0 +1,9 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-testimonial {
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    @include layout-grid('xl', 20rem);
+  }
+}

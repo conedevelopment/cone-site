@@ -5,6 +5,7 @@
 
   @include a11y-card-link('.testimonial-card__link', true);
   @include transition;
+  background-color: color('background');
   border: 1px solid color('border');
   border-radius: config('border-radius-lg', $display);
   display: flex;

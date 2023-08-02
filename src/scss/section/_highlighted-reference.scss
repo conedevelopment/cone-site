@@ -30,9 +30,7 @@
 
   &__preview {
     --columns: 1;
-    background-color: color('heading');
-    background-color: hsl(15deg 98% 79%);
-    background-color: hsl(169deg 100% 50%);
+    background-color: color('tertiary');
     border-radius: config('border-radius-lg', $display);
     display: grid;
     gap: spacer-clamp('m', 'l');

@@ -1,0 +1,17 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-accordion {
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('m') spacer-clamp('l', 'xl');
+    justify-content: space-between;
+  }
+
+  &__body {
+    flex: 1;
+    max-inline-size: 50rem;
+  }
+}

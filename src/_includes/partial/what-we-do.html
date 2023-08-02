@@ -1,9 +1,11 @@
-<div class="l-what-we-do">
+<div class="l-what-we-do {{ testimonial.classes }}">
     <div class="container">
-        <h2 class="section-title">
-            {% svgIcon './src/img/title-helper-secondary.svg' %}
-            What We Do
-        </h2>
+        {% if testimonial.title %}
+            <h2 class="section-title">
+                {% svgIcon './src/img/title-helper-secondary.svg' %}
+                What We Do
+            </h2>
+        {% endif %}
         <div class="l-what-we-do__inner">
             <div class="testimonial-card">
                 <img class="testimonial-card__illustration" src="/img/illustrations/retro-coffee.svg" alt="">

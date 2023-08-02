@@ -373,7 +373,7 @@ template {
   --cone-btn-color-primary-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-primary-shadow: #b3d1ff;
   --cone-btn-color-secondary-background: hsl(326, 100%, 49%);
-  --cone-btn-color-secondary-background-hover: #c70071;
+  --cone-btn-color-secondary-background-hover: hsl(326, 100%, 47%);
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-secondary-shadow: #ffaddc;
   --cone-btn-color-pagination-background: hsl(263, 40%, 96%);
@@ -1612,8 +1612,43 @@ legend {
   padding-block-start: clamp(1.5rem, 5vw, 3rem);
 }
 
+.l-testimonial {
+  padding-block: var(--cone-section-gap);
+}
+.l-testimonial__inner {
+  display: grid;
+  gap: 4.5rem;
+}
+@supports (inline-size: min(20rem, 100%)) {
+  .l-testimonial__inner {
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  }
+}
+
+.l-accordion {
+  padding-block: var(--cone-section-gap);
+}
+.l-accordion__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
+  justify-content: space-between;
+}
+.l-accordion__body {
+  flex: 1;
+  max-inline-size: 50rem;
+}
+
 .l-what-we-do {
   padding-block: var(--cone-section-gap);
+}
+.l-what-we-do--secondary {
+  padding-block: 0;
+}
+.l-what-we-do--secondary .l-what-we-do__inner {
+  background-color: var(--cone-base-color-secondary);
+  border-radius: 0.725rem;
+  padding: clamp(1.5rem, 5vw, 4.5rem);
 }
 .l-what-we-do__inner {
   display: flex;
@@ -1756,32 +1791,12 @@ legend {
   pointer-events: none;
 }
 
-.accordion-list--boxed > * {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
-.accordion-list--boxed > * + * {
-  margin-block-start: 1rem;
-}
-.accordion-list--stacked > * + * {
+.accordion-list > * + * {
   border-block-start: 1px solid var(--cone-base-color-border);
 }
 
 .accordion-card {
   background-color: var(--cone-base-color-background);
-}
-.accordion-card--box {
-  border: 1px solid var(--cone-base-color-border);
-  border-radius: 0.325rem;
-}
-.accordion-card--box .accordion-card__title {
-  padding: 1.5rem;
-}
-.accordion-card--box .accordion-card__toggle {
-  padding: 1.5rem;
-}
-.accordion-card--box .accordion-card__content {
-  padding-inline: 1.5rem;
 }
 .accordion-card--js .accordion-card__title {
   padding: 0;
@@ -1812,7 +1827,7 @@ legend {
   outline-offset: 2px;
 }
 .accordion-card__toggle svg {
-  --dimension: 1.75rem;
+  --dimension: 1.5rem;
   background-color: var(--cone-base-color-primary);
   block-size: var(--dimension);
   border-radius: 0.325rem;
@@ -1825,6 +1840,7 @@ legend {
 }
 .accordion-card__content {
   padding-block-end: 1.5rem;
+  max-inline-size: 70ch;
 }
 .accordion-card__content > * {
   margin-block-end: 0;
@@ -2092,6 +2108,7 @@ pre[class*=language-] {
   transition-duration: var(--cone-duration);
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);
+  background-color: var(--cone-base-color-background);
   border: 1px solid var(--cone-base-color-border);
   border-radius: 0.725rem;
   display: flex;
@@ -2670,36 +2687,6 @@ pre[class*=language-] {
   margin-block: 1.5rem 0;
 }
 
-.oss {
-  border-block-start: 1px solid var(--cone-base-color-border);
-  padding-block: var(--cone-section-gap);
-  /*
-  background-image: linear-gradient(
-    45deg,
-    hsl(330deg 100% 98%) 0%,
-    hsl(331deg 100% 99%) 11%,
-    hsl(332deg 100% 99%) 22%,
-    hsl(333deg 100% 99%) 33%,
-    hsl(334deg 100% 99%) 44%,
-    hsl(335deg 100% 99%) 56%,
-    hsl(336deg 100% 99%) 67%,
-    hsl(337deg 100% 99%) 78%,
-    hsl(339deg 100% 99%) 89%,
-    hsl(340deg 100% 99%) 100%
-  );
-  */
-}
-.oss__inner {
-  display: grid;
-  gap: "12rem";
-  gap: clamp(3rem, 5vw, 4.5rem);
-}
-@supports (inline-size: min(12.5rem, 100%)) {
-  .oss__inner {
-    grid-template-columns: repeat(auto-fit, minmax(min(12.5rem, 100%), 1fr));
-  }
-}
-
 .highlighted-text {
   background-color: var(--cone-highlighted-color-background);
 }
@@ -2749,9 +2736,7 @@ pre[class*=language-] {
 }
 .highlighted-reference__preview {
   --columns: 1;
-  background-color: var(--cone-base-color-heading);
-  background-color: hsl(15, 98%, 79%);
-  background-color: hsl(169, 100%, 50%);
+  background-color: var(--cone-base-color-tertiary);
   border-radius: 0.725rem;
   display: grid;
   gap: clamp(1.5rem, 5vw, 3rem);

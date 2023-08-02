@@ -6,14 +6,16 @@ hero:
         caption: "Development<br><span class='highlighted'>Team of Two</span>"
     description: "We are passionate web developers who work, learn, publish, and create together."
     classes: 'hero--two-column hero--font-size:medium'
+visual:
+    background: "/img/photos/tiszaszolos.jpg"
 cta:
-    title: "Get to Know Us"
+    title: "Our Services"
     classes: "cta--dark"
     type: "dark"
-    description: "We are passionate developers who like to give their best, develop, and learn."
+    description: "We can help you with website or web application development. We can serve your goals with our guidance."
     btn:
-        url: "/about/"
-        caption: "About Us"
+        url: "/services/"
+        caption: "Services"
 ---
 
 <div class="l-post l-post--narrow">

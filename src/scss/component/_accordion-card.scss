@@ -5,23 +5,6 @@
 
   background-color: color('background');
 
-  &--box {
-    border: 1px solid color('border');
-    border-radius: config('border-radius-sm', $display);
-
-    #{$this}__title {
-      padding: spacer('m');
-    }
-
-    #{$this}__toggle {
-      padding: spacer('m');
-    }
-
-    #{$this}__content {
-      padding-inline: spacer('m');
-    }
-  }
-
   &--js {
     #{$this}__title {
       padding: 0;
@@ -56,7 +39,7 @@
     }
 
     svg {
-      --dimension: 1.75rem;
+      --dimension: 1.5rem;
 
       background-color: color('primary');
       block-size: var(--dimension);
@@ -74,6 +57,7 @@
   &__content {
     @include layout-stack('s');
     padding-block-end: spacer('m');
+    max-inline-size: 70ch;
 
     * + h3 {
       margin-block-start: spacer('m');

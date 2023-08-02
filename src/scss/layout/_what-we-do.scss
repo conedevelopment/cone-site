@@ -1,7 +1,19 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-what-we-do {
+  $this: &;
+
   padding-block: get-css-variable(--section-gap);
+
+  &--secondary {
+    padding-block: 0;
+
+    #{$this}__inner {
+      background-color: color('secondary');
+      border-radius: config('border-radius-lg', $display);
+      padding: spacer-clamp('m', 'xl');
+    }
+  }
 
   &__inner {
     display: flex;
