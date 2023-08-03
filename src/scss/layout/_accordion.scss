@@ -10,7 +10,20 @@
     justify-content: space-between;
   }
 
+  &__heading {
+    @include layout-stack('xs');
+  }
+
+  &__title {
+    font-size: font-size('h2');
+  }
+
+  &__block {
+    @include layout-stack('m');
+  }
+
   &__body {
+    @include layout-stack('l');
     flex: 1;
     max-inline-size: 50rem;
   }
