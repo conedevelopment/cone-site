@@ -1,9 +1,42 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-testimonial {
+  $this: &;
+
   padding-block: get-css-variable(--section-gap);
 
-  &__inner {
-    @include layout-grid('xl', 20rem);
+  &--secondary {
+    padding-block: 0;
+
+    #{$this}__inner {
+      background-color: color('secondary');
+      border-radius: config('border-radius-lg', $display);
+      padding: spacer-clamp('m', 'xl');
+    }
+
+    #{$this}__cards {
+      border: 0;
+    }
+  }
+
+  &__cards {
+    border: 1px solid color('border');
+    border-radius: config('border-radius-lg', $display);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    > .testimonial-card:not(:first-child):not(:last-child) {
+      border-block: 1px solid color('border');
+    }
+
+    @include breakpoint('md') {
+      flex-direction: row;
+
+      > .testimonial-card:not(:first-child):not(:last-child) {
+        border-block: 0;
+        border-inline: 1px solid color('border');
+      }
+    }
   }
 }

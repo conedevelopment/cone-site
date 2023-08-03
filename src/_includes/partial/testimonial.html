@@ -1,0 +1,50 @@
+<div class="l-testimonial {{ testimonial.classes }}">
+    <div class="container">
+        {% if testimonial.title %}
+            <h2 class="section-title">
+                {% svgIcon './src/img/title-helper-secondary.svg' %}
+                What We Do
+            </h2>
+        {% endif %}
+        <div class="l-testimonial__inner">
+            <div class="l-testimonial__cards">
+                <div class="testimonial-card">
+                    <img class="testimonial-card__illustration" src="/img/illustrations/retro-coffee.svg" alt="">
+                    <div class="testimonial-card__caption">
+                        <h3 class="testimonial-card__title">
+                            <a href="#" class="testimonial-card__link">
+                                Application Development
+                            </a>
+                        </h3>
+                        <p class="testimonial-card__description">With Laravel, we create robust and scalable web applications that seamlessly integrate powerful features, intuitive user interfaces, and secure backend functionality.</p>
+                    </div>
+                    <span class="testimonial-card__number">01</span>
+                </div>
+                <div class="testimonial-card">
+                    <img class="testimonial-card__illustration" src="/img/illustrations/retro-butter-toast.svg" alt="">
+                    <div class="testimonial-card__caption">
+                        <h3 class="testimonial-card__title">
+                            <a href="#" class="testimonial-card__link">
+                                Website Development
+                            </a>
+                        </h3>
+                        <p class="testimonial-card__description">We create visually stunning and highly functional websites built on WordPress or Eleventy.</p>
+                    </div>
+                    <span class="testimonial-card__number">02</span>
+                </div>
+                <div class="testimonial-card">
+                    <img class="testimonial-card__illustration" src="/img/illustrations/retro-chocolate-fancy.svg" alt="">
+                    <div class="testimonial-card__caption">
+                        <h3 class="testimonial-card__title">
+                            <a href="#" class="testimonial-card__link">
+                                UI Design
+                            </a>
+                        </h3>
+                        <p class="testimonial-card__description">Aliqua quis irure enim magna enim deserunt proident consequat non Lorem labore duis commodo sit.</p>
+                    </div>
+                    <span class="testimonial-card__number">03</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -19,5 +19,5 @@ accordion:
         caption: "How We<br>Can Help"
         image: "./src/img/title-helper-primary.svg"
 testimonial:
-    classes: 'l-what-we-do--secondary'
+    classes: 'l-testimonial--secondary'
 ---

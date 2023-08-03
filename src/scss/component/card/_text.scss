@@ -3,8 +3,8 @@
 .text-card {
   $this: &;
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
   gap: spacer('m') spacer-clamp('l', 'xl');
+  grid-template-columns: minmax(0, 1fr);
 
   &--two-column {
     @include breakpoint('sm') {

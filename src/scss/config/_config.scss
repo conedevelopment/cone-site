@@ -68,12 +68,16 @@ $color-tertiary: hsl(169deg 100% 50%);
       'link': hsl(0deg 0% 100% / 80%),
       'title': hsl(0deg 0% 100%),
     ),
+    'testimonial': (
+      'background-hover': hsl(195 100% 97%),
+    ),
   ),
   $dark-colors: dark.$colors,
   $display: (
     'container': 88rem,
   ),
   $settings: (
+    'hyphens': true,
     'prefix': 'cone',
   ),
   $typography: (

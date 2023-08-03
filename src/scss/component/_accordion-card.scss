@@ -56,8 +56,8 @@
 
   &__content {
     @include layout-stack('s');
-    padding-block-end: spacer('m');
     max-inline-size: 70ch;
+    padding-block-end: spacer('m');
 
     * + h3 {
       margin-block-start: spacer('m');

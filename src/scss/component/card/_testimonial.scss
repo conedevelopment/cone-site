@@ -6,17 +6,24 @@
   @include a11y-card-link('.testimonial-card__link', true);
   @include transition;
   background-color: color('background');
-  border: 1px solid color('border');
-  border-radius: config('border-radius-lg', $display);
   display: flex;
   flex-direction: column;
   gap: spacer('m');
-  padding: spacer-clamp('m', 'l');
+  padding: spacer-clamp('m', 2.5rem);
+
+  @include breakpoint('sm') {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @include breakpoint('md') {
+    align-items: start;
+    flex-direction: column;
+  }
 
   &:hover,
   &:focus {
-    background-color: #def7ff;
-    border-color: #def7ff;
+    background-color: color('background-hover', 'testimonial');
 
     #{$this}__link,
     #{$this}__description {
@@ -31,7 +38,7 @@
 
   &__title {
     @include transition;
-    font-size: font-size('h2');
+    font-size: responsive-font-size(1.65rem);
   }
 
   &__link {
