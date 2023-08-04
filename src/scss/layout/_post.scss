@@ -10,6 +10,7 @@
 
   &--page {
     border-block-end: 1px solid color('border');
+    margin-block-start: get-css-variable(--header-block-size);
   }
 
   &__inner {
