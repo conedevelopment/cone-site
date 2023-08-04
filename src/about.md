@@ -19,7 +19,7 @@ cta:
 ---
 
 <div class="l-post l-post--narrow">
-    <div class="container">
+    <div class="container container--narrow">
         <div class="l-post__list">
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">About Us</h2>

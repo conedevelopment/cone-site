@@ -376,6 +376,7 @@ template {
   --cone-btn-color-secondary-background-hover: hsl(326, 100%, 47%);
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 100%);
   --cone-btn-color-secondary-shadow: #ffaddc;
+  --cone-btn-color-primary-outline-foreground-hover: hsl(0, 0%, 100%);
   --cone-btn-color-pagination-background: hsl(263, 40%, 96%);
   --cone-btn-color-pagination-background-hover: hsl(262, 71%, 49%);
   --cone-btn-color-pagination-focus-ring: hsl(262, 71%, 49%);
@@ -930,7 +931,7 @@ samp {
 .btn--outline-primary:hover {
   background-color: var(--cone-btn-color-primary-background);
   border-color: var(--cone-btn-color-primary-background);
-  color: var(--cone-btn-color-primary-foreground);
+  color: var(--cone-btn-color-primary-outline-foreground-hover);
 }
 
 .btn--outline-secondary {
@@ -1489,9 +1490,14 @@ legend {
   --cone-btn-color-primary-background: hsl(194, 85%, 56%);
   --cone-btn-color-primary-background-hover: hsl(194, 85%, 66%);
   --cone-btn-color-primary-foreground: hsl(0, 0%, 95%);
+  --cone-btn-color-primary-outline-foreground-hover: hsl(192, 100%, 0%);
   --cone-btn-color-secondary-background: hsl(326, 100%, 65%);
   --cone-btn-color-secondary-background-hover: #ff66bd;
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 95%);
+}
+
+:root[data-theme-mode=dark] {
+  --cone-cta-color-background: hsl(192, 100%, 6%);
 }
 
 :root[data-theme-mode=dark] {
@@ -1564,6 +1570,10 @@ legend {
   --cone-table-color-stripe: hsla(0, 0%, 100%, 0.025);
 }
 
+:root[data-theme-mode=dark] {
+  --cone-testimonial-color-background-hover: hsl(192, 100%, 6%);
+}
+
 [data-theme-mode=dark] {
   color-scheme: dark;
 }
@@ -1580,7 +1590,7 @@ legend {
   max-inline-size: 110rem;
 }
 .container--narrow {
-  --inline-size: 50rem;
+  --inline-size: 65rem;
 }
 
 .l-post {
@@ -1590,9 +1600,8 @@ legend {
   border-block-end: 1px solid var(--cone-base-color-border);
   padding-block-start: 0;
 }
-.l-post--narrow {
-  margin-inline: auto;
-  max-inline-size: 65rem;
+.l-post--page {
+  border-block-end: 1px solid var(--cone-base-color-border);
 }
 .l-post__inner {
   display: flex;
@@ -2170,12 +2179,19 @@ pre[class*=language-] {
 }
 
 .reference-card {
+  position: relative;
   border-radius: 0.725rem;
   box-shadow: 0 0 2rem var(--cone-reference-color-box-shadow);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
+.reference-card__link::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
 .reference-card__caption {
   background-color: var(--cone-reference-color-background);
   flex-grow: 1;
@@ -2314,6 +2330,19 @@ pre[class*=language-] {
 }
 .section-title--light {
   color: hsl(0, 0%, 100%);
+}
+.section-title--light .section-title__link {
+  color: hsl(0, 0%, 100%);
+}
+.section-title--light .section-title__link:hover, .section-title--light .section-title__link:focus {
+  color: hsl(0, 0%, 100%);
+}
+.section-title__link {
+  color: var(--cone-base-color-heading);
+  text-decoration: none;
+}
+.section-title__link:hover, .section-title__link:focus {
+  color: var(--cone-base-color-heading);
 }
 .section-title svg {
   block-size: 1.25rem;
@@ -2672,20 +2701,20 @@ pre[class*=language-] {
 .site-footer__navigation > * + * {
   margin-block-start: 0.5rem;
 }
-.site-footer__navigation a {
+.site-footer a {
   color: var(--cone-base-color-text);
   text-decoration: none;
 }
-.site-footer__navigation a:hover, .site-footer__navigation a:focus, .site-footer__navigation a:active, .site-footer__navigation a[aria-current=page] {
+.site-footer a:hover, .site-footer a:focus, .site-footer a:active, .site-footer a[aria-current=page] {
   color: var(--cone-base-color-primary);
 }
-.site-footer__navigation a[aria-current=page] {
+.site-footer a[aria-current=page] {
   font-weight: 700;
 }
-.site-footer__navigation a span {
+.site-footer a span {
   margin-inline-end: 0.5rem;
 }
-.site-footer__navigation a svg {
+.site-footer a svg {
   --dimension: 0.65em;
   block-size: var(--dimension);
   color: var(--cone-base-color-border);
@@ -2719,6 +2748,10 @@ pre[class*=language-] {
 }
 .highlighted-text p .highlighted {
   color: var(--cone-base-color-secondary);
+}
+.highlighted-text a {
+  color: var(--cone-base-color-secondary);
+  text-decoration: none;
 }
 
 .highlighted-reference--align-end .section-title {

@@ -8,9 +8,8 @@
     padding-block-start: 0;
   }
 
-  &--narrow {
-    margin-inline: auto;
-    max-inline-size: 65rem;
+  &--page {
+    border-block-end: 1px solid color('border');
   }
 
   &__inner {

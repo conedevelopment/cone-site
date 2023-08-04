@@ -45,32 +45,32 @@
   &__navigation {
     @include clear-list;
     @include layout-stack(spacer('xs'));
+  }
 
-    a {
-      color: color('text');
-      text-decoration: none;
+  a {
+    color: color('text');
+    text-decoration: none;
 
-      &:hover,
-      &:focus,
-      &:active,
-      &[aria-current='page'] {
-        color: color('primary');
-      }
+    &:hover,
+    &:focus,
+    &:active,
+    &[aria-current='page'] {
+      color: color('primary');
+    }
 
-      &[aria-current='page'] {
-        font-weight: 700;
-      }
+    &[aria-current='page'] {
+      font-weight: 700;
+    }
 
-      span {
-        margin-inline-end: spacer('xs');
-      }
+    span {
+      margin-inline-end: spacer('xs');
+    }
 
-      svg {
-        --dimension: 0.65em;
-        block-size: var(--dimension);
-        color: color('border');
-        inline-size: var(--dimension);
-      }
+    svg {
+      --dimension: 0.65em;
+      block-size: var(--dimension);
+      color: color('border');
+      inline-size: var(--dimension);
     }
   }
 

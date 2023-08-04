@@ -35,9 +35,13 @@ $colors: (
     'primary-background': hsl(194deg 85% 56%),
     'primary-background-hover': hsl(194deg 85% 66%),
     'primary-foreground': $color-white,
+    'primary-outline-foreground-hover': hsl(192deg 100% 0%),
     'secondary-background': $color-secondary,
     'secondary-background-hover': color.adjust($color-secondary, $lightness: 5%),
     'secondary-foreground': $color-white,
+  ),
+  'cta': (
+    'background': hsl(192deg 100% 6%),
   ),
   'form': (
     'background': color.scale($color-black, $lightness: 5%),
@@ -100,5 +104,8 @@ $colors: (
     'hover': hsl(0deg 0% 100% / 5%),
     'text': $color-gray,
     'stripe': hsl(0deg 0% 100% / 2.5%),
+  ),
+  'testimonial': (
+    'background-hover': hsl(192deg 100% 6%),
   ),
 );

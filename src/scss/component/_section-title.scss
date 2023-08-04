@@ -1,6 +1,8 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .section-title {
+  $this: &;
+
   align-items: center;
   display: flex;
   font-weight: 800;
@@ -16,6 +18,25 @@
 
   &--light {
     color: hsl(0deg 0% 100%);
+
+    #{$this}__link {
+      color: hsl(0deg 0% 100%);
+
+      &:hover,
+      &:focus {
+        color: hsl(0deg 0% 100%);
+      }
+    }
+  }
+
+  &__link {
+    color: color('heading');
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: color('heading');
+    }
   }
 
   svg {

@@ -1,38 +1,36 @@
-<div class="highlighted-reference {{ reference.classes }}">
-    <div class="container">
-        <div class="highlighted-reference__inner">
-            {% if reference.title %}
-                <h2 class="section-title section-title--vertical">
-                    {% svgIcon reference.title.image %}
-                    {{ reference.title.caption | safe }}
-                </h2>
-            {% endif %}
-            <div class="highlighted-reference__preview">
-                <div class="reference-card">
-                    <img src="/img/preview/sarvar.jpg" alt="" loading="lazy">
-                    <div class="reference-card__caption">
-                        <h3 class="reference-card__title">
-                            Sárvár
-                        </h3>
-                        <a href="https://sarvar.hu" class="reference-card__link">
-                            sarvar.hu
-                            {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
-                        </a>
-                    </div>
-                </div>
-                <div class="reference-card">
-                    <img src="/img/preview/sbr.jpg" alt="" loading="lazy">
-                    <div class="reference-card__caption">
-                        <h3 class="reference-card__title">
-                            Smart Budapest Fórum
-                        </h3>
-                        <a href="https://sarvar.hu" class="reference-card__link">
-                            smartbudapestforum.bvk.hu
-                            {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
-                        </a>
-                    </div>
+{% if highlightedReference.items %}
+    <div class="highlighted-reference {{ highlightedReference.classes }}">
+        <div class="container">
+            <div class="highlighted-reference__inner">
+                {% if highlightedReference.title %}
+                    <h2 class="section-title section-title--vertical">
+                        {% svgIcon highlightedReference.title.image %}
+                        {% if highlightedReference.title.url %}
+                            <a href="{{ highlightedReference.title.url }}" class="section-title__link">
+                        {% endif %}
+                            {{ highlightedReference.title.caption | safe }}
+                        {% if highlightedReference.title.url %}
+                            </a>
+                        {% endif %}
+                    </h2>
+                {% endif %}
+                <div class="highlighted-reference__preview">
+                    {% for item in highlightedReference.items %}
+                        <div class="reference-card">
+                            <img src="{{ item.image }}" alt="" loading="lazy">
+                            <div class="reference-card__caption">
+                                <h3 class="reference-card__title">
+                                    {{ item.title }}
+                                </h3>
+                                <a href="{{ item.linkUrl }}" class="reference-card__link" target="_blank" rel="noopener">
+                                    {{ item.linkCaption }}
+                                    {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-</div>
+{% endif %}

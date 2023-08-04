@@ -2,6 +2,7 @@
 
 .reference-card {
   $this: &;
+  @include a11y-card-link('.reference-card__link', true);
   border-radius: config('border-radius-lg', $display);
   box-shadow: 0 0 2rem color('box-shadow', 'reference');
   display: flex;
