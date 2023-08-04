@@ -53,7 +53,7 @@ highlightedReference:
         - title: "OITM"
           linkUrl: "https://megmerettetes.hu"
           linkCaption: "megmerettetes.hu"
-          image: "/img/preview/sbr.jpg"
+          image: "/img/preview/megmerettetes.jpg"
 cta:
     title: "Get to Know Us"
     classes: "cta--border-block:end"

@@ -2,7 +2,6 @@
 
 .hero {
   $this: &;
-  --offset: 6rem;
 
   &--two-column {
     #{$this}__caption {
@@ -52,17 +51,13 @@
 
   &--padding-block\:small {
     #{$this}__inner {
-      padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) calc(#{get-css-variable(--section-gap)});
+      padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) calc(#{get-css-variable(--section-gap)});
     }
   }
 
   &__inner {
     @include layout-stack('l');
-    padding-block: calc(#{get-css-variable(--section-gap)} + var(--offset)) calc(#{get-css-variable(--section-gap)} * 1.5);
-
-    @include breakpoint('md') {
-      --offset: 8rem;
-    }
+    padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) calc(#{get-css-variable(--section-gap)} * 1.5);
   }
 
   &__caption {

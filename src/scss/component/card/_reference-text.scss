@@ -4,6 +4,7 @@
   $this: &;
   align-items: start;
   display: flex;
+  flex-wrap: wrap;
   gap: spacer('m');
   justify-content: space-between;
 
@@ -19,6 +20,7 @@
   &__tags {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     gap: spacer('s');
   }
 

@@ -1,5 +1,6 @@
 ---
 title: "Privacy Policy"
+date: "2023-08-04"
 layout: "layout/page.html"
 ---
 

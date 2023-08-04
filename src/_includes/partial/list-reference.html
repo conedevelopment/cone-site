@@ -1,36 +1,23 @@
 <div class="l-reference-list">
     <div class="container">
         <div class="l-reference-list__inner">
-            <div class="reference-text-card">
-                <div class="reference-text-card__caption">
-                    <h2 class="reference-text-card__title">Artwork Management Application</h2>
-                    <p>Lorem esse proident occaecat nulla quis. Nisi veniam elit consectetur qui cillum occaecat amet. Commodo deserunt excepteur nulla cupidatat aute esse. Adipisicing nulla anim ea irure consequat. Est magna est ea fugiat.</p>
-                    <div class="reference-text-card__tags">
-                        <span class="reference-text-card__tag">Laravel</span>
-                        <span class="reference-text-card__tag">Vue.js</span>
-                        <span class="reference-text-card__tag">Bulma</span>
+            {% for reference in references %}
+                <div class="reference-text-card">
+                    <div class="reference-text-card__caption">
+                        <h2 class="reference-text-card__title">{{ reference.title }}</h2>
+                        <p>{{ reference.description }}</p>
+                        <div class="reference-text-card__tags">
+                            {% for tag in reference.tags %}
+                                <span class="reference-text-card__tag">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
                     </div>
+                    <a href="{{ reference.linkUrl }}" class="reference-text-card__link" target="_blank" rel="noopener">
+                        {{ reference.linkCaption }}
+                        {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
+                    </a>
                 </div>
-                <a href="https://www.gallerytool.com/" class="reference-text-card__link">
-                    gallerytool.com
-                    {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
-                </a>
-            </div>
-            <div class="reference-text-card">
-                <div class="reference-text-card__caption">
-                    <h2 class="reference-text-card__title">Artwork Management Application</h2>
-                    <p>Lorem esse proident occaecat nulla quis. Nisi veniam elit consectetur qui cillum occaecat amet. Commodo deserunt excepteur nulla cupidatat aute esse. Adipisicing nulla anim ea irure consequat. Est magna est ea fugiat.</p>
-                    <div class="reference-text-card__tags">
-                        <span class="reference-text-card__tag">Laravel</span>
-                        <span class="reference-text-card__tag">Vue.js</span>
-                        <span class="reference-text-card__tag">Bulma</span>
-                    </div>
-                </div>
-                <a href="https://www.gallerytool.com/" class="reference-text-card__link">
-                    gallerytool.com
-                    {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
-                </a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
