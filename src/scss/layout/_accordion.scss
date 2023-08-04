@@ -5,9 +5,13 @@
 
   &__inner {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: spacer('m') spacer-clamp('l', 'xl');
     justify-content: space-between;
+
+    @include breakpoint('sm') {
+      flex-direction: row;
+    }
   }
 
   &__heading {
