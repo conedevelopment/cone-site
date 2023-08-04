@@ -81,7 +81,7 @@
     text-transform: uppercase;
 
     .highlighted {
-      background: linear-gradient(45deg, hsl(238deg 100% 47%), hsl(194deg 85% 56%));
+      background: linear-gradient(45deg, color('gradient-start', 'hero'), color('gradient-end', 'hero'));
       font-weight: 800;
       -webkit-background-clip: text; /* stylelint-disable-line */
       -webkit-text-fill-color: transparent;

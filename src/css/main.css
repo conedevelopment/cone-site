@@ -439,6 +439,11 @@ template {
 }
 
 :root {
+  --cone-hero-color-gradient-start: hsl(238, 100%, 47%);
+  --cone-hero-color-gradient-end: hsl(194, 85%, 56%);
+}
+
+:root {
   --cone-highlighted-color-background: hsl(0, 0%, 0%);
 }
 
@@ -1529,6 +1534,11 @@ legend {
 }
 
 :root[data-theme-mode=dark] {
+  --cone-hero-color-gradient-start: hsl(205, 100%, 47%);
+  --cone-hero-color-gradient-end: hsl(194, 85%, 56%);
+}
+
+:root[data-theme-mode=dark] {
   --cone-highlighted-color-background: hsl(192, 100%, 6%);
 }
 
@@ -1706,13 +1716,7 @@ legend {
 }
 
 .site-navigation {
-  --inset-block-start: 6rem;
   font-family: Inter, sans-serif;
-}
-@media (min-width: 64em) {
-  .site-navigation {
-    --inset-block-start: 8rem;
-  }
 }
 @media (min-width: 64em) {
   .site-navigation__btn {
@@ -1730,7 +1734,7 @@ legend {
   display: none;
   flex-direction: column;
   gap: 1rem;
-  inset: var(--inset-block-start) 0 auto 0;
+  inset: var(--cone-header-block-size) 0 auto 0;
   list-style: none;
   margin: 0;
   padding-block: 1.5rem;
@@ -2425,7 +2429,6 @@ pre[class*=language-] {
 }
 
 .site-header {
-  --block-size: 6rem;
   transition-duration: var(--cone-duration);
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);
@@ -2435,13 +2438,8 @@ pre[class*=language-] {
   position: fixed;
   z-index: 25;
 }
-@media (min-width: 64em) {
-  .site-header {
-    --block-size: 8rem;
-  }
-}
 .site-header--sticky {
-  --block-size: 5rem;
+  --cone-header-block-size: 5rem;
 }
 .site-header--sticky .site-header__logo {
   --dimension: 1.15rem;
@@ -2454,7 +2452,7 @@ pre[class*=language-] {
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);
   align-items: center;
-  block-size: var(--block-size);
+  block-size: var(--cone-header-block-size);
   display: flex;
   flex-wrap: wrap;
   gap: clamp(1rem, 5vw, 3rem);
@@ -2575,7 +2573,7 @@ pre[class*=language-] {
   text-transform: uppercase;
 }
 .hero__title .highlighted {
-  background: linear-gradient(45deg, hsl(238, 100%, 47%), hsl(194, 85%, 56%));
+  background: linear-gradient(45deg, var(--cone-hero-color-gradient-start), var(--cone-hero-color-gradient-end));
   font-weight: 800;
   -webkit-background-clip: text; /* stylelint-disable-line */
   -webkit-text-fill-color: transparent;
@@ -2829,10 +2827,12 @@ pre[class*=language-] {
 
 :root {
   --cone-section-gap: clamp(5rem, 10vw, 6rem);
+  --cone-header-block-size: 6rem;
 }
 @media (min-width: 64em) {
   :root {
     font-size: 1.0375rem;
+    --cone-header-block-size: 7.25rem;
   }
 }
 @media (min-width: 80em) {

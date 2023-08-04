@@ -9,11 +9,16 @@
 
 :root {
   @include set-css-variable((
-    --section-gap: spacer-clamp(5rem, 6rem, 10vw)
+    --section-gap: spacer-clamp(5rem, 6rem, 10vw),
+    --header-block-size: 6rem,
   ));
 
   @include breakpoint('md') {
     font-size: 1.0375rem;
+
+    @include set-css-variable((
+      --header-block-size: 7.25rem,
+    ));
   }
 
   @include breakpoint('lg') {

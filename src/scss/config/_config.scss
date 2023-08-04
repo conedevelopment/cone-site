@@ -40,6 +40,10 @@ $color-tertiary: hsl(169deg 100% 50%);
     'header': (
       'background': hsl(0deg 0% 100% / 95%),
     ),
+    'hero': (
+      'gradient-start': hsl(238deg 100% 47%),
+      'gradient-end': hsl(194deg 85% 56%),
+    ),
     'highlighted': (
       'background': $color-black,
     ),
