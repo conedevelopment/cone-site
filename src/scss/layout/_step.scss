@@ -1,0 +1,14 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-step {
+  background-color: color('background', 'highlighted');
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    @include layout-grid('l', 15rem);
+  }
+
+  .section-title {
+    margin-block-end: spacer('l');
+  }
+}

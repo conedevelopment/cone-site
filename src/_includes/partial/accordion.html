@@ -22,7 +22,7 @@
                                     <div class="accordion-card">
                                         <h3 class="accordion-card__title">{{ item.title }}</h3>
                                         <div class="accordion-card__content">
-                                            <p>{{ item.description }}</p>
+                                            {{ item.description | safe }}
                                         </div>
                                     </div>
                                 {% endfor %}

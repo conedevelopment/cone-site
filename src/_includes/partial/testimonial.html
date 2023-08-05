@@ -15,13 +15,21 @@
         <div class="l-testimonial__inner">
             <div class="l-testimonial__cards">
                 {% for card in testimonial.cards %}
-                    <div class="testimonial-card">
+                    {% if card.url %}
+                        <div class="testimonial-card testimonial-card--hover">
+                    {% else %}
+                        <div class="testimonial-card">
+                    {% endif %}
                         <img class="testimonial-card__illustration" src="{{ card.image }}" alt="{{ card.imageAlt }}" loading="lazy">
                         <div class="testimonial-card__caption">
                             <h3 class="testimonial-card__title">
-                                <a href="{{ card.url }}" class="testimonial-card__link">
+                                {% if card.url %}
+                                    <a href="{{ card.url }}" class="testimonial-card__link">
+                                {% endif %}
                                     {{ card.title }}
-                                </a>
+                                {% if card.url %}
+                                    </a>
+                                {% endif %}
                             </h3>
                             <p class="testimonial-card__description">{{ card.description }}</p>
                         </div>

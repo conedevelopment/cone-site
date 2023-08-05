@@ -50,7 +50,7 @@ references:
         - Vue.js
         - Bulma
 cta:
-    title: "Want to Work With Us?"
+    title: "Want to work with us?"
     classes: "cta--dark"
     type: "dark"
     description: "You have a project and you don’t know where to start? Feel free to contact us to discuss you project’s details. Maybe we can help you."

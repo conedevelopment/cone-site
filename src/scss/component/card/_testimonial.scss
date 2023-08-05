@@ -21,13 +21,15 @@
     flex-direction: column;
   }
 
-  &:hover,
-  &:focus {
-    background-color: color('background-hover', 'testimonial');
+  &--hover {
+    &:hover,
+    &:focus {
+      background-color: color('background-hover', 'testimonial');
 
-    #{$this}__link,
-    #{$this}__description {
-      color: color('heading');
+      #{$this}__link,
+      #{$this}__description {
+        color: color('heading');
+      }
     }
   }
 
@@ -53,7 +55,7 @@
   &__illustration {
     inline-size: auto;
     margin-inline: auto;
-    max-inline-size: 12rem;
+    max-block-size: 12rem;
   }
 
   &__number {

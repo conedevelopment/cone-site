@@ -1,0 +1,31 @@
+<div class="l-step">
+    <div class="container">
+        {% if step.title %}
+            <h2 class="section-title section-title--light">
+                {% svgIcon step.title.image %}
+                {% if step.title.url %}
+                    <a href="{{ step.title.url }}" class="section-title__link">
+                {% endif %}
+                    {{ step.title.caption | safe }}
+                {% if step.title.url %}
+                    </a>
+                {% endif %}
+            </h2>
+        {% endif %}
+        <div class="l-step__inner">
+            {% for item in step.items %}
+                <div class="step-card">
+                    <div class="step-card__inner">
+                        <span class="step-card__number">0{{ loop.index }}</span>
+                        <h3 class="step-card__title">
+                            {{ item.title }}
+                        </h3>
+                        <p class="step-card__description">
+                            {{ item.description }}
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
