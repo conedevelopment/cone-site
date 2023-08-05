@@ -28,6 +28,20 @@ accordion:
     title:
         caption: "How We<br>Can Help"
         image: "./src/img/title-helper-primary.svg"
+    blocks:
+        - title: null
+          subtitle: "Scaleable Laravel applications"
+          items:
+            - title: "You get a robust applications"
+              description: "The completed application will be robust, easy to expand, and secure. We and the Laravel framework grant this."
+            - title: "Minimalistic and Functional Design and UI"
+              description: "We handle the graphic and user interface designs. We do our researches about your genre and competition."
+            - title: "If you need a CMS we suggest WordPress"
+              description: "If you want to manage your content, you need a great tool to do so. We choose WordPress when it comes to content management."
+            - title: "Vue.js or Alpine.js on the client side"
+              description: "Vue.js is the perfect tool to complete Laravel from the front-end side. We make flexible UIs with it."
+            - title: "Your site will be echnical SEO ready"
+              description: "One of the parts of SEO is technical optimization. We will do our best to make it the best as possible."
 cta:
     title: "Want to Work With Us?"
     classes: "cta--dark"
