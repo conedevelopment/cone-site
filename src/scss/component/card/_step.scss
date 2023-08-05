@@ -1,7 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .step-card {
-  @include layout-stack('xs');
+  @include layout-stack('s');
   border-inline-start: 1px solid hsl(0deg 0% 100% / 25%);
   padding-inline-start: spacer('m');
 

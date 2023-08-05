@@ -39,6 +39,7 @@ accordion:
             - title: "Hosting Your Application"
               description: "<p>We don't offer hosting directly, however based on our experience we can suggest reliable hosting services that fits your application.</p>"
 step:
+    showNumber: true
     title:
         caption: "Our Workflow"
         image: "./src/img/title-helper-tertiary.svg"
