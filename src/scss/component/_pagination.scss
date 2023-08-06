@@ -27,9 +27,5 @@
       border-color: color('pagination-background-hover', 'btn');
       color: color('pagination-foreground-hover', 'btn');
     }
-
-    &--sm {
-      min-inline-size: 1.75rem;
-    }
   }
 }

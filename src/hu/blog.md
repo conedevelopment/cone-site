@@ -6,7 +6,12 @@ pagination:
   size: 2
   reverse: true
   alias: posts
-paginationCaptionNext: "Előző"
-paginationCaptionPrev: "Következő"
-permalink: 'hu/blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationCaptionNext: "Következő"
+paginationCaptionPrev: "Előző"
+permalink: '/hu/blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+hero:
+    title:
+        caption: "Bejegyzések <span class='highlighted'>web</span><br>és <span class='highlighted'>fejlesztés</span> témában"
+    description: "Blogunkon keresztül megmutatjuk, hogy milyen technológiákkal dolgozunk és hogyan látjuk a webet."
+    classes: 'hero--center hero--font-size:small hero--padding-block:small'
 ---

@@ -4,28 +4,34 @@
 
 {% if collections[ tag ] %}
     {% set posts = collections[tag].reverse() %}
-    {% set title = 'Tagged with: ' + tag %}
+    {% set hero = {
+        title: {
+            caption: 'Címke: <span class="highlighted">' + tag + '</span>'
+        },
+        classes: 'hero--center hero--font-size:small hero--padding-block:small'
+    } %}
 {% endif %}
 
 {% block content %}
-    <div class="l-post">
-        <div class="container container--narrow">
-            {% include "partial/post-heading.html" %}
-            <ol class="l-post__list">
+    {% include "partial/hero.html" %}
+    <div class="l-post-list">
+        <div class="container">
+            <ol class="l-post-list__inner">
                 {% for post in posts %}
                     {% set tags = post.data.tags %}
                     <li>
                         <div class="blog-card">
-                            <h2 class="blog-card__title">
-                                <a href="{{ post.url }}" class="blog-card__link">
-                                    {{ post.data.title }}
-                                </a>
-                            </h2>
-                            <div class="blog-card__meta">
-                                {% if post.data.date %}
-                                    <time datetime="{{ post.data.date | w3Date }}">{{ post.data.date | date('en') }}</time>
-                                {% endif %}
-                                {% include "partial/tags.html" %}
+                            <img class="blog-card__thumbnail" src="https://ui.sprucecss.com/img/post/thumbnail/patrick-perkins-ETRPjvb0KM0-unsplash.jpg" alt="person holding white printer paper" />
+                            <div class="blog-card__body">
+                                <div class="blog-card__meta">
+                                    {% include "partial/tags.html" %}
+                                    {% if post.data.date %}
+                                        <time datetime="{{ post.data.date | w3Date }}">{{ post.data.date | date(lang) }}</time>
+                                    {% endif %}
+                                </div>
+                                <h2 class="blog-card__title">
+                                    <a class="blog-card__link" href="{{ post.url }}">{{ post.data.title }}</a>
+                                </h2>
                             </div>
                         </div>
                     </li>

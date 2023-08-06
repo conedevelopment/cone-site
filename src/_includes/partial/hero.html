@@ -1,22 +1,24 @@
-<div class="hero {{ hero.classes }}">
-    <div class="container">
-        <div class="hero__inner">
-            <div class="hero__caption">
-                <h1 class="hero__title" data-typewriter="{{ hero.title.typewriter }}">{{ hero.title.caption | safe }}</h1>
-                {% if (hero.description) %}
-                    <p class="hero__description">{{ hero.description }}</p>
-                {% endif %}
-                {% if (hero.btn) %}
-                    <div class="hero__actions">
-                        {% for btn in hero.btn %}
-                            <a href="{{ btn.url }}" class="btn btn--lg btn--outline-primary">
-                                {{ btn.caption }}
-                                {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
-                            </a>
-                        {% endfor %}
-                    </div>
-                {% endif %}
+{% if hero.title %}
+    <div class="hero {{ hero.classes }}">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__caption">
+                    <h1 class="hero__title" data-typewriter="{{ hero.title.typewriter }}">{{ hero.title.caption | safe }}</h1>
+                    {% if (hero.description) %}
+                        <p class="hero__description">{{ hero.description }}</p>
+                    {% endif %}
+                    {% if (hero.btn) %}
+                        <div class="hero__actions">
+                            {% for btn in hero.btn %}
+                                <a href="{{ btn.url }}" class="btn btn--lg btn--outline-primary">
+                                    {{ btn.caption }}
+                                    {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
+                                </a>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
-</div>
+{% endif %}

@@ -1,27 +1,47 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .blog-card {
-  @include layout-stack('xs');
+  $this: &;
 
-  &__title {
-    font-family: config('font-family-base', $typography);
+  @include a11y-card-link('.post-card__link', true);
+  display: flex;
+  flex-direction: column;
+  gap: spacer('m');
+
+  &__thumbnail {
+    aspect-ratio: 16 / 9;
+    border-radius: config('border-radius-lg', $display);
+    object-fit: cover;
   }
 
-  &__link {
-    color: color('heading');
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: color('heading');
-    }
+  &__body {
+    @include layout-stack(s);
   }
 
   &__meta {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    font-family: config('font-family-heading', $typography);
-    gap: spacer('m');
+    gap: spacer('xs') spacer('m');
+    line-height: 1;
+  }
+
+  &__tags {
+    @include clear-list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('xs');
+
+    > * + * {
+      margin-block-start: 0;
+    }
+  }
+
+  &__title {
+    font-size: font-size('h3');
+
+    a {
+      color: color('heading');
+      text-decoration: none;
+    }
   }
 }
