@@ -88,5 +88,100 @@
         ]
       }
     ]
+  },
+  "hu": {
+    "privacy": {
+      "caption": "Adatvédelem",
+      "url": "/hu/adatvedelem/"
+    },
+    "header": [
+      {
+        "caption": "Szolgáltatásaink",
+        "url": "/hu/szolgaltatasaink/",
+        "external": false
+      },
+      {
+        "caption": "Munkáink",
+        "url": "/hu/munkaink/",
+        "external": false
+      },
+      {
+        "caption": "Blog",
+        "url": "/hu/blog/",
+        "external": false
+      },
+      {
+        "caption": "Rólunk",
+        "url": "/hu/rolunk/",
+        "external": false
+      },
+      {
+        "caption": "Kapcsolat",
+        "url": "/hu/kapcsolat/",
+        "external": false
+      }
+    ],
+    "footer": [
+      {
+        "title": "Szolgáltatásiank",
+        "items": [
+          {
+            "caption": "Application Development",
+            "url": "/services/application-development/",
+            "external": false
+          },
+          {
+            "caption": "Website Development",
+            "url": "/services/website-development/",
+            "external": false
+          },
+          {
+            "caption": "UI Design",
+            "url": "/services/ui-design/",
+            "external": false
+          },
+          {
+            "caption": "Accessibility Audit",
+            "url": "/services/accessibility-audit/",
+            "external": false
+          }
+        ]
+      },
+      {
+        "title": "Közösségi",
+        "items": [
+          {
+            "caption": "GitHub",
+            "url": "https://github.com/conedevelopment",
+            "external": true
+          },
+          {
+            "caption": "Twitter",
+            "url": "https://twitter.com/conedevelopment",
+            "external": true
+          }
+        ]
+      },
+      {
+        "title": "Open Source",
+        "items": [
+          {
+            "caption": "Root",
+            "url": "https://root.conedevelopment.com/",
+            "external": true
+          },
+          {
+            "caption": "Spruce CSS",
+            "url": "https://sprucecss.com/",
+            "external": true
+          },
+          {
+            "caption": "SimplePay x WooCommerce",
+            "url": "https://simplepay.conedevelopment.com/",
+            "external": true
+          }
+        ]
+      }
+    ]
   }
 }
