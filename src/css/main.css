@@ -1930,6 +1930,33 @@ legend {
   margin-block-start: 1rem;
 }
 
+.lang-switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  font-family: Inter, sans-serif;
+  gap: 0.5rem;
+}
+.lang-switcher > * + * {
+  margin-block-start: 0;
+}
+.lang-switcher a {
+  align-items: center;
+  aspect-ratio: 1;
+  color: var(--cone-base-color-text);
+  display: flex;
+  text-decoration: none;
+}
+.lang-switcher a:hover {
+  color: var(--cone-base-color-primary);
+}
+.lang-switcher a[data-state=active] {
+  color: var(--cone-base-color-heading);
+  font-weight: 700;
+}
+
 .pagination a {
   align-items: center;
   border-radius: 2rem;

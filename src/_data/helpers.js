@@ -21,4 +21,24 @@ module.exports = {
 
     return response;
   },
+  getActiveLang(currentLang, lang) {
+    let response = '';
+
+    if (currentLang === lang) {
+      response = ' data-state="active"';
+    }
+
+    return response;
+  },
+  getHomeUrl(lang) {
+    let response = '';
+
+    if (lang === 'en') {
+      response = '/';
+    } else {
+      response = `/${lang}/`;
+    }
+
+    return response;
+  },
 };

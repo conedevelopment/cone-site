@@ -1,7 +1,8 @@
 {% set assetHash = global.random() %}
+{% set lang = locale if locale else 'en' %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
     <head>
         <script src="/js/theme-detection.js?{{ assetHash }}"></script>
         {% include "partial/preload.html" %}

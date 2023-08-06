@@ -3,22 +3,24 @@
         <div class="site-footer__inner">
             <div class="site-footer__col">
                 <div class="site-footer__logo-wrapper">
-                    <a class="site-footer__logo" href="/">
+                    <a class="site-footer__logo" href="{{ helpers.getHomeUrl(lang) }}">
                         <img
                             src="/img/cone-logo-footer.svg"
                             alt="Cone"
-                            width="72"
-                            height="72"
+                            width="55"
+                            height="33"
                         />
                     </a>
                     {% include "partial/theme-switcher.html" %}
                 </div>
                 <p class="site-footer__copyright">
-                    © 2019 - {{ global.year() }} Cone<br>All rights are reserved.<br>
-                    <a href="/privacy-policy/">Privacy Policy</a>
+                    © 2019 - {{ global.year() }}<br>{{ site.name }}<br>{{ i18n[lang].copyright }}<br>
+                    {% if navigation[lang].privacy.url %}
+                        <a href="{{ navigation[lang].privacy.url }}">{{ navigation[lang].privacy.caption }}</a>
+                    {% endif %}
                 </p>
             </div>
-            {% for block in navigation.footer %}
+            {% for block in navigation[lang].footer %}
             <div class="site-footer__col">
                 <h3 class="site-footer__title" id="site-footer-title-{{ block.title | slugify }}">
                     {{ block.title }}

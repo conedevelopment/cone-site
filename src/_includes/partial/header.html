@@ -2,7 +2,7 @@
     <div class="container">
         <div class="site-header__inner">
             <div class="site-header__column">
-                <a class="site-header__logo" href="/" aria-label="{{ site.name }}">
+                <a class="site-header__logo" href="{{ helpers.getHomeUrl(lang) }}" aria-label="{{ site.name }}">
                     {% svgIcon './src/img/cone-logo.svg' %}
                 </a>
                 <nav
@@ -19,9 +19,9 @@
                         {% svgIcon './src/img/icon/menu.svg', 'btn__icon' %}
                     </button>
 
-                    {% if navigation.header.length > 0 %}
+                    {% if navigation[lang].header.length > 0 %}
                     <ul class="navigation-menu">
-                        {% for item in navigation.header %}
+                        {% for item in navigation[lang].header %}
                         <li>
                             <a
                                 href="{{ item.url }}"
@@ -46,9 +46,10 @@
             <div class="site-header__actions">
                 <a
                     class="site-header__email"
-                    href="mailto:hello@conedevelopment.com"
-                    >hello@conedevelopment.com</a
+                    href="mailto:{{ site.email }}"
+                    >{{ site.email }}</a
                 >
+                {% include "partial/lang-switcher.html" %}
             </div>
         </div>
     </div>
