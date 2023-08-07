@@ -1,6 +1,7 @@
 @use 'dark-colors' as dark;
 
 $color-black: hsl(0deg 0% 0%);
+$color-primary: hsl(216deg 100% 50%);
 $color-secondary: hsl(326deg 100% 49%);
 $color-tertiary: hsl(169deg 100% 50%);
 
@@ -16,7 +17,7 @@ $color-tertiary: hsl(169deg 100% 50%);
     'padding': 1em 1.75em,
   ),
   $color-black: $color-black,
-  $color-primary: hsl(216deg 100% 50%),
+  $color-primary: $color-primary,
   $color-secondary: $color-secondary,
   $colors: (
     'base': (
@@ -25,10 +26,10 @@ $color-tertiary: hsl(169deg 100% 50%);
     'btn': (
       'primary-outline-foreground-hover': hsl(0deg 0% 100%),
       'secondary-background-hover': hsl(326deg 100% 47%),
-      'pagination-background': hsl(263deg 40% 96%),
-      'pagination-background-hover': hsl(262deg 71% 49%),
-      'pagination-focus-ring': hsl(262deg 71% 49%),
-      'pagination-foreground': hsl(262deg 71% 49%),
+      'pagination-background': hsl(264, 100%, 99%),
+      'pagination-background-hover': $color-primary,
+      'pagination-focus-ring': $color-primary,
+      'pagination-foreground': $color-primary,
       'pagination-foreground-hover': hsl(0deg 0% 100%),
     ),
     'cta': (
@@ -82,6 +83,7 @@ $color-tertiary: hsl(169deg 100% 50%);
     'container': 88rem,
   ),
   $settings: (
+    'css-custom-properties': true,
     'hyphens': true,
     'prefix': 'cone',
   ),

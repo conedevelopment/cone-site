@@ -1,6 +1,9 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-post-list {
+  border-block-end: 1px solid color('border');
+  padding-block-end: get-css-variable(--section-gap);
+
   &__inner {
     --columns: 1;
 

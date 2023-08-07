@@ -21,7 +21,7 @@
                     {% set tags = post.data.tags %}
                     <li>
                         <div class="blog-card">
-                            <img class="blog-card__thumbnail" src="https://ui.sprucecss.com/img/post/thumbnail/patrick-perkins-ETRPjvb0KM0-unsplash.jpg" alt="person holding white printer paper" />
+                            <img class="blog-card__thumbnail" src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAlt }}" />
                             <div class="blog-card__body">
                                 <div class="blog-card__meta">
                                     {% include "partial/tags.html" %}
