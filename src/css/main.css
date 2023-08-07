@@ -1915,15 +1915,10 @@ legend {
     display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 3rem;
     inset: auto;
     padding: 0;
     position: relative;
-  }
-}
-@media (min-width: 80em) {
-  .site-navigation ul {
-    gap: 3rem;
   }
 }
 .site-navigation li {
@@ -2699,7 +2694,7 @@ pre[class*=language-] {
   --cone-header-block-size: 5rem;
 }
 .site-header--sticky .site-header__logo {
-  --dimension: 1.15rem;
+  --block-size: 1.15rem;
 }
 .site-header--open {
   background-color: var(--cone-base-color-background);
@@ -2732,11 +2727,11 @@ pre[class*=language-] {
   }
 }
 .site-header__logo {
-  --dimension: 1.35rem;
+  --block-size: 1.35rem;
   transition-duration: var(--cone-duration);
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);
-  block-size: var(--dimension);
+  block-size: var(--block-size);
   display: inline-flex;
 }
 .site-header__logo img {

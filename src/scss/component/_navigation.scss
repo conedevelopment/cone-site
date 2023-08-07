@@ -32,14 +32,10 @@
       display: flex !important;
       flex-direction: row;
       flex-wrap: wrap;
-      gap: spacer('m');
+      gap: spacer('l');
       inset: auto;
       padding: 0;
       position: relative;
-    }
-
-    @include breakpoint('lg') {
-      gap: spacer('l');
     }
   }
 

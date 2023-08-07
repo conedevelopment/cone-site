@@ -15,7 +15,7 @@
     ));
 
     #{$this}__logo {
-      --dimension: 1.15rem;
+      --block-size: 1.15rem;
     }
   }
 
@@ -51,9 +51,9 @@
   }
 
   &__logo {
-    --dimension: 1.35rem;
+    --block-size: 1.35rem;
     @include transition;
-    block-size: var(--dimension);
+    block-size: var(--block-size);
     display: inline-flex;
 
     img {
