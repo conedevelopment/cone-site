@@ -2,6 +2,8 @@
 title: "Blog URL lekérése WordPress-ben"
 date: "2022-03-24"
 tags: ['wordpress']
+thumbnail: "/img/blog/blog-url-lekerese-wordpress-ben.png"
+thumbnailAlt: ""
 ---
 
 **WordPress-ben statikus oldalt is be tudunk állítani a blog lista oldalnak (és a kezdőlapnak) és vannak esetek, amikor kódból szeretnénk elérni ennek az URL-jét.**

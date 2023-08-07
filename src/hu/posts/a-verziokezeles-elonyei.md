@@ -3,7 +3,7 @@ title: "A verziókezelés előnyei"
 date: "2022-02-11"
 tags: ['alkalmazás-fejlesztés', 'jegyzetek']
 thumbnail: "/img/blog/a-verziokezeles-elonyei.png"
-thumbnailAlt: "alt desc"
+thumbnailAlt: ""
 ---
 
 **Sajnos sok esetben találkozunk olyan projekttel, ahol már előfordult, hogy a kód egy része elveszett, vagy felülírásra került, esetleg hiba csúszott a rendszerbe, de már nem lehet beazonosítani, hogy hol és mikor. Erre megoldást nyújt egy verziókezelő rendszer használata, amelynek előnyeit ismertetjük néhány pontban.**

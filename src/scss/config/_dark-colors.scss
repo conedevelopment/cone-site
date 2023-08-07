@@ -27,9 +27,9 @@ $colors: (
     'text': $color-gray,
   ),
   'btn': (
-    'pagination-background': hsl(206deg 100% 12%),
-    'pagination-background-hover': hsl(261deg 54% 70%),
-    'pagination-focus-ring': hsl(261deg 54% 70%),
+    'pagination-background': hsl(192deg 100% 9%),
+    'pagination-background-hover': $color-primary,
+    'pagination-focus-ring': $color-primary,
     'pagination-foreground': $color-white,
     'pagination-foreground-hover': $color-white,
     'primary-background': hsl(194deg 85% 56%),

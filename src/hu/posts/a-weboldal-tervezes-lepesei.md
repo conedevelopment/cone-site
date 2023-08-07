@@ -2,6 +2,8 @@
 title: "A weboldal tervezés lépései"
 date: "2020-03-08"
 tags: ['tervezés']
+thumbnail: "/img/blog/a-weboldal-tervezes-lepesei.png"
+thumbnailAlt: ""
 ---
 
 **Egy weboldal, vagy web alapú alkalmazás tervezése komplex feladat. Kell hozzá egy jó fejlesztő csapat, egy jó megrendelő, valamint jó munkakapcsolat a két fél között.**

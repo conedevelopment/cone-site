@@ -11,6 +11,12 @@
     @include layout-center(null, 40rem);
   }
 
+  pre[class*='language-'] {
+    * {
+      font-size: 1rem !important;
+    }
+  }
+
   &__thumbnail {
     margin-block-end: spacer('l');
   }

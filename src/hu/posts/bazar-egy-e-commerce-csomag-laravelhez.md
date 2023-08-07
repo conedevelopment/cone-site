@@ -3,6 +3,8 @@ title: "Bazar: egy e-commerce csomag Laravelhez"
 permalink: "bazar-laravel-e-commerce-csomag"
 date: "2020-11-01"
 tags: ['bazar', 'laravel']
+thumbnail: "/img/blog/bazar-cover.jpg"
+thumbnailAlt: ""
 ---
 
 **2020 januárjában elkezdtünk dolgozni egy új Laravel csomagon, ami széles körben nyújt e-commerce funkciókat alkalmazásokhoz. Nemrég fejeztük be a v0.1-es verziót, így itt az ideje, hogy megnézzük mit is tud ez a rendszer.**

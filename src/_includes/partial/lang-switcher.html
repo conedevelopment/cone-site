@@ -1,8 +1,12 @@
 <ul class="lang-switcher">
-    <li>
-        <a href="/" hreflang="en" aria-label="English" {{ helpers.getActiveLang('en', lang) | safe }}>en</a>
-    </li>
-    <li>
-        <a href="/hu/" hreflang="hu" aria-label="Magyar" {{ helpers.getActiveLang('hu', lang) | safe }}>hu</a>
-    </li>
+    {% if lang == 'hu' %}
+        <li>
+            <a href="/" hreflang="en" aria-label="English" {{ helpers.getActiveLang('en', lang) | safe }}>en</a>
+        </li>
+    {% endif %}
+    {% if lang == 'en' %}
+        <li>
+            <a href="/hu/" hreflang="hu" aria-label="Magyar" {{ helpers.getActiveLang('hu', lang) | safe }}>hu</a>
+        </li>
+    {% endif %}
 </ul>

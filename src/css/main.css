@@ -1589,9 +1589,9 @@ legend {
 }
 
 :root[data-theme-mode=dark] {
-  --cone-btn-color-pagination-background: hsl(206, 100%, 12%);
-  --cone-btn-color-pagination-background-hover: hsl(261, 54%, 70%);
-  --cone-btn-color-pagination-focus-ring: hsl(261, 54%, 70%);
+  --cone-btn-color-pagination-background: hsl(192, 100%, 9%);
+  --cone-btn-color-pagination-background-hover: hsl(194, 85%, 56%);
+  --cone-btn-color-pagination-focus-ring: hsl(194, 85%, 56%);
   --cone-btn-color-pagination-foreground: hsl(0, 0%, 95%);
   --cone-btn-color-pagination-foreground-hover: hsl(0, 0%, 95%);
   --cone-btn-color-primary-background: hsl(194, 85%, 56%);
@@ -2879,6 +2879,9 @@ pre[class*=language-] {
 .post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p) {
   margin-inline: auto;
   max-inline-size: 40rem;
+}
+.post-content pre[class*=language-] * {
+  font-size: 1rem !important;
 }
 .post-content__thumbnail {
   margin-block-end: 3rem;
