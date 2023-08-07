@@ -7,6 +7,9 @@
                 {% set showMeta = true %}
                 {% include "partial/post-heading.html" %}
                 <div class="post-content">
+                    {% if thumbnail %}
+                        <img class="post-content__thumbnail" src="{{ thumbnail }}" alt="{{ thumbnailAlt }}" loading="lazy" />
+                    {% endif %}
                     {{ content | safe }}
                 </div>
             </div>

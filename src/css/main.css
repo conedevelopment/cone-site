@@ -2162,8 +2162,9 @@ legend {
   background-color: var(--cone-btn-color-pagination-background);
   border-color: var(--cone-btn-color-pagination-background);
   color: var(--cone-btn-color-pagination-foreground);
-  --cone-padding: 0.85em 1.15em;
+  --cone-padding: 0.85em;
   font-size: var(--cone-font-size-sm);
+  min-inline-size: 2.75em;
 }
 .pagination a:focus-visible {
   outline: 2px solid var(--cone-btn-color-pagination-focus-ring);
@@ -2178,6 +2179,9 @@ legend {
   background: var(--cone-btn-color-pagination-background-hover);
   border-color: var(--cone-btn-color-pagination-background-hover);
   color: var(--cone-btn-color-pagination-foreground-hover);
+}
+.pagination a.prev, .pagination a.next {
+  --cone-padding: 0.85em 1.25em;
 }
 
 .tags {
@@ -2876,6 +2880,9 @@ pre[class*=language-] {
   margin-inline: auto;
   max-inline-size: 40rem;
 }
+.post-content__thumbnail {
+  margin-block-end: 3rem;
+}
 .post-content * + h2,
 .post-content * + h3 {
   margin-block-start: 3rem;
@@ -2889,7 +2896,7 @@ pre[class*=language-] {
 }
 .post-content img,
 .post-content iframe {
-  border-radius: var(--cone-border-radius-sm);
+  border-radius: var(--cone-border-radius-lg);
 }
 
 .site-footer {

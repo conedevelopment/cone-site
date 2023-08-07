@@ -11,6 +11,10 @@
     @include layout-center(null, 40rem);
   }
 
+  &__thumbnail {
+    margin-block-end: spacer('l');
+  }
+
   * + h2,
   * + h3 {
     margin-block-start: spacer('l');
@@ -26,6 +30,6 @@
 
   img,
   iframe {
-    border-radius: config('border-radius-sm', $display);
+    border-radius: config('border-radius-lg', $display);
   }
 }
