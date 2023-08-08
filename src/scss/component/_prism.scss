@@ -4,10 +4,9 @@ code[class*='language-'],
 pre[class*='language-'] {
   border-radius: config('border-radius-lg', $display);
   color: color('color', 'prism');
-  font-family: config('font-family-cursive', $typography);
-  font-size: config('font-size-base', $typography);
+  font-size: config('font-size-sm', $typography);
   hyphens: none;
-  line-height: 1.5;
+  line-height: 1.75;
   tab-size: 4;
   text-align: left;
   white-space: pre;

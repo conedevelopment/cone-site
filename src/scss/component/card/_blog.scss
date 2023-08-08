@@ -3,7 +3,7 @@
 .blog-card {
   $this: &;
 
-  @include a11y-card-link('.post-card__link', true);
+  @include a11y-card-link('.blog-card__link', true);
   display: flex;
   flex-direction: column;
   gap: spacer('m');

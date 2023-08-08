@@ -14,7 +14,7 @@ A következőkben nézzük, hogy általánosságban, hogyan épülnek fel ezek a
 
 A weboldal és az alkalmazás alapvetően eltér egymástól, de a legvégén a munkafolyamatok hasonlóak. Attól függően, hogy a projekt mit kíván több lépés is lehet.
 
-## Az igények felmérése, tervezés
+## 1. Az igények felmérése, tervezés
 
 Az hogy mit szeretnél elkészíttetni csak te tudod, aki kitalálta, megálmodta a projektet. Ezt az információt megfelelően, a lehető legrészletesebben kell átadni a fejlesztőknek, ahhoz hogy a megfelelő végeredményt kapjuk.
 
@@ -30,7 +30,7 @@ Ebben a szakaszban az a lényeg, hogy legyen egy olyan leírás a kezünkben, am
 
 Amint megvan ez a dokumentum, mi adjuk is az ajánlatot. Erre az információra minden esetben szükséged lesz, ha fejlesztetni akarsz, ezért jobb ha előre megvan. Nekünk mutatja, hogy komolyan gondolod. Természetesen az elkészítésében már partnerek vagyunk.
 
-## UI tervezés
+## 2. UI tervezés
 
 Az első lépésben megtörtént a szükséges információk összegyűjtése. Ezen a ponton már tudjuk, hogy pontosan milyen stílusú megjelenést szeretnél (ezért is hasznos az első lépés leírása), megkaptuk az arculati elemeket és kezdhetünk tervezni.
 
@@ -38,22 +38,22 @@ Mi a böngészőben tervezünk, ami azt jelenti, hogy a terv, amit kézhez kapsz
 
 Ha megvan az oldal, vagy alkalmazás kinézete, amit a te elképzeléseidre is építettünk, valamint mindez megfelel neked, akkor megyünk is a következő részhez.
 
-## WordPress és Laravel fejlesztés
+## 3. WordPress és Laravel fejlesztés
 
 Ha kész az alapterv jöhet is a magja az egésznek, a háttérrendszer kialakítása, integrálása. WordPress esetén ilyenkor készül el a téma a tervből, beállításra kerülnek a függőségek. Ha egyedi bővítményre is szükség van, akkor annak a fejlesztése már a korábbi szakaszban indulhat, azonban a megjelenését - ha van ilyen - ebben a lépésben készítjük el.
 
 Laravel esetében a háttérmunkálatok már a korábbi lépéseknél elindulhatnak. Mivel egy alkalmazás sokkal több munkaórát, nagyobb tudást, több fejtörést igényel ezért próbáljuk úgy beosztani, hogy egymás mellett haladjunk.
 
-## Tesztelés, tesztelés, tesztelés
+## 4. Tesztelés, tesztelés, tesztelés
 
 Az oldal 1.0-ás, induló verzióját, amit a specifikáció alapján, a közösen egyeztetett funkciókkal készítettük el megmutatjuk a megrendelőnek. Kikerül egy átmeneti, úgynevezett staging tárhelyre, ahol úgymond élesben tesztelhető a működés.
 
 Ezen a ponton a megrendelőt megkérjük a hibakeresésre, tesztelésre. Természetesen ilyenkor mi is tesztelünk tovább. A hibák elkerülése nem egyszerű feladat, ennek a fázisnak 1-2 hetet érdemes adni és részletesen tesztelni minden funkciót.
 
-## Élesítés
+## 5. Élesítés
 
 Az utolsó lépés elviekben az élesítés, az oldal közzététele a publikum számára. Remélhetőleg erre már egy megfelelően működő rendszerünk van. A munka jó része ezután indul csak. Egy oldal önmagában sokat nem ér, kellenek felhasználók, ügyfelek is.
 
-## Iteráció, támogatás
+## 6. Iteráció, támogatás
 
 Egy oldal fejlesztése az ideális esetben sosem ér véget. Kitehetünk egy sima cégbemutató oldalt és gondolhatjuk, hogy meg is vagyunk, de mindenen lehet javítani. Az analitikának hála nagyon sok adatunk lesz a látogatóinkról, használjuk és iteráljunk. Tervezzük, gondoljuk újra az alkotóelemeket.

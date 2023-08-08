@@ -4,6 +4,14 @@
   border-block-end: 1px solid color('border');
   padding-block-end: get-css-variable(--section-gap);
 
+  &--more {
+    padding-block: get-css-variable(--section-gap);
+
+    .section-title {
+      margin-block: 0 spacer('l');
+    }
+  }
+
   &__inner {
     --columns: 1;
 

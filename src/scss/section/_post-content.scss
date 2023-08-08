@@ -7,14 +7,8 @@
     font-size: 1.0375rem;
   }
 
-  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p) {
+  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote) {
     @include layout-center(null, 40rem);
-  }
-
-  pre[class*='language-'] {
-    * {
-      font-size: 1rem !important;
-    }
   }
 
   &__thumbnail {

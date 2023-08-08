@@ -1737,6 +1737,12 @@ legend {
   border-block-end: 1px solid var(--cone-base-color-border);
   padding-block-end: var(--cone-section-gap);
 }
+.l-post-list--more {
+  padding-block: var(--cone-section-gap);
+}
+.l-post-list--more .section-title {
+  margin-block: 0 3rem;
+}
 .l-post-list__inner {
   --columns: 1;
   list-style: none;
@@ -2056,7 +2062,7 @@ legend {
   padding: 0;
   align-items: center;
   display: flex;
-  font-family: var(--cone-font-family-heading);
+  font-family: var(--cone-font-family-cursive);
   gap: 0.5rem;
 }
 .lang-switcher > * + * {
@@ -2196,10 +2202,9 @@ code[class*=language-],
 pre[class*=language-] {
   border-radius: var(--cone-border-radius-lg);
   color: var(--cone-prism-color-color);
-  font-family: var(--cone-font-family-cursive);
-  font-size: var(--cone-font-size-base);
+  font-size: var(--cone-font-size-sm);
   hyphens: none;
-  line-height: 1.5;
+  line-height: 1.75;
   tab-size: 4;
   text-align: left;
   white-space: pre;
@@ -2321,7 +2326,7 @@ pre[class*=language-] {
   flex-direction: column;
   gap: 1.5rem;
 }
-.post-card__link::before {
+.blog-card__link::before {
   content: "";
   inset: 0;
   position: absolute;
@@ -2871,12 +2876,9 @@ pre[class*=language-] {
     font-size: 1.0375rem;
   }
 }
-.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p) {
+.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote) {
   margin-inline: auto;
   max-inline-size: 40rem;
-}
-.post-content pre[class*=language-] * {
-  font-size: 1rem !important;
 }
 .post-content__thumbnail {
   margin-block-end: 3rem;

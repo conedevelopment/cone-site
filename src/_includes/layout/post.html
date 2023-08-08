@@ -1,5 +1,7 @@
 {% extends "layout/base.html" %}
 
+{% set recommended = helpers.getSiblingContent(collections.blog, page) %}}}
+
 {% block content %}
     <div class="l-post l-post--page">
         <div class="container container--narrow">
@@ -15,4 +17,25 @@
             </div>
         </div>
     </div>
+    {% if recommended | length %}
+        <div class="l-post-list l-post-list--more">
+            <div class="container">
+                <h2 class="section-title section-title--vertical">
+                    {% svgIcon "./src/img/title-helper-primary.svg" %}
+                    További bejegyzések
+                </h2>
+                <ol class="l-post-list__inner">
+                    {% for post in recommended %}
+                        {% set tags = post.data.tags %}
+                        <li>
+                            {% include "partial/blog-card.html" %}
+                        </li>
+                    {% endfor %}
+                </ol>
+                {% if not tag %}
+                    {% include "partial/pagination.html" %}
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
 {% endblock %}

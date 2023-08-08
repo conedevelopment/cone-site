@@ -16,7 +16,7 @@ A [site_url()](https://developer.wordpress.org/reference/functions/site_url/) f�
 echo esc_url(site_url('/blog/'));
 ```
 
-A get_option() függvénnyel lekérhetjük a page_for_posts option értékét. Az az érték tárolja a blog oldalunk ID-ját (azonosítóját), amit aztán átadhatunk a get_permalink() függvénynek, hogy kinyerjük az URL-t.
+A `get_option()` függvénnyel lekérhetjük a page_for_posts option értékét. Az az érték tárolja a blog oldalunk ID-ját (azonosítóját), amit aztán átadhatunk a `get_permalink()` függvénynek, hogy kinyerjük az URL-t.
 
 ```php
 echo esc_url(get_permalink(get_option('page_for_posts')));
