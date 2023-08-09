@@ -2898,6 +2898,10 @@ pre[class*=language-] {
 .post-content iframe {
   border-radius: var(--cone-border-radius-lg);
 }
+.post-content iframe {
+  aspect-ratio: 16/9;
+  margin-block: 3rem;
+}
 
 .site-footer {
   padding-block: var(--cone-section-gap);

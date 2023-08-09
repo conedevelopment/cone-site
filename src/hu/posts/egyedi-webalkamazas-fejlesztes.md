@@ -2,7 +2,7 @@
 title: "Egyedi webalkamazás fejlesztés"
 date: "2019-02-17"
 tags: ['alkalmazás-fejlesztés']
-thumbnail: ""
+thumbnail: "/img/blog/egyedi-webalkamazas-fejlesztes.png"
 thumbnailAlt: ""
 ---
 

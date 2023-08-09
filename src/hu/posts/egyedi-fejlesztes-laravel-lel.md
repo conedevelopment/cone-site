@@ -2,7 +2,7 @@
 title: "Egyedi fejlesztés Laravel-lel"
 date: "2020-01-25"
 tags: ['alkalmazás-fejlesztés', 'laravel']
-thumbnail: ""
+thumbnail: "/img/blog/egyedi-fejlesztes-laravel-lel.jpg"
 thumbnailAlt: ""
 ---
 
