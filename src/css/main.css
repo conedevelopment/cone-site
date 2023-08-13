@@ -2344,6 +2344,8 @@ pre[class*=language-] {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  position: relative;
+  z-index: 5;
 }
 .blog-card__tags > * + * {
   margin-block-start: 0;
@@ -2873,7 +2875,7 @@ pre[class*=language-] {
     font-size: 1.0375rem;
   }
 }
-.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote) {
+.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p:not(:has(img)), blockquote) {
   margin-inline: auto;
   max-inline-size: 40rem;
 }
@@ -2898,6 +2900,11 @@ pre[class*=language-] {
 .post-content iframe {
   aspect-ratio: 16/9;
   margin-block: 3rem;
+}
+.post-content p > img + em {
+  display: block;
+  margin-block-start: 1rem;
+  text-align: center;
 }
 
 .site-footer {

@@ -1,7 +1,7 @@
 ---
 title: "DOM elemek kijelölése JavaScript-ben a querySelector és querySelectorAll segítségével"
 date: "2019-05-10"
-tags: ['javascript']
+tags: ["javascript"]
 thumbnail: "/img/blog/dom-elemek-kijelolese-javascript-ben-a-queryselector-es-queryselectorall-segitsegevel.jpg"
 thumbnailAlt: ""
 ---

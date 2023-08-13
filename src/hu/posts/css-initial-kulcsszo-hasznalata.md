@@ -1,7 +1,7 @@
 ---
 title: "CSS initial kulcsszó használata"
 date: "2018-01-10"
-tags: ['css']
+tags: ["css"]
 thumbnail: "/img/blog/css-initial-kulcsszo-hasznalata.png"
 thumbnailAlt: ""
 ---

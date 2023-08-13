@@ -1,7 +1,7 @@
 ---
 title: "A különbség <div> és <section> elem között"
 date: "2020-05-19"
-tags: ['akadalymentesség', 'html']
+tags: ["akadálymentesség", "html"]
 thumbnail: "/img/blog/a-kulonbseg-div-es-section-elem-kozott.png"
 thumbnailAlt: ""
 ---

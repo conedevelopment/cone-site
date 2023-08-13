@@ -1,7 +1,7 @@
 ---
 title: "Egyedi vagy vásárolt WordPress sablon?"
 date: "2019-02-17"
-tags: ['wordpress']
+tags: ["wordpress"]
 thumbnail: "/img/blog/egyedi-vagy-vasarolt-wordpress-sablon.png"
 thumbnailAlt: ""
 ---

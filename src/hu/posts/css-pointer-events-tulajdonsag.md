@@ -1,7 +1,7 @@
 ---
 title: "CSS pointer-events tulajdonság"
 date: "2014-08-19"
-tags: ['css']
+tags: ["css"]
 thumbnail: "/img/blog/css-pointer-events.png"
 thumbnailAlt: ""
 ---

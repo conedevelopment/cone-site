@@ -1,7 +1,7 @@
 ---
 title: "Abszolút középre igazítás CSS segítségével"
 date: "2016-02-26"
-tags: ['css']
+tags: ["css"]
 thumbnail: "/img/blog/abszolut-kozepre-igazitas-css-segitsegevel.png"
 thumbnailAlt: ""
 ---

@@ -1,7 +1,7 @@
 ---
 title: "A weboldal tervezés lépései"
 date: "2020-03-08"
-tags: ['tervezés']
+tags: ["tervezés"]
 thumbnail: "/img/blog/a-weboldal-tervezes-lepesei.png"
 thumbnailAlt: ""
 ---

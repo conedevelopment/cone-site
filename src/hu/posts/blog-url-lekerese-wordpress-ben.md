@@ -1,7 +1,7 @@
 ---
 title: "Blog URL lekérése WordPress-ben"
 date: "2022-03-24"
-tags: ['wordpress']
+tags: ["wordpress"]
 thumbnail: "/img/blog/blog-url-lekerese-wordpress-ben.png"
 thumbnailAlt: ""
 ---

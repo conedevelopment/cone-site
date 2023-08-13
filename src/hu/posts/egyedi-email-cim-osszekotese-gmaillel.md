@@ -1,7 +1,7 @@
 ---
 title: "Egyedi email cím összekötése Gmaillel"
 date: "2019-06-29"
-tags: ['eszközök']
+tags: ["eszközök"]
 thumbnail: "/img/blog/egyedi-email-cim-osszekotese-gmaillel.jpg"
 thumbnailAlt: ""
 ---

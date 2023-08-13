@@ -1,7 +1,7 @@
 ---
 title: "A sikeres együttműködés margójára"
 date: "2020-01-20"
-tags: ['jegyzetek']
+tags: ["jegyzetek"]
 thumbnail: "/img/blog/a-sikeres-egyuttmukodes-margojara.jpg"
 thumbnailAlt: ""
 ---

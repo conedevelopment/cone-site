@@ -30,6 +30,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: spacer('xs');
+    position: relative;
+    z-index: 5;
 
     > * + * {
       margin-block-start: 0;

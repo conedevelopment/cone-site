@@ -1,7 +1,7 @@
 ---
 title: "CSS attr() függvény használata"
 date: "2020-01-06"
-tags: ['css']
+tags: ["css"]
 thumbnail: "/img/blog/css-attr-fuggveny-hasznalata.png"
 thumbnailAlt: ""
 ---

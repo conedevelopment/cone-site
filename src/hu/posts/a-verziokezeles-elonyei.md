@@ -1,7 +1,7 @@
 ---
 title: "A verziókezelés előnyei"
 date: "2022-02-11"
-tags: ['alkalmazás-fejlesztés', 'jegyzetek']
+tags: ["alkalmazás-fejlesztés", "jegyzetek"]
 thumbnail: "/img/blog/a-verziokezeles-elonyei.png"
 thumbnailAlt: ""
 ---

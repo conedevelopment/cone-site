@@ -1,7 +1,7 @@
 ---
 title: "Egyedi szállítási mód fejlesztése WooCommerceben"
 date: "2019-03-08"
-tags: ['wordpress']
+tags: ["wordpress"]
 thumbnail: "/img/blog/egyedi-szallitasi-mod-fejlesztese-woocommerceben.png"
 thumbnailAlt: ""
 ---

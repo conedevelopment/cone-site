@@ -1,7 +1,7 @@
 ---
 title: "5 dolog, amit a egy céges weboldalnak tudni kell"
 date: "2019-04-15"
-tags: ['weboldal-fejlesztés']
+tags: ["weboldal-fejlesztés"]
 thumbnail: "/img/blog/5-dolog-amit-a-egy-ceges-weboldalnak-tudni-kell.jpg"
 thumbnailAlt: ""
 ---

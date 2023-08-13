@@ -1,7 +1,7 @@
 ---
 title: "Egyedi WordPress weboldal fejlesztés"
 date: "2021-07-19"
-tags: ['wordpress']
+tags: ["wordpress"]
 thumbnail: "/img/blog/egyedi-wordpress-weboldal-fejlesztes.png"
 thumbnailAlt: ""
 ---
