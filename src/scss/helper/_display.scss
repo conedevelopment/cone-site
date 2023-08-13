@@ -1,0 +1,9 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.hidden {
+  &\:md {
+    @include breakpoint('md') {
+      display: none;
+    }
+  }
+}

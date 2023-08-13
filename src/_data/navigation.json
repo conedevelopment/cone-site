@@ -8,24 +8,39 @@
       {
         "caption": "Services",
         "url": "/services/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Works",
         "url": "/works/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "About",
         "url": "/about/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Contact",
         "url": "/contact/",
-        "external": false
+        "external": false,
+        "class": "hidden:md"
+      },
+      {
+        "caption": "Open Source",
+        "url": "https://github.com/conedevelopment",
+        "external": true,
+        "class": ""
       }
     ],
+    "btn": {
+      "caption": "Contact",
+      "url": "/contact/",
+      "external": false
+    },
     "footer": [
       {
         "title": "Services",
@@ -98,29 +113,39 @@
       {
         "caption": "Szolgáltatásaink",
         "url": "/hu/szolgaltatasaink/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Munkáink",
         "url": "/hu/munkaink/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Blog",
         "url": "/hu/blog/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Rólunk",
         "url": "/hu/rolunk/",
-        "external": false
+        "external": false,
+        "class": ""
       },
       {
         "caption": "Kapcsolat",
         "url": "/hu/kapcsolat/",
-        "external": false
+        "external": false,
+        "class": "hidden:md"
       }
     ],
+    "btn": {
+      "caption": "Kapcsolat",
+      "url": "/hu/kapcsolat/",
+      "external": false
+    },
     "footer": [
       {
         "title": "Szolgáltatásiank",

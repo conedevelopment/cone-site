@@ -10,7 +10,7 @@
                     aria-label="Site"
                 >
                     <button
-                        class="btn btn--primary btn--lg btn--icon site-navigation__btn"
+                        class="btn btn--primary btn--primary-shadow btn--icon site-navigation__btn"
                         data-action="navigation-toggle"
                         aria-controls="primary-menu"
                         aria-expanded="false"
@@ -22,7 +22,7 @@
                     {% if navigation[lang].header.length > 0 %}
                     <ul class="navigation-menu">
                         {% for item in navigation[lang].header %}
-                        <li>
+                        <li class="{{ item.class }}">
                             <a
                                 href="{{ item.url }}"
                                 {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
@@ -44,11 +44,19 @@
                 </nav>
             </div>
             <div class="site-header__actions">
+                {% if navigation[lang].btn %}
                 <a
-                    class="site-header__email"
-                    href="mailto:{{ site.email }}"
-                    >{{ site.email }}</a
+                    class="btn btn--primary btn--primary-shadow site-header__btn"
+                    href="{{ navigation[lang].btn.url }}"
+                    {% if navigation[lang].btn.external %}
+                        target="_blank"
+                        rel="noopener"
+                    {% endif %}
                 >
+                    {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
+                    {{ navigation[lang].btn.caption }}
+                </a>
+                {% endif %}
                 {% include "partial/lang-switcher.html" %}
             </div>
         </div>
