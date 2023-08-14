@@ -3,35 +3,56 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  src: url("../../font/manrope-v13-latin_latin-ext-regular.woff2") format("woff2");
+  src: url("../../font/manrope-v14-latin_latin-ext-regular.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
-  src: url("../../font/manrope-v13-latin_latin-ext-600.woff2") format("woff2");
+  src: url("../../font/manrope-v14-latin_latin-ext-600.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  src: url("../../font/manrope-v13-latin_latin-ext-700.woff2") format("woff2");
+  src: url("../../font/manrope-v14-latin_latin-ext-700.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
-  font-family: "Open Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("../../font/open-sans-v34-latin_latin-ext-regular.woff2") format("woff2");
+  src: url("../../font/inter-v12-latin_latin-ext-regular.woff2") format("woff2");
 }
 @font-face {
   font-display: swap;
-  font-family: "Open Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url("../../font/open-sans-v34-latin_latin-ext-700.woff2") format("woff2");
+  src: url("../../font/inter-v12-latin_latin-ext-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../font/inter-v12-latin_latin-ext-800.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../font/space-mono-v13-latin_latin-ext-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../font/space-mono-v13-latin_latin-ext-700.woff2") format("woff2");
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
