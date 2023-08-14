@@ -1,8 +1,9 @@
 ---
 title: "WordPress vs. WordPress"
 date: "2021-07-13"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-vs-wordpress.png"
+thumbnailAlt: ""
 ---
 
 **A WordPress fejlesztés érdekes jelenség napjainkban. Egy bizonyos szinten mindig az volt. Már korán túl népszerű volt (jelenleg durván a weboldalak 35%-a ezen a rendszeren fut) és a népszerűséggel jó pár minden jár. Sok feltört oldal, hozzá nem értő fejlesztők és az örökös eszmefuttatás arról, hogy ez egy rossz termék.**
@@ -63,7 +64,7 @@ A cél minden esetben a hosszútávú támogatás és továbbfejleszthetőség.
 
 Nem mindegy, hogy a [Page Speed Inshights](https://developers.google.com/speed/pagespeed/insights/?hl=hu&url=https%3A%2F%2Fconedevelopment.com%2Fhu%2F&tab=mobile), a [web.dev](https://web.dev/measure/) elemző, vagy a [WebPageTest](https://www.webpagetest.org/) milyen eredményeket mutat. Természetesen egy egészséges oldalnak ezeken a számokon kívül még sok egyéb tényezője van és lehet.
 
-\[caption id="attachment\_1623" align="alignnone" width="1310"\]![A WordPress alapú, angol nyelvü blogunk teljesítménye a web.dev elemzőben. Teljesítmény: 100/88, akadálymentesség: 100/97, bevett gyakorlatok: 100/100, SEO: 100/100](images/web-dev-elemzo-pineco-de.png) A pineco.de (angol nyelvű blogunk) főoldala a Google web.dev elemzőjében, ami - legalább részben - a Lighthouse alapján mér.\[/caption\]
+![A WordPress alapú, angol nyelvü blogunk teljesítménye a web.dev elemzőben. Teljesítmény: 100/88, akadálymentesség: 100/97, bevett gyakorlatok: 100/100, SEO: 100/100](/img/blog/web-dev-elemzo-pineco-de.png) *A pineco.de (angol nyelvű blogunk) főoldala a Google web.dev elemzőjében, ami - legalább részben - a Lighthouse alapján mér.*
 
 ## Összegzés
 

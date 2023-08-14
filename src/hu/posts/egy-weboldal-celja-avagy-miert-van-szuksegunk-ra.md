@@ -1,9 +1,9 @@
 ---
 title: "Egy weboldal célja, avagy miért van szükségünk rá"
 date: "2020-02-07"
-categories: 
-  - "jegyzetek"
-  - "tervezes"
+tags: ["jegyzetek", "tervezés"]
+thumbnail: "/img/blog/egy-weboldal-celja-avagy-miert-van-szuksegunk-ra.jpg"
+thumbnailAlt: ""
 ---
 
 **A weboldal egy jó kommunikációs eszköz, ha a célod, hogy megszólítsd a jelenlegi, vagy jövőbeni ügyfeleidet. Egy oldallal nem csak információt adhatunk át, hanem termékeket, szolgáltatásokat is értékesíthetünk.**

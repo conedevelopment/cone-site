@@ -1,15 +1,16 @@
 ---
 title: "Responsive weboldal tervezés - Ezt kell róla tudnod általánosságban"
 date: "2019-03-23"
-categories: 
-  - "tervezes"
+tags: ["tervezés"]
+thumbnail: "/img/blog/responsive-weboldal-tervezes-ezt-kell-rola-tudnod-altalanossagban.png"
+thumbnailAlt: ""
 ---
 
 **Ha szeretnél egy weboldalt manapság, akkor az már alapvető, hogy az oldal reszponzív legyen. Ma már egy és ugyanazon oldalnak vállalhatóan kell működnie egy asztali és mobil böngészőben egyaránt.**
 
 Ebben a rövid írásban azt igyekszünk összefoglalni, hogy laikusként mit illik tudnunk erről a tervezési formáról. Reméljük, neked is a segítségedre lesz! ;)
 
-A szövegben ezt a fogalmat nevezzük responsive, reszponzív, vagy alkalmazkodó tervezésnek is. Mindegyik ugyanazt takarja, igazán magyar megfelelője a fonetikus íráson kívül nem nagyon létezik.
+> A szövegben ezt a fogalmat nevezzük responsive, reszponzív, vagy alkalmazkodó tervezésnek is. Mindegyik ugyanazt takarja, igazán magyar megfelelője a fonetikus íráson kívül nem nagyon létezik.
 
 ## Mi az a reszponzív weboldal tervezés?
 

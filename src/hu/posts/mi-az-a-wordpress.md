@@ -1,8 +1,9 @@
 ---
 title: "Mi az a WordPress?"
 date: "2020-02-14"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/mi-az-a-wordpress.jpg"
+thumbnailAlt: ""
 ---
 
 **A WordPress-ről szinte már mindenki hallott valamilyen formában. Ez érthető, jelenleg a becslések alapján az interneten lévő weboldalak 34%-át WP hajta, ami egy nagyon magas szám.**

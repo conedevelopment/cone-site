@@ -1,8 +1,9 @@
 ---
 title: "Ezért fontos a megfelelő analítika az oldaladon"
 date: "2019-03-27"
-categories: 
-  - "seo"
+tags: ["seo"]
+thumbnail: "/img/blog/ezert-fontos-a-megfelelo-analitika-az-oldaladon.png"
+thumbnailAlt: ""
 ---
 
 **A tényleges munka a weboldaladdal csak akkor kezdődik, amikor az már elkészült. Önmagában az, hogy van egy oldalad, amit többé-kevésbé megtalálnak online nem jelent semmit.**

@@ -1,8 +1,9 @@
 ---
 title: "WordPress teljesítmény optimalizálás WP Rocket segítségével"
 date: "2020-02-01"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-teljesitmeny-optimalizalas-wp-rocket-segitsegevel.jpg"
+thumbnailAlt: ""
 ---
 
 **A WordPress teljesítményoptimalizálás az esetek nagy részében egy szükséges lépés.**
@@ -15,7 +16,7 @@ Elméletben lehetséges, hogy egy gyors WordPress témát készítsünk mindenf�
 
 Hogy lássuk, miben segíthet nekünk a [WP Rocket](https://wp-rocket.me/) elsőként látnunk kell a teljes képet. A teljesítmény egy web alapú projekt esetén szinte minden területen jelen van. Optimalizálni kell a médiafájlokat (kép, videó), tömöríteni és egyesíteni a CSS/JS erőforrásokat, csökkentenil az adatbázis lekéréseket és így tovább.
 
-Megjegyzés: a teljesítmény sosem könnyű és mindig egyedi. A következő részben általános információt találsz a WordPress részekről.
+> Megjegyzés: a teljesítmény sosem könnyű és mindig egyedi. A következő részben általános információt találsz a WordPress részekről.
 
 **Ha gyors WP oldalt szeretnél, akkor legalább a következőkre lesz szükséged:**
 
@@ -30,7 +31,7 @@ Megjegyzés: a teljesítmény sosem könnyű és mindig egyedi. A következő r�
 
 **A WP Rocket volt az egyik első kereskedelmi WordPress teljesítmény bővítmény, amit egy komolyabb fejlesztő csapat készít és támogat**. A licenszeddel kapsz egy részletes [dokumentációs oldalt](https://docs.wp-rocket.me/), ahol minden lényeges információt megtalálsz, valamint ticketeken keresztül személyes támogatást is kérhetsz. Egy minden az egyben optimalizáló kiegészítő, amit folyamatosan fejlesztenek. Az egyik kulcs funkciója, hogy laikusként is könnyen kezelhető.
 
-\[caption id="attachment\_1037" align="alignnone" width="810"\][![](images/wp-rocket-file-optimization-képernyő-1200x585.png)](https://conedevelopment.com/wp-content/uploads/2020/03/wp-rocket-file-optimization-képernyő.png) A fájl optimalizálási beállítások a WP Rocket admin felületén\[/caption\]
+![](/img/blog/wp-rocket-file-optimization-kepernyo.png) *A fájl optimalizálási beállítások a WP Rocket admin felületén.*
 
 Nekünk fejlesztőknek is nagy segítség az egyszerűsége. Az aktiválás után, már csupán pár opció bekapcsolásával nagy javulást érhetünk el a teljesítményben.
 

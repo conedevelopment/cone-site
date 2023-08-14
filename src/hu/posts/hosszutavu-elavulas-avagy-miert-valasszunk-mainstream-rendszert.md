@@ -1,9 +1,9 @@
 ---
 title: "Hosszútávú elavulás, avagy miért válasszunk mainstream rendszert"
 date: "2019-02-25"
-categories: 
-  - "jegyzetek"
-  - "wordpress"
+tags: ["wordpress", "jegyzetek"]
+thumbnail: "/img/blog/hosszutavu-elavulas-avagy-miert-valasszunk-mainstream-rendszert.png"
+thumbnailAlt: ""
 ---
 
 **Több pro és kontra érv is felmerülhet, hogy miért jó egy harmadik fél által fejlesztett CMS-t (vagy bármilyen más, a fejlesztéshez köthető rendszert) használni egy teljesen egyedi rendszerrel szemben. Ez rendben is van. Ettől függetlenül érdemes kiemelni egy kevésbé ismert tényt, még pedig az elavulást.**

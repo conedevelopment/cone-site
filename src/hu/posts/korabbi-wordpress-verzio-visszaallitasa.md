@@ -1,8 +1,9 @@
 ---
 title: "Korábbi WordPress verzió visszaállítása"
 date: "2021-07-09"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/korabbi-wordpress-verzio-visszaallitasa.png"
+thumbnailAlt: ""
 ---
 
 **Előfordulhat, olyan szituáció (igaz, ritkán), amikor WordPress frissítés után, vissza kell állnunk egy előző verzióra.**
@@ -15,23 +16,23 @@ A WordPress egy sokat próbált rendszer, így nem okoz komolyabb problémát a 
 
 ## WordPress visszaállítás lépései
 
-### 1\. lépés
+### 1. lépés
 
 Töltsük le a szükséges [WordPress verziót](https://hu.wordpress.org/download/releases/) a hivatalos, magyar oldalról. Itt minden release-t megtalálunk 2.5-ig visszamenőleg.
 
-### 2\. lépés
+### 2. lépés
 
 FTP program (vagy cPanel fájlkezelő) segítségével készítsünk biztonsági mentést a jelenlegi verzióról! Csak a **wp-admin**, **wp-includes** és a **gyökér könyvtárban található fájlokat** fogjuk módosítani. Tehát a wp-content mappát – ahol a témák, bővítmények, feltöltések találhatóak – nem (semmi olyanhoz nem nyúlunk, ami az oldalunk egyedi tartalmában szerepet játszik). Fontos, hogy a gyökérkönyvtárból a **.htacces** és **wp-config.php** fájlt szintén meg kell tartanunk (de ezeket egy a hivatalos oldalról letöltött verzióban nem is találjuk meg, mivel telepítés során hozzuk őket létre). Ezek oldal specifikus információt tartalmaznak, utóbbi például az adatbázis kapcsolat adatait.
 
-### 3\. lépés
+### 3. lépés
 
 Nyissuk meg a letöltött korábbi verziót és jelöljük ki, majd másoljuk fel az éles szerverre a **wp-admin**, **wp-includes** és a **gyökér könyvtárban található fájlokat**.
 
-### 4\. lépés
+### 4. lépés
 
 Miután felmásoltuk a fájlokat a WordPress-től kapunk egy üzenetet, miszerint **frissíteni kell az adatbázisunkat**. Kattintsunk a frissítésre, majd azután a folytatás gombra.
 
-\[caption id="attachment\_1607" align="alignnone" width="978"\]![A képen a WordPress adatbázis frissítésének panelja látható.](images/wp-refresh.png) WordPress adatbázis frissítése.\[/caption\]
+![A képen a WordPress adatbázis frissítésének panelja látható.](/img/blog/wp-refresh.png) *WordPress adatbázis frissítése.*
 
 A negyedik lépés után készen is vagyunk. Nyissuk meg az oldal előnézetét és ellenőrizzük az eredmény. Mivel az adatbázist, az adatbázis kapcsolatot és az .htaccess fájlt nem módosítottuk, az oldalunknak megfelelően kell működnie továbbra is.
 

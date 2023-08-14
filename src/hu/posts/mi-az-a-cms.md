@@ -1,8 +1,9 @@
 ---
 title: "Mi az a CMS?"
 date: "2020-01-10"
-categories: 
-  - "eszkozok"
+tags: ["eszközök"]
+thumbnail: "/img/blog/mi-az-a-cms.png"
+thumbnailAlt: ""
 ---
 
 **A CMS (Content Management System), vagyis tartalomkezelő rendszer egy összetett megoldás az online tartalomkezelésre. Egy olyan alkalmazás aminek a segítségével a felhasználó saját maga tudja szerkeszteni és közzétenni az oldala tartalmát.**

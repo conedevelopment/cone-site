@@ -2875,7 +2875,7 @@ pre[class*=language-] {
     font-size: 1.0375rem;
   }
 }
-.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p:not(:has(img)), blockquote) {
+.post-content :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p:not(:has(img)), blockquote, form) {
   margin-inline: auto;
   max-inline-size: 40rem;
 }

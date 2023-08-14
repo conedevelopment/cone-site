@@ -1,8 +1,9 @@
 ---
 title: "Token alapú API hitelesítés Laravelben"
 date: "2019-02-16"
-categories: 
-  - "laravel"
+tags: ["laravel"]
+thumbnail: "/img/blog/token-alapu-api-hitelesites-laravelben.png"
+thumbnailAlt: ""
 ---
 
 **A webes API-k kapcsolódási felületet biztosítanak a különböző szoftver komponenseknek. Az API lehetővé teszi, hogy különböző technológiák által küldött kéréseket feldolgozva egységes választ adjon vissza. Szerencsére Laravel és Vue segítségével egyszerűen kialakíthatunk ilyen API szerver-kliens kapcsolatokat.**
@@ -25,17 +26,20 @@ Azokat az API útvonalakat, amelyek hitelesítést igényelnek, az “auth:api�
 
 Laravel esetében alapvetően az AJAX hívásokat szeretnénk hitelesíteni. Így a feladatunk, hogy a hívásokat kezelő keretrendszert megfelelően felparaméterezzük. Általában a Vue és Laravel kombóhoz az axios JS könyvtárat szokás használni, így most mi is így teszünk. Kezdjük a token kinyerésével és a window objektumhoz csatolásával.
 
+```php
 // footer.blade.php
 
 <script>
-   window.Laravel = {!! json\_encode(\[
-       'csrfToken' => csrf\_token(),
-       'apiToken' => $currentUser->api\_token ?? null,
-   \]) !!};
+   window.Laravel = {!! json_encode([
+       'csrfToken' => csrf_token(),
+       'apiToken' => $currentUser->api_token ?? null,
+   ]) !!};
 </script>
+```
 
 Ezt követően a bootstrap.js-ben be tudjuk állítani, hogy az axios minden kérést a tokennel együtt küldjön el az API felületre.
 
+```js
 // bootstrap.js
 
 import Vue from "vue";
@@ -50,9 +54,11 @@ axios.defaults.headers.common = {
 };
 
 window.Vue.prototype.$http = axios;
+```
 
 Tulajdonképpen nincs más hátra, mint a kontrollerben lekezelni a kérést. Hasonlóan mint a munkamenet alapú folyamatokál, itt is a kérésen keresztül kapjuk meg az azonosított felhasználót.
 
+```php
 // app/Http/Controllers/SomeApiController.php
 
 <?php
@@ -63,7 +69,7 @@ use Illuminate\\Http\\Request;
 
 class SomeApiController extends Controller
 {
-    public function \_\_construct()
+    public function __construct()
     {
         $this->middleware('auth:api');
     }
@@ -75,5 +81,6 @@ class SomeApiController extends Controller
         return response()->json($user);
     }
 }
+```
 
 Látható, hogy a felhasználót az átadott token alapján került hitelesítésre és nem a munkamenet alapján. Így a token alapú hitelesítés valóban platformfüggetlen és állapotmentes folyamat.

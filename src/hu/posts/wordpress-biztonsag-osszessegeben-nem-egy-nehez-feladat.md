@@ -1,8 +1,9 @@
 ---
 title: "WordPress biztonság - Összességében nem egy nehéz feladat"
 date: "2019-03-06"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-biztonsag-osszessegeben-nem-egy-nehez-feladat.png"
+thumbnailAlt: ""
 ---
 
 **Egy program esetén nem biztos, hogy beszélhetünk 100%-os biztonságról. Sajnos, ez egy olyan dolog, amivel a fejlesztés jár. Elvben természetesen létezik a feltörhetetlen rendszer, de sokszor bebizonyosodik, hogy ez nem igaz.**

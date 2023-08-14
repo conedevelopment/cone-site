@@ -1,8 +1,9 @@
 ---
 title: "Spam védelem beállítása Contact Form 7 bővítményben"
 date: "2020-03-01"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/spam-vedelem-beallitasa-contact-form-7-bovitmenyben.png"
+thumbnailAlt: ""
 ---
 
 **Megvédeni magunkat a spamtől WordPress-ben nem mindig a legkönnyebb. A népszerű és nagy rendszerek hátránya, hogy mindenki ismeri őket, így a spammerek is. Ha van bármilyen űrlapunk - _legyen az hozzászólás, vagy kapcsolat_ - biztosak lehetünk benne, hogy megtalálnak minket is a kéretlen üzenetek.**
@@ -19,7 +20,7 @@ Az egyik legnépszerűbb WordPress űrlap bővítmény. Ingyenesen használható
 
 ## Hogyan védjük meg az űrlapjainkat?
 
-A következő felsorolásban azokat a megoldásokat találod, amiket mi is próbáltunk és használunk. Mindegyik működőképes önállóan, de sok esetben jó ötlet lehet kombinálni őket.
+> A következő felsorolásban azokat a megoldásokat találod, amiket mi is próbáltunk és használunk. Mindegyik működőképes önállóan, de sok esetben jó ötlet lehet kombinálni őket.
 
 ### Honeypot
 
@@ -36,7 +37,7 @@ Szerencsénkre a CF7 bővítményhez létezik ilyen bővítmény, amivel mi magu
 - Adjunk hozzá egy honeypot mezőt.
 - Mentsük az űrlapot.
 
-[![](images/contact-form-7-honeypot-mezo-1200x651.png)](https://conedevelopment.com/wp-content/uploads/2020/03/contact-form-7-honeypot-mezo.png)
+![](/img/blog/contact-form-7-honeypot-mezo-1200x651.png)
 
 ### Google reCaptcha
 
@@ -46,7 +47,7 @@ Ez a megoldás közvetlenül integrálva van a Contact Form 7-be. Első lépésb
 
 Ha megvan a kulcsunk, akkor navigáljunk a **Kapcsolat -> Integrációk** menüpont alá és illesszük be a korábban generált kulcsokat.
 
-[![](images/contact-form-7-recaptcha-integracio.png)](https://conedevelopment.com/wp-content/uploads/2020/03/contact-form-7-recaptcha-integracio.png)
+![](/img/blog/contact-form-7-recaptcha-integracio.png)
 
 ### Akismet
 
@@ -56,10 +57,12 @@ A bővítmény bekapcsolása után szükségünk lesz egy felhasználói fiókra
 
 Ez annyit jelent, hogy meg kell mondanunk a CF7-nek hogy milyen mezőt milyen feltétel alapján adjon tovább az Akismet-nek vizsgálatra. A bővítmény alapbeállításként tudja kezelni az ilyen típusú spam szűrést, csupán bővíteni kell az alap mezőket.
 
+```html
 // A név mező esetén ezt:
-\[text\* your-name\]
+[text* your-name]
 
 // Írjuk át erre:
-\[text\* your-name akismet:author\]
+[text* your-name akismet:author]
+```
 
 A teljes listáért keresd fel a [hivatalos dokumentációt](https://contactform7.com/spam-filtering-with-akismet/)!

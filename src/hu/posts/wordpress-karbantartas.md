@@ -1,8 +1,9 @@
 ---
 title: "WordPress karbantartás"
 date: "2021-07-29"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-karbantartas.png"
+thumbnailAlt: ""
 ---
 
 **WordPress esetében a karbantartás egy olyan terület, amire nem árt fokozottan figyelni. A népszerűsége miatt ezt a rendszert nagyon sokan támadják és próbálják feltörni. Sok törés pusztán abból a tényből adódik, hogy nem frissítettük időben a core-t, a bővítményeket, vagy a témát.**

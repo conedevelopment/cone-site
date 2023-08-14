@@ -1,8 +1,9 @@
 ---
 title: "WordPress auditálás - Miért szükséges? Miért hasznos?"
 date: "2021-09-17"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-auditalas-miert-szukseges-miert-hasznos.png"
+thumbnailAlt: ""
 ---
 
 **Az audit (vagy auditálás) egy olyan folyamat, ami igyekszik feltárni meghatározott rendszerek hiányosságait egy objektív kritérium rendszerhez viszonyítva.**

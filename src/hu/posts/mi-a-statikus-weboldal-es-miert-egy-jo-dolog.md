@@ -1,8 +1,9 @@
 ---
 title: "Mi a statikus weboldal és miért egy jó dolog?"
 date: "2021-09-28"
-categories: 
-  - "weboldal-fejlesztes"
+tags: ["weboldal-fejlesztés"]
+thumbnail: "/img/blog/mi-a-statikus-weboldal-es-miert-egy-jo-dolog.png"
+thumbnailAlt: ""
 ---
 
 **A statikus weboldalak reneszánszukat élik és okkal. Igaz, hogy ezek már nem a régi idők oldalai, hanem modernebb technológiával készülnek, de az alapelv maradt.**
@@ -11,7 +12,7 @@ categories:
 
 A statikus weboldal úgy kerül megjelenítésre a felhasználó eszközén, ahogyan azt a szerveren tároljuk. Fixen, előre elkészített HTML oldalakat szolgálunk ki a webszerverről. A HTML oldalakat vagy mi hozzuk létre manuálisan, külön-külön, vagy valamilyen generátort használunk, mint az [11ty](https://www.11ty.dev/), [Gatsby](https://www.gatsbyjs.org/).
 
-\[caption id="attachment\_1718" align="alignnone" width="1200"\]![](images/statikus-oldal-vs-dinamikus-oldal.png) A különbség a statikus és dinamikus oldal között a felhasznált technológiákban rejlik.\[/caption\]
+![Egy ábra a statikus oldal elemeiről: HTML, JS, CSS, valamint a dimanikuséről: HTML, JS, CSS, PHP, MySQL](/img/blog/statikus-oldal-vs-dinamikus-oldal.png) *A különbség a statikus és dinamikus oldal között a felhasznált technológiákban rejlik.*
 
 Ellenben a dinamikus oldal mögött ott egy adatbázis, valamint egy háttérrendszer (WordPress), nyelv (PHP) ami ír, olvas ebből az adathalmazból. Mindezt kiszolgáláskor teszi (többé kevésbé, cache valamilyen formája általában elérhető), ami annyit tesz, hogy PHP kódból, lekérés után generál HTML kódot, amit aztán meg tud jeleníteni a böngésző.
 

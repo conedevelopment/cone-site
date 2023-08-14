@@ -1,8 +1,9 @@
 ---
 title: "SimplePay fizetési kapu WooCommerce áruházakban"
 date: "2019-04-09"
-categories: 
-  - "woocommerce"
+tags: ["woocommerce"]
+thumbnail: "/img/blog/simplepay-fizetesi-kapu-woocommerce-aruhazakban.png"
+thumbnailAlt: ""
 ---
 
 **Az OTP SimplePay, talán a legismertebb hazai fejlesztésű kártyás fizetési megoldás, amely integrálhatóságot nyújt bármeny webshophoz. Saját WooCommerce áruházakhoz írt bővítményünk alapján, ismertetjük a tapasztalatainkat, amelyek az értékesítőt illetve a fejlesztőt is érinthetik.**

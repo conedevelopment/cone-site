@@ -1,8 +1,9 @@
 ---
 title: "Weboldal típusok és azok céljai"
 date: "2021-09-22"
-categories: 
-  - "weboldal-fejlesztes"
+tags: ["weboldal-fejlesztés"]
+thumbnail: "/img/blog/weboldal-tipusok-es-azok-celjai.png"
+thumbnailAlt: ""
 ---
 
 **Nem minden weboldal egyenlő. Egy oldal tudása, technikai megvalósítása általában mindig függ az aktuális céltól.**
@@ -35,7 +36,7 @@ Minden oldal esetében fontos a bizalom és a hitelesség, de a céges esetén e
 
 Webshopot készíteni komoly kihívás, ahogy üzemeltetni és fenntartani is.
 
-\[caption id="attachment\_1704" align="alignnone" width="810"\]![](images/e-commerce-pelda-ebay-1024x561.png) Az ebay oldala az egyik legelső mainstream webshop volt.\[/caption\]
+![Képernyőkép az aktuális ebay kezdőoldalról.](/img/blog/e-commerce-pelda-ebay-1024x561.png) *Az ebay oldala az egyik legelső mainstream webshop volt.*
 
 ## Landing weboldalak
 
@@ -47,4 +48,4 @@ Ezen oldal típus esetén fontos, hogy “call to action” (a művelet, amit a 
 
 **A magazin oldalon hírek, képek, videók egyéb aktuális és kevésbé aktuális információk találhatóak**. Manapság a magazin formátum népszerű a híroldalak és a napi, hetilapok körében is. Egy jó formátum sok és gyakran változó információ közléséhez.
 
-\[caption id="attachment\_1707" align="alignnone" width="810"\]![](images/magazine-pelda-the-new-york-times-1024x553.png) A The New York Times az egyik legnagyobb híroldal, aminek a magazin stílusa a hagyományos újságokat utánozza.\[/caption\]
+![Képernyőkép az aktuális New York Times weboldaláról.](/img/blog/magazine-pelda-the-new-york-times-1024x553.png) *A The New York Times az egyik legnagyobb híroldal, aminek a magazin stílusa a hagyományos újságokat utánozza.*

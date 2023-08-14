@@ -1,8 +1,9 @@
 ---
 title: "WordPress lassúlás. Miért lassú az oldalam?"
 date: "2019-03-03"
-categories: 
-  - "wordpress"
+tags: ["wordpress"]
+thumbnail: "/img/blog/wordpress-lassulas-miert-lassu-az-oldalam.jpg"
+thumbnailAlt: ""
 ---
 
 **Egy lassú WordPress weboldal nem olyan ritka jelenség, mint amilyennek lennie kellene. Alapvetően egy oldal komplex rendszer, amit egészen egyszerű elrontani valamilyen szinten, azonban ezek nem minden esetben okoznak lassulást.**
@@ -15,7 +16,7 @@ Alapvetően igaz, hogy egy gyors oldalhoz előzetes tervezés kell és a lehető
 
 Ha szeretnéd tesztelni az oldalad, akkor a legjobb megoldás a [webpagetest.org](http://webpagetest.org/). Ez az elemző részletesebb, mint a Google PageSpeed, a Pingdom, vagy az YSlow.
 
-![](images/webpagetest-cone-results.png)
+![](/img/blog/webpagetest-cone-results.png)
 
 Ezen az elemzésen a Cone oldalát látod. Felül látod a rövid értékelést, az öt darab A-val (a legjobb osztályzat az amerikai rendszer szerint) a zöld négyzetekben. Ez azt jelenti, hogy az oldal jól teljesít a fő metrikákban.
 

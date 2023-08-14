@@ -1,9 +1,9 @@
 ---
 title: "SimplePay tapasztalatok"
 date: "2021-03-31"
-categories: 
-  - "webaruhaz"
-  - "woocommerce"
+tags: ["webaruhaz", "woocommerce"]
+thumbnail: "/img/blog/tapasztalatok-a-simplepay-rol-mint-szolgaltatas.png"
+thumbnailAlt: ""
 ---
 
 **Az OTP SimplePay hazánk egyik piacvezető online fizetési megoldása. Webáruházakhoz, mobil alkalmazásokhoz és egyéb platformokhoz nyújt fizetési felületet. Mi is fejlesztettünk egy [ingyenes integrációt WooCommerce áruházakhoz](https://simplepay.conedevelopment.com/), így közel két év után, megosztanánk tapasztalatainkat, észrevételeinket és mások visszajelzéseit.**
@@ -20,14 +20,29 @@ A Stripe esetében nincs csatlakozási díj, és [a jutalék európai kártyákn
 
 Nézzük meg, hogy ez mit jelent egy [_11 000 HUF_ értékű vásásnál](https://minner.hu/e-kereskedelmi-webaruhaz-statisztika-2018/):
 
-| SimplePay (1,75%) | Stripe (1,4% + 85 HUF) | Különbség |
-| --- | --- | --- |
-| 192,5 HUF | 239 HUF | 46,5 HUF |
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>SimplePay (1,75%)</th>
+                <th>Stripe (1,4% + 85 HUF)</th>
+                <th>Különbség</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>192,5 HUF</td>
+                <td>239 HUF</td>
+                <td>46,5 HUF</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 Tehát, ebben az esetben a fenti számokkal operálva, a Stripe tranzakciónként _46,5 HUF_\-al drágább mint a SimplePay. Ha figyelembe vesszük a csatlakozási díjat, akkor átlagosan _11 000 HUF_\-os tranzakciókkal számolva, kb. **1075 db** vásárlás után fordul át megtérülővé a SimplePay használata. Mindenki döntse el magának, hogy ez sok vagy kevés.
 
 > Nem vettük számításba a közvetett költségeket, mint a SimplePay esetében a bővítmények megvásárlását és beállítását (amennyiben nem ingyenes), ami akár újabb 30-40 000 HUF is lehet. Valamint ne felejtsük el, hogy minél nagyobb a vásárlás értéke, a SimplePay annál drágább a Stripe-hoz képest.
-> 
+>
 > Stripe esetén [hivatalos bővítmény](https://woocommerce.com/products/stripe/) létezik például WooCommerce-hez igyenesen. Természetesen beállítási költsége ennek is lehet, amennyiben nem magunknak végezzük el.
 
 ## II. Stabilitás, SLA (Service Level Agreement), elérhetőség, API státusz
@@ -42,15 +57,54 @@ Egy hónapra (30 nap) lebontva ez maximum _216 perc (3,6 óra)_ kiesést jelent 
 
 Mivel a SimplePay esetében, nincs kezünkben olyan rendszerállapotot indikáló eszköz mint a [Stripe-nál](https://status.stripe.com/) (vagy bármely más életszerű API esetében), így saját méréseket végeztünk, hogy megbecsüljük az intervallumokat, amikor az API nem volt elérhető. A mérés _2020\. november_ havi eredménye:
 
-| Mikortól | Meddig | Kimaradás |
-| --- | --- | --- |
-| 2020-11-05 02:20:01 | 2020-11-05 02:30:02 | 10p |
-| 2020-11-19 00:00:01 | 2020-11-19 01:30:02 | 90p |
-| 2020-11-23 10:00:11 | 2020-11-23 10:30:11 | 30p |
-| 2020-11-25 13:00:12 | 2020-11-25 13:30:12 | 30p |
-| 2020-11-26 12:50:01 | 2020-11-26 15:10:11 | 80p |
-| 2020-11-30 10:10:12 | 2020-11-30 10:20:11 | 10p |
-| 2020-11-30 14:40:11 | 2020-11-30 15:40:01 | 60p |
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mikortól</th>
+                <th>Meddig</th>
+                <th>Kimaradás</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020-11-05 02:20:01</td>
+                <td>2020-11-05 02:30:02</td>
+                <td>10p</td>
+            </tr>
+            <tr>
+                <td>2020-11-19 00:00:01</td>
+                <td>2020-11-19 01:30:02</td>
+                <td>90p</td>
+            </tr>
+            <tr>
+                <td>2020-11-23 10:00:11</td>
+                <td>2020-11-23 10:30:11</td>
+                <td>30p</td>
+            </tr>
+            <tr>
+                <td>2020-11-25 13:00:12</td>
+                <td>2020-11-25 13:30:12</td>
+                <td>30p</td>
+            </tr>
+            <tr>
+                <td>2020-11-26 12:50:01</td>
+                <td>2020-11-26 15:10:11</td>
+                <td>80p</td>
+            </tr>
+            <tr>
+                <td>2020-11-30 10:10:12</td>
+                <td>2020-11-30 10:20:11</td>
+                <td>10p</td>
+            </tr>
+            <tr>
+                <td>2020-11-30 14:40:11</td>
+                <td>2020-11-30 15:40:01</td>
+                <td>60p</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 > A kéréseket az [itt található kóddal](https://github.com/conedevelopment/simplepay-gateway/issues/48#issuecomment-736551915), 10 percenként küldtük. Abban az esetben, amikor nem _HTTP/200_ volt a válaszkód, mentettük az UTC időbélyeget. Sokkal pontosabb képet festene, ha gyakrabban küldenénk kéréseket, ezért a valóságban meglehet, hogy két kérés között elérhető volt a szolgáltatás, azonban sokkal valószínűbb, hogy két egymás után küldött és visszapattant kérés között, az API nem volt elérhető.
 

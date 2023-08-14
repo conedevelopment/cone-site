@@ -1,8 +1,9 @@
 ---
 title: "Kezdjünk fejleszteni Laravel-el"
 date: "2019-03-11"
-categories: 
-  - "laravel"
+tags: ["laravel"]
+thumbnail: "/img/blog/kezdjunk-fejleszteni-laravel-el.png"
+thumbnailAlt: ""
 ---
 
 **A Laravel napjaink egyik legdinamikusabban fejlődő back-end keretrendszere. Így érdemes kicsit utána járni, hogy mégis pontosan mi, milyen és mit tud a Laravel. Lássuk!**

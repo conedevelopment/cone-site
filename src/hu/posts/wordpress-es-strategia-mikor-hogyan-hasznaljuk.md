@@ -1,9 +1,9 @@
 ---
 title: "WordPress és stratégia, mikor, hogyan használjuk?"
 date: "2020-02-22"
-categories: 
-  - "tervezes"
-  - "wordpress"
+tags: ["tervezés", "wordpress"]
+thumbnail: "/img/blog/wordpress-es-strategia-mikor-hogyan-hasznaljuk.jpg"
+thumbnailAlt: ""
 ---
 
 **Ha a célnak megfelelően használjuk a WordPress egy tökéletes rendszer. Egyszerűen, viszonylag gyorsan és rugalmasan tudunk létrehozni vele komplex megoldásokat. Mindemellett persze nem árt tudatában lenni a korlátainak sem.**

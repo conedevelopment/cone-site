@@ -1,9 +1,9 @@
 ---
 title: "Jó választás ma a jQuery?"
 date: "2021-09-04"
-categories: 
-  - "javascript"
-  - "weboldal-fejlesztes"
+tags: ["javascript", "weboldal-fejlesztés"]
+thumbnail: "/img/blog/jo-valasztas-ma-a-jquery.png"
+thumbnailAlt: ""
 ---
 
 **Manapság (de lehet, hogy már korábban is az volt) egészen divatos belerúgni a jQuery-be, ahol lehet. Az, hogy ezt megtesszük alapvetően nem is probléma, de ettől függetlenül szerintem érdemes egy kört értekezni róla.**
