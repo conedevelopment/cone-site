@@ -52,6 +52,8 @@ If you edit or publish an article, an additional cookie will be saved in your br
 
 If you browse our site, you will get cookies from Google Analytics which help them to track your activity on the website anonymously.
 
+<button class="btn btn--primary" data-action="cookie" data-type="analytics" data-on-text="Decline" data-off-text="Accept">analytics cookies</button>
+
 ## Embedded Content From Other Websites
 
 Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.

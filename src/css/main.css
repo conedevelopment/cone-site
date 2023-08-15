@@ -2037,6 +2037,34 @@ legend {
   margin-block-start: 1.5rem;
 }
 
+.cookie-consent {
+  align-items: center;
+  background-color: var(--cone-base-color-background);
+  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.05);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  inset: auto 0 0 0;
+  justify-content: center;
+  padding-block: 1.5rem;
+  padding-inline: var(--cone-container-gap);
+  position: fixed;
+  text-align: center;
+  z-index: 25;
+}
+.cookie-consent__caption > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.cookie-consent__caption > * + * {
+  margin-block-start: 0.5rem;
+}
+.cookie-consent__btns {
+  display: flex;
+  gap: 1rem;
+}
+
 .post-author {
   --avatar-size: 2.5rem;
   align-items: center;
