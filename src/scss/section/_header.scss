@@ -35,8 +35,8 @@
   &__column {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
     flex-grow: 1;
+    flex-wrap: wrap;
     gap: spacer('xs') spacer-clamp('s', 'l');
   }
 

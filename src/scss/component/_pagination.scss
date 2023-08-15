@@ -32,12 +32,12 @@
       border-color: color('pagination-background-hover', 'btn');
       color: color('pagination-foreground-hover', 'btn');
     }
+  }
 
-    &.prev,
-    &.next {
-      @include set-css-variable((
-        --padding: 0.85em 1.25em
-      ));
-    }
+  .prev,
+  .next {
+    @include set-css-variable((
+      --padding: 0.85em 1.25em
+    ));
   }
 }

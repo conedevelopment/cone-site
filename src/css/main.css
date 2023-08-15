@@ -1889,6 +1889,31 @@ legend {
   margin-block-end: 3rem;
 }
 
+.l-404 {
+  border-block-end: 1px solid var(--cone-base-color-border);
+  padding-block: var(--cone-section-gap);
+}
+.l-404__inner {
+  text-align: center;
+}
+.l-404__image {
+  margin-inline: auto;
+  max-inline-size: 20rem;
+}
+.l-404__caption {
+  text-align: center;
+}
+.l-404__caption > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.l-404__caption > * + * {
+  margin-block-start: 1rem;
+}
+.l-404__title {
+  font-size: clamp(2.275rem, 5vw + 1rem, 3.5rem);
+}
+
 .skip-link {
   inset: -50vh auto auto 1.5rem;
   position: fixed;
@@ -2853,7 +2878,7 @@ pre[class*=language-] {
   margin-inline: auto;
 }
 .hero--padding-block\:small .hero__inner {
-  padding-block: calc(var(--cone-section-gap) + var(--cone-header-block-size)) calc(var(--cone-section-gap));
+  padding-block: calc(var(--cone-section-gap) + var(--cone-header-block-size)) var(--cone-section-gap);
 }
 .hero__inner {
   padding-block: calc(var(--cone-section-gap) + var(--cone-header-block-size)) calc(var(--cone-section-gap) * 1.5);

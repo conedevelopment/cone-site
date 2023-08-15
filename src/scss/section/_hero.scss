@@ -51,7 +51,7 @@
 
   &--padding-block\:small {
     #{$this}__inner {
-      padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) calc(#{get-css-variable(--section-gap)});
+      padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) #{get-css-variable(--section-gap)};
     }
   }
 

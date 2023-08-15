@@ -1,0 +1,24 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-404 {
+  border-block-end: 1px solid color('border');
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__image {
+    margin-inline: auto;
+    max-inline-size: 20rem;
+  }
+
+  &__caption {
+    @include layout-stack('s');
+    text-align: center;
+  }
+
+  &__title {
+    font-size: responsive-font-size(3.5rem, 35, '5vw + 1rem');
+  }
+}
