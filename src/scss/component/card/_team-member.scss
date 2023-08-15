@@ -1,0 +1,29 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.team-member-card {
+  $this: &;
+  @include layout-stack('s');
+
+  &__header {
+    align-items: center;
+    display: flex;
+    gap: spacer('m');
+  }
+
+  &__caption {
+    @include layout-stack(0);
+  }
+
+  &__body {
+    @include layout-stack('xxs');
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    inline-size: 4rem;
+  }
+
+  &__name {
+    font-size: font-size('h4');
+  }
+}

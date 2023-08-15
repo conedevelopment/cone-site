@@ -72,6 +72,38 @@ cta:
                     <p>If you want to know more about how we think we can recommend you two book: <a href="https://www.amazon.com/ReWork-Change-Way-Work-Forever-ebook/dp/B003ELY7PG">Rework</a>, <a href="https://www.amazon.com/Remote-Required-David-Heinemeier-Hansson-ebook/dp/B00CZ7OC46/">Remote</a>.</p>
                 </div>
             </div>
+            <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">Who We Are</h2>
+                <div class="l-team-member">
+                    <div class="team-member-card">
+                        <div class="team-member-card__header">
+                            <img src="//secure.gravatar.com/avatar/511c68b33bbb4e963fb2605fcef8a5fb?s=128&amp;d=mm&amp;r=g" alt="" class="team-member-card__avatar">
+                            <div class="team-member-card__caption">
+                                <h3 class="team-member-card__name">Gergő D. Nagy</h3>
+                                <p class="team-member-card__job">Back-end Developer</p>
+                            </div>
+                        </div>
+                        <div class="team-member-card__body">
+                            <p>Laravel and Back-end developer. Architecture design, optimization, JS writing using Vue.js.</p>
+                            <p><a href="https://github.com/iamgergo" target="_blank" rel="noopener">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-member-card">
+                        <div class="team-member-card__header">
+                            <img src="//secure.gravatar.com/avatar/fd9479a898c593601efd2fe758a86dba?s=128&amp;d=mm&amp;r=g" alt="" class="team-member-card__avatar">
+                            <div class="team-member-card__caption">
+                                <h3 class="team-member-card__name">Adam Laki</h3>
+                                <p class="team-member-card__job">Front-end Developer</p>
+                            </div>
+                        </div>
+                        <div class="team-member-card__body">
+                            <p>Front-end developer with broad interest. Performance, UI, UX design, accessibility.</p>
+                            <p><a href="https://github.com/adamlaki" target="_blank" rel="noopener">GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

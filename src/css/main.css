@@ -1914,6 +1914,16 @@ legend {
   font-size: clamp(2.275rem, 5vw + 1rem, 3.5rem);
 }
 
+.l-team-member {
+  display: grid;
+  gap: 3rem;
+}
+@supports (inline-size: min(15rem, 100%)) {
+  .l-team-member {
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  }
+}
+
 .skip-link {
   inset: -50vh auto auto 1.5rem;
   position: fixed;
@@ -2251,7 +2261,8 @@ legend {
   border-color: var(--cone-btn-color-pagination-background-hover);
   color: var(--cone-btn-color-pagination-foreground-hover);
 }
-.pagination a.prev, .pagination a.next {
+.pagination .prev,
+.pagination .next {
   --cone-padding: 0.85em 1.25em;
 }
 
@@ -2622,6 +2633,40 @@ pre[class*=language-] {
   margin-block: 0;
 }
 
+.team-member-card > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.team-member-card > * + * {
+  margin-block-start: 1rem;
+}
+.team-member-card__header {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+.team-member-card__caption > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.team-member-card__caption > * + * {
+  margin-block-start: 0;
+}
+.team-member-card__body > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.team-member-card__body > * + * {
+  margin-block-start: 0.25rem;
+}
+.team-member-card__avatar {
+  border-radius: 50%;
+  inline-size: 4rem;
+}
+.team-member-card__name {
+  font-size: clamp(1.0625rem, 2vw + 1rem, 1.25rem);
+}
+
 .step-card {
   border-inline-start: 1px solid hsla(0, 0%, 100%, 0.25);
   padding-inline-start: 1.5rem;
@@ -2789,8 +2834,8 @@ pre[class*=language-] {
 .site-header__column {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
   flex-grow: 1;
+  flex-wrap: wrap;
   gap: 0.5rem clamp(1rem, 5vw, 3rem);
 }
 .site-header__actions {

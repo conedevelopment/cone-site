@@ -1,0 +1,5 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-team-member {
+  @include layout-grid('l', 15rem);
+}
