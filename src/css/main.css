@@ -2037,21 +2037,30 @@ legend {
   margin-block-start: 1.5rem;
 }
 
+.cookie-consent-wrapper {
+  padding: 2rem;
+}
+
 .cookie-consent {
   align-items: center;
   background-color: var(--cone-base-color-background);
+  border-radius: var(--cone-border-radius-lg);
   box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.05);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem 1.5rem;
-  inset: auto 0 0 0;
+  inset: auto 1.5rem 1.5rem 1.5rem;
   justify-content: center;
-  padding-block: 1.5rem;
-  padding-inline: var(--cone-container-gap);
+  padding: 1.5rem;
   position: fixed;
   text-align: center;
   z-index: 25;
+}
+@media (min-width: 64em) {
+  .cookie-consent {
+    inset: auto 1.5rem 1.5rem auto;
+  }
 }
 .cookie-consent__caption > * {
   margin-block-end: 0;
