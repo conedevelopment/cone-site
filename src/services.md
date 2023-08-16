@@ -4,14 +4,14 @@ layout: "layout/services.html"
 hero:
     title:
         caption: "We Design and Create<br><span class='highlighted'>Web Based Solutions</span>"
-    description: "We prefer to use continuously improving, up-to-date technologies. We believe it’s the foundation of a stable web application."
+    description: "We prefer to use up-to-date technologies. We believe it’s the foundation of a stable web application."
     classes: 'hero--center hero--font-size:small hero--padding-block:small'
 testimonial:
     classes: "l-testimonial--secondary"
     cards:
         - title: "Application Development"
           url: "/services/application-development/"
-          description: "With Laravel, we create robust and scalable web applications that seamlessly integrate powerful features, intuitive user interfaces, and secure backend functionality."
+          description: "With Laravel, we create robust and scalable web applications that seamlessly integrate potent features, intuitive user interfaces, and secure backend functionality."
           image: "/img/illustrations/retro-coffee.svg"
           imageAlt: "A running coffee cup with a laptop in its hand."
         - title: "Website Development"
@@ -32,16 +32,18 @@ accordion:
         - title: null
           subtitle: "Scaleable Laravel applications"
           items:
-            - title: "You get a robust applications"
+            - title: "Robust applications"
               description: "<p>The completed application will be robust, easy to expand, and secure. We and the Laravel framework grant this.</p>"
-            - title: "Minimalistic and Functional Design and UI"
+            - title: "Minimalistic and functional UI design"
               description: "<p>We handle the graphic and user interface designs. We do our researches about your genre and competition.</p>"
             - title: "If you need a CMS we suggest WordPress"
               description: "<p>If you want to manage your content, you need a great tool to do so. We choose WordPress when it comes to content management.</p>"
             - title: "Vue.js or Alpine.js on the client side"
-              description: "<p>Vue.js is the perfect tool to complete Laravel from the front-end side. We make flexible UIs with it.</p>"
+              description: "<p>Vue.js or Alpine.js are the perfect tools to complete Laravel from the front-end side. We make flexible UI with them.</p>"
             - title: "Your site will be technical SEO ready"
               description: "<p>One of the parts of SEO is technical optimization. We will do our best to make it the best as possible.</p>"
+            - title: "Our technology stack"
+              description: "<p><strong>Development</strong>: Laravel, MySQL, Redis, Vue.js, Alpine.js, Boostrap, Root, Bazar, Spruce CSS, Webpack, Yarn, npm.</p><p><strong>Integration</strong>: PayPal, Braintree, Stripe, SimplePay, MailChimp, Google Maps, Google Tag Manager.</p><p><strong>Server</strong>: Netlify, A2 Hosting, Laravel Forge, AWS.</p>"
 cta:
     title: "Want to work with us?"
     classes: "cta--dark"

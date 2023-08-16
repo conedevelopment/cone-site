@@ -5,11 +5,11 @@
 
   padding-block: get-css-variable(--section-gap);
 
-  &--tertiary {
+  &--primary {
     padding-block: 0;
 
     #{$this}__inner {
-      background-color: color('tertiary');
+      background-color: color('primary');
       border-radius: config('border-radius-lg', $display);
       padding: spacer-clamp('m', 'xl');
     }
@@ -24,6 +24,20 @@
 
     #{$this}__inner {
       background-color: color('secondary');
+      border-radius: config('border-radius-lg', $display);
+      padding: spacer-clamp('m', 'xl');
+    }
+
+    #{$this}__cards {
+      border: 0;
+    }
+  }
+
+  &--tertiary {
+    padding-block: 0;
+
+    #{$this}__inner {
+      background-color: color('tertiary');
       border-radius: config('border-radius-lg', $display);
       padding: spacer-clamp('m', 'xl');
     }

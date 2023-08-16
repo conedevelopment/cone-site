@@ -33,7 +33,7 @@
                             >
                                 {{ item.caption }}
                                 {% if item.external %}
-                                    <span class="sr-only">Open in new window</span>
+                                    <span class="sr-only">{{ i18n[lang].open }}</span>
                                     {% svgIcon './src/img/icon/arrow-outward.svg', 'btn__icon' %}
                                 {% endif %}
                             </a>

@@ -1787,15 +1787,15 @@ legend {
 .l-testimonial {
   padding-block: var(--cone-section-gap);
 }
-.l-testimonial--tertiary {
+.l-testimonial--primary {
   padding-block: 0;
 }
-.l-testimonial--tertiary .l-testimonial__inner {
-  background-color: var(--cone-base-color-tertiary);
+.l-testimonial--primary .l-testimonial__inner {
+  background-color: var(--cone-base-color-primary);
   border-radius: var(--cone-border-radius-lg);
   padding: clamp(1.5rem, 5vw, 4.5rem);
 }
-.l-testimonial--tertiary .l-testimonial__cards {
+.l-testimonial--primary .l-testimonial__cards {
   border: 0;
 }
 .l-testimonial--secondary {
@@ -1807,6 +1807,17 @@ legend {
   padding: clamp(1.5rem, 5vw, 4.5rem);
 }
 .l-testimonial--secondary .l-testimonial__cards {
+  border: 0;
+}
+.l-testimonial--tertiary {
+  padding-block: 0;
+}
+.l-testimonial--tertiary .l-testimonial__inner {
+  background-color: var(--cone-base-color-tertiary);
+  border-radius: var(--cone-border-radius-lg);
+  padding: clamp(1.5rem, 5vw, 4.5rem);
+}
+.l-testimonial--tertiary .l-testimonial__cards {
   border: 0;
 }
 .l-testimonial__cards {
@@ -2643,7 +2654,7 @@ pre[class*=language-] {
 .team-member-card__header {
   align-items: center;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .team-member-card__caption > * {
   margin-block-end: 0;

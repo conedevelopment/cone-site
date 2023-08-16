@@ -17,7 +17,7 @@ highlighted:
         caption: "Who<br>We<br>Are"
         image: "./src/img/title-helper-primary.svg"
         url: "/about/"
-    description: "<p>Welcome at <span class='highlighted'>Cone</span>, where clean code meets resilience. We are a small, two person web development studio dedicated to crafting <span class='highlighted'>sustainable</span> code for the web. We are developers and designers, we bring your ideas to life. We make and contribute to <a href='https://github.com/conedevelopment' target='_blank' rel='noopener'>open-source</a>.</p>"
+    description: "<p>Welcome at <span class='highlighted'>Cone</span>, where clean code meets resilience. We are a small, two-person web development studio dedicated to making <span class='highlighted'>sustainable code for the web</span>. We are developers and designers who can help bring your ideas to life. We also make <a href='https://github.com/conedevelopment'>open-source</a>.</p>"
 testimonial:
     title:
         caption: "What We Do"
@@ -26,7 +26,7 @@ testimonial:
     cards:
         - title: "Application Development"
           url: "/services/application-development/"
-          description: "With Laravel, we create robust and scalable web applications that seamlessly integrate powerful features, intuitive user interfaces, and secure backend functionality."
+          description: "With Laravel, we create robust and scalable web applications that seamlessly integrate potent features, intuitive user interfaces, and secure backend functionality."
           image: "/img/illustrations/retro-coffee.svg"
           imageAlt: "A running coffee cup with a laptop in its hand."
         - title: "Website Development"
@@ -57,7 +57,7 @@ highlightedReference:
 cta:
     title: "Get to Know Us"
     classes: "cta--border-block:end"
-    description: "We are passionate developers who like to give their best, develop, and learn."
+    description: "We are passionate developers who like their work and always try to give their best on the long run."
     btn:
         url: "/about/"
         caption: "About Us"

@@ -1,8 +1,10 @@
 {
   "en": {
-    "copyright": "All rights are reserved."
+    "copyright": "All rights are reserved.",
+    "open": "Open in new window"
   },
   "hu": {
-    "copyright": "Minden jog fenntartva."
+    "copyright": "Minden jog fenntartva.",
+    "open": "Megnyitás új ablakban"
   }
 }

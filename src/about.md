@@ -12,7 +12,7 @@ cta:
     title: "Our Services"
     classes: "cta--dark"
     type: "dark"
-    description: "We can help you with website or web application development. We can serve your goals with our guidance."
+    description: "We can help you create and maintain your following website or web application development in the long run."
     btn:
         url: "/services/"
         caption: "Services"
@@ -24,28 +24,27 @@ cta:
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">About Us</h2>
                 <div class="post-content">
-                    <p><strong>Adam is responsible for the design and the front-end</strong>, while <strong>Gergő takes care of the back-end and some front-end tasks as well</strong>. This way, we can extend each other’s skills, and we are able to ship well-crafted code. Currently, we are located in Switzerland and Hungary. We like to communicate in English.</p>
+                    <p><strong>Adam is responsible for the UI design and the front-end</strong>, while <strong>Gergő takes care of the back-end and some front-end tasks as well</strong>. This way, we can extend each other’s skills, and we are able to ship well-crafted code. Currently, we are located in Hungary. We like to communicate in English.</p>
                 </div>
             </div>
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">Our Skills</h2>
                 <div class="post-content">
-                    <p>On the front-end we do UI design, including working with CSS frameworks and writing custom CSS code for the needs that a framework cannot fill. Also, we work with several <strong>JavaScript technologies</strong> and frameworks – for example <strong>Vue.js</strong>, <strong>GreenSock</strong> – but we believe, frameworks can’t solve everything, so often we write more or less complex JavaScript codes as well.</p>
-                    <p>Combining with Laravel, <strong>we can build comprehensive solutions with Vue.js</strong>. We know it well and like it much. </p>
-                    <p>To cover the back-end <strong>we develop themes and plugins for WordPress </strong>sites, but if we face with a bit larger scale, our choice is the <strong>Laravel ecosystem</strong>. </p>
-                    <p>
-                        <strong>We may help you in any Laravel based project because:</strong>
-                    </p>
+                    <p>We work with CSS frameworks on the front-end, including our Spruce CSS. We have experience with several <strong>JavaScript technologies</strong> and frameworks – for example, <strong>Vue.js</strong>, <strong>Alpine.js</strong>, <strong>GSAP</strong> – but we also highly prefer vanilla JS where possible.</p>
+                    <p>Combining Laravel with Vue.js, <strong>we can build comprehensive solutions</strong>. We know them well and like them much. </p>
+                    <p>On the back-end side <strong>we develop themes and plugins for WordPress</strong>, but if we face with a bit larger scale, our choice is the <strong>Laravel ecosystem</strong>.</p>
+                    <p><strong>We may help you with any Laravel-based project because:</strong></p>
                     <ul>
                         <li>
                             <a href="https://github.com/laravel/framework/commits?author=iamgergo">Many of our PRs</a> were merged into the Laravel Core and also in other first-party repos as well.
                         </li>
                         <li>We have an <a href="https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23">official Laravel certification</a> which was taken by Gergő. </li>
-                        <li>We wrote <a href="https://pineco.de/category/laravel/">many articles</a> about Laravel that helped a lot of developers to solve their problems. </li>
+                        <li>We wrote <a href="https://pineco.de/category/laravel/">many articles</a> about Laravel that helped many developers solve their problems.</li>
                         <li>
                             <a href="https://packagist.org/users/conedevelopment/packages/">Our Laravel packages</a> were downloaded more than 40.000 times until today.
                         </li>
                     </ul>
+                    <p>We like static sites. Our first choice for them is <a href="https://www.11ty.dev/">11ty</a>, which is a simplistic JS-based solution.</p>
                 </div>
             </div>
             <div class="text-card text-card--two-column">
@@ -56,9 +55,9 @@ cta:
                     </p>
                     <ul>
                         <li>cooperation that lasts,</li>
-                        <li>excellent and up-to-date knowledge,</li>
+                        <li>broad and up-to-date knowledge,</li>
                         <li>respect for your organization and your goals,</li>
-                        <li>a small and agile team that delivers fulfills the undertaken tasks and more.</li>
+                        <li>a small, agile team that delivers and fulfills the undertaken tasks.</li>
                     </ul>
                     <p>
                         <a href="/contact/">Let’s work together!</a>
@@ -66,9 +65,21 @@ cta:
                 </div>
             </div>
             <div class="text-card text-card--two-column">
+                <h2 class="text-card__title">Open Source</h2>
+                <div class="post-content">
+                    <p>We maintain a few open-source projects. Small and bigger ones too.</p>
+                    <ul>
+                        <li><strong>Root</strong>: a simplistic Laravel admin package with a short compile time.</li>
+                        <li><strong>Bazar</strong>: a Laravel e-commerce package for Root.</li>
+                        <li><strong>Spruce CSS</strong>: a simple CSS framework.</li>
+                    </ul>
+                    <p>You can find a complete list on our <a href="https://github.com/conedevelopment">GitHub page</a>.</p>
+                </div>
+            </div>
+            <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">We Are<br>Learners</h2>
                 <div class="post-content">
-                    <p>Web development is an infinite area if you want to learn. <strong> We think that it is a challenge to do our best in a continuously changing environment</strong>, but we can like it very much. No matter what we build, we try to do it in a new way, which we can learn from, a method that lasts.</p>
+                    <p>Web development is an infinite area if you want to learn. <strong> We think that it is a challenge to do our best in a continuously changing environment</strong>, we like it very much.</p>
                     <p>If you want to know more about how we think we can recommend you two book: <a href="https://www.amazon.com/ReWork-Change-Way-Work-Forever-ebook/dp/B003ELY7PG">Rework</a>, <a href="https://www.amazon.com/Remote-Required-David-Heinemeier-Hansson-ebook/dp/B00CZ7OC46/">Remote</a>.</p>
                 </div>
             </div>
@@ -84,7 +95,7 @@ cta:
                             </div>
                         </div>
                         <div class="team-member-card__body">
-                            <p>Laravel and Back-end developer. Architecture design, optimization, JS writing using Vue.js.</p>
+                            <p>Laravel and Back-end developer. Architecture design, optimization, JS writing using Vue.js and Alpine.js.</p>
                             <p><a href="https://github.com/iamgergo" target="_blank" rel="noopener">GitHub</a>
                             </p>
                         </div>

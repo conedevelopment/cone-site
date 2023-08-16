@@ -4,7 +4,7 @@ layout: "layout/works.html"
 hero:
     title:
         caption: "We Make <span class='highlighted'>Clean Design</span><br>and <span class='highlighted'>Modern Code</span>"
-    description: "We create our works on the top of robust, yet flexible and modern technologies."
+    description: "We work with robust, yet flexible and modern technologies."
     classes: 'hero--font-size:small hero--center hero--padding-block:small'
 highlightedReference:
     items:
@@ -49,6 +49,20 @@ references:
         - Laravel
         - Vue.js
         - Bulma
+    - title: "Mein Obstgarten"
+      description: "Mein Obstgarten is a platform where communities can buy or sell fruits, products or trees for picking. We built the new UI based on the static wireframe."
+      linkUrl: "https://www.meinobstgarten.ch/"
+      linkCaption: "meinobstgarten.ch"
+      tags:
+        - HTML
+        - CSS
+    - title: "Onyx Garden - Sárvár"
+      description: "Onyx Garden is a popular restaurant at Sárvár. We designed a modern website with a custom and visual reservation system where the guests can pick their table and appointment."
+      linkUrl: "https://onyxgarden.hu/"
+      linkCaption: "onyxgarden.hu"
+      tags:
+        - WordPress
+        - UI Design
 cta:
     title: "Want to work with us?"
     classes: "cta--dark"
