@@ -1,7 +1,7 @@
 ---
 title: "Laravel Application Development"
 permalink: "/services/application-development/"
-layout: "layout/application-development.html"
+layout: "layout/development.html"
 hero:
     title:
         caption: "We Are Crafting<br><span class='highlighted'>Web Based Applications</span>"
@@ -38,11 +38,11 @@ accordion:
               description: "<p>We document the code adopting the coding and documenting standards, to make the application easily understandable and futureproof. Also, documention allows tools like static analysis to prevent bugs and issues.</p>"
             - title: "Hosting your application"
               description: "<p>We don't offer hosting directly, however based on our experience we can suggest reliable hosting services that fits your application.</p>"
-            - title: "I need an application. What can I expect? "
+            - title: "I need an application. What can I expect?"
               description: "<p>When your needs are more complex and require unique implementation, probably you need an application that offers more than WordPress. In this case, we are working with Laravel and adjust the environment to the framework.</p><p>We can design your UI as well alongside building the front-end based on Vue, which provides a modern, flexible and powerful interface.</p>"
-            - title: "I need a Laravel package. Is it possible? "
+            - title: "I need a Laravel package. Is it possible?"
               description: "<p>Sure, if every condition passes. If your needs matches that we can offer and your Laravel app is ready to handle the package, it can be done.</p><p>Deprecated Laravel versions do not get support, so update your application before planning to integrate a package.</p>"
-            - title: "I have a startup idea. Can you help? "
+            - title: "I have a startup idea. Can you help?"
               description: "<p>It depends on your idea and your needs, but we are sure that we can be a great fit.</p><p>By working with a modern stack (Laravel, Vue.js), we are sure that we can help you to take the next step. We can allocate our time once in a while for 3-6 months. But of course, we can adapt.</p>"
 step:
     showNumber: true

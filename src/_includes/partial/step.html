@@ -1,34 +1,36 @@
-<div class="l-step">
-    <div class="container">
-        {% if step.title %}
-            <h2 class="section-title section-title--vertical section-title--light">
-                {% if step.title.image %}
-                    {% svgIcon step.title.image %}
-                {% endif %}
-
-                {% if step.title.url %}
-                    <a href="{{ step.title.url }}" class="section-title__link">
-                {% endif %}
-                    {{ step.title.caption | safe }}
-                {% if step.title.url %}
-                    </a>
-                {% endif %}
-            </h2>
-        {% endif %}
-        <div class="l-step__inner">
-            {% for item in step.items %}
-                <div class="step-card">
-                    {% if step.showNumber == true %}
-                        <span class="step-card__number">0{{ loop.index }}</span>
+{% if step.items %}
+    <div class="l-step">
+        <div class="container">
+            {% if step.title %}
+                <h2 class="section-title section-title--vertical section-title--light">
+                    {% if step.title.image %}
+                        {% svgIcon step.title.image %}
                     {% endif %}
-                    <h3 class="step-card__title">
-                        {{ item.title }}
-                    </h3>
-                    <p class="step-card__description">
-                        {{ item.description }}
-                    </p>
-                </div>
-            {% endfor %}
+
+                    {% if step.title.url %}
+                        <a href="{{ step.title.url }}" class="section-title__link">
+                    {% endif %}
+                        {{ step.title.caption | safe }}
+                    {% if step.title.url %}
+                        </a>
+                    {% endif %}
+                </h2>
+            {% endif %}
+            <div class="l-step__inner">
+                {% for item in step.items %}
+                    <div class="step-card">
+                        {% if step.showNumber == true %}
+                            <span class="step-card__number">0{{ loop.index }}</span>
+                        {% endif %}
+                        <h3 class="step-card__title">
+                            {{ item.title }}
+                        </h3>
+                        <p class="step-card__description">
+                            {{ item.description }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
-</div>
+{% endif %}
