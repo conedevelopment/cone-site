@@ -67,16 +67,6 @@
     }
   }
 
-  &__email {
-    display: none;
-    font-family: config('font-family-cursive', $typography);
-    text-decoration: none;
-
-    @include breakpoint('md') {
-      display: inline-flex;
-    }
-  }
-
   &__navigation {
     margin-inline-start: auto;
 

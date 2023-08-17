@@ -2880,16 +2880,6 @@ pre[class*=language-] {
   block-size: 100%;
   inline-size: auto;
 }
-.site-header__email {
-  display: none;
-  font-family: var(--cone-font-family-cursive);
-  text-decoration: none;
-}
-@media (min-width: 64em) {
-  .site-header__email {
-    display: inline-flex;
-  }
-}
 .site-header__navigation {
   margin-inline-start: auto;
 }
