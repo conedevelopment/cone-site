@@ -8,7 +8,7 @@ hero:
         typewriter: "as it should be, like a maniac, that helps you, like nobady's watching"
     description: "We compose websites and web applications from small to large scale in WordPress and Laravel."
     btn:
-        - url: "/services/laravel-development/"
+        - url: "/services/application-development/"
           caption: "Laravel Development"
         - url: "/services/website-development/"
           caption: "Website Development"
