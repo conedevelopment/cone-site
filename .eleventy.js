@@ -20,6 +20,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/css/**');
   config.addPassthroughCopy('./src/js/**');
   config.addPassthroughCopy('./src/font/**');
+  config.addPassthroughCopy('./_redirects');
 
   config.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/hu/posts/*.md')];

@@ -11,6 +11,8 @@
 
 **The new 11ty-based portfolio website of Cone built with the help of [Spruce CSS](https://sprucecss.com/).**
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56f86c89-3e83-4d7f-bc4e-ed4d3073d6b2/deploy-status)](https://app.netlify.com/sites/cone-development-site/deploys)
+
 ## Get Up and Running
 
 1. Install the dependencies with `npm install`.
