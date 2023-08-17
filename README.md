@@ -13,10 +13,10 @@
 
 ## Get Up and Running
 
-1. Install the dependencies with **"npm install"**.
-2. Run **"npm start"** for the dev server and compilation.
-3. Run **"npm run prod"** for production.
-4. Run **"npm run sass:lint"** for linting scss.
+1. Install the dependencies with `npm install`.
+2. Run `npm start` for the dev server and compilation.
+3. Run `npm run prod` for production.
+4. Run `npm run sass:lint` for linting scss.
 
 ## Contribution
 
