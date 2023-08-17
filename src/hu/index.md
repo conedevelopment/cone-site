@@ -1,26 +1,27 @@
 ---
-title: "Home"
-metaTitle: "A Small and Reliable Development Studio"
+title: "Kezdőlap"
+metaTitle: "Webalkalmazás, weboldal és WordPress fejlesztés"
+metaDesc: "Megbízható és modern webalkalmazásokat és weboldalakat készítünk kicsitől a nagyig Laravel és WordPress segítségével."
 layout: "layout/front-page.html"
 hero:
     title:
-        caption: "<span class='highlighted'>Writing code</span><br><span id='typewriter'>as it should be</span>"
-        typewriter: "as it should be, like a maniac, that helps you, like nobady's watching"
-    description: "We compose websites and web applications from small to large scale in WordPress and Laravel."
+        caption: "<span class='highlighted'>Kód írása</span><br><span><span id='typewriter'>ahogy kellene</span>&nbsp;</span>"
+        typewriter: "ahogy kellene, ami fenntartható, ami nem hoz zavarba, ami segít neked"
+    description: "Webalkalmazásokat és weboldalakat készítünk kicsitől a nagyig Laravel és WordPress segítségével."
     btn:
-        - url: "/services/laravel-development/"
-          caption: "Laravel Development"
-        - url: "/services/website-development/"
-          caption: "Website Development"
+        - url: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
+          caption: "Laravel fejlesztés"
+        - url: "/hu/szolgaltatasaink/weboldal-fejlesztes/"
+          caption: "Weboldal fejlesztés"
 highlighted:
     title:
-        caption: "Who<br>We<br>Are"
+        caption: "Kik <br>vagyunk"
         image: "./src/img/title-helper-primary.svg"
         url: "/about/"
     description: "<p>Welcome at <span class='highlighted'>Cone</span>, where clean code meets resilience. We are a small, two person web development studio dedicated to crafting <span class='highlighted'>sustainable</span> code for the web. We are developers and designers, we bring your ideas to life. We make and contribute to <a href='https://github.com/conedevelopment' target='_blank' rel='noopener'>open-source</a>.</p>"
 testimonial:
     title:
-        caption: "What We Do"
+        caption: "Mit csinálunk"
         image: "./src/img/title-helper-primary.svg"
         url: "/services/"
     cards:
@@ -41,7 +42,7 @@ testimonial:
           imageAlt: "A party bar of chocolate with sunglasses."
 highlightedReference:
     title:
-        caption: "Mit<br>csinálunk"
+        caption: "Ezt <br>készítettük"
         image: "./src/img/title-helper-primary.svg"
         url: "/works/"
     classes: "highlighted-reference--align-end"
@@ -55,10 +56,10 @@ highlightedReference:
           linkCaption: "megmerettetes.hu"
           image: "/img/preview/megmerettetes.jpg"
 cta:
-    title: "Get to Know Us"
+    title: "Ismerj meg minket"
     classes: "cta--border-block:end"
-    description: "We are passionate developers who like to give their best, develop, and learn."
+    description: "Elhivatott fejlesztők vagyunk, akik szeretik mindig a legjobbat nyújtani és fejlődni."
     btn:
-        url: "/about/"
-        caption: "About Us"
+        url: "/hu/rolunk/"
+        caption: "Még több rólunk"
 ---

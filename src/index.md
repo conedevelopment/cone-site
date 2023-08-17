@@ -4,7 +4,7 @@ metaTitle: "A Small and Reliable Development Studio"
 layout: "layout/front-page.html"
 hero:
     title:
-        caption: "<span class='highlighted'>Writing code</span><br><span id='typewriter'>as it should be</span>"
+        caption: "<span class='highlighted'>Writing code</span><br><span><span id='typewriter'>as it should be</span>&nbsp;</span>"
         typewriter: "as it should be, like a maniac, that helps you, like nobady's watching"
     description: "We compose websites and web applications from small to large scale in WordPress and Laravel."
     btn:

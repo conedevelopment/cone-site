@@ -1611,6 +1611,7 @@ legend {
   --cone-btn-color-secondary-background: hsl(326, 100%, 65%);
   --cone-btn-color-secondary-background-hover: #ff66bd;
   --cone-btn-color-secondary-foreground: hsl(0, 0%, 95%);
+  --cone-btn-color-secondary-shadow: hsl(326, 100%, 18%);
 }
 
 :root[data-theme-mode=dark] {

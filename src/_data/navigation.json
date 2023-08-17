@@ -146,23 +146,23 @@
         "title": "Szolgáltatásiank",
         "items": [
           {
-            "caption": "Application Development",
-            "url": "/services/application-development/",
+            "caption": "Alkalmazasfejlesztés",
+            "url": "/hu/szolgaltatasaink/alkalmazas-fejlesztes/",
             "external": false
           },
           {
-            "caption": "Website Development",
-            "url": "/services/website-development/",
+            "caption": "Weboldal készítés",
+            "url": "/hu/szolgaltatasaink/weboldal-fejlesztes/",
             "external": false
           },
           {
-            "caption": "UI Design",
-            "url": "/services/ui-design/",
+            "caption": "UI tervezés",
+            "url": "/hu/szolgaltatasaink/tervezes-es-egyebek/",
             "external": false
           },
           {
-            "caption": "Accessibility Audit",
-            "url": "/services/accessibility-audit/",
+            "caption": "Audit",
+            "url": "/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/",
             "external": false
           }
         ]
