@@ -9,6 +9,10 @@
   flex-direction: column;
   overflow: hidden;
 
+  &__thumbnail {
+    inline-size: 100%;
+  }
+
   &__caption {
     @include layout-stack('xxs');
     background-color: color('background', 'reference');

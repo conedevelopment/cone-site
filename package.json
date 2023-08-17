@@ -1,7 +1,7 @@
 {
-  "name": "sprucecss-eleventy-starter",
-  "version": "1.0.2",
-  "author": "Cone (https://sprucecss.com)",
+  "name": "cone-site",
+  "version": "1.0.0",
+  "author": "Cone (https://conedevelopment.com)",
   "babel": {
     "presets": [
       "latest"
