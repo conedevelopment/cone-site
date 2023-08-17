@@ -41,6 +41,22 @@ module.exports = config => {
     return stringify(svg);
   });
 
+  config.addShortcode("image", async function(src, alt, sizes) {
+		let metadata = await Image(src, {
+			formats: ["webp", "jpeg"],
+      outputDir: "./dist/img/",
+		});
+
+		let imageAttributes = {
+			alt,
+			sizes,
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		return Image.generateHTML(metadata, imageAttributes);
+	});
+
   if (isProduction) {
     config.addTransform('htmlmin', htmlMinTransform);
   }

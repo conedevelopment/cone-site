@@ -11,11 +11,11 @@ highlightedReference:
         - title: "Sárvár"
           linkUrl: "https://sarvar.hu"
           linkCaption: "sarvar.hu"
-          image: "/img/preview/sarvar.jpg"
+          image: "./src/img/preview/sarvar.jpg"
         - title: "OITM"
           linkUrl: "https://megmerettetes.hu"
           linkCaption: "megmerettetes.hu"
-          image: "/img/preview/megmerettetes.jpg"
+          image: "./src/img/preview/megmerettetes.jpg"
 references:
     - title: "National IT Competition (OITM)"
       description: "We redesigned and rebuilt the complete application with Laravel and manage the whole competition for the 3rd year now."

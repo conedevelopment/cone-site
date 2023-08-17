@@ -17,7 +17,7 @@
                 <div class="highlighted-reference__preview">
                     {% for item in highlightedReference.items %}
                         <div class="reference-card">
-                            <img src="{{ item.image }}" class="reference-card__thumbnail" alt="" loading="lazy" height="223" width="483">
+                            {% image item.image, '' %}
                             <div class="reference-card__caption">
                                 <h3 class="reference-card__title">
                                     {{ item.title }}

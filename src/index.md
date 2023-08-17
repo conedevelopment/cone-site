@@ -49,11 +49,11 @@ highlightedReference:
         - title: "Sárvár"
           linkUrl: "https://sarvar.hu"
           linkCaption: "sarvar.hu"
-          image: "/img/preview/sarvar.jpg"
+          image: "./src/img/preview/sarvar.jpg"
         - title: "OITM"
           linkUrl: "https://megmerettetes.hu"
           linkCaption: "megmerettetes.hu"
-          image: "/img/preview/megmerettetes.jpg"
+          image: "./src/img/preview/megmerettetes.jpg"
 cta:
     title: "Get to Know Us"
     classes: "cta--border-block:end"
