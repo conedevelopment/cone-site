@@ -20,24 +20,21 @@ testimonial:
           imageAlt: "Retro popcorn rushed to the movies illustration."
 accordion:
     title:
-        caption: "How we<br> work"
+        caption: "How we <br>can help"
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scalable Laravel applications"
           items:
-            - title: "We know WordPress"
-              description: "<p>We can cover a wide range of concepts with WordPress. From a simple portfolio site to a complex webshop.</p><p>WordPress is great when it's used for what it's made for. We try use less, yet more reliable plugins.</p>"
-            - title: "SEO friendliness"
-              description: "<p>Our main goal is to make a website ready for SEO. This means that your PageSpeed metrics will be in the top green section.</p>"
-            - title: "WordPress plugin development"
-              description: "<p>WordPress is an extensible system. If you need a custom plugin, we can help you.</p><p>We made WooCommerce plugins – such as OTP SimplePay gateway, DHL shipping, and various native WordPress plugins as well. As we see, development is often about extending the current functionality.</p><p>At this point, it’s important to note, there are needs that WordPress can’t serve perfectly. If your need is unique and requires lots of support in the longer term, we recommend considering <a href='/services/application-development/'>application development</a>.</p>"
-            - title: "We maintain what we make"
-              description: "<p>We take care of our products. This means, we do maintenance and support the end-product. If it’s about a third party product, then we rarely do maintenance.</p>"
-            - title: "Which plugins do you use for WordPress development?"
-              description: "<p>Általában a népszerűbb és jobb felépítésű bővítményeket részesítjük előnyben. Ilyen például a Yoast SEO bővítménye, vagy a WP Rocket. Ha webáruházról van szó, akkor WooCommerce-et használunk. Ha velünk dolgozol jár neked a fizetős WPML (nyelvesítés), WP Rocket (teljesítmény optimalizálás), ACF (egyedi mezők kezelése).</p>"
-            - title: "Do you work with purchuased themes?"
-              description: "<p>No, our themes are all custom developments. This means the end-product will contain only what is necessary based on the needs we arranged in advance.</p><p>In some cases we do some work in purchuased themes, but only based hourly rates and not in a fixed project based price.</p>"
+            - title: "Crafting seamless experiences"
+              description: "<p>We specialize in crafting user interfaces that seamlessly blend simplicity with responsiveness. Our designs prioritize user-friendliness, ensuring an effortless journey for every visitor.</p>"
+            - title: "Unlocking technical SEO potential"
+              description: "<p>Our expertise extends to the realm of technical SEO. With a meticulous approach, we optimize websites to enhance their search engine visibility. From structural refinement to code optimization, we lay the groundwork for improved discoverability.</p>"
+            - title: "Elevating User Experience"
+              description: "<p>User experience lies at the heart of what we do. Armed with an arsenal of user-centric design patterns. Our goal is to make every interaction intuitive and gratifying.</p>"
+            - title: "Fueling performance acceleration"
+              description: "<p>In the digital sphere, performance reigns supreme. We specialize in enhancing the speed and responsiveness of websites and applications. By fine-tuning loading times and overall efficiency, we drive enhanced user satisfaction.</p>"
+            - title: "Accessibility & Inclusivity"
+              description: "<p>We prioritize accessibility because it reflects our belief in equal opportunities for all users. Ensuring that our designs cater to diverse abilities not only adheres to ethical standards but also enhances user engagement and creates a more inclusive digital landscape.</p>"
 cta:
     title: "Want to work with us?"
     classes: "cta--dark"

@@ -24,7 +24,6 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scalable Laravel applications"
           items:
             - title: "We know WordPress"
               description: "<p>We can cover a wide range of concepts with WordPress. From a simple portfolio site to a complex webshop.</p><p>WordPress is great when it's used for what it's made for. We try use less, yet more reliable plugins.</p>"

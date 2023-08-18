@@ -24,7 +24,6 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scalable Laravel applications"
           items:
             - title: "What kind of system do you need?"
               description: "<p>The modern applications have multiple layers to serve the needs of the users eaisly. Maybe, you need an API layer, or a more complex CMS, we can help you.</p>"
