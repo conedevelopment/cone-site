@@ -24,7 +24,7 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scaleable Laravel applications"
+          subtitle: "Scalable Laravel applications"
           items:
             - title: "What kind of system do you need?"
               description: "<p>The modern applications have multiple layers to serve the needs of the users eaisly. Maybe, you need an API layer, or a more complex CMS, we can help you.</p>"
@@ -35,7 +35,7 @@ accordion:
             - title: "We design UI as well"
               description: "<p>A personalized application requires a unique UI as well. We design and set it up for you. You will get a clean and straightforward interface.</p>"
             - title: "Documentation"
-              description: "<p>We document the code adopting the coding and documenting standards, to make the application easily understandable and futureproof. Also, documention allows tools like static analysis to prevent bugs and issues.</p>"
+              description: "<p>We document the code adopting the coding and documenting standards, to make the application easily understandable and futureproof. Also, documentation allows tools like static analysis to prevent bugs and issues.</p>"
             - title: "Hosting your application"
               description: "<p>We don't offer hosting directly, however based on our experience we can suggest reliable hosting services that fits your application.</p>"
             - title: "I need an application. What can I expect?"

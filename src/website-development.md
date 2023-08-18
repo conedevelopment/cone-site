@@ -11,11 +11,11 @@ testimonial:
     classes: "l-testimonial--tertiary"
     cards:
         - title: "Wh choose WordPress?"
-          description: "WordPress is a popular and efficient content management system (CMS), which provides a great platform for smaller or bigger sites. Its great advantage is the continous development and its felxibility."
+          description: "WordPress is a popular and efficient content management system (CMS), which provides a great platform for smaller or bigger sites. Its great advantage is the continuous development and its flexibility."
           image: "/img/illustrations/retro-milk-on-a-scooter.svg"
           imageAlt: "Retro milk on a scooter illustration."
         - title: "Why choose 11ty?"
-          description: "11ty (Eleventy) is a popular and handy static site generator. Using it, we can create high performant and secure websites with optional content managment system."
+          description: "11ty (Eleventy) is a popular and handy static site generator. Using it, we can create high performant and secure websites with optional content management system."
           image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
           imageAlt: "Retro popcorn rushed to the movies illustration."
 accordion:
@@ -24,7 +24,7 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scaleable Laravel applications"
+          subtitle: "Scalable Laravel applications"
           items:
             - title: "We know WordPress"
               description: "<p>We can cover a wide range of concepts with WordPress. From a simple portfolio site to a complex webshop.</p><p>WordPress is great when it's used for what it's made for. We try use less, yet more reliable plugins.</p>"
