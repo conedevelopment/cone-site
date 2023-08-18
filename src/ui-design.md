@@ -10,13 +10,13 @@ hero:
 testimonial:
     classes: "l-testimonial--tertiary"
     cards:
-        - title: "Wh choose WordPress?"
-          description: "WordPress is a popular and efficient content management system (CMS), which provides a great platform for smaller or bigger sites. Its great advantage is the continuous development and its flexibility."
-          image: "/img/illustrations/retro-milk-on-a-scooter.svg"
+        - title: "Intuitive designs"
+          description: "Our UI & UX design expertise revolves around creating digital spaces that users love to explore. We specialize in crafting intuitive interfaces that guide users effortlessly through every interaction."
+          image: "/img/illustrations/retro-cocktail-plays-guitar.svg"
           imageAlt: "Retro milk on a scooter illustration."
-        - title: "Why choose 11ty?"
-          description: "11ty (Eleventy) is a popular and handy static site generator. Using it, we can create high performant and secure websites with optional content management system."
-          image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
+        - title: "Simplicity"
+          description: "Our designs capture the essence of elegance in layouts and simplicity in navigation, all working harmoniously to elevate user satisfaction."
+          image: "/img/illustrations/retro-fries-crooked.svg"
           imageAlt: "Retro popcorn rushed to the movies illustration."
 accordion:
     title:
@@ -26,15 +26,15 @@ accordion:
         - title: null
           items:
             - title: "Crafting seamless experiences"
-              description: "<p>We specialize in crafting user interfaces that seamlessly blend simplicity with responsiveness. Our designs prioritize user-friendliness, ensuring an effortless journey for every visitor.</p>"
-            - title: "Unlocking technical SEO potential"
-              description: "<p>Our expertise extends to the realm of technical SEO. With a meticulous approach, we optimize websites to enhance their search engine visibility. From structural refinement to code optimization, we lay the groundwork for improved discoverability.</p>"
+              description: "<p>We specialize in crafting user interfaces that are both straightforward and robust. Our designs are tailored for user-friendliness, ensuring a smooth and effortless journey for every visitor.</p>"
+            - title: "Unlocking technical SEO"
+              description: "<p>We're also skilled in technical SEO. We fine-tune websites with precision to boost their visibility on search engines. Whether it's tweaking the structure or optimizing the code, we're all about making your site easier to find.</p>"
             - title: "Elevating User Experience"
               description: "<p>User experience lies at the heart of what we do. Armed with an arsenal of user-centric design patterns. Our goal is to make every interaction intuitive and gratifying.</p>"
-            - title: "Fueling performance acceleration"
-              description: "<p>In the digital sphere, performance reigns supreme. We specialize in enhancing the speed and responsiveness of websites and applications. By fine-tuning loading times and overall efficiency, we drive enhanced user satisfaction.</p>"
+            - title: "Fueling performance"
+              description: "<p>In the modern web, performance is essential. We optimize your site or application for the needs of the end-user. We don't add bloat and follow current practices.</p>"
             - title: "Accessibility & Inclusivity"
-              description: "<p>We prioritize accessibility because it reflects our belief in equal opportunities for all users. Ensuring that our designs cater to diverse abilities not only adheres to ethical standards but also enhances user engagement and creates a more inclusive digital landscape.</p>"
+              description: "<p>We prioritize accessibility because it reflects our belief in equal opportunities for all users. If needed we follow the WCAG standard.</p>"
 cta:
     title: "Want to work with us?"
     classes: "cta--dark"

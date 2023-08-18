@@ -10,7 +10,7 @@ hero:
 testimonial:
     classes: "l-testimonial--tertiary"
     cards:
-        - title: "Wh choose WordPress?"
+        - title: "Why choose WordPress?"
           description: "WordPress is a popular and efficient content management system (CMS), which provides a great platform for smaller or bigger sites. Its great advantage is the continuous development and its flexibility."
           image: "/img/illustrations/retro-milk-on-a-scooter.svg"
           imageAlt: "Retro milk on a scooter illustration."
