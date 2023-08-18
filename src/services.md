@@ -30,7 +30,7 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scaleable Laravel applications"
+          subtitle: "Scalable Laravel applications"
           items:
             - title: "Robust applications"
               description: "<p>The completed application will be robust, easy to expand, and secure. We and the Laravel framework grant this.</p>"
@@ -43,7 +43,7 @@ accordion:
             - title: "Your site will be technical SEO ready"
               description: "<p>One of the parts of SEO is technical optimization. We will do our best to make it the best as possible.</p>"
             - title: "Our technology stack"
-              description: "<p><strong>Development</strong>: Laravel, MySQL, Redis, Vue.js, Alpine.js, Boostrap, Root, Bazar, Spruce CSS, Webpack, Yarn, npm.</p><p><strong>Integration</strong>: PayPal, Braintree, Stripe, SimplePay, MailChimp, Google Maps, Google Tag Manager.</p><p><strong>Server</strong>: Netlify, A2 Hosting, Laravel Forge, AWS.</p>"
+              description: "<p><strong>Development</strong>: Laravel, MySQL, Redis, Vue.js, Alpine.js, Bootstrap, Root, Bazar, Spruce CSS, Webpack, Yarn, npm.</p><p><strong>Integration</strong>: PayPal, Braintree, Stripe, SimplePay, MailChimp, Google Maps, Google Tag Manager.</p><p><strong>Server</strong>: Netlify, A2 Hosting, Laravel Forge, AWS.</p>"
 cta:
     title: "Want to work with us?"
     classes: "cta--dark"
