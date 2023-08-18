@@ -57,7 +57,11 @@
 
   &__inner {
     @include layout-stack('l');
-    padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) calc(#{get-css-variable(--section-gap)} * 1.5);
+    padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) get-css-variable(--section-gap);
+
+    @include breakpoint('md') {
+      padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) calc(#{get-css-variable(--section-gap)} * 1.5);
+    }
   }
 
   &__caption {

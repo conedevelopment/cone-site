@@ -15,7 +15,7 @@ $color-tertiary: hsl(169deg 100% 50%);
     'padding': 0.85em 1.75em,
   ),
   $btn-lg: (
-    'padding': 1em 1.75em,
+    'padding': clamp(0.9em, 3vw, 1em) clamp(1.5em, 3vw, 1.75em),
   ),
   $color-black: $color-black,
   $color-primary: $color-primary,

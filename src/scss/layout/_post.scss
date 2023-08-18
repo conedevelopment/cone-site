@@ -20,6 +20,6 @@
   }
 
   &__list {
-    @include layout-stack(spacer-clamp('m', 'xl'));
+    @include layout-stack(spacer-clamp('l', 'xl'));
   }
 }
