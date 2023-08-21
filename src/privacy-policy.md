@@ -25,22 +25,11 @@ Our email address is [hello@conedevelopment.com](mailto:hello@conedevelopment.co
 
 In this site, we collect analytics data and contact form information.
 
-## Comments
+### Contact Forms
 
-When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+We collect form data through a simple HTML form. We only use these data for communicating with our users (who sent us a message), and we store it up until to 2 years.
 
-An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
-
-## Media
-
-If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
-
-## Contact Forms
-
-We collect form data through the Contact Form 7 plugin and store it with the Flamingo plugin in our database.
-We only use these data for communicating with our users (who sent us a message), and we store it up until to 2 years.
-
-## Cookies
+### Cookies
 
 If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
 
@@ -54,25 +43,19 @@ If you browse our site, you will get cookies from Google Analytics which help th
 
 <button class="btn btn--primary" data-action="cookie" data-type="analytics" data-on-text="Decline" data-off-text="Accept">analytics cookies</button>
 
-## Embedded Content From Other Websites
+### Embedded Content From Other Websites
 
 Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
 
 These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
 
-## Analytics
+### Analytics
 
-We track the user behavior on our site with Google Analytics and Jetpack. To get more info about Jetpack cookies and more, please visit the official page. These are working anonymously.
+We track the user behavior on our site with Google Analytics.
 
 ## Who We Share Your Data With
 
 We do not share any personal data with any third-party.
-
-## How Long We Retain Your Data
-
-If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
-
-For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
 
 ## What Rights You Have Over Your Data
 
@@ -81,8 +64,3 @@ If you have an account on this site, or have left comments, you can request to r
 ## Where We Send Your Data
 
 Visitor comments may be checked through an automated spam detection service.
-
-## Your Contact Information
-
-- Email address: hello@conedevelopment.com
-- Address: 5 Nyereg street, Békés, BE, 5630, Hungary
