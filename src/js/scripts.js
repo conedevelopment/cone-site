@@ -1,24 +1,21 @@
 import {
-  getCookie, issetCookie
-} from './cookie.js';
+  getCookie,
+} from './cookie.js'; // eslint-disable-line
 
-if (
-  issetCookie('cone-cookie-law-analytics')
-  && getCookie('cone-cookie-law-analytics') === 'accepted'
-) {
-  function gtag() {
-    window.dataLayer.push(arguments);
+if (getCookie('cone-cookie-law-analytics') === 'accepted') {
+  function gtag() { // eslint-disable-line
+    window.dataLayer.push(arguments); // eslint-disable-line
   }
 
-  const cone_gtag_id = 'G-VG8YZ0GRD3';
-  const cone_gtag_script = document.createElement('script');
+  const coneGtagId = 'G-VG8YZ0GRD3';
+  const coneGtagScript = document.createElement('script');
 
-  cone_gtag_script.src = `https://www.googletagmanager.com/gtag/js?id=${cone_gtag_id}`;
-  cone_gtag_script.async = true;
-  document.head.append(cone_gtag_script);
+  coneGtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${coneGtagId}`;
+  coneGtagScript.async = true;
+  document.head.append(coneGtagScript);
 
   window.dataLayer = window.dataLayer || [];
 
   gtag('js', new Date());
-  gtag('config', cone_gtag_id);
+  gtag('config', coneGtagId);
 }
