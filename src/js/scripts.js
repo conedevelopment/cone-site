@@ -6,15 +6,19 @@ if (
   issetCookie('cone-cookie-law-analytics')
   && getCookie('cone-cookie-law-analytics') === 'accepted'
 ) {
-  const id = 'G-VG8YZ0GRD3';
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
-  document.head.append(script);
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+
+  const cone_gtag_id = 'G-VG8YZ0GRD3';
+  const cone_gtag_script = document.createElement('script');
+
+  cone_gtag_script.src = `https://www.googletagmanager.com/gtag/js?id=${cone_gtag_id}`;
+  cone_gtag_script.async = true;
+  document.head.append(cone_gtag_script);
 
   window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); } // eslint-disable-line
-  gtag('js', new Date());
 
-  gtag('config', 'G-VG8YZ0GRD3');
+  gtag('js', new Date());
+  gtag('config', cone_gtag_id);
 }
