@@ -5,15 +5,6 @@
 <html lang="{{ lang }}">
     <head>
         <meta name="robots" content="noindex">
-
-        {% set css %}
-            {% include "../../css/critical.css" %}
-        {% endset %}
-
-        <style>
-            {{ css | safe }}
-        </style>
-
         <script src="/js/theme-detection.js?{{ assetHash }}"></script>
         {% include "partial/preload.html" %}
         <meta charset="UTF-8">
@@ -21,7 +12,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
         {% include "partial/meta.html" %}
-        <link rel="stylesheet" href="/css/main.css?{{ assetHash }}">
+
+        {% set css %}
+            {% include "../../css/main.css" %}
+        {% endset %}
+
+        <style>
+            {{ css | safe }}
+        </style>
     </head>
     <body>
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>
