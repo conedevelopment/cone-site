@@ -56,7 +56,6 @@
 
   &__logo {
     --block-size: 1.35rem;
-    @include transition;
     block-size: var(--block-size);
     display: inline-flex;
     flex-shrink: 0;
