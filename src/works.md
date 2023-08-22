@@ -27,7 +27,7 @@ references:
         - UI/UX Design
         - Accessibility
     - title: "Sárvár"
-      description: "The page of sarvar.hu is everything about tourism. It is operated by the TDM of Sárvár to serve the goals of the city and its wellness. A modern, visual, clean design with fast performance."
+      description: "The website of sarvar.hu is everything about tourism. It is operated by the TDM of Sárvár to serve the goals of the city and its wellness. A modern, visual, clean design with fast performance."
       linkUrl: "https://sarvar.hu"
       linkCaption: "sarvar.hu"
       tags:
