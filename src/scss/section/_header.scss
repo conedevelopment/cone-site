@@ -24,7 +24,6 @@
   }
 
   &__inner {
-    @include transition;
     align-items: center;
     block-size: get-css-variable(--header-block-size);
     display: flex;
