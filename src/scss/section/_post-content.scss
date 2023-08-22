@@ -7,8 +7,12 @@
     font-size: 1.0375rem;
   }
 
-  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p:not(:has(img)):not(blockquote):not(form)) {
+  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote, form) {
     @include layout-center(null, 40rem);
+  }
+
+  p:has(img) {
+    max-inline-size: 65rem;
   }
 
   &__thumbnail {
