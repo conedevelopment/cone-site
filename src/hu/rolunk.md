@@ -5,7 +5,7 @@ hero:
     title:
         caption: "<span class='highlighted'>Kétfős csapat</span> <br> ami sokat tud"
     description: "Szakmánk iránt elhivatott fejlesztők vagyunk, akik együtt tanulnak, fejlődnek, publikálnak és alkotnak."
-    classes: 'hero--two-column hero--font-size:medium'
+    classes: "hero--two-column hero--font-size:medium"
 visual:
     background: "/img/photos/tiszaszolos.jpg"
 cta:

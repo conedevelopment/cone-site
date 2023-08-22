@@ -41,7 +41,15 @@ references:
       tags:
         - WordPress
         - UI Development
-    - title: "Artwork Management Application"
+    - title: "Démoszthenész Organization"
+      description: "We made the website for Hungary's most extensive speech therapist organization with expert search functionality and listing."
+      linkUrl: "https://demoszthenesz.hu/"
+      linkCaption: "demoszthenesz.hu"
+      tags:
+        - WordPress
+        - UI Development
+        - Accessibility
+    - title: "GalleryTool"
       description: "Laravel has proven to be an excellent choice for the GalleryTool Artwork Management Application. Manage, categorize, show, export, embed all of your artworks."
       linkUrl: "https://gallerytool.com"
       linkCaption: "gallerytool.com"
