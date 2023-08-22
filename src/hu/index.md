@@ -18,7 +18,7 @@ highlighted:
         caption: "Kik <br>vagyunk"
         image: "./src/img/title-helper-primary.svg"
         url: "/about/"
-    description: "<p>Welcome at <span class='highlighted'>Cone</span>, where clean code meets resilience. We are a small, two person web development studio dedicated to crafting <span class='highlighted'>sustainable</span> code for the web. We are developers and designers, we bring your ideas to life. We make and contribute to <a href='https://github.com/conedevelopment' target='_blank' rel='noopener'>open-source</a>.</p>"
+    description: "<p>Helló, mi vagyunk a <span class='highlighted'>Cone</span>, egy kicsi, kétfős fejlesztőcsapat, akik <span class='highlighted'>megbízható és fenntartható</span> kódot készítenek. Tervezők és fejlesztők vagyunk, akik segítenek neked megvalósítani az elképzeléseidet. <a href='https://github.com/conedevelopment' target='_blank' rel='noopener'>Open source</a> kódot is írunk.</p>"
 testimonial:
     title:
         caption: "Mit csinálunk"
@@ -27,17 +27,17 @@ testimonial:
     cards:
         - title: "Application Development"
           url: "/services/application-development/"
-          description: "With Laravel, we create robust and scalable web applications that seamlessly integrate powerful features, intuitive user interfaces, and secure backend functionality."
+          description: "Laravel segítségével robusztus és skálázható alkalmazásokat készítünk, megbízható funkciókkal, intuitív felhasználói felülettel, biztonságos háttérrendszerrel. "
           image: "/img/illustrations/retro-coffee.svg"
           imageAlt: "A running coffee cup with a laptop in its hand."
         - title: "Website Development"
           url: "/services/website-development/"
-          description: "We create visually stunning and highly functional websites built on WordPress or Eleventy."
+          description: "Vizuálisan egyszerű és funkcionális weboldalakat készítünk, ahol a teljesítmény van a középpontban. WordPress-t és Eleventy-t használunk, a felmerült igények kielégítésére."
           image: "/img/illustrations/retro-butter-toast.svg"
           imageAlt: "A peanutbutter sandwich eating jelly from a jar."
         - title: "UI Design"
           url: "/services/ui-design/"
-          description: "We not just write code but design interfaces too. Our goal is to make functional and straightforward UI. Also, we can help you with many other web-related things."
+          description: "Nem csak kódolunk, hanem tervezünk is. Alapvető célunk, hogy egy funkcionális és egyszerűen érthető felhasználói felület készüljön. Ezenkívül számos, egyéb a webhez köthető dologban is tudunk segíteni."
           image: "/img/illustrations/retro-chocolate-fancy.svg"
           imageAlt: "A party bar of chocolate with sunglasses."
 highlightedReference:
