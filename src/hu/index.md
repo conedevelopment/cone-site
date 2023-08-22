@@ -17,26 +17,26 @@ highlighted:
     title:
         caption: "Kik <br>vagyunk"
         image: "./src/img/title-helper-primary.svg"
-        url: "/about/"
+        url: "/hu/rolunk/"
     description: "<p>Helló, mi vagyunk a <span class='highlighted'>Cone</span>, egy kicsi, kétfős fejlesztőcsapat, akik <span class='highlighted'>megbízható és fenntartható</span> kódot készítenek. Tervezők és fejlesztők vagyunk, akik segítenek neked megvalósítani az elképzeléseidet. <a href='https://github.com/conedevelopment' target='_blank' rel='noopener'>Open source</a> kódot is írunk.</p>"
 testimonial:
     title:
         caption: "Mit csinálunk"
         image: "./src/img/title-helper-primary.svg"
-        url: "/services/"
+        url: "/hu/szolgaltatasaink/"
     cards:
-        - title: "Application Development"
-          url: "/services/application-development/"
+        - title: "Alkalmazás fejlesztés"
+          url: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
           description: "Laravel segítségével robusztus és skálázható alkalmazásokat készítünk, megbízható funkciókkal, intuitív felhasználói felülettel, biztonságos háttérrendszerrel. "
           image: "/img/illustrations/retro-coffee.svg"
           imageAlt: "A running coffee cup with a laptop in its hand."
-        - title: "Website Development"
-          url: "/services/website-development/"
+        - title: "Weboldal fejlesztés"
+          url: "/hu/szolgaltatasaink/weboldal-fejlesztes/"
           description: "Vizuálisan egyszerű és funkcionális weboldalakat készítünk, ahol a teljesítmény van a középpontban. WordPress-t és Eleventy-t használunk, a felmerült igények kielégítésére."
           image: "/img/illustrations/retro-butter-toast.svg"
           imageAlt: "A peanutbutter sandwich eating jelly from a jar."
-        - title: "UI Design"
-          url: "/services/ui-design/"
+        - title: "UI tervezés"
+          url: "/hu/szolgaltatasaink/tervezes-es-egyebek/"
           description: "Nem csak kódolunk, hanem tervezünk is. Alapvető célunk, hogy egy funkcionális és egyszerűen érthető felhasználói felület készüljön. Ezenkívül számos, egyéb a webhez köthető dologban is tudunk segíteni."
           image: "/img/illustrations/retro-chocolate-fancy.svg"
           imageAlt: "A party bar of chocolate with sunglasses."
@@ -44,7 +44,7 @@ highlightedReference:
     title:
         caption: "Ezt <br>készítettük"
         image: "./src/img/title-helper-primary.svg"
-        url: "/works/"
+        url: "/hu/munkaink/"
     classes: "highlighted-reference--align-end"
     items:
         - title: "Sárvár"

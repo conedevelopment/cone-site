@@ -1,6 +1,6 @@
 ---
 title: "Laravel Application Development"
-permalink: "/services/application-development/"
+permalink: "/szolgaltatasaink/alkalmazas-fejlesztes/"
 layout: "layout/development.html"
 hero:
     title:

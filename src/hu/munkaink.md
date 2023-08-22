@@ -24,8 +24,8 @@ references:
       tags:
         - Laravel
         - Vue.js
-        - UI/UX Design
-        - Accessibility
+        - UI/UX tervezés
+        - Akadálymentesítés
     - title: "Sárvár"
       description: "A sarvar.hu a helyi wellness turizmusról szól. A sárvári TDM üzemelteti, hogy segítse a helyi szereplőket. Egy modern, letisztult, és gyors oldalt készítettünk."
       linkUrl: "https://sarvar.hu"
@@ -33,7 +33,7 @@ references:
       tags:
         - WordPress
         - Gutenberg
-        - Accessibility
+        - Akadálymentesítés
     - title: "ArtMedic"
       description: "Egyedi oldal szerkesztőt készítettünk ACF alapon, hogy megvalósítsuk és szerkeszthetővé tegyük a terv sokoldaluságát."
       linkUrl: "https://artmedic.hu"
@@ -48,7 +48,7 @@ references:
       tags:
         - WordPress
         - UI Development
-        - Accessibility
+        - Akadálymentesítés
     - title: "GalleryTool"
       description: "Egyedi webalkalmazás előfizetéses modellel, portfolió oldallal, PDF generálással. Egy összetett rendszer sok különleges megoldással."
       linkUrl: "https://gallerytool.com"
@@ -70,7 +70,7 @@ references:
       linkCaption: "onyxgarden.hu"
       tags:
         - WordPress
-        - UI Design
+        - UI tervezés
 cta:
     title: "Szeretnél velünk dolgozni?"
     classes: "cta--dark"

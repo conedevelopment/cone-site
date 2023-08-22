@@ -6,7 +6,7 @@ hero:
     title:
         caption: "UX & UI <span class='highlighted'>Design</span>"
     description: "We create minimalistic and functional user interfaces."
-    classes: 'hero--center hero--font-size:small hero--padding-block:small'
+    classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--tertiary"
     cards:

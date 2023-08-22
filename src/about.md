@@ -5,7 +5,7 @@ hero:
     title:
         caption: "Development<br><span class='highlighted'>Team of Two</span>"
     description: "We are passionate web developers who work, learn, publish, and create together."
-    classes: 'hero--two-column hero--font-size:medium'
+    classes: "hero--two-column hero--font-size:medium"
 visual:
     background: "/img/photos/tiszaszolos.jpg"
 cta:

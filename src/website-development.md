@@ -6,7 +6,7 @@ hero:
     title:
         caption: "Custom <span class='highlighted'>Website</span> <br> Development"
     description: "We can help you or your business to create a fast and easy-to-use WordPress or static site."
-    classes: 'hero--center hero--font-size:small hero--padding-block:small'
+    classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--tertiary"
     cards:
