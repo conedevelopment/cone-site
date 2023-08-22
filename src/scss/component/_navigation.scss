@@ -5,7 +5,7 @@
 
   &__btn {
     @include breakpoint('md') {
-      display: none;
+      display: none !important
     }
 
     &[aria-expanded='true'] + ul {

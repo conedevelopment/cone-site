@@ -5,6 +5,15 @@
 <html lang="{{ lang }}">
     <head>
         <meta name="robots" content="noindex">
+
+        {% set css %}
+            {% include "../../css/critical.css" %}
+        {% endset %}
+
+        <style>
+            {{ css | safe }}
+        </style>
+
         <script src="/js/theme-detection.js?{{ assetHash }}"></script>
         {% include "partial/preload.html" %}
         <meta charset="UTF-8">
