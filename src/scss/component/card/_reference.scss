@@ -22,7 +22,6 @@
 
   &__title {
     color: color('title', 'reference');
-    font-family: config('font-family-cursive', $typography);
   }
 
   &__link {

@@ -83,6 +83,36 @@ $color-tertiary: hsl(169deg 100% 50%);
   $display: (
     'container': 88rem,
   ),
+  $generators: (
+    'content': (
+      'accessibility': true,
+      'default': true,
+      'display': true,
+      'divider': true,
+      'layout': true,
+      'media': true,
+      'normalize': true,
+      'print': true,
+      'root': true,
+      'table': true,
+      'typography': true,
+      'utilities': true,
+    ),
+    'form': (
+      'btn': true,
+      'file-btn': false,
+      'form-check': true,
+      'form-control': true,
+      'form-description': false,
+      'form-feedback': false,
+      'form-fieldset': false,
+      'form-group': true,
+      'form-label': true,
+      'form-range': false,
+      'form-row': false,
+      'form-switch': false,
+    ),
+  ),
   $settings: (
     'css-custom-properties': true,
     'hyphens': false,
@@ -90,7 +120,6 @@ $color-tertiary: hsl(169deg 100% 50%);
   ),
   $typography: (
     'font-family-base': #{'Manrope', sans-serif},
-    'font-family-cursive': #{'Space Mono', monospace},
     'font-family-heading': #{'Inter', sans-serif},
   ),
 );

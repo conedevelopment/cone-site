@@ -1,5 +1,9 @@
 {% extends "layout/base.html" %}
 
+{% block styles %}
+    <link rel="stylesheet" href="/css/blog.css?{{ assetHash }}">
+{% endblock %}
+
 {% set posts = pagination.items %}
 
 {% if collections[ tag ] %}

@@ -20,6 +20,8 @@
         <style>
             {{ css | safe }}
         </style>
+
+        {% block styles %}{% endblock %}
     </head>
     <body>
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>

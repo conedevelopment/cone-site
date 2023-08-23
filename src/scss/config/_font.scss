@@ -33,14 +33,3 @@
   '/font/inter-v12-latin_latin-ext-800.woff2',
   800
 );
-
-@include font-face(
-  'Space Mono',
-  '/font/space-mono-v13-latin_latin-ext-regular.woff2'
-);
-
-@include font-face(
-  'Space Mono',
-  '/font/space-mono-v13-latin_latin-ext-700.woff2',
-  700
-);
