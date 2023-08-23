@@ -31,7 +31,7 @@
         <div class="form-row--mixed">
             <div class="form-group">
                 <label class="form-label" for="your-interest">{{ i18n[lang].form.interest }}</label>
-                <select class="form-control" id="your-interest">
+                <select class="form-control" id="your-interest" name="your-interest">
                     {% for item in i18n[lang].form.interestItems %}
                         <option>{{ item }}</option>
                     {% endfor %}
@@ -39,7 +39,7 @@
             </div>
             <div class="form-group">
                 <label class="form-label" for="your-budget">{{ i18n[lang].form.budget }}</label>
-                <select class="form-control" id="your-budget">
+                <select class="form-control" id="your-budget" name="your-budget">
                     {% for item in i18n[lang].form.budgetItems %}
                         <option>{{ item }}</option>
                     {% endfor %}
@@ -59,7 +59,7 @@
         </div>
         <div class="form-group">
             <label class="form-check">
-                <input class="form-check__control" type="checkbox" value="true" name="privacy-policy"/>
+                <input class="form-check__control" type="checkbox" required value="true" name="privacy-policy"/>
                 <span class="form-label form-check__label"><a href="{{ navigation[lang].privacy.url }}" target="_blank">{{ i18n[lang].form.privacy }}</a></span>
             </label>
         </div>
