@@ -1,10 +1,10 @@
-<h2>Write to Us</h2>
-
 <form
-    action="POST"
+    method="POST"
     data-netlify="true"
+    action="{{ navigation[lang]["email-redirect"] }}"
     name="contact"
 >
+    <input type="hidden" name="subject" data-remove-prefix value="{{ i18n[lang].form.subject }}" />
     <div class="form-group-wrapper">
         <div class="form-row--mixed">
             <div class="form-group">

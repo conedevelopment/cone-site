@@ -3,6 +3,7 @@
     "copyright": "All rights are reserved.",
     "open": "Open in new window",
     "form": {
+      "subject": "Contact message - conedevelopment.com",
       "name": "Name (required)",
       "email": "Email (required)",
       "interest": "What are you interested in?",
@@ -23,12 +24,16 @@
       "message": "Message (required)",
       "submit": "Send",
       "privacy": "I have read and agree to the Privacy Policy."
+    },
+    "email": {
+      "back": "Back to home"
     }
   },
   "hu": {
     "copyright": "Minden jog fenntartva.",
     "open": "Megnyitás új ablakban",
     "form": {
+      "subject": "Kapcsolat üzenet - conedevelopment.com",
       "name": "Név (kötelező)",
       "email": "E-mail (kötelező)",
       "interest": "Mi érdekel?",
@@ -49,6 +54,9 @@
       "message": "Üzenet (kötelező)",
       "submit": "Küldés",
       "privacy": "Elolvastam és elfogadom az adatvédelmet."
+    },
+    "email": {
+      "back": "Vissza a főoldalra"
     }
   }
 }
