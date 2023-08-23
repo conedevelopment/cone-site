@@ -1,5 +1,6 @@
 ---
 title: "E-mailedet megkaptuk, köszönjük!"
+permalink: /hu/sikeres-urlap-kuldes.html
 layout: "layout/email.html"
 alt: "Egy körsó habzó sör egy hallal a kezében."
 ---

@@ -1,6 +1,6 @@
 {
   "en": {
-    "email-redirect": "/successful-form-submission/",
+    "email-redirect": "/successful-form-submission.html",
     "privacy": {
       "caption": "Privacy Policy",
       "url": "/privacy-policy/"
@@ -101,7 +101,7 @@
     ]
   },
   "hu": {
-    "email-redirect": "/hu/sikeres-urlap-kuldes/",
+    "email-redirect": "/hu/sikeres-urlap-kuldes.html",
     "privacy": {
       "caption": "Adatvédelem",
       "url": "/hu/adatvedelem/"

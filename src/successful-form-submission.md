@@ -1,5 +1,6 @@
 ---
 title: "Thank you for your message!"
+permalink: /successful-form-submission.html
 layout: "layout/email.html"
 alt: "A pint of beer holding a fish."
 ---
