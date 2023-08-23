@@ -3,6 +3,7 @@
     "copyright": "All rights are reserved.",
     "open": "Open in new window",
     "form": {
+      "id": "contact-en",
       "subject": "[EN] Contact message - conedevelopment.com",
       "name": "Name (required)",
       "email": "Email (required)",
@@ -33,6 +34,7 @@
     "copyright": "Minden jog fenntartva.",
     "open": "Megnyitás új ablakban",
     "form": {
+      "id": "contact-hu",
       "subject": "[HU] Kapcsolat üzenet - conedevelopment.com",
       "name": "Név (kötelező)",
       "email": "E-mail (kötelező)",

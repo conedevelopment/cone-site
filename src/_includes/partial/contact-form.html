@@ -2,7 +2,7 @@
     method="POST"
     data-netlify="true"
     action="{{ navigation[lang]["email-redirect"] }}"
-    name="contact"
+    name="{{ i18n[lang].form.id }}"
 >
     <input type="hidden" name="subject" data-remove-prefix value="{{ i18n[lang].form.subject }}" />
     <div class="form-group-wrapper">
