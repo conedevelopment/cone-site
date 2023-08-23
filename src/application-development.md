@@ -13,14 +13,14 @@ testimonial:
         - title: "Why you need an application?"
           description: "When your idea requires complex and unique solutions that are not easy to implement with a simple CMS or any other ready-to-use solution, the time has come to think about a web application."
           image: "/img/illustrations/retro-cup-of-tea.svg"
-          imageAlt: "A running coffee cup with a laptop in its hand."
+          imageAlt: "A smiling retro tea cup."
         - title: "We're using Laravel."
           description: "Laravel is a great choice when it’s about application development. It’s a complex and powerful PHP framework with a huge ecosystem around it. We have a deep knowledge of Laravel. Also, besides using it, we are contributors as well."
           image: "/img/illustrations/retro-pie-shows-tongue.svg"
-          imageAlt: "A peanutbutter sandwich eating jelly from a jar."
+          imageAlt: "A retro slice of pie shows tongue."
 accordion:
     title:
-        caption: "About<br>the<br>Development"
+        caption: "About<br> the<br> Development"
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
