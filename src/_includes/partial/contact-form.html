@@ -10,7 +10,7 @@
     <div class="form-group-wrapper">
         <div class="form-row--mixed">
             <div class="form-group">
-                <label class="form-label" for="your-name">Name (required)</label>
+                <label class="form-label" for="your-name">{{ i18n[lang].form.name }}</label>
                 <input
                     class="form-control"
                     id="your-name"
@@ -19,7 +19,7 @@
                 />
             </div>
             <div class="form-group">
-                <label class="form-label" for="your-email">Email (required)</label>
+                <label class="form-label" for="your-email">{{ i18n[lang].form.email }}</label>
                 <input
                     class="form-control"
                     id="your-email"
@@ -30,27 +30,24 @@
         </div>
         <div class="form-row--mixed">
             <div class="form-group">
-                <label class="form-label" for="your-interest">What are you interested</label>
+                <label class="form-label" for="your-interest">{{ i18n[lang].form.interest }}</label>
                 <select class="form-control" id="your-interest">
-                    <option value="website-development">Website Development</option>
-                    <option value="wordpress-development">WordPress Development</option>
-                    <option value="laravel-development">Laravel Development</option>
-                    <option value="ui-design">UI Design</option>
-                    <option value="audit">Laravel/WordPress/Accessibility Audit</option>
+                    {% for item in i18n[lang].form.interestItems %}
+                        <option>{{ item }}</option>
+                    {% endfor %}
                 </select>
             </div>
             <div class="form-group">
-                <label class="form-label" for="your-budget">Project Budget</label>
+                <label class="form-label" for="your-budget">{{ i18n[lang].form.budget }}</label>
                 <select class="form-control" id="your-budget">
-                    <option value="500-1000">500 - 1000 EUR</option>
-                    <option value="1000-2500">1000 - 2500 EUR</option>
-                    <option value="2500-5000">2500 - 5000 EUR</option>
-                    <option value="5000-1000">5000 - 1000 EUR</option>
+                    {% for item in i18n[lang].form.budgetItems %}
+                        <option>{{ item }}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
         <div class="form-group">
-            <label class="form-label" for="your-message">Message (required)</label>
+            <label class="form-label" for="your-message">{{ i18n[lang].form.message }}</label>
             <textarea
                 class="form-control"
                 id="your-message"
@@ -60,18 +57,15 @@
             ></textarea>
         </div>
         <div class="form-group">
-            <p class="m-block:0">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
-        </div>
-        <div class="form-group">
             <label class="form-check">
                 <input class="form-check__control" type="checkbox" value="true" name="privacy-policy"/>
-                <span class="form-label form-check__label"><a href="/privacy-policy/">I have read and agree to the Privacy Policy</a>.</span>
+                <span class="form-label form-check__label"><a href="{{ navigation[lang].privacy.url }}" target="_blank">{{ i18n[lang].form.privacy }}</a></span>
             </label>
         </div>
         <div class="form-group--submit">
             <button class="btn btn--primary btn--primary-shadow">
                 {% svgIcon './src/img/icon/send.svg', 'btn__icon' %}
-                Send
+                {{ i18n[lang].form.submit }}
             </button>
         </div>
     </div>

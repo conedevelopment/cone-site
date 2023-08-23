@@ -1,10 +1,54 @@
 {
   "en": {
     "copyright": "All rights are reserved.",
-    "open": "Open in new window"
+    "open": "Open in new window",
+    "form": {
+      "name": "Name (required)",
+      "email": "Email (required)",
+      "interest": "What are you interested in?",
+      "interestItems": [
+        "Website development",
+        "WordPress development",
+        "Laravel development",
+        "UI design",
+        "Laravel/WordPress/Accessibility audit"
+      ],
+      "budget": "Project budget",
+      "budgetItems": [
+        "500 - 1000 EUR",
+        "1000 - 2500 EUR",
+        "2500 - 5000 EUR",
+        "5000 - 10000 EUR"
+      ],
+      "message": "Message (required)",
+      "submit": "Send",
+      "privacy": "I have read and agree to the Privacy Policy."
+    }
   },
   "hu": {
     "copyright": "Minden jog fenntartva.",
-    "open": "Megnyitás új ablakban"
+    "open": "Megnyitás új ablakban",
+    "form": {
+      "name": "Név (kötelező)",
+      "email": "E-mail (kötelező)",
+      "interest": "Mi érdekel?",
+      "interestItems": [
+        "Weboldal fejlesztés",
+        "WordPress fejlesztés",
+        "Laravel fejlesztés",
+        "UI tervezés",
+        "Laravel/WordPress/Akadálymentesség audit"
+      ],
+      "budget": "Projekt költségvetés",
+      "budgetItems": [
+        "250 000 - 300 000 Ft",
+        "300 000 Ft - 550 000 Ft",
+        "550 000 Ft - 1 000 000 Ft",
+        "1 000 000 Ft - 2 000 000 Ft EUR"
+      ],
+      "message": "Üzenet (kötelező)",
+      "submit": "Küldés",
+      "privacy": "Elolvastam és elfogadom az adatvédelmet."
+    }
   }
 }
