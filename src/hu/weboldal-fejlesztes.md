@@ -20,10 +20,11 @@ testimonial:
           imageAlt: "Retró pattogatott kukorica rohan a mozi filmre."
 accordion:
     title:
-        caption: "Fejlesztési<br> információ"
+        caption: "Hasznos<br> információk"
         image: "./src/img/title-helper-primary.svg"
     blocks:
-        - title: null
+        - title: "A fejlesztésről"
+          subtitle: "Mindenki másként fejleszt, mi nagy vonalakban így."
           items:
             - title: "Figyelünk arra, amit készítünk"
               description: "<p>A kódot általában sem a megrendelő, sem a végfelhasználó nem látja. Ez azonban nem mentség, nálunk a kódminőség, kezelhetőség prioritás.</p>"
@@ -31,16 +32,23 @@ accordion:
               description: "<p>Egy komplex rendszernek is átláthatónak és bizonyos értelemben egyszerűnek kell lennie. Ha ezt elérjük, tudjuk hogy jó végeredményt hoztunk létre.</p>"
             - title: "Szeretjük a teljesítményt"
               description: "<p>Minden területen szeretünk figyelni arra, hogy a végeredmény egy teljesítményorientált megoldás legyen.</p>"
-            - title: "Egyedi WordPress fejlesztés"
+            - title: "Egyedi fejlesztés"
               description: "<p>A kész weboldal egyedi lesz, nem használunk vásárolt témát. Az készül el, amit az igények alapján megtervezünk.</p>"
             - title: "Reszponzív terv"
               description: "<p>Az általunk készült oldalak, alkalmazások mind reszponzívak, tehát kijelző mérettől függetlenül használhatóak.</p>"
+        - title: "WordPress fejlesztésról"
+          subtitle: "A népszerű tartalomkezelőrendszerről és amit kínálunk."
+          items:
             - title: "WordPress bővítmény fejlesztés"
               description: "<p>A WordPress egy jól bővíthető rendszer, ha szükséged van egy egyedi plugin-ra, akkor tudunk segíteni.</p><p>Készítettünk már <a href='/hu/simplepay-fizetesi-kapu-woocommerce-aruhazakban/'>SimplePay</a>, DHL és egyedi termék bővítményt WooCommerce-hez. Úgy látjuk, hogy a legtöbb bővítmény fejlesztés majdnem mindig egy meglévő plugin bővítéséről szól.</p><p>Ezen a ponton fontos megjegyezni, hogy van, amit nem érdemes WordPress-el fejleszteni. Ezek általában olyan megoldások, amiket nem tudunk biztosan támogatni. A WP folyamatosan változik, ezzel lépést tartani költséges és erőforrás igényes. Ha így alakul, akkor <a href='/hu/szolgaltatasaink/alkalmazas-fejlesztes/'>egyedi alkalmazást ajánlunk</a> majd.</p>"
-            - title: "Reszponzív terv"
-              description: "<p>Az általunk készült oldalak, alkalmazások mind reszponzívak, tehát kijelző mérettől függetlenül használhatóak.</p>"
-            - title: "Reszponzív terv"
-              description: "<p>Az általunk készült oldalak, alkalmazások mind reszponzívak, tehát kijelző mérettől függetlenül használhatóak.</p>"
+            - title: "Nem dolgozunk vásárolt WordPress sablonnal"
+              description: "<p>A nálunk készült oldalak egyedi fejlesztések. Ez a végtermék szempontjából annyit jelent, hogy a fejlesztés az előzetes igényeknek megfelelően készül és csak azt tartalmazza, ami szükséges.</p><p>Előfordul, hogy vállalunk olyan megkeresést, amiben egyedi sablonnal kell dolgozni, de ezt általában csak óradíjban tudjuk megtenni.</p>"
+            - title: "Felhasznált bővítmények"
+              description: "<p>Általában a népszerűbb és jobb felépítésű bővítményeket részesítjük előnyben. Ilyen például a SEO Framework, a WP Rocket, vagy a Contact Form 7. Ha webáruházról van szó, akkor WooCommerce-et használunk. Ha velünk dolgozol jár neked a fizetős WP Rocket (teljesítmény optimalizálás) és az ACF (egyedi mezők kezelése).</p>"
+            - title: "Karbantartást is vállalunk"
+              description: "<p>Az általunk készített oldalak esetében mindig. Harmadik fél által készített fejlesztés esetben ez ritkább, mivel általában egyik félnek sem előnyös. A <a href='/hu/wordpress-karbantartas/'>karbantartás szükségességéről WordPress esetében</a> már korábban írtunk blogunkban.</p>"
+            - title: "Korábbi fejlesztések átvétele"
+              description: "<p>A más által készített WordPress alapú oldalad átvételét tudjuk vállalni.</p><p>Általában itt is jobb, ha egyedi fejlesztésről van szó (de vásárolt sablonos, valamint page-builderes oldal is lehet). Többnyire az első lépésben <a href='/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/'>auditálnunk</a> kell. Csak az audit után tudunk aztán pontosabbat mondani.</p>"
 step:
     showNumber: true
     items:
