@@ -1,11 +1,9 @@
 <h2>Write to Us</h2>
 
 <form
-    class="wpcf7-form generic-form init"
-    action="#"
-    method="post"
-    novalidate="novalidate"
-    data-status="init"
+    action="POST"
+    data-netlify="true"
+    name="contact"
 >
     <div class="form-group-wrapper">
         <div class="form-row--mixed">
@@ -16,6 +14,7 @@
                     id="your-name"
                     type="text"
                     name="your-name"
+                    required
                 />
             </div>
             <div class="form-group">
@@ -25,6 +24,7 @@
                     id="your-email"
                     type="email"
                     name="your-email"
+                    required
                 />
             </div>
         </div>
@@ -54,6 +54,7 @@
                 name="your-message"
                 cols="40"
                 rows="10"
+                required
             ></textarea>
         </div>
         <div class="form-group">
