@@ -1,0 +1,24 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-column {
+  padding-block: get-css-variable(--section-gap);
+
+  &--border-block\:end {
+    border-block-end: 1px solid color('border');
+  }
+
+  &--border-block\:start {
+    border-block-start: 1px solid color('border');
+  }
+
+  &__inner {
+    --column: 1;
+    display: grid;
+    gap: spacer('m') spacer('xl');
+    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+
+    @include breakpoint('md') {
+      --column: 2;
+    }
+  }
+}

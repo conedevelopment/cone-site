@@ -1,0 +1,44 @@
+{% if audit %}
+    <div class="l-column l-column--border-block:end">
+        <div class="container">
+            <div class="l-column__inner">
+                <div class="info-card">
+                    <div class="info-card__header">
+                        {% svgIcon "./src/img/laravel-logo.svg", "info-card__icon" %}
+                        <h3 class="info-card__title">Laravel audit</h3>
+                    </div>
+                    <div class="post-content info-card__body">
+                        <p>Egy egyedi alakalmazás esetén alapvetőbb feladat lehet egy rendszeres audit. Segítünk teljesen átnézni a Laravel alkalmazásod, legyen szó fejlesztő váltásról, vagy csak egyéb előkészületekről.</p>
+                        <p><strong>Mit várhatsz a Laravel felméréstől?</strong></p>
+                        <ul>
+                            <li>Megnézzünk, hogy mennyire naprakész a Laravel és a szerveren futó környezete.</li>
+                            <li>Átnézzük a függőségeket, és megbecsüljük, hogy mi az amit valószínűleg ki lehetett volna váltani egy egyszerű saját megoldással.</li>
+                            <li>A PSR és a Laravel kódolási irányelvek alapján megnézzük, hogy kód mennyire követte azokat vagy tért azoktól.</li>
+                            <li>Megvizsgáljuk az alkalmazás artchitektúráját, olyan pontokat keresünk, ahol más felépítést, megoldásokat, vagy csak egy refaktorálást javasolnánk.</li>
+                            <li>Front-end és UI területen is <em>felületesen</em> átnézzük a kódot, így javaslatokat teszünk a hiányos, problémás területekre.</li>
+                        </ul>
+                        <p><strong>Ár: 75 000 Ft</strong></p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card__header">
+                        {% svgIcon "./src/img/wordpress-logo.svg", "info-card__icon" %}
+                        <h3 class="info-card__title">WordPress audit</h3>
+                    </div>
+                    <div class="post-content info-card__body">
+                        <p>A WordPress egy hatalmas rendszer. Készíthetünk vele egy egyszerű portfolió oldalt, vagy egy 1000+ termékes webáruházat. Ezen oldalak auditja sokszor nem egyszerű. A nagy ökoszisztéma soksor jelent hátrányt, ha kódminőségről van szó.</p>
+                        <p><strong>Mit várhatsz a WordPress felméréstől?</strong></p>
+                        <ul>
+                            <li>Megnézzük a WordPress példányt. A bővítmények számát, a rendszer állapotát. Hosszútávon általában igaz: minél kevesebb függőség, annál kezelhetőbb rendszer.</li>
+                            <li>Megvizsgáljuk a használt témát és annak függőségeit.</li>
+                            <li>Általános UI és UX javaslatokat teszünk.</li>
+                            <li>Mérések segítségével felmérjük hogyan teljesít az oldal. Egy weboldal esetén alapvető a teljesítmény, jelezzük, ahol ez hátrányt szenved.</li>
+                            <li>WordPress esetén a frissítések kulcsfontosságúak. A naprakész rendszer a biztonságos rendszer. Könnyen lehet, hogy az oldal beragadt egy régebbi verzióra (vagy a téma, vagy valamelyik bővítmény), amiből nagy munka kiszedni. Ezt is jelezzük.</li>
+                        </ul>
+                        <p><strong>Ár: 50 000 Ft</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
