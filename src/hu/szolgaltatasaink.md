@@ -20,7 +20,7 @@ testimonial:
           image: "/img/illustrations/retro-butter-toast.svg"
           imageAlt: "Egy mogyoróvajas szendvics lekvárt eszik."
         - title: "UI tervezés"
-          url: "/hu/szolgaltatasaink/tervezes-es-egyebek/"
+          url: "/hu/szolgaltatasaink/ui-tervezes/"
           description: "Nem csak kódolunk, hanem tervezünk is. Alapvető célunk, hogy egy funkcionális és egyszerűen érthető felhasználói felület készüljön. Ezenkívül számos, egyéb a webhez köthető dologban is tudunk segíteni."
           image: "/img/illustrations/retro-chocolate-fancy.svg"
           imageAlt: "Egy bulizó tábla csoki napszemüvegben."
