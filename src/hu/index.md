@@ -6,8 +6,8 @@ Laravel és WordPress segítségével."
 layout: "layout/front-page.html"
 hero:
     title:
-        caption: "<span class='highlighted'>Kód írása</span><br><span><span id='typewriter'>ahogy
-        kellene</span>&nbsp;</span>"
+        caption: "<span class='highlighted'>Kód írása</span><br><span><span class='sr-only'>ahogy
+        kellene</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"
         typewriter: "ahogy kellene, ami fenntartható, ami nem hoz zavarba, ami segít neked"
     description: "Webalkalmazásokat és weboldalakat készítünk kicsitől a nagyig Laravel és
     WordPress segítségével."
