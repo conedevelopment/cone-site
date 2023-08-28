@@ -5,7 +5,7 @@ hero:
     title:
         caption: "Have a project idea?<span class='highlighted'><br>Get in touch with us!</span>"
     description: "Love to hear from you. Get in touch! 👋"
-    classes: 'hero--font-size:small hero--center hero--padding-block:small'
+    classes: "hero--font-size:small hero--center hero--padding-block:small"
 ---
 
 **We try to answer your message in 24-48 hours.** If you want to work with us and have a project idea, please write as many details as it is possible. Before we give any proposal, we like to measure most of the features.

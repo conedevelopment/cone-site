@@ -1,5 +1,6 @@
 {
   "en": {
+    "email-redirect": "/successful-form-submission/",
     "privacy": {
       "caption": "Privacy Policy",
       "url": "/privacy-policy/"
@@ -100,6 +101,7 @@
     ]
   },
   "hu": {
+    "email-redirect": "/hu/sikeres-urlap-kuldes/",
     "privacy": {
       "caption": "Adatvédelem",
       "url": "/hu/adatvedelem/"
@@ -157,7 +159,7 @@
           },
           {
             "caption": "UI tervezés",
-            "url": "/hu/szolgaltatasaink/tervezes-es-egyebek/",
+            "url": "/hu/szolgaltatasaink/ui-tervezes/",
             "external": false
           },
           {

@@ -4,7 +4,7 @@
   const header = document.querySelector('.site-header');
   const scrollChange = 1;
 
-  window.addEventListener('scroll', () => {
+  function positionCheck() {
     scrollpos = window.scrollY;
 
     if (scrollpos >= scrollChange) {
@@ -12,5 +12,11 @@
     } else {
       header.classList.remove('site-header--sticky');
     }
+  }
+
+  window.addEventListener('scroll', () => {
+    positionCheck();
   });
+
+  positionCheck();
 })();

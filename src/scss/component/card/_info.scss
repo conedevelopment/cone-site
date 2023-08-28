@@ -1,0 +1,37 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.info-card {
+  @include layout-stack;
+
+  &__header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('m');
+  }
+
+  &__title {
+    margin-block: 0;
+  }
+
+  &__icon {
+    --size: 2.5rem;
+    block-size: var(--size);
+    color: color('primary');
+    inline-size: var(--size);
+
+    @include breakpoint('md') {
+      --size: 3rem;
+    }
+  }
+
+  &__body {
+    border-inline-start: 1px solid color('border');
+    margin-inline-start: 1.25rem;
+    padding-inline-start: spacer('l');
+
+    @include breakpoint('md') {
+      margin-inline-start: 1.5rem;
+    }
+  }
+}

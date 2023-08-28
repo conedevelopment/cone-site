@@ -4,7 +4,6 @@
   @include clear-list;
   align-items: center;
   display: flex;
-  font-family: config('font-family-cursive', $typography);
   gap: spacer('xs');
 
   > * + * {

@@ -13,10 +13,6 @@
     max-inline-size: 70ch;
   }
 
-  &__title {
-    font-family: config('font-family-cursive', $typography);
-  }
-
   &__tags {
     align-items: center;
     display: flex;

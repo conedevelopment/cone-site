@@ -5,7 +5,7 @@ hero:
     title:
         caption: "We Design and Create<br><span class='highlighted'>Web Based Solutions</span>"
     description: "We prefer to use up-to-date technologies. We believe it’s the foundation of a stable web application."
-    classes: 'hero--center hero--font-size:small hero--padding-block:small'
+    classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--secondary"
     cards:
@@ -30,7 +30,6 @@ accordion:
         image: "./src/img/title-helper-primary.svg"
     blocks:
         - title: null
-          subtitle: "Scalable Laravel applications"
           items:
             - title: "Robust applications"
               description: "<p>The completed application will be robust, easy to expand, and secure. We and the Laravel framework grant this.</p>"

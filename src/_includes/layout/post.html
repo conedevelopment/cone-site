@@ -1,5 +1,9 @@
 {% extends "layout/base.html" %}
 
+{% block styles %}
+    <link rel="stylesheet" href="/css/blog.css?{{ assetHash }}">
+{% endblock %}
+
 {% set recommended = helpers.getSiblingContent(collections.blog, page) %}}}
 
 {% block content %}
