@@ -18,6 +18,7 @@ highlightedReference:
         linkUrl: "https://megmerettetes.hu"
         linkCaption: "megmerettetes.hu"
         image: "./src/img/preview/megmerettetes.jpg"
+references:
 -
     title: "National IT Competition (OITM)"
     description: "We redesigned and rebuilt the complete application with Laravel and manage the whole competition for the 3rd year now."
