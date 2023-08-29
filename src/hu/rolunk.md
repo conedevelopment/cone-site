@@ -4,8 +4,7 @@ layout: "layout/about.html"
 hero:
     title:
         caption: "<span class='highlighted'>Kétfős csapat</span> <br> ami sokat tud"
-    description: "Szakmánk iránt elhivatott fejlesztők vagyunk, akik együtt tanulnak,
-    fejlődnek, publikálnak és alkotnak."
+    description: "Szakmánk iránt elhivatott fejlesztők vagyunk, akik együtt tanulnak, fejlődnek, publikálnak és alkotnak."
     classes: "hero--two-column hero--font-size:medium"
 visual:
     background: "/img/photos/tiszaszolos.jpg"
@@ -13,8 +12,7 @@ cta:
     title: "Érdekelnek a szolgáltatásaink?"
     classes: "cta--dark"
     type: "dark"
-    description: "Webfejlesztés területén belül szinte bármiben tudunk segíteni,
-    legyen egy új weboldal, vagy egy egyedi alkalmazás."
+    description: "Webfejlesztés területén belül szinte bármiben tudunk segíteni, legyen egy új weboldal, vagy egy egyedi alkalmazás."
     btn:
         url: "/hu/szolgaltatasaink/"
         caption: "Szolgáltatásaink"

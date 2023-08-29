@@ -13,9 +13,7 @@ rules:
     indentation:
         spaces: 4
         indent-sequences: false
-    line-length:
-        level: "error"
-        max: 120
+    line-length: false
     quoted-strings:
         quote-type: "double"
         required: true

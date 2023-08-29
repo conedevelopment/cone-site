@@ -3,8 +3,7 @@ title: "Munkáink"
 layout: "layout/works.html"
 hero:
     title:
-        caption: "Letisztult <span class='highlighted'>dizájnt</span><br>és
-        <span class='highlighted'>modern kódot</span><br> készítünk"
+        caption: "Letisztult <span class='highlighted'>dizájnt</span> <br> és <span class='highlighted'>modern kódot</span> <br> készítünk"
     description: "Munkáink alapjait robusztus, de flexibilis és modern technológiák képezik."
     classes: "hero--font-size:small hero--center hero--padding-block:small"
 highlightedReference:
@@ -22,8 +21,7 @@ highlightedReference:
 references:
 -
     title: "Országos IT Megmérettetés"
-    description: "Újraterveztük és újraépítettük magyarország legnépszerűbb IT versenyének
-    háttérrendszerét Laravel alapon."
+    description: "Újraterveztük és újraépítettük magyarország legnépszerűbb IT versenyének háttérrendszerét Laravel alapon."
     linkUrl: "https://megmerettetes.hu"
     linkCaption: "megmerettetes.hu"
     tags:
@@ -33,8 +31,7 @@ references:
     - "Akadálymentesítés"
 -
     title: "Sárvár"
-    description: "A sarvar.hu a helyi wellness turizmusról szól. A sárvári TDM üzemelteti, hogy segítse a
-    helyi szereplőket. Egy modern, letisztult, és gyors oldalt készítettünk."
+    description: "A sarvar.hu a helyi wellness turizmusról szól. A sárvári TDM üzemelteti, hogy segítse a helyi szereplőket. Egy modern, letisztult, és gyors oldalt készítettünk."
     linkUrl: "https://sarvar.hu"
     linkCaption: "sarvar.hu"
     tags:
@@ -43,8 +40,7 @@ references:
     - "Akadálymentesítés"
 -
     title: "ArtMedic"
-    description: "Egyedi oldal szerkesztőt készítettünk ACF alapon, hogy megvalósítsuk és
-    szerkeszthetővé tegyük a terv sokoldaluságát."
+    description: "Egyedi oldal szerkesztőt készítettünk ACF alapon, hogy megvalósítsuk és szerkeszthetővé tegyük a terv sokoldaluságát."
     linkUrl: "https://artmedic.hu"
     linkCaption: "artmedic.hu"
     tags:
@@ -52,8 +48,7 @@ references:
     - "UI Development"
 -
     title: "Démoszthenész Egyesület"
-    description: "Elkészítettük az ország legkiterjedtebb logopédus szervezetének az oldalát egyedi
-    szakember keresővel és listázó funkcióval."
+    description: "Elkészítettük az ország legkiterjedtebb logopédus szervezetének az oldalát egyedi szakember keresővel és listázó funkcióval."
     linkUrl: "https://demoszthenesz.hu/"
     linkCaption: "demoszthenesz.hu"
     tags:
@@ -62,8 +57,7 @@ references:
     - "Akadálymentesítés"
 -
     title: "GalleryTool"
-    description: "Egyedi webalkalmazás előfizetéses modellel, portfolió oldallal, PDF generálással.
-    Egy összetett rendszer sok különleges megoldással."
+    description: "Egyedi webalkalmazás előfizetéses modellel, portfolió oldallal, PDF generálással. Egy összetett rendszer sok különleges megoldással."
     linkUrl: "https://gallerytool.com"
     linkCaption: "gallerytool.com"
     tags:
@@ -72,8 +66,7 @@ references:
     - "Bulma"
 -
     title: "Mein Obstgarten"
-    description: "A Mein Obstgarten egy közösségi platform, ahol gyümölcsöket, valamint szedhető fákat
-    adhatunk, vehetünk. Mi az új UI felületet raktuk össze."
+    description: "A Mein Obstgarten egy közösségi platform, ahol gyümölcsöket, valamint szedhető fákat adhatunk, vehetünk. Mi az új UI felületet raktuk össze."
     linkUrl: "https://www.meinobstgarten.ch/"
     linkCaption: "meinobstgarten.ch"
     tags:
@@ -81,8 +74,7 @@ references:
     - "CSS"
 -
     title: "Onyx Garden - Sárvár"
-    description: "Az Onyx Garden az egyik legnépszerűbb étterem Sárváron. Letisztult és modern oldalt
-    készítettünk egy egyedi, vizuális foglalási rendszerrel."
+    description: "Az Onyx Garden az egyik legnépszerűbb étterem Sárváron. Letisztult és modern oldalt készítettünk egy egyedi, vizuális foglalási rendszerrel."
     linkUrl: "https://onyxgarden.hu/"
     linkCaption: "onyxgarden.hu"
     tags:
@@ -92,8 +84,7 @@ cta:
     title: "Szeretnél velünk dolgozni?"
     classes: "cta--dark"
     type: "dark"
-    description: "Van egy projekt ötleted, de nem tudod hogy merre indulj? Írj, nekünk a részletekkel,
-    hátha tudunk segíteni!"
+    description: "Van egy projekt ötleted, de nem tudod hogy merre indulj? Írj, nekünk a részletekkel, hátha tudunk segíteni!"
     btn:
         url: "/hu/kapcsolat/"
         caption: "Kapcsolat"

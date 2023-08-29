@@ -4,8 +4,7 @@ layout: "layout/contact.html"
 hero:
     title:
         caption: "Dolgoznál velünk? <br><span class='highlighted'>Írj nekünk!</span>"
-    description: "Van egy új projekt ötleted, amit megvalósítanál és megbízható fejlesztőket
-    keresel, keress minket. 👋"
+    description: "Van egy új projekt ötleted, amit megvalósítanál és megbízható fejlesztőket keresel, keress minket. 👋"
     classes: "hero--font-size:small hero--center hero--padding-block:small"
 ---
 
