@@ -8,10 +8,12 @@
 
 {% block content %}
     <div class="l-post l-post--page">
-        <div class="container container--narrow">
-            <div class="l-post__inner">
+        <div class="l-post__inner">
+            <div class="container">
                 {% set showMeta = true %}
                 {% include "partial/post-heading.html" %}
+            </div>
+            <div class="container container--narrow">
                 <div class="post-content">
                     {% if thumbnail %}
                         <img class="post-content__thumbnail" src="{{ thumbnail }}" alt="{{ thumbnailAlt }}" loading="lazy" />

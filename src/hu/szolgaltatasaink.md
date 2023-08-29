@@ -3,7 +3,7 @@ title: "Szolgáltatásaink"
 layout: "layout/services.html"
 hero:
     title:
-        caption: "<span class='highlighted'>Webalapú</span><br> szolgáltatásokat"
+        caption: "<span class='highlighted'>Webalapú</span><br> szolgáltat<wbr>ások"
     description: "Egyedi alkalmazásokat és oldalakat készítünk. Teljesítményorientált, jól továbbfejleszthető és megbízható rendszereket."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
