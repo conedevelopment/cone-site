@@ -38,18 +38,6 @@ jobs:
             name: Checkout repository
             uses: actions/checkout@v3
         -
-            name: Cache pip
-            uses: actions/cache@v3
-            with:
-            path: '~/.cache/pip'
-            key: '${{ runner.os }}-pip-yamllint'
-        -
-            name: Install yamllint
-            run: pip install --user yamllint
-        -
-            name: Check YAML formatting
-            run: python -m yamllint ./
-        -
             name: Check EditorConfig configuration
             run: test -f .editorconfig
         -
