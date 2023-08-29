@@ -17,5 +17,8 @@ if (getCookie('cone-cookie-law-analytics') === 'accepted') {
   window.dataLayer = window.dataLayer || [];
 
   gtag('js', new Date());
-  gtag('config', coneGtagId);
+  gtag('config', coneGtagId, {
+    'cookie_domain': window.location.hostname,
+    'cookie_flags': 'SameSite=None;Secure'
+  });
 }
