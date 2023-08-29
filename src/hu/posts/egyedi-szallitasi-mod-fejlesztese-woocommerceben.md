@@ -88,7 +88,7 @@ class Shipping extends WC_Shipping_Method
                 'description' => __('A szállítási mód bekapcsolása.'),
                 'default' => 'yes',
             ],
-           'title' => [
+            'title' => [
                 'title' => __('Cím'),
                 'type' => 'text',
                 'description' => __('A szállítási mód címe.'),
