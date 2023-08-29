@@ -9,7 +9,7 @@ rules:
     braces:
         forbid: true
     brackets:
-        forbid: true
+        forbid: false
     empty-values:
         forbid-in-block-mappings: true
         forbid-in-flow-mappings: true

@@ -49,7 +49,7 @@ accordion:
         subtitle: "A népszerű tartalomkezelőrendszerről és amit kínálunk."
         items:
         -
-             title: "WordPress bővítmény fejlesztés"
+            title: "WordPress bővítmény fejlesztés"
             description: "<p>A WordPress egy jól bővíthető rendszer, ha szükséged van egy egyedi plugin-ra, akkor tudunk segíteni.</p><p>Készítettünk már <a href='/hu/simplepay-fizetesi-kapu-woocommerce-aruhazakban/'>SimplePay</a>, DHL és egyedi termék bővítményt WooCommerce-hez. Úgy látjuk, hogy a legtöbb bővítmény fejlesztés majdnem mindig egy meglévő plugin bővítéséről szól.</p><p>Ezen a ponton fontos megjegyezni, hogy van, amit nem érdemes WordPress-el fejleszteni. Ezek általában olyan megoldások, amiket nem tudunk biztosan támogatni. A WP folyamatosan változik, ezzel lépést tartani költséges és erőforrás igényes. Ha így alakul, akkor <a href='/hu/szolgaltatasaink/alkalmazas-fejlesztes/'>egyedi alkalmazást ajánlunk</a> majd.</p>"
         -
             title: "WordPress előnyei"
