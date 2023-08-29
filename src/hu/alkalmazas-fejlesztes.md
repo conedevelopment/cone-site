@@ -5,14 +5,20 @@ layout: "layout/development.html"
 hero:
     title:
         caption: "<span class='highlighted'>Laravel</span><br> alkalmazásokat<br> fejlesztünk"
-    description: "A folyamatosan fejlődő, naprakész technológiák segítségével hozzuk létre azt a végterméket, ami megbízhatóan szolgálja majd céljaidat."
+    description: >
+        A folyamatosan fejlődő, naprakész technológiák segítségével hozzuk létre azt a végterméket,
+        ami megbízhatóan szolgálja majd céljaidat.
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--primary"
     cards:
     -
         title: "Miért van szükséged alkalmazásra?"
-        description: "Webes alkalmazás fejlesztéséről akkor érdemes beszélni, ha az elképzelés megvalósítása olyan egyedi megoldásokat igényel, amelyeket nem lehet egyszerűen valamilyen tartalomkezelő rendszerrel, vagy egyéb kész megoldással kivitelezni."
+        description: >
+            Webes alkalmazás fejlesztéséről akkor érdemes beszélni,
+            ha az elképzelés megvalósítása olyan egyedi megoldásokat igényel,
+            amelyeket nem lehet egyszerűen valamilyen tartalomkezelő rendszerrel,
+            vagy egyéb kész megoldással kivitelezni.
         image: "/img/illustrations/retro-cup-of-tea.svg"
         imageAlt: "Egy mosolygó retro teás csésze."
     -
