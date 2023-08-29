@@ -44,8 +44,8 @@ accordion:
             title: "Which plugins do you use for WordPress development?"
             description: "<p>Általában a népszerűbb és jobb felépítésű bővítményeket részesítjük előnyben. Ilyen például a Yoast SEO bővítménye, vagy a WP Rocket. Ha webáruházról van szó, akkor WooCommerce-et használunk. Ha velünk dolgozol jár neked a fizetős WPML (nyelvesítés), WP Rocket (teljesítmény optimalizálás), ACF (egyedi mezők kezelése).</p>"
         -
-            title: "Do you work with purchuased themes?"
-            description: "<p>No, our themes are all custom developments. This means the end-product will contain only what is necessary based on the needs we arranged in advance.</p><p>In some cases we do some work in purchuased themes, but only based hourly rates and not in a fixed project based price.</p>"
+            title: "Do you work with purchased themes?"
+            description: "<p>No, our themes are all custom developments. This means the end-product will contain only what is necessary based on the needs we arranged in advance.</p><p>In some cases we do some work in purchased themes, but only based hourly rates and not in a fixed project based price.</p>"
 step:
     showNumber: true
     items:
