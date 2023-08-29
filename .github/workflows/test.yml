@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint:
-    name: Lint
+  lint_sass:
+    name: Lint Sass
     runs-on: ubuntu-latest
 
     steps:
@@ -23,17 +23,26 @@ jobs:
       with:
         node-version: 'lts/*'
     -
-      name: Cache pip
-      uses: actions/cache@v3
-      with:
-        path: '~/.cache/pip'
-        key: '${{ runner.os }}-pip-yamllint'
-    -
       name: Install dependencies
       run: npm ci
     -
       name: Run linter
       run: npm run sass:lint
+
+  lint_all:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+    -
+      name: Checkout repository
+      uses: actions/checkout@v3
+    -
+      name: Cache pip
+      uses: actions/cache@v3
+      with:
+        path: '~/.cache/pip'
+        key: '${{ runner.os }}-pip-yamllint'
     -
       name: Install yamllint
       run: pip install --user yamllint
