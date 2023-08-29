@@ -68,11 +68,6 @@ cta:
                 <h2 class="text-card__title">Open Source</h2>
                 <div class="post-content">
                     <p>We maintain a few open-source projects. Small and bigger ones too.</p>
-                    <ul>
-                        <li><strong>Root</strong>: a simplistic Laravel admin package with a short compile time.</li>
-                        <li><strong>Bazar</strong>: a Laravel e-commerce package for Root.</li>
-                        <li><strong>Spruce CSS</strong>: a simple CSS framework.</li>
-                    </ul>
                     <p>You can find a complete list on our <a href="https://github.com/conedevelopment">GitHub page</a>.</p>
                 </div>
             </div>
