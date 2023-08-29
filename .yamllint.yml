@@ -14,7 +14,7 @@ rules:
     indentation:
         spaces: 4
         indent-sequences: false
-    line-length: false
+    line-length: "disable"
     quoted-strings:
         quote-type: "double"
         required: true
