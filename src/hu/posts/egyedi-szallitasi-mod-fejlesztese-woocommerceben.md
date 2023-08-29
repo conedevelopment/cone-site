@@ -89,7 +89,7 @@ class Shipping extends WC_Shipping_Method
                 'default' => 'yes',
             ],
            'title' => [
-              'title' => __('Cím'),
+                'title' => __('Cím'),
                 'type' => 'text',
                 'description' => __('A szállítási mód címe.'),
                 'default' => __('Egyedi szállítási mód'),

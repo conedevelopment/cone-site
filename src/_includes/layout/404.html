@@ -1,17 +1,17 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-  <div class="l-404">
-    <div class="container">
-        <div class="l-404__inner">
-            <img src="/img/illustrations/retro-milk-on-a-scooter.svg" class="l-404__image" alt="{{ alt }}">
-            <div class="l-404__caption">
-                <h1 class="l-404__title">{{ title }}</h1>
-                <div class="post-content">
-                    {{ content | safe }}
+    <div class="l-404">
+        <div class="container">
+            <div class="l-404__inner">
+                <img src="/img/illustrations/retro-milk-on-a-scooter.svg" class="l-404__image" alt="{{ alt }}">
+                <div class="l-404__caption">
+                    <h1 class="l-404__title">{{ title }}</h1>
+                    <div class="post-content">
+                        {{ content | safe }}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-  </div>
 {% endblock %}

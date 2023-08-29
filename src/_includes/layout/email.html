@@ -1,21 +1,21 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-  <div class="l-email">
-    <div class="container">
-        <div class="l-email__inner">
-            <img src="/img/illustrations/retro-beer-and-fish-mug.svg" class="l-email__image" alt="{{ alt }}">
-            <div class="l-email__caption">
-                <h1 class="l-email__title">{{ title }}</h1>
-                <div class="post-content">
-                    {{ content | safe }}
+    <div class="l-email">
+        <div class="container">
+            <div class="l-email__inner">
+                <img src="/img/illustrations/retro-beer-and-fish-mug.svg" class="l-email__image" alt="{{ alt }}">
+                <div class="l-email__caption">
+                    <h1 class="l-email__title">{{ title }}</h1>
+                    <div class="post-content">
+                        {{ content | safe }}
+                    </div>
+                    <a href="{{ helpers.getHomeUrl(lang) }}" class="btn btn--primary btn--primary-shadow">
+                        {{ i18n[lang].email.back }}
+                        {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
+                    </a>
                 </div>
-                <a href="{{ helpers.getHomeUrl(lang) }}" class="btn btn--primary btn--primary-shadow">
-                    {{ i18n[lang].email.back }}
-                    {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
-                </a>
             </div>
         </div>
     </div>
-  </div>
 {% endblock %}
