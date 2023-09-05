@@ -5,7 +5,7 @@ metaDesc: "Megbízható és modern webalkalmazásokat és weboldalakat készít�
 layout: "layout/front-page.html"
 hero:
     title:
-        caption: "<span class='highlighted'>Kód írása</span><br><span><span class='sr-only'>ahogy kellene</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"
+        caption: "<span class='highlighted'>Kód írás</span><br><span><span class='sr-only'>ahogy kellene</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"
         typewriter: "ahogy kellene, ami fenntart<wbr>ható, ami nem hoz zavarba, ami segít neked"
     description: "Webalkalmazásokat és weboldalakat készítünk kicsitől a nagyig Laravel és WordPress segítségével."
     btn:
