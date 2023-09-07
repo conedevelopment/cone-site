@@ -42,7 +42,7 @@ accordion:
             description: "<p>We take care of our products. This means, we do maintenance and support the end-product. If it’s about a third party product, then we rarely do maintenance.</p>"
         -
             title: "Which plugins do you use for WordPress development?"
-            description: "<p>Általában a népszerűbb és jobb felépítésű bővítményeket részesítjük előnyben. Ilyen például a Yoast SEO bővítménye, vagy a WP Rocket. Ha webáruházról van szó, akkor WooCommerce-et használunk. Ha velünk dolgozol jár neked a fizetős WPML (nyelvesítés), WP Rocket (teljesítmény optimalizálás), ACF (egyedi mezők kezelése).</p>"
+            description: "<p>In general, we prefer the more popular and better designed plugins. Examples include Yoast's SEO plugin, or WP Rocket. If it's an e-commerce store, we use WooCommerce. If you work with us, you'll receive a copy of paid WPML (language support), WP Rocket (performance optimization), ACF (custom field management) plugins.</p>"
         -
             title: "Do you work with purchased themes?"
             description: "<p>No, our themes are all custom developments. This means the end-product will contain only what is necessary based on the needs we arranged in advance.</p><p>In some cases we do some work in purchased themes, but only based hourly rates and not in a fixed project based price.</p>"
@@ -64,7 +64,7 @@ step:
 cta:
     title: "Want to work with us?"
     classes: "cta--border-block:end"
-    description: "You have a project and you don’t know where to start? Feel free to contact us to discuss you project’s details. Maybe we can help you."
+    description: "You have a project and you don’t know where to start? Feel free to contact us to discuss your project’s details. Maybe we can help you."
     btn:
         url: "/contact/"
         caption: "Contact"
