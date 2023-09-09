@@ -1,3 +1,6 @@
 /en/* /404.html 404
 /hu/* /hu/404.html 404
 /404 /404.html 404
+/404.html /404.html 404
+/hu/404 /hu/404.html 404
+/hu/404.html /hu/404.html 404
