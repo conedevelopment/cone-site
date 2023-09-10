@@ -4,7 +4,7 @@ const { parse, stringify } = require('himalaya');
 const dateFilter = require('./src/filters/date.js');
 const htmlMinTransform = require('./src/transforms/html-min-transform.js');
 const Image = require('@11ty/eleventy-img');
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.CONTEXT === 'production';
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const w3DateFilter = require('./src/filters/w3-date.js');
 const markdownFilter = require('./src/filters/markdown.js');
