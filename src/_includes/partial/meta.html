@@ -12,7 +12,11 @@
 {% set currentUrl = site.url + page.url %}
 
 {% if not socialImage %}
-    {% set socialImage = site.url + '/img/social-share.png' %}
+    {% if lang == 'en' %}
+        {% set socialImage = site.url + '/img/social-share.png' %}
+    {% else %}
+        {% set socialImage = site.url + '/img/social-share-hu.png' %}
+    {% endif %}
 {% else %}
     {% set socialImage = site.url + socialImage %}
 {% endif %}
