@@ -1,4 +1,4 @@
-{% set assetHash = global.random() %}
+{% set assetHash = global.random() -%}
 {% set lang = locale if locale else 'en' -%}
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        {%- include "partial/meta.html" %}
+        {% include "partial/meta.html" %}
         {% include "partial/preload.html" %}
 
         {% set css %}
