@@ -1,5 +1,4 @@
-{%
-if page.url.length > 1
+{% if page.url.length > 1
     set pageTitle = title + ' - ' + site.name
 else
     set pageTitle = site.name
@@ -28,8 +27,7 @@ endif
 
 if not metaDesc
     set metaDesc = summary
-endif
--%}
+endif -%}
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}">
 
