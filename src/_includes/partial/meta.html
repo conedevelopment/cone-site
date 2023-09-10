@@ -1,34 +1,35 @@
-{% if page.url.length > 1 %}
-    {% set pageTitle = title + ' - ' + site.name %}
-{% else %}
-    {% set pageTitle = site.name %}
-{% endif %}
+{%
+if page.url.length > 1
+    set pageTitle = title + ' - ' + site.name
+else
+    set pageTitle = site.name
+endif
 
-{% if site.name === title %}
-    {% set pageTitle = title %}
-{% endif %}
+if site.name === title
+    set pageTitle = title
+endif
 
-{% set siteTitle = site.name %}
-{% set currentUrl = site.url + page.url %}
+set siteTitle = site.name
+set currentUrl = site.url + page.url
 
-{% if not socialImage %}
-    {% if lang == 'en' %}
-        {% set socialImage = site.url + '/img/social-share.png' %}
-    {% else %}
-        {% set socialImage = site.url + '/img/social-share-hu.png' %}
-    {% endif %}
-{% else %}
-    {% set socialImage = site.url + socialImage %}
-{% endif %}
+if not socialImage
+    if lang == 'en'
+        set socialImage = site.url + '/img/social-share.png'
+    else
+        set socialImage = site.url + '/img/social-share-hu.png'
+    endif
+else
+    set socialImage = site.url + socialImage
+endif
 
-{% if metaTitle %}
-    {% set pageTitle = metaTitle %}
-{% endif %}
+if metaTitle
+    set pageTitle = metaTitle
+endif
 
-{% if not metaDesc %}
-    {% set metaDesc = summary %}
-{% endif %}
-
+if not metaDesc
+    set metaDesc = summary
+endif
+-%}
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}">
 
