@@ -38,7 +38,7 @@ Hatékony, egyszerű és hoszsútávú megoldás lehet, ha egy rövid saját kó
 ```php
 function cone_maintenance_mode() {
     if (!current_user_can('edit_themes') || !is_user_logged_in()) {
-        wp_die("<h1>Karbantartás</h1><br />Jelenleg karbantartási munkák folynak, kérjük nézz vissza 1 óra múlva. Köszönjük a türelmed!");
+        wp_die("<h1>Karbantartás</h1><br>Jelenleg karbantartási munkák folynak, kérjük nézz vissza 1 óra múlva. Köszönjük a türelmed!");
     }
 }
 add_action('get_header', 'cone_maintenance_mode');
