@@ -57,7 +57,7 @@ step:
     items:
     -
         title: "Megbeszélünk, igényeket egyeztetünk"
-        description: "Az első lépése az együttműködésnek a fejlesztési leírás elkészítés közösen, ami alapján  dolgozni tudunk majd."
+        description: "Az első lépése az együttműködésnek a fejlesztési leírás elkészítés közösen, ami alapján dolgozni tudunk majd."
     -
         title: "Neki állunk tervezni"
         description: "Mind a látható és mind a láthatatlan munkálatok megkezdődnek. A terveket általában HTML/CSS formában prezentáljuk."

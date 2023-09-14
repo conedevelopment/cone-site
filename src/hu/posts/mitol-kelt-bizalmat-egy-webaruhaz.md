@@ -32,7 +32,7 @@ Minden alapvető, a terméket érintő információnak érthetően és egyszerű
 
 A bizalom kiépítésében fontos lépés, hogy bemutasd magad és hogy mit képviselsz. A vásárlók szeretnék tudni, hogy kitől vásárolnak. **Manapság sokkal több a tudatos vásárló, akiknek nem mindegy, hogy honnan és kitől vásárolnak.**
 
-A “rólunk” oldal mindig fontos rész a weblapnak, ne hanyagoljuk el, tervezzük meg rendesen. Ugyanez igaz a "kapcsolat" oldalra. Az elérhetőségi adatainak mindig legyenek megfelelően feltüntetve.
+A „rólunk” oldal mindig fontos rész a weblapnak, ne hanyagoljuk el, tervezzük meg rendesen. Ugyanez igaz a „kapcsolat” oldalra. Az elérhetőségi adatainak mindig legyenek megfelelően feltüntetve.
 
 ## 4. Mutasd meg a jelenlegi vásárlói elégedettséget
 

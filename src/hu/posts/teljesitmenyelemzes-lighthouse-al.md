@@ -22,7 +22,7 @@ A teljesítmény a legegyszerűbb módja, hogy össze mérjük magunkat a konkur
 
 Egy elemzőt laikusként is tudunk futtatni, azonban ez sok esetben inkább a fejlesztőknek szól. A technikai háttér, tervezési döntések limitálhatják a mért eredményt, ami nem feltétlenül probléma.
 
-**Amit felhasználóként, ügyfélként tehetünk az az, hogy felkeressük a [web.dev “Measure”](https://web.dev/measure/) aloldalát és ellenőrizzük az oldalunkat.**
+**Amit felhasználóként, ügyfélként tehetünk az az, hogy felkeressük a [web.dev „Measure”](https://web.dev/measure/) aloldalát és ellenőrizzük az oldalunkat.**
 
 Ellenőrzés után négy darab szám értéket kapunk, ajánlásokkal. Az biztos, hogy ezeknek nem kell mind 100-nak lenniük, de az is kétségtelen, hogy 80-nál kisebb - _a tapasztalataink szerint_ - nem nagyon lehet.
 

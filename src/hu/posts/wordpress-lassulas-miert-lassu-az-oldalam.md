@@ -8,7 +8,7 @@ thumbnailAlt: ""
 
 **Egy lassú WordPress weboldal nem olyan ritka jelenség, mint amilyennek lennie kellene. Alapvetően egy oldal komplex rendszer, amit egészen egyszerű elrontani valamilyen szinten, azonban ezek nem minden esetben okoznak lassulást.**
 
-WP esetében nincsen általános megoldás a teljesítmény hibák javítására, ami érthető a CMS komplex összetétele miatt. Számos bővítmény, számos téma érhető el, amikkel mind egy kicsit hozzáadunk az erőforrásokhoz, ami a végén majd megbosszulja magát. Ettől függetlenül van pár “népszerűbb” hiba, amit lehet javítani.
+WP esetében nincsen általános megoldás a teljesítmény hibák javítására, ami érthető a CMS komplex összetétele miatt. Számos bővítmény, számos téma érhető el, amikkel mind egy kicsit hozzáadunk az erőforrásokhoz, ami a végén majd megbosszulja magát. Ettől függetlenül van pár „népszerűbb” hiba, amit lehet javítani.
 
 Alapvetően igaz, hogy egy gyors oldalhoz előzetes tervezés kell és a lehető legkevesebb függőség használata. Persze mindez relatív és projekt függő.
 
@@ -46,4 +46,4 @@ Egy jó szerver nélkülözhetetlen minden jól funkcionáló oldalhoz. Ezeket a
 
 ## Összegzés: WordPress és a teljesítmény
 
-A gyors WordPress oldal nem lehetetlen, azonban ehhez valószínűleg kerülnöd kell a “több célú” sablonokat, vagy/és erőteljesen optimalizálnod kell őket. A legjobb megoldás, mint mindig az, ha már a tervezés korai szakaszától előtérbe helyezed az oldal gyorsaságát.
+A gyors WordPress oldal nem lehetetlen, azonban ehhez valószínűleg kerülnöd kell a „több célú” sablonokat, vagy/és erőteljesen optimalizálnod kell őket. A legjobb megoldás, mint mindig az, ha már a tervezés korai szakaszától előtérbe helyezed az oldal gyorsaságát.

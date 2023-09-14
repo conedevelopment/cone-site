@@ -26,7 +26,7 @@ Ez teljesen projekt függű, de általában elmondható, hogy jóval hosszabb mi
 
 ## Mekkora költségekkel számolhatok?
 
-Hogy hogyan gondolkozzunk az árakról/árazásról, az [FPS](https://www.fps.hu/) írt egy remek [cikket.](https://blog.fps.hu/mennyi-az-annyi/) Érdemes elolvasni, mivel rámutat néhány olyan kérdésre, amely gyakran felmerül ezzel a témával kapcsolatban.
+Hogy hogyan gondolkozzunk az árakról/árazásról, az [FPS](https://www.fps.hu/) írt egy remek [cikket](https://blog.fps.hu/mennyi-az-annyi/). Érdemes elolvasni, mivel rámutat néhány olyan kérdésre, amely gyakran felmerül ezzel a témával kapcsolatban.
 
 Nyílván, ha kisebb csapattal dolgozol, akkor sok tétel kiesik a listáról. Ami viszont nem változik, hogy a tudásnak és a tapasztalatnak itt is magas ára van. Egy jó fejlesztő nem csak a kódja miatt jó, hanem érzi, hogy hogyan dolgozzon együtt másokkal, mikor érdemes új utakat választani és mikor kell a régieket megtartani. Törekszik arra, hogy a megoldásai stabilitást, ugyanakkor lehetőséget is tartalmazzanak. Ez biztosítja, hogy a végeredmény időtálló és bővíthető legyen.
 

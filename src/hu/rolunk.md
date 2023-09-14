@@ -47,7 +47,7 @@ cta:
                 <h2 class="text-card__title">Értékeink</h2>
                 <div class="post-content">
                     <p>
-                        Elsősorban <strong>partneri</strong> kapcsolatok kialakításán dolgozunk, ahol a projekt “közös”, így valóban egymást segítve tudunk belevágni az elvégzendő feladatok sorába. A <strong>kooperáció</strong> olyan szintjét szeretnénk elérni, ahol a munkavégzés folyamán kellő egymás iránti <strong>tisztelettel</strong> és <strong>odafigyeléssel</strong> tudunk előrehaladni.
+                        Elsősorban <strong>partneri</strong> kapcsolatok kialakításán dolgozunk, ahol a projekt „közös”, így valóban egymást segítve tudunk belevágni az elvégzendő feladatok sorába. A <strong>kooperáció</strong> olyan szintjét szeretnénk elérni, ahol a munkavégzés folyamán kellő egymás iránti <strong>tisztelettel</strong> és <strong>odafigyeléssel</strong> tudunk előrehaladni.
                     </p>
                 </div>
             </div>
