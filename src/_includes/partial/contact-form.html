@@ -4,7 +4,7 @@
     action="{{ navigation[lang]["email-redirect"] }}"
     name="{{ i18n[lang].form.id }}"
 >
-    <input type="hidden" name="subject" data-remove-prefix value="{{ i18n[lang].form.subject }}" />
+    <input type="hidden" name="subject" data-remove-prefix value="{{ i18n[lang].form.subject }}">
     <div class="form-group-wrapper">
         <div class="form-row--mixed">
             <div class="form-group">
@@ -15,7 +15,7 @@
                     type="text"
                     name="your-name"
                     required
-                />
+                >
             </div>
             <div class="form-group">
                 <label class="form-label" for="your-email">{{ i18n[lang].form.email }}</label>
@@ -25,7 +25,7 @@
                     type="email"
                     name="your-email"
                     required
-                />
+                >
             </div>
         </div>
         <div class="form-row--mixed">
@@ -59,7 +59,7 @@
         </div>
         <div class="form-group">
             <label class="form-check">
-                <input class="form-check__control" type="checkbox" required value="true" name="privacy-policy"/>
+                <input class="form-check__control" type="checkbox" required value="true" name="privacy-policy">
                 <span class="form-label form-check__label"><a href="{{ navigation[lang].privacy.url }}" target="_blank">{{ i18n[lang].form.privacy }}</a></span>
             </label>
         </div>
