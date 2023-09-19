@@ -1,3 +1,6 @@
+{% comment %}
+    This section sets variables for page titles social images
+{% endcomment %}
 {% if page.url.length > 1 %}
     {% set pageTitle = title + ' - ' + site.name %}
 {% else %}
@@ -8,9 +11,15 @@
     {% set pageTitle = title %}
 {% endif %}
 
+{% comment %}
+This section sets variables  URLs 
+{% endcomment %}
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
+{% comment %}
+    This section sets variables for social images
+{% endcomment %}
 {% if not socialImage %}
     {% if lang == 'en' %}
         {% set socialImage = site.url + '/img/social-share.png' %}
