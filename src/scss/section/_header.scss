@@ -55,14 +55,13 @@
   }
 
   &__logo {
-    --block-size: 1.35rem;
     @include transition;
-    block-size: var(--block-size);
     display: inline-flex;
     flex-shrink: 0;
 
-    img {
-      block-size: 100%;
+    svg {
+      --block-size: 1.35rem;
+      block-size: var(--block-size);
       inline-size: auto;
     }
   }
