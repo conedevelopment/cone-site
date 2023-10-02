@@ -2,7 +2,7 @@
     <a href="https://conedevelopment.com/">
         <br>
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./.github/cone-logo-light.svg">
+                <source media="(prefers-color-scheme: dark)" srcset="./.github/cone-logo-light-2.svg">
                 <img alt="Cone" width="120" src="./.github/cone-logo-dark.svg">
             </picture>
         <br>
