@@ -1,32 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 209 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <path d="M208.984,25.078c-0,-13.841 -11.238,-25.078 -25.078,-25.078l-158.828,0c-13.841,0 -25.078,11.237 -25.078,25.078l-0,75.234c-0,13.841 11.237,25.078 25.078,25.078l158.828,0c13.84,0 25.078,-11.237 25.078,-25.078l-0,-75.234Z" style="fill:#ebebeb;"/>
+<svg width="100%" height="100%" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M0,18.75l0,56.542c-0,4.973 1.975,9.742 5.492,13.259c3.516,3.516 8.285,5.492 13.258,5.492l56.542,-0.001c4.973,0.001 9.742,-1.975 13.259,-5.491c3.516,-3.517 5.492,-8.286 5.491,-13.259l0,-56.542c0.001,-4.973 -1.975,-9.742 -5.491,-13.258c-3.517,-3.517 -8.286,-5.492 -13.259,-5.492l-56.542,0c-4.973,-0 -9.742,1.975 -13.258,5.492c-3.517,3.516 -5.492,8.285 -5.492,13.258Z" style="fill:#fff;"/>
     <clipPath id="_clip1">
-        <path d="M208.984,25.078c-0,-13.841 -11.238,-25.078 -25.078,-25.078l-158.828,0c-13.841,0 -25.078,11.237 -25.078,25.078l-0,75.234c-0,13.841 11.237,25.078 25.078,25.078l158.828,0c13.84,0 25.078,-11.237 25.078,-25.078l-0,-75.234Z"/>
+        <path d="M0,18.75l0,56.542c-0,4.973 1.975,9.742 5.492,13.259c3.516,3.516 8.285,5.492 13.258,5.492l56.542,-0.001c4.973,0.001 9.742,-1.975 13.259,-5.491c3.516,-3.517 5.492,-8.286 5.491,-13.259l0,-56.542c0.001,-4.973 -1.975,-9.742 -5.491,-13.258c-3.517,-3.517 -8.286,-5.492 -13.259,-5.492l-56.542,0c-4.973,-0 -9.742,1.975 -13.258,5.492c-3.517,3.516 -5.492,8.285 -5.492,13.258Z"/>
     </clipPath>
     <g clip-path="url(#_clip1)">
         <g>
             <g>
-                <rect x="-0" y="41.797" width="41.797" height="41.797" style="fill:#0065ef;"/>
-                <rect x="41.797" y="41.797" width="41.797" height="41.797" style="fill:#0065ef;fill-opacity:0.9;"/>
-                <rect x="83.593" y="41.797" width="41.797" height="41.797" style="fill:#0065ef;fill-opacity:0.8;"/>
-                <rect x="125.39" y="41.797" width="41.797" height="41.797" style="fill:#0065ef;fill-opacity:0.7;"/>
-                <rect x="167.187" y="41.797" width="41.797" height="41.797" style="fill:#0065ef;fill-opacity:0.6;"/>
+                <rect x="0" y="31.348" width="31.348" height="31.348" style="fill:#0065ef;" shape-rendering="crispEdges"/>
+                <rect x="31.348" y="31.348" width="31.348" height="31.348" style="fill:#0065ef;fill-opacity:0.9;" shape-rendering="crispEdges"/>
+                <rect x="62.695" y="31.348" width="31.348" height="31.348" style="fill:#0065ef;fill-opacity:0.8;" shape-rendering="crispEdges"/>
             </g>
             <g>
-                <rect x="0" y="83.593" width="41.797" height="41.797" style="fill:#00b6ef;"/>
-                <rect x="41.797" y="83.593" width="41.797" height="41.797" style="fill:#00b6ef;fill-opacity:0.9;"/>
-                <rect x="83.593" y="83.593" width="41.797" height="41.797" style="fill:#00b6ef;fill-opacity:0.8;"/>
-                <rect x="125.39" y="83.593" width="41.797" height="41.797" style="fill:#00b6ef;fill-opacity:0.7;"/>
-                <rect x="167.187" y="83.593" width="41.797" height="41.797" style="fill:#00b6ef;fill-opacity:0.6;"/>
+                <rect x="0" y="62.695" width="31.348" height="31.348" style="fill:#00b6ef;" shape-rendering="crispEdges"/>
+                <rect x="31.348" y="62.695" width="31.348" height="31.348" style="fill:#00b6ef;fill-opacity:0.9;" shape-rendering="crispEdges"/>
+                <rect x="62.695" y="62.695" width="31.348" height="31.348" style="fill:#00b6ef;fill-opacity:0.8;" shape-rendering="crispEdges"/>
             </g>
             <g>
-                <rect x="-0" y="0" width="41.797" height="41.797" style="fill:#0008ef;"/>
-                <rect x="41.797" y="0" width="41.797" height="41.797" style="fill:#0008ef;fill-opacity:0.9;"/>
-                <rect x="83.593" y="0" width="41.797" height="41.797" style="fill:#0008ef;fill-opacity:0.8;"/>
-                <rect x="125.39" y="0" width="41.797" height="41.797" style="fill:#0008ef;fill-opacity:0.7;"/>
-                <rect x="167.187" y="0" width="41.797" height="41.797" style="fill:#0008ef;fill-opacity:0.6;"/>
+                <rect x="0" y="0" width="31.348" height="31.348" style="fill:#0008ef;" shape-rendering="crispEdges"/>
+                <rect x="31.348" y="0" width="31.348" height="31.348" style="fill:#0008ef;fill-opacity:0.9;" shape-rendering="crispEdges"/>
+                <rect x="62.695" y="0" width="31.348" height="31.348" style="fill:#0008ef;fill-opacity:0.8;" shape-rendering="crispEdges"/>
             </g>
         </g>
     </g>
