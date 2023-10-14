@@ -1,10 +1,11 @@
 ---
 title: "Contact"
+metaDesc: "Have a project idea? Get in touch with us! Would love to hear from you."
 layout: "layout/contact.html"
 hero:
     title:
         caption: "Have a project idea?<span class='highlighted'><br>Get in touch with us!</span>"
-    description: "Love to hear from you. Get in touch! 👋"
+    description: "Would love to hear from you! 👋"
     classes: "hero--font-size:small hero--center hero--padding-block:small"
 ---
 

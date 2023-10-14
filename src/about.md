@@ -1,5 +1,6 @@
 ---
 title: "About"
+metaDesc: "We are a Hungarian-based small web studio specializing in WordPress sites and Laravel applications."
 layout: "layout/about.html"
 hero:
     title:

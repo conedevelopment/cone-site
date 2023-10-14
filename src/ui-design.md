@@ -1,5 +1,6 @@
 ---
 title: "UI Design"
+metaDesc: "We create minimalistic and functional user interfaces that are always a good paring for a robust back-end."
 permalink: "/services/ui-design/"
 layout: "layout/development.html"
 hero:

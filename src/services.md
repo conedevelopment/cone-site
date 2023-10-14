@@ -1,5 +1,6 @@
 ---
 title: "Services"
+metaDesc: "We design and create robust web based solutions using up-to-date technologies like WordPress and Laravel."
 layout: "layout/services.html"
 hero:
     title:

@@ -1,5 +1,6 @@
 ---
 title: "Laravel Application Development"
+metaDesc: "Using Laravel, we can help you achieve your goals with a custom web-based application that scales."
 permalink: "/services/application-development/"
 layout: "layout/development.html"
 hero:

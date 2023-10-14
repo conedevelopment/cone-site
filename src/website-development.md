@@ -1,11 +1,12 @@
 ---
 title: "Website Development"
+metaDesc: "We can help you or your business to create a fast and easy-to-use WordPress or static website."
 permalink: "/services/website-development/"
 layout: "layout/development.html"
 hero:
     title:
         caption: "Custom <span class='highlighted'>Website</span> <br> Development"
-    description: "We can help you or your business to create a fast and easy-to-use WordPress or static site."
+    description: "We can help you or your business to create a fast and easy-to-use WordPress or webstatic site."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--tertiary"
