@@ -24,7 +24,7 @@ cta:
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">About Us</h2>
                 <div class="post-content">
-                    <p><strong>Adam is responsible for the UI design and the front-end</strong>, while <strong>Gergő takes care of the back-end and some front-end tasks as well</strong>. This way, we can extend each other’s skills, and we are able to ship well-crafted code. Currently, we are located in Hungary. We like to communicate in English.</p>
+                    <p><strong>Adam is responsible for the UI design and the front-end</strong>, while <strong>Gergő takes care of the back-end and some front-end tasks as well</strong>. This way, we can extend each other’s skills, and we are able to ship well-crafted code. Currently, we are located in Hungary (EU). We like to communicate in English.</p>
                 </div>
             </div>
             <div class="text-card text-card--two-column">

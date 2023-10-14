@@ -13,11 +13,25 @@
                     </a>
                     {% include "partial/theme-switcher.html" %}
                 </div>
-                <p class="site-footer__copyright">
-                    © 2019 - {{ global.year() }}<br>{{ site.name }}<br>{{ i18n[lang].copyright }}<br>
+                <ul class="site-footer__copyright">
                     {% if navigation[lang].privacy.url %}
-                        <a href="{{ navigation[lang].privacy.url }}">{{ navigation[lang].privacy.caption }}</a>
+                        <li>
+                            <a href="{{ navigation[lang].privacy.url }}">{{ navigation[lang].privacy.caption }}</a>
+                        </li>
                     {% endif %}
+                    <li>© 2019 - {{ global.year() }}</li>
+                    <li>{{ i18n[lang].copyright }}</li>
+                    <li class="site">
+                        {% if lang == 'en' %}
+                            <img
+                                src="/img/eu.svg"
+                                alt="European Union, Hungary"
+                                width="35"
+                                height="35"
+                            >
+                        {% endif %}
+                        {{ site.name }}
+                    </li>
                 </p>
             </div>
             {% for block in navigation[lang].footer %}

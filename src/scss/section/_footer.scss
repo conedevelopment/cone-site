@@ -76,6 +76,18 @@
   }
 
   &__copyright {
+    @include clear-list;
     margin-block: spacer('m') 0;
+
+    .site {
+      align-items: center;
+      display: inline-flex;
+      gap: spacer('xs');
+
+      img {
+        border-radius: 0.2em;
+        inline-size: 1.75rem;
+      }
+    }
   }
 }
