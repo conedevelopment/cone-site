@@ -3,6 +3,10 @@ title: "Home"
 metaTitle: "A Small and Reliable Web Development Studio"
 metaDesc: "We compose websites and web applications from small to large scale in WordPress and Laravel."
 layout: "layout/front-page.html"
+hreflang:
+    -
+        lang: 'hu'
+        url: '/hu/'
 hero:
     title:
         caption: "<span class='highlighted'>Writing code</span><br><span><span class='sr-only'>as it should be</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"

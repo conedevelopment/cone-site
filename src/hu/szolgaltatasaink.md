@@ -1,6 +1,10 @@
 ---
 title: "Szolgáltatásaink"
 layout: "layout/services.html"
+hreflang:
+    -
+        lang: 'en'
+        url: '/services/'
 hero:
     title:
         caption: "<span class='highlighted'>Webalapú</span><br> szolgáltat<wbr>ások"

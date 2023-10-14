@@ -2,6 +2,10 @@
 title: "About"
 metaDesc: "We are a Hungarian-based small web studio specializing in WordPress sites and Laravel applications."
 layout: "layout/about.html"
+hreflang:
+    -
+        lang: 'hu'
+        url: '/hu/rolunk/'
 hero:
     title:
         caption: "Development<br><span class='highlighted'>Team of Two</span>"

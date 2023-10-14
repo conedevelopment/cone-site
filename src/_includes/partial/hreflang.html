@@ -1,0 +1,5 @@
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}" />
+
+{% for href in hreflang %}
+    <link rel="alternate" hreflang="{{ href.lang }}" href="{{ site.url }}{{ href.url }}" />
+{% endfor %}

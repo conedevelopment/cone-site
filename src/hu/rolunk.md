@@ -1,6 +1,10 @@
 ---
 title: "Rólunk"
 layout: "layout/about.html"
+hreflang:
+    -
+        lang: 'en'
+        url: '/about/'
 hero:
     title:
         caption: "<span class='highlighted'>Kétfős csapat</span> <br> ami sokat tud"

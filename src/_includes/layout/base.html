@@ -24,6 +24,10 @@
         {% if lang == 'en' %}
             {% include "partial/schema-en.html" %}
         {% endif %}
+
+        {% if hreflang %}
+            {% include "partial/hreflang.html" %}
+        {% endif %}
     </head>
     <body>
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>

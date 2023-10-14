@@ -3,6 +3,10 @@ title: "Website Development"
 metaDesc: "We can help you or your business to create a fast and easy-to-use WordPress or static website."
 permalink: "/services/website-development/"
 layout: "layout/development.html"
+hreflang:
+    -
+        lang: 'hu'
+        url: '/hu/szolgaltatasaink/weboldal-fejlesztes/'
 hero:
     title:
         caption: "Custom <span class='highlighted'>Website</span> <br> Development"

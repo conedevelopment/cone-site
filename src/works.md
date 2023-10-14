@@ -2,6 +2,10 @@
 title: "Works"
 metaDesc: "We work with robust, yet flexible and modern technologies. Check out our latest works!"
 layout: "layout/works.html"
+hreflang:
+    -
+        lang: 'hu'
+        url: '/hu/munkaink/'
 hero:
     title:
         caption: "We Make <span class='highlighted'>Clean Design</span><br>and <span class='highlighted'>Modern Code</span>"

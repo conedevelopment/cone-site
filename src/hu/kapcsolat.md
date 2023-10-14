@@ -1,6 +1,10 @@
 ---
 title: "Kapcsolat"
 layout: "layout/contact.html"
+hreflang:
+    -
+        lang: 'en'
+        url: '/contact/'
 hero:
     title:
         caption: "Dolgoznál velünk? <br><span class='highlighted'>Írj nekünk!</span>"

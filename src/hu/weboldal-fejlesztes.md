@@ -2,6 +2,10 @@
 title: "Egyedi WordPress weboldal fejlesztés"
 permalink: "/hu/szolgaltatasaink/weboldal-fejlesztes/"
 layout: "layout/development.html"
+hreflang:
+    -
+        lang: 'en'
+        url: '/services/website-development/'
 hero:
     title:
         caption: "Egyedi <span class='highlighted'>WordPress</span> alapú weboldal fejlesztés"

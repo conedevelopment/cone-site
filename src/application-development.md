@@ -3,6 +3,10 @@ title: "Laravel Application Development"
 metaDesc: "Using Laravel, we can help you achieve your goals with a custom web-based application that scales."
 permalink: "/services/application-development/"
 layout: "layout/development.html"
+hreflang:
+    -
+        lang: 'hu'
+        url: '/hu/szolgaltatasaink/alkalmazas-fejlesztes/'
 hero:
     title:
         caption: "We Are Crafting<br><span class='highlighted'>Web Based Applications</span>"
