@@ -17,7 +17,7 @@ A `<section>` elem a HTML5 szabvánnyal került bevezetésre. Szemantikus jelent
 <section>
     <h2>Similar Posts</h2>
     <article></article>
-     ...
+    ...
 </section>
 ```
 
