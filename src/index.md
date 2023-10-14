@@ -1,6 +1,6 @@
 ---
 title: "Home"
-metaTitle: "A Small and Reliable Development Studio"
+metaTitle: "A Small and Reliable Web Development Studio"
 layout: "layout/front-page.html"
 hero:
     title:

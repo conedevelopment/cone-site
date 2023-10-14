@@ -20,6 +20,10 @@
 
         {% block styles %}{% endblock %}
         <script src="/js/theme-detection.js?{{ assetHash }}"></script>
+
+        {% if lang == 'en' %}
+            {% include "partial/schema-en.html" %}
+        {% endif %}
     </head>
     <body>
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>
