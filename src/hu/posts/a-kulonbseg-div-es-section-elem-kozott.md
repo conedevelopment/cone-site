@@ -4,6 +4,7 @@ date: "2020-05-19"
 tags: ["akadálymentesség", "html"]
 thumbnail: "/img/blog/a-kulonbseg-div-es-section-elem-kozott.png"
 thumbnailAlt: ""
+permalink: "/hu/a-kulonbseg-div-es-section-elem-kozott/index.html"
 ---
 
 **A `<div>` az egyik legáltalánosabb elem a HTML-ben. Jó ha mindig ezt használjuk? Ez mindig az aktuális igényektől függ, de az biztos, hogy ma már több opciónk is lehet.**
