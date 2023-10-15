@@ -4,9 +4,9 @@ date: 2023-08-21
 showMeta: true
 layout: "layout/page.html"
 hreflang:
-    -
-        lang: 'en'
-        url: '/privacy-policy/'
+-
+    lang: "en"
+    url: "/privacy-policy/"
 ---
 
 ## Kik vagyunk

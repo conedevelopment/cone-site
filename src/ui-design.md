@@ -4,9 +4,9 @@ metaDesc: "We create minimalistic and functional user interfaces that are always
 permalink: "/services/ui-design/"
 layout: "layout/development.html"
 hreflang:
-    -
-        lang: 'hu'
-        url: '/hu/szolgaltatasaink/ui-tervezes/'
+-
+    lang: "hu"
+    url: "/hu/szolgaltatasaink/ui-tervezes/"
 hero:
     title:
         caption: "UX & UI <span class='highlighted'>Design</span>"

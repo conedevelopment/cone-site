@@ -4,9 +4,9 @@ metaTitle: "Webalkalmazás, weboldal és WordPress fejlesztés"
 metaDesc: "Megbízható és modern webalkalmazásokat és weboldalakat készítünk kicsitől a nagyig Laravel és WordPress segítségével."
 layout: "layout/front-page.html"
 hreflang:
-    -
-        lang: 'en'
-        url: '/'
+-
+    lang: "en"
+    url: "/"
 hero:
     title:
         caption: "<span class='highlighted'>Kód írás</span><br><span><span class='sr-only'>ahogy kellene</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"

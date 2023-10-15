@@ -2,9 +2,9 @@
 title: "Munkáink"
 layout: "layout/works.html"
 hreflang:
-    -
-        lang: 'en'
-        url: '/works/'
+-
+    lang: "en"
+    url: "/works/"
 hero:
     title:
         caption: "Letisztult <span class='highlighted'>dizájnt</span> <br> és <span class='highlighted'>modern kódot</span> <br> készítünk"

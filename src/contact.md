@@ -3,9 +3,9 @@ title: "Contact"
 metaDesc: "Have a project idea? Get in touch with us! Would love to hear from you."
 layout: "layout/contact.html"
 hreflang:
-    -
-        lang: 'hu'
-        url: '/hu/kapcsolat/'
+-
+    lang: "hu"
+    url: "/hu/kapcsolat/"
 hero:
     title:
         caption: "Have a project idea?<span class='highlighted'><br>Get in touch with us!</span>"

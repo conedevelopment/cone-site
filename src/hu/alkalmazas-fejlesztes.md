@@ -3,9 +3,9 @@ title: "Laravel Application Development"
 permalink: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
 layout: "layout/development.html"
 hreflang:
-    -
-        lang: 'en'
-        url: '/services/application-development/'
+-
+    lang: "en"
+    url: "/services/application-development/"
 hero:
     title:
         caption: "<span class='highlighted'>Laravel</span><br> alkalmazásokat<br> fejlesztünk"

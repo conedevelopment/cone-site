@@ -4,9 +4,9 @@ date: 2023-08-04
 showMeta: true
 layout: "layout/page.html"
 hreflang:
-    -
-        lang: 'hu'
-        url: '/hu/adatvedelem/'
+-
+    lang: "hu"
+    url: "/hu/adatvedelem/"
 ---
 
 ## Who We Are

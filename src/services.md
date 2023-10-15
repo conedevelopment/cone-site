@@ -3,9 +3,9 @@ title: "Services"
 metaDesc: "We design and create robust web based solutions using up-to-date technologies like WordPress and Laravel."
 layout: "layout/services.html"
 hreflang:
-    -
-        lang: 'hu'
-        url: '/hu/szolgaltatasaink/'
+-
+    lang: "hu"
+    url: "/hu/szolgaltatasaink/"
 hero:
     title:
         caption: "We Design and Create<br><span class='highlighted'>Web Based Solutions</span>"

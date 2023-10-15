@@ -3,9 +3,9 @@ title: "UI tervezes"
 permalink: "/hu/szolgaltatasaink/ui-tervezes/"
 layout: "layout/development.html"
 hreflang:
-    -
-        lang: 'en'
-        url: '/services/ui-design/'
+-
+    lang: "en"
+    url: "/services/ui-design/"
 hero:
     title:
         caption: "UX & UI <span class='highlighted'>tervezés</span>"
