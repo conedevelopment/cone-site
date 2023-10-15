@@ -64,7 +64,7 @@ Az a jó ezekkel a függvényekbn, hogy akkor sem dobnak hibát, ha valami nem s
 Hogy eltávolítsunk egy meghatározott osztályt a `remove()` eljárást kell használnunk. Akár több elemet is eltávolíthatunk egyszerre.
 
 ```js
- // A has-sidebar osztály eltávolítása a main elemről
+// A has-sidebar osztály eltávolítása a main elemről
 main.classList.remove('has-sidebar');
 ```
 
@@ -99,7 +99,7 @@ main.classList.toggle('has-sidebar');
 Rendelkezik egy második paraméterrel, ami a műveletet irányítja. Ha a második paraméter true, akkor hozzáadja az osztályt, ha false, akkor eltávolítja.
 
 ```js
-// Az is-dark-style osztály hozzáadása, vagy eltávolítása, a colorScheme == ‘dark’ feltétel alapján
+// Az is-dark-style osztály hozzáadása, vagy eltávolítása, a colorScheme == 'dark' feltétel alapján
 main.classList.toggle('is-dark-style', colorScheme == 'dark' );
 ```
 
@@ -108,7 +108,7 @@ main.classList.toggle('is-dark-style', colorScheme == 'dark' );
 A `classList.replace()` eljárással egy már meglévő osztályt tudunk kicserélni egy másikra. Ez megint csak egy népszerű használati eset, amit rövidebben tudunk megoldani így.
 
 ```js
-//  A 'main' osztály kicserélése a 'secondary'-re
+// A 'main' osztály kicserélése a 'secondary'-re
 div.classList.replace('main', 'secondary');
 ```
 

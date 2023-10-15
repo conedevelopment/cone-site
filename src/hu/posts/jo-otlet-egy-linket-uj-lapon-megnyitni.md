@@ -19,7 +19,7 @@ Egy link megnyitása ilyen módon zavaró lehet (azoknak biztosan, akiknek gondo
 
 ## Miért ne nyissunk meg hivatkozást új lapon?
 
-- A felhasználó tudja, hogy mit akar. Ha szeretne egy linket megnyitni új fülön, akkor használja a középső egérgombot (Windows-on), vagy a jobb egérgombot lenyomva a “Link megnyitása új lapon / ablakban” menü elemre kattint.
+- A felhasználó tudja, hogy mit akar. Ha szeretne egy linket megnyitni új fülön, akkor használja a középső egérgombot (Windows-on), vagy a jobb egérgombot lenyomva a „Link megnyitása új lapon / ablakban” menü elemre kattint.
 - Feleslegesen zavarjuk össze a felhasználót. Nem csak azokat akik képernyőfelolvasót használnak, hanem az idősebbeket, a digitálisan kevésbé tapasztaltakat.
 - Azért mert mindenki csinálja még nem biztos, hogy egy jó ötlet.
 

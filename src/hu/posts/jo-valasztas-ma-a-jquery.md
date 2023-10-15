@@ -28,7 +28,7 @@ A fentiekből nem nehéz kitalálni, hogy mit gondolok. Ha elkerülhetetlen füg
 
 Még ma is sok hasznos API-t kínál. Egy régi ismerős, ami nem okoz csalódást (többnyire csak a méretével).
 
-Ha használjuk figyeljünk rá, hogy a legújabb verziókat használjuk. [Ha tehetjük, válasszuk a “slim” változatot](https://stackoverflow.com/questions/35424053/what-are-the-differences-between-normal-and-slim-package-of-jquery).
+Ha használjuk figyeljünk rá, hogy a legújabb verziókat használjuk. [Ha tehetjük, válasszuk a „slim” változatot](https://stackoverflow.com/questions/35424053/what-are-the-differences-between-normal-and-slim-package-of-jquery).
 
 ## Igen, vannak ma már jobb eszközök
 
@@ -40,7 +40,7 @@ Ha már szóba kerültek a JS keretrendszerek: ne mixeljük őket. Egy darab is 
 
 ## Nem tudunk túl sokat
 
-Szeretjük azt hinni magunkról, hogy pengék vagyunk abban amit csinálunk, közben meg a legtöbb fejlesztő nem tudja, hogy pontosan mit is jelent a “this” kulcsszó JS-ben. Egyszerű kritizálni valamit, de zavarbaejtő, ha akkor tesszük, amikor nem értjük teljesen.
+Szeretjük azt hinni magunkról, hogy pengék vagyunk abban amit csinálunk, közben meg a legtöbb fejlesztő nem tudja, hogy pontosan mit is jelent a „this” kulcsszó JS-ben. Egyszerű kritizálni valamit, de zavarbaejtő, ha akkor tesszük, amikor nem értjük teljesen.
 
 Mindennek megvannak a buktatói és minden lehet elavult, de ettől még kezelhetjük a helyén. Minden eszköznek megvan a maga helye. Például végtelen számú CSS rács rendszert használunk (valamilyen keretrendszerben, mint a Bootstrap), de mégis miért? Ma már van Flexbox és Grid natívan CSS-ben, amik segítségével egyszerűbben írhatunk jobb layoutot. Mindez egy döntés, amit meghoztunk egy kontextusban.
 

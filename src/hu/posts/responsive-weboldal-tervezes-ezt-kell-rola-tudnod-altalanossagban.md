@@ -34,7 +34,7 @@ A legegyszerűbb válasz az, hogy azért mert szeretnéd elérni a lehető legt�
 
 Egy komolyan mobilra optimalizált weboldal elképesztő előnyt jelenthet neked, a cégednek, a termékednek.
 
-[Ma már a Google is értékeli, hogy egy oldal mobilbarát, vagy sem](https://search.google.com/test/mobile-friendly?id=zkNCahytEcpvdrKq0lqiFA).  Értelemszerűen senki nem tudja, hogy a keresőóriás mi alapján állítja össze a rangsort, de ez egy olyan ajánlás, amit figyelembe kell vennünk, ha érdekelnek minket a mobil felhasználók.
+[Ma már a Google is értékeli, hogy egy oldal mobilbarát, vagy sem](https://search.google.com/test/mobile-friendly?id=zkNCahytEcpvdrKq0lqiFA). Értelemszerűen senki nem tudja, hogy a keresőóriás mi alapján állítja össze a rangsort, de ez egy olyan ajánlás, amit figyelembe kell vennünk, ha érdekelnek minket a mobil felhasználók.
 
 ## A weboldal tervezés nem egyszerű, hát még ha responsive
 

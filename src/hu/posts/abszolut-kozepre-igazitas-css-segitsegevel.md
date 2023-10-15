@@ -16,7 +16,7 @@ A lent taglalt megoldásokon kívül létezik még két szokatlanabb módszer is
 
 Az egyik legkorábbi abszolút igazítási megoldás. Az igazítandó elem `position` értékét `absolute-ra` állítjuk, majd eltoljuk 50-50%-al fentről és balról, ekkor az elemünk bal felső sarka pont középre kerül. Ezután az elemünket vissza kell húznunk a szélesség és magasság felével. Ha nem fix méretekkel dolgozunk akkor a `transform` tulajdonság `translate` értékét használhatjuk (fix szélesség és magasság esetén negatív margót is használhatunk).
 
-A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nélkül is, mivel a `transform` tulajdonság `translate` értékének százalékos paraméterei magára az elemre vonatkoznak, így a böngésző tudni fogja, hogy az igazított elemnek a felével kell visszahúzni az elemet mind két irányban.
+A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nélkül is, mivel a `transform` tulajdonság `translate` értékének százalékos paraméterei magára az elemre vonatkoznak, így a böngésző tudni fogja, hogy az igazított elemnek a felével kell visszahúzni az elemet mind két irányban.
 
 <p class="codepen" data-height="363" data-theme-id="2175" data-slug-hash="f0a20f8b25d6965d03363b3d77ebc1a9" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="http://codepen.io/adamlaki/pen/f0a20f8b25d6965d03363b3d77ebc1a9/">Abszolút középre igazítás 1</a> by Adam Laki (<a href="http://codepen.io/adamlaki">@adamlaki</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

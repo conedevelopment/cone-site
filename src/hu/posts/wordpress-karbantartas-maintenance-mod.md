@@ -6,7 +6,7 @@ thumbnail: "/img/blog/wordpress-karbantartas-maintenance-mod.png"
 thumbnailAlt: ""
 ---
 
-**A WordPress Maintenance mód (karbantartási mód) képernyőjével valószínűleg már találkoztunk. Ez a képernyő jelenik meg akkor, amikor frissítjük az oldalunkat (magot, témát, bővítményt).**
+**A WordPress Maintenance mód (karbantartási mód) képernyőjével valószínűleg már találkoztunk. Ez a képernyő jelenik meg akkor, amikor frissítjük az oldalunkat (magot, témát, bővítményt).**
 
 Ez egy automatikusan, a rendszer által létrehozott fájl, amit minden rendszer frissítés előtt létrehoz a WP. Ez egy elég jó megoldás arra az esetre, ha elszeretnénk kerülni, hogy a felhasználóink hibaüzenetet kapjanak egy esetleges frissítés idején.
 

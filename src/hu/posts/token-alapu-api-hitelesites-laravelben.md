@@ -18,9 +18,9 @@ Látható, hogy ezek a felületek széles körben is használhatóak, így nagy 
 
 ## API felületek Laravelben
 
-A keretrendszer alapértelmezetten nyújt egyszerű API integrációt. Az API felületek kialaításánál annyi a teendőnk, hogy az adott útvonalakat az “api” middleware csoportba soroljuk. A színfalak mögött ez sok változtatást eszközöl a útvonalon és az ahhoz tartozó kontrolleren – hiszen állapotfüggőből állapotmentessé alakul – de hitelesítés szempontjából így is nagyon egyszerű dolgunk van.
+A keretrendszer alapértelmezetten nyújt egyszerű API integrációt. Az API felületek kialaításánál annyi a teendőnk, hogy az adott útvonalakat az „api” middleware csoportba soroljuk. A színfalak mögött ez sok változtatást eszközöl a útvonalon és az ahhoz tartozó kontrolleren – hiszen állapotfüggőből állapotmentessé alakul – de hitelesítés szempontjából így is nagyon egyszerű dolgunk van.
 
-Azokat az API útvonalakat, amelyek hitelesítést igényelnek, az “auth:api” middleware-rel kell ellátni. A hitelesítéshez a felhasználókhoz tartozó “api\_token” használható, amelyet a HTTP kéréskor az “Authorization” fejlécben “Bearer” tokenként vagy az URL egy paramétereként az “api\_token” kulccsal tudunk elküldeni.
+Azokat az API útvonalakat, amelyek hitelesítést igényelnek, az „auth:api” middleware-rel kell ellátni. A hitelesítéshez a felhasználókhoz tartozó „api\_token” használható, amelyet a HTTP kéréskor az „Authorization” fejlécben „Bearer” tokenként vagy az URL egy paramétereként az „api\_token” kulccsal tudunk elküldeni.
 
 ## A megvalósítás
 

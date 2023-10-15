@@ -12,7 +12,7 @@ Az összehasonlításban a Stripe-ot vesszük alapul, amely már tavaly szeptemb
 
 ## I. Költségek
 
-Amikor a kereskedő megköti a szerződést a csatlakozásról a SimplePay-el, egy egyszeri csatlakozási díjat kell megfizetnie. Ezt elvileg a kereskedőre szabják, tehát az árak eltérhetnek, de a tapasztalok szerint, egy kisebb vállalkozás esetében ez _50 000 HUF_ környékén mozoghat.
+Amikor a kereskedő megköti a szerződést a csatlakozásról a SimplePay-el, egy egyszeri csatlakozási díjat kell megfizetnie. Ezt elvileg a kereskedőre szabják, tehát az árak eltérhetnek, de a tapasztalok szerint, egy kisebb vállalkozás esetében ez _50 000 HUF_ környékén mozoghat.
 
 Továbbá, mint minden szolgáltatónál, itt is jutalékot fizet a kereskedő a sikeres tranzakciókat követően. Ez jellemzően _1-2,5%_ közé esik (most számoljunk a középértékkel, ami _1,75%_), de hasonlóan mint a csatlakozási díj esetében, erre is egyedi ajánlatot kap a kereskedő.
 

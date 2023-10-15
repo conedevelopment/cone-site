@@ -42,7 +42,7 @@ Webshopot készíteni komoly kihívás, ahogy üzemeltetni és fenntartani is.
 
 **A landing oldal egy marketing oldal, ami többnyire egy pontosan meghatározott célt szolgál (például egy telefon bemutatását).**
 
-Ezen oldal típus esetén fontos, hogy “call to action” (a művelet, amit a felhasználótól várunk el) meghatározása és optimalizálása. Egy telefon bemutató oldalán a CTA valószínűleg az értékesítés lehet, így egy “Vásárlás” gomb, vagy “vedd meg ezekben az üzletekben” szekció elengedhetetlen.
+Ezen oldal típus esetén fontos, hogy „call to action” (a művelet, amit a felhasználótól várunk el) meghatározása és optimalizálása. Egy telefon bemutató oldalán a CTA valószínűleg az értékesítés lehet, így egy „Vásárlás” gomb, vagy „vedd meg ezekben az üzletekben” szekció elengedhetetlen.
 
 ## Magazin oldalak
 

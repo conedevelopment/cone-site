@@ -45,7 +45,7 @@ Nagyon sok lehetőség van erre, ami szituáció függő. A következőkben azok
 
 - Statikus cache beállítása élettartam ciklussal. WP Rocket-en keresztül statikus HTML oldalakat fogunk kiszolgálni, ami jóval gyorsabb lesz, mint a PHP. Beállíthatunk törlési ciklust is, vagyis hogy milyen időközönként törölje a cache-elt fájljainkat a rendszer.
 - Optimalizáljuk a statikus fájlokat. Egyesítjük és tömörítjük a CSS/JS fájlokat, valamint a kiszolgált HTML kódot.
-- Eltávolítjuk a query string-eket a fájlok végéről. Betöltjük a JavaScript fájlokat “deferred” módon (ha valami, akkor ez könnyen megtörheti az oldal működését).
+- Eltávolítjuk a query string-eket a fájlok végéről. Betöltjük a JavaScript fájlokat „deferred” módon (ha valami, akkor ez könnyen megtörheti az oldal működését).
 - A médiafájlok esetében (képek, videók, iframe) bekapcsoljuk a késleltetett betöltést (lazyloading).
 - Kikapcsoljuk a WP emoji funkciót.
 - Előtöltést kapcsolunk be az XML oldaltérkép alapján.
