@@ -1,6 +1,5 @@
 ---
 title: "Bazar: egy e-commerce csomag Laravelhez"
-permalink: "bazar-laravel-e-commerce-csomag"
 date: "2020-11-01"
 tags: ["bazar", "laravel"]
 thumbnail: "/img/blog/bazar-cover.jpg"
