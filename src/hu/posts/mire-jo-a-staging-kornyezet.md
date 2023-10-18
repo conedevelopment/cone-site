@@ -13,7 +13,7 @@ thumbnailAlt: ""
 Általában a fejlesztés során 3 környezetet különböztetünk meg: **_development_**, **_staging_** és **_production_**.
 
 - A **development** környezet általában a fejlesztők eszközén található (számítógépén), az alkalmazás kódja itt kerül megírásra majd először futtatásra. Ez a környezet eltérhet a végső, production környezettől, mivel nem biztos, hogy minden futtatási (szerver) eszköz rendelkezésünkre áll a saját számítógépünkön.
-- A **staging** környezet (jó esetben) egy klónozott példánya az éles környezetünknek. Itt ugyan az a webszerver, adatbázis vagy [PHP](https://www.php.net/) verzió fut mint az éles környezetben. Viszont, más – általában random generált  – adatokkal van feltöltve az adatbázis.
+- A **staging** környezet (jó esetben) egy klónozott példánya az éles környezetünknek. Itt ugyan az a webszerver, adatbázis vagy [PHP](https://www.php.net/) verzió fut mint az éles környezetben. Viszont, más – általában random generált – adatokkal van feltöltve az adatbázis.
 - Az **éles környezet** az, ahol az alkalmazásunk valós felhasználókkal, valós adatokkal fut. Ide kerül ki utoljára a kód.
 
 ## Pontosan mire jó a staging környezet?

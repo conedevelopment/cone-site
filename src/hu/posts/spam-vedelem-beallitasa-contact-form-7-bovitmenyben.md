@@ -41,7 +41,7 @@ Szerencsénkre a CF7 bővítményhez létezik ilyen bővítmény, amivel mi magu
 
 ### Google reCaptcha
 
-A Google reCaptcha-ja jelenleg már a harmadik verziónál tart, ami már jobban használható a legtöbb felhasználónak. Továbbra is lehetnek használhatósági problémák vele, ezért érdemes “láthatatlan” módban használni. Ebben a módban ugyanis a felhasználónak nem szükséges semmilyen interakciót csinálnia.
+A Google reCaptcha-ja jelenleg már a harmadik verziónál tart, ami már jobban használható a legtöbb felhasználónak. Továbbra is lehetnek használhatósági problémák vele, ezért érdemes „láthatatlan” módban használni. Ebben a módban ugyanis a felhasználónak nem szükséges semmilyen interakciót csinálnia.
 
 Ez a megoldás közvetlenül integrálva van a Contact Form 7-be. Első lépésben azonban szükségünk lesz egy [saját API kulcsra](https://www.google.com/recaptcha/intro/v3.html), ami az aktuális domainhez társul.
 

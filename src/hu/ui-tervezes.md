@@ -34,7 +34,7 @@ accordion:
         items:
         -
             title: "Grafikai tervezés"
-            description: "<p>Egy használható oldal, vagy alkalmazás esetén lényeges a jó felhasználói felület. Az egyszerűség jegyében készítünk  neked egy responsive megoldást.</p>"
+            description: "<p>Egy használható oldal, vagy alkalmazás esetén lényeges a jó felhasználói felület. Az egyszerűség jegyében készítünk neked egy responsive megoldást.</p>"
         -
             title: "Technikai SEO"
             description: "<p>Egy weboldal esetén fontos a keresőoptimalizálás. A technikai részét ránk bízhatod.</p>"

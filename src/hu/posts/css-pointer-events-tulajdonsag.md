@@ -10,7 +10,7 @@ thumbnailAlt: ""
 
 Pontosabban, meghatározhatjuk, hogy hogyan viselkedjen a kiválasztott elemen bármilyen egér, vagy érintés műveletnél, mint az aktív/hover állapot, a kattintás/érintés esemény. A tulajdonság használatával kizárhatjuk az egyes elemeket az egérrel/érintéssel történő interakció alól. A gyakorlatban erre akkor lehet szükségünk, ha egy a z-index mentén elhelyezett elemen szeretnénk keresztül kattintani úgy, hogy elérjük a mögötte lévő elemet. Ebben az esetben annyit kell tennünk, hogy a kiválasztott elemre beállítjuk a `pointer-events: none;` értéket!
 
-A tulajdonság [11 értéket vehet fel](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events), azonban ebből 8 csak SVG-re érvényes. **A következő három értéket használhatjuk az általános elemeknél:** 
+A tulajdonság [11 értéket vehet fel](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events), azonban ebből 8 csak SVG-re érvényes. **A következő három értéket használhatjuk az általános elemeknél:**
 
 - **none** - megszünteti az összes kattintás állapotot és kurzor beállítást
 - **auto** \- visszaállítja az alap értéket, hasznos amennyiben egy leszármazotton szeretnénk beállítani az alap értéket
