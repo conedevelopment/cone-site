@@ -10,7 +10,7 @@ hreflang:
 hero:
     title:
         caption: "We Are Crafting<br><span class='highlighted'>Web Based Applications</span>"
-    description: "We are using up-to-date and reliable technologies to develop the end-product."
+    description: "With the help of Laravel and other reliable technologies, we can help you to achieve your goals better."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--primary"
@@ -21,51 +21,56 @@ testimonial:
         image: "/img/illustrations/retro-cup-of-tea.svg"
         imageAlt: "A smiling retro tea cup."
     -
-        title: "We're using Laravel."
-        description: "Laravel is a great choice when it’s about application development. It’s a complex and powerful PHP framework with a huge ecosystem around it. We have a deep knowledge of Laravel. Also, besides using it, we are contributors as well."
+        title: "We're developing with Laravel"
+        description: "Laravel is a great choice when it’s about application development. It’s a complex and powerful PHP framework with a huge ecosystem around it. We have a deep knowledge of it and we are contributors as well."
         image: "/img/illustrations/retro-pie-shows-tongue.svg"
         imageAlt: "A retro slice of pie shows tongue."
 accordion:
     title:
-        caption: "About<br> the<br> Development"
+        caption: "About<br> the<br> workflow"
         image: "./src/img/title-helper-primary.svg"
     blocks:
     -
-        title: null
+        title: "What you need to know"
+        subtitle: "Developing an application can be complicated; here, you can find some helpful information to understand it better."
         items:
         -
-            title: "What kind of system do you need?"
-            description: "<p>The modern applications have multiple layers to serve the needs of the users eaisly. Maybe, you need an API layer, or a more complex CMS, we can help you.</p>"
+            title: "It is nice to know what kind of system you need"
+            description: "<p>Modern applications have multiple layers to serve users' needs efficiently. You may need an API layer to serve a mobile application or connect two systems. Or you need a custom e-commerce solution that can communicate properly with your CRM.</p><p>Both are applications but do different things. An application can achieve many things, but the first step is to define what you need.</p>"
         -
-            title: "Modularity and scalability"
-            description: "<p>We make modular and scalable code, to easily adopt to the needs that come later. Also, this approach makes the application easily testable and extendable.</p>"
+            title: "Modularity and scalability are what you always want"
+            description: "<p>These two are popular application development buzzwords but still crucial ones. To create a testable, extendable application, you need modularity and scalability.</p><p>To support and maintain something long-term, you need solid and good architecture from the start.</p>"
         -
-            title: "Vue.js on the front-end"
-            description: "<p>Vue is the perfect tool to extend Laravel on the front-end. It covers everything we need, yet your application will be light and flexible.</p>"
+            title: "We prefer Vue.js on the front-end"
+            description: "<p><a href='https://vuejs.org/' target='_blank' rel='noopener'>Vue.js</a> is the perfect tool to extend Laravel on the front-end. It covers everything you need on a modern and capable application.</p><p>Depending on the context, we can also opt for <a href='https://alpinejs.dev/' target='_blank' rel='noopener'>Apline.js</a> or <a href='https://react.dev/' target='_blank' rel='noopener'>React</a>.</p>"
         -
-            title: "We design UI as well"
-            description: "<p>A personalized application requires a unique UI as well. We design and set it up for you. You will get a clean and straightforward interface.</p>"
+            title: "UI and UX matters"
+            description: "<p>A proper application requires unique UI and UX solutions as well. We can also help you to design a clean and straightforward user interface that is easy to use.</p><p>We create the UI tailored to the project needs from the ground up.</p>"
         -
-            title: "Documentation"
-            description: "<p>We document the code adopting the coding and documenting standards, to make the application easily understandable and futureproof. Also, documentation allows tools like static analysis to prevent bugs and issues.</p>"
+            title: "Documentation and code quality matters to us"
+            description: "<p>We write the code adopting the coding and documenting standards from the <a href='https://laravel.com/' target='_blank' rel='noopener'>official documentation of Laravel</a> to make the application easily understandable and futureproof.</p><p>Writing code as we do makes it possible to do better static analysis and integrate the project into any CI workflow. </p><p>We are serious about the quality of our code, which can also help you create a project for the future (with or without us).</p>"
         -
-            title: "Hosting your application"
-            description: "<p>We don't offer hosting directly, however based on our experience we can suggest reliable hosting services that fits your application.</p>"
+            title: "Hosting and DevOps"
+            description: "<p>We will only be your developers. Unfortunately, we don't deliver hosting or any DevOps tasks. For more straightforward web applications, we can utilize Laravcel Forge, but for more critical ones, you also need a person or a team to manage the serving of the project.</p><p>We can suggest a good college of ours if needed for this purpose.</p>"
+    -
+        title: "FAQ"
+        subtitle: "Some frequent questions in advance."
+        items:
         -
-            title: "I need an application. What can I expect?"
-            description: "<p>When your needs are more complex and require unique implementation, probably you need an application that offers more than WordPress. In this case, we are working with Laravel and adjust the environment to the framework.</p><p>We can design your UI as well alongside building the front-end based on Vue, which provides a modern, flexible and powerful interface.</p>"
-        -
-            title: "I need a Laravel package. Is it possible?"
-            description: "<p>Sure, if every condition passes. If your needs matches that we can offer and your Laravel app is ready to handle the package, it can be done.</p><p>Deprecated Laravel versions do not get support, so update your application before planning to integrate a package.</p>"
+            title: "I need a Laravel package. Can you help?"
+            description: "<p>Absolutely! Remember that developing a package is the same as creating anything custom. The first step is to look into your current app and its state; we are good to go if it is ready to handle a new package.</p><p>Deprecated Laravel versions do not get support, so you should update your application before planning to integrate a package. We can also help with the update.</p>"
         -
             title: "I have a startup idea. Can you help?"
-            description: "<p>It depends on your idea and your needs, but we are sure that we can be a great fit.</p><p>By working with a modern stack (Laravel, Vue.js), we are sure that we can help you to take the next step. We can allocate our time once in a while for 3-6 months. But of course, we can adapt.</p>"
+            description: "<p>It depends on your idea and needs, but we are sure we can be a great fit.</p><p>By working with a modern stack (Laravel, Vue.js), we can help you to take the next step. We can allocate our time usually (in advance) for 3-6 months. But of course, we can adapt.</p>"
+        -
+            title: "Is accessibility a concern of yours?"
+            description: "<p>We prefer to call ourselves inclusive designers. One of our primary goals is to make a more accessible web. We know that a11y is only in some project's budget, but we still implement basic good practices to help make a more barrier-free application.</p><p>If you are committed, we can also follow the newest recommended WCAG standard.</p>"
 step:
     showNumber: true
     items:
     -
         title: "We talk, measure the needs"
-        description: "The first step of our cooperation is information gathering and documentation writing to measure the project and set the goals."
+        description: "The first step of our cooperation is information gathering and specification writing to measure the project and set the goals."
     -
         title: "We design the app interface"
         description: "We start to design your application. You'll get a prototype in HTML and CSS that you can approve."
@@ -76,9 +81,9 @@ step:
         title: "Testing and iterating"
         description: "Testing is essential. This is why we pay huge attention to writing tests and fix the bugs we or you find. Then iterate."
 cta:
-    title: "Want to work with us?"
+    title: "Want to develop your Laravel application with us?"
     classes: "cta--border-block:end"
-    description: "You have a project and you don’t know where to start? Feel free to contact us to discuss you project’s details. Maybe we can help you."
+    description: "Do you have a project idea and don’t know where to start? Write to us, and maybe we can help!"
     btn:
         url: "/contact/"
         caption: "Contact"

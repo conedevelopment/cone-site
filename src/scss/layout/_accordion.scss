@@ -19,7 +19,15 @@
   }
 
   &__title {
+    color: color('heading');
+    font-family: config('font-family-heading', $typography);
     font-size: font-size('h2');
+    font-weight: 700;
+    line-height: config('line-height-heading', $typography);
+  }
+
+  &__subtitle {
+    max-inline-size: 50ch;
   }
 
   &__block {
