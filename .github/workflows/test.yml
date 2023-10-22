@@ -37,6 +37,13 @@ jobs:
             with:
                 eclint_args: |
                     -exclude=css/*
+        -
+            name: Run Lychee
+            uses: lycheeverse/lychee-action@v1.8.0
+            with:
+                args: "--verbose --no-progress --require-https './**/*.md'"
+                output: ${{ runner.temp }}/lychee/out.md
+                fail: true
 
     lint_front_matter:
         name: Lint Front Matter
