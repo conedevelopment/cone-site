@@ -20,7 +20,7 @@ Sokat dolgozunk WordPress-el. Egy monolit. Néha kedveljük, néha nem. Ettől f
 
 Sajnos, sok WordPress bővítmény jQuery-re támaszkodik és úgy fest ez még így is marad egy darabig. Többnyire igaz, hogy WP esetében a változás mindig inkább lassan történik meg. Az világos, hogy nagyon sok fejlesztő dobni akarja a jQuery támogatást (ahogy a Contact Form 7 meg is tette), de ez sokszor nem olyan könnyű.
 
-Másik jó példa a felugró ablak kezelés. A [Fancybox](https://fancyapps.com/docs/ui/fancybox/), ami egy népszerű JavaScript bővítmény, jQuery-re épít. Ilyen funkció - a galériákhoz, képek oldalon belüli nagyításához - többnyire minden weboldalhoz szükséges.
+Másik jó példa a felugró ablak kezelés. A [Fancybox](https://fancyapps.com/fancybox/), ami egy népszerű JavaScript bővítmény, jQuery-re épít. Ilyen funkció - a galériákhoz, képek oldalon belüli nagyításához - többnyire minden weboldalhoz szükséges.
 
 ## Szükséges használnunk ma?
 
