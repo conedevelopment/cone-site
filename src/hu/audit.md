@@ -18,7 +18,7 @@ testimonial:
     -
         title: "Ha átadnád új fejlesztőknek"
         description: "Egy meglévő projekt átvétele igazi kihívás tud lenni. Éppen ezért mi az ilyen projekteket egy audittal indítjuk, hogy lássuk hányadán is állunk. Az audit során kapott dokumentum önmagában is értékes – a fejlesztőknek és a megrendelőnek egyaránt -, nekünk pedig kiemelkedően hasznos, hiszen az átnézés végeztével nagyrészt már át látjuk a teendőket."
-        image: "/img/illustrations/retro-hotdog dipping-sauce.svg"
+        image: "/img/illustrations/retro-hotdog-dipping-sauce.svg"
         imageAlt: "Egy retró hotdog éppen ketchupozza magát."
 audit: true
 accordion:
