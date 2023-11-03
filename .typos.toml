@@ -1,0 +1,7 @@
+[files]
+extend-exclude = [
+    ".git/",
+    "src/hu/",
+    "src/js/*.min.js",
+]
+ignore-hidden = false
