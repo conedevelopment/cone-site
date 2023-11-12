@@ -12,7 +12,7 @@ Mivel sok esetben nincs lehetőség a személyes benyomás megteremtésére 1-1 
 
 Például Gergő esetében, aki sikeresen letette a „[Laravel Certification](https://certification.laravel.com/)” vizsgát, és így megszerezte hivatalos Laravel tanúsítványt. A teszt végével egy klasszikus oklevelet kapott, valamint bekerült az [online adatbázisba](https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23).
 
-[![](/img/blog/laravel-certificate-d.-nagy-gergo-2020-06-23_5-02.png)](https://conedevelopment.com/wp-content/uploads/2020/07/laravel-certificate-d.-nagy-gergo-2020-06-23_5-02.png)
+[![Laravel certificate D. Nagy Gergő](/img/blog/laravel-certificate-d.-nagy-gergo-2020-06-23_5-02.png)](https://conedevelopment.com/img/blog/laravel-certificate-d.-nagy-gergo-2020-06-23_5-02.png)
 
 ## A vizsgáról pár szóban
 

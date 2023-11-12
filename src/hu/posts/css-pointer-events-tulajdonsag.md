@@ -30,4 +30,4 @@ Nézzünk egy alap példát! A következőkben egy a teljes elemet elfoglaló hi
 ## Kapcsolódó hivatkozások
 
 - [MDN: pointer-events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
-- [CSS-Tricks: pointer-events](http://css-tricks.com/almanac/properties/p/pointer-events/)
+- [CSS-Tricks: pointer-events](https://css-tricks.com/almanac/properties/p/pointer-events/)

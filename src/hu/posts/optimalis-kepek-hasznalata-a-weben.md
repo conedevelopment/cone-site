@@ -23,7 +23,7 @@ A képek optimalizálása önmagában nem könnyű feladat, mivel számos dologr
 
 Ha készítünk egy képet a telefonunkkal, akkor annak egy számunkra értelmezhetetlen neve lesz betűkkel és számokkal. Ezt már tölthetjük is fel az oldalunkra. De valóban jó ez a számunkra értelmetlen elnevezés? Nem lenne jobb, ha egy-egy feltöltött fotó fájl nevének lenne jelentése az átlag felhasználónak is?
 
-[![](/img/blog/sotetkek-noi-futocipo-rozsaszin-csikkal.jpg)](https://conedevelopment.com/wp-content/uploads/2020/05/sotetkek-noi-futocipo-rozsaszin-csikkal.jpg)
+[![](/img/blog/sotetkek-noi-futocipo-rozsaszin-csikkal.jpg)](https://conedevelopment.com/img/blog/sotetkek-noi-futocipo-rozsaszin-csikkal.jpg)
 
 Ha megfelelően nevezzük el a fájljainkat nem csak magunknak könnyítjük meg a munkát, hanem a keresőknek is. Ezzel a módszerrel a fájlok nevével is erősíthetjük a kulcsszavainkat, valamint számíthat a Google képkeresőjében (a keresők nehezen állapítják meg, hogy mi van egy képen) is.
 
