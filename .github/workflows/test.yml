@@ -37,6 +37,9 @@ jobs:
             with:
                 eclint_args: |
                     -exclude=css/*
+        -
+            name: Search for misspellings
+            uses: crate-ci/typos@master
 
     lint_front_matter:
         name: Lint Front Matter
