@@ -25,6 +25,7 @@
   "rules": {
     "no-param-reassign": 0,
     "no-shadow": "off",
-    "no-new": "off"
+    "no-new": "off",
+    "import/extensions": ["error", "always"]
   }
 }
