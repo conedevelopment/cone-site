@@ -35,7 +35,7 @@ Az oldalon a HTML űrlap segítségével üzenetet küldhetsz nekünk. Ezeket az
 
 ### Sütik
 
-[Információk a Google Analytics 4 sütikről](https://support.google.com/analytics/answer/11397207?hl=en).
+[Információk a Google Analytics 4 sütikről](https://support.google.com/analytics/answer/11397207?hl=hu).
 
 <button class="btn btn--primary" data-action="cookie" data-type="analytics" data-on-text="Elutasítás:" data-off-text="Elfogadás:">analitika sütik</button>
 
