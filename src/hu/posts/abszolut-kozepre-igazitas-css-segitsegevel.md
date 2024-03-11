@@ -30,8 +30,6 @@ A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nél
 
 Az `position: absolute;` értékadást megkerülve, használhatjuk a relatív `vh` mértékegységet magin-top esetén, amit aztán az előbbi módszerhez hasonlóan visszahúzunk 50%-al a `translateY` érték segítségével. Horizontális igazítás esetén a `margin-nak` az **auto** értéket adjuk.
 
-A relatív **viewport** mértékegységekről [itt](http://adamlaki.com/relativ-viewport-mertekegysegek/) olvashatsz részletesebben!
-
 <p class="codepen" data-height="379" data-theme-id="2175" data-slug-hash="f202a50bea941353edbcfcff500c7b05" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="http://codepen.io/adamlaki/pen/f202a50bea941353edbcfcff500c7b05/">Abszolút középre igazítás 2</a> by Adam Laki (<a href="http://codepen.io/adamlaki">@adamlaki</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ### Hátrányok
@@ -51,7 +49,3 @@ Az igazításhoz csupán annyit kell tennünk, hogy a befoglaló elemnek a `disp
 ### Hátrányok
 
 - Figyelnünk kell a prefixekre és a böngésző támogatásra!
-
-## További információk
-
-Ha szeretnél többet megtudni a vertikális középre igazításról, vagy általánosságban a CSS nyelvben szeretnél feljebb lépni, akkor ajánlom [Lea Verou - CSS Secrets](http://adamlaki.com/konyvajanlo-css-secrets/) című könyvét!
