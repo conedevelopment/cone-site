@@ -14,7 +14,7 @@ Alapvetően igaz, hogy egy gyors oldalhoz előzetes tervezés kell és a lehető
 
 ## Hogyan néz ki egy gyors WordPress oldal elemzése?
 
-Ha szeretnéd tesztelni az oldalad, akkor a legjobb megoldás a [webpagetest.org](http://webpagetest.org/). Ez az elemző részletesebb, mint a Google PageSpeed, a Pingdom, vagy az YSlow.
+Ha szeretnéd tesztelni az oldalad, akkor a legjobb megoldás a [webpagetest.org](https://www.webpagetest.org/). Ez az elemző részletesebb, mint a Google PageSpeed, a Pingdom, vagy az YSlow.
 
 ![](/img/blog/webpagetest-cone-results.png)
 
