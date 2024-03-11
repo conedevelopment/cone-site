@@ -18,7 +18,7 @@ Az egyik legkorábbi abszolút igazítási megoldás. Az igazítandó elem `posi
 
 A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nélkül is, mivel a `transform` tulajdonság `translate` értékének százalékos paraméterei magára az elemre vonatkoznak, így a böngésző tudni fogja, hogy az igazított elemnek a felével kell visszahúzni az elemet mind két irányban.
 
-<p class="codepen" data-height="363" data-theme-id="2175" data-slug-hash="f0a20f8b25d6965d03363b3d77ebc1a9" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="http://codepen.io/adamlaki/pen/f0a20f8b25d6965d03363b3d77ebc1a9/">Abszolút középre igazítás 1</a> by Adam Laki (<a href="http://codepen.io/adamlaki">@adamlaki</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p class="codepen" data-height="363" data-theme-id="2175" data-slug-hash="f0a20f8b25d6965d03363b3d77ebc1a9" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="https://codepen.io/adamlaki/pen/f0a20f8b25d6965d03363b3d77ebc1a9/">Abszolút középre igazítás 1</a> by Adam Laki (<a href="https://codepen.io/adamlaki">@adamlaki</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Hátrányok
@@ -30,7 +30,9 @@ A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nél
 
 Az `position: absolute;` értékadást megkerülve, használhatjuk a relatív `vh` mértékegységet magin-top esetén, amit aztán az előbbi módszerhez hasonlóan visszahúzunk 50%-al a `translateY` érték segítségével. Horizontális igazítás esetén a `margin-nak` az **auto** értéket adjuk.
 
-<p class="codepen" data-height="379" data-theme-id="2175" data-slug-hash="f202a50bea941353edbcfcff500c7b05" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="http://codepen.io/adamlaki/pen/f202a50bea941353edbcfcff500c7b05/">Abszolút középre igazítás 2</a> by Adam Laki (<a href="http://codepen.io/adamlaki">@adamlaki</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+A relatív **viewport** mértékegységekről [itt](http://adamlaki.com/relativ-viewport-mertekegysegek/) olvashatsz részletesebben!
+
+<p class="codepen" data-height="379" data-theme-id="2175" data-slug-hash="f202a50bea941353edbcfcff500c7b05" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="https://codepen.io/adamlaki/pen/f202a50bea941353edbcfcff500c7b05/">Abszolút középre igazítás 2</a> by Adam Laki (<a href="https://codepen.io/adamlaki">@adamlaki</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 ### Hátrányok
 
@@ -44,8 +46,12 @@ Az igazításhoz csupán annyit kell tennünk, hogy a befoglaló elemnek a `disp
 
 > _**Kiegészítés:** a `justify-content` és az `align-items` értékét kiválthatjuk az igazítandó elem margin értékének auto-ra állításával. Ebben az esetben ugyanezt az eredményt kapjuk._
 
-<p class="codepen" data-height="379" data-theme-id="2175" data-slug-hash="f868bd21261fbf1d14f20c918d2fa51b" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="http://codepen.io/adamlaki/pen/f868bd21261fbf1d14f20c918d2fa51b/">Abszolút középre igazítás 3</a> by Adam Laki (<a href="http://codepen.io/adamlaki">@adamlaki</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p class="codepen" data-height="379" data-theme-id="2175" data-slug-hash="f868bd21261fbf1d14f20c918d2fa51b" data-default-tab="result" data-user="adamlaki" data-embed-version="2">See the Pen <a href="https://codepen.io/adamlaki/pen/f868bd21261fbf1d14f20c918d2fa51b/">Abszolút középre igazítás 3</a> by Adam Laki (<a href="https://codepen.io/adamlaki">@adamlaki</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 ### Hátrányok
 
 - Figyelnünk kell a prefixekre és a böngésző támogatásra!
+
+## További információk
+
+Ha szeretnél többet megtudni a vertikális középre igazításról, vagy általánosságban a CSS nyelvben szeretnél feljebb lépni, akkor ajánlom [Lea Verou - CSS Secrets](http://adamlaki.com/konyvajanlo-css-secrets/) című könyvét!

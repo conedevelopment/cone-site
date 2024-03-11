@@ -42,8 +42,8 @@
     "stylelint-order": "^6.0.3"
   },
   "engines": {
-    "node": "^18.12",
-    "npm": "^9.2",
+    "node": "^20.11",
+    "npm": "^10.2",
     "yarn": "please-use-npm"
   }
 }
