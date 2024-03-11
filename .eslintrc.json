@@ -19,11 +19,13 @@
     "assets/js/scripts.js",
     "assets/js/tinymce-shortcode.js",
     "assets/js/asp-ajax.js",
-    "assets/js/decree-search.js"
+    "assets/js/decree-search.js",
+    "src/js/typewriter-effect.min.js"
   ],
   "rules": {
     "no-param-reassign": 0,
     "no-shadow": "off",
-    "no-new": "off"
+    "no-new": "off",
+    "import/extensions": ["error", "always"]
   }
 }

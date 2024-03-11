@@ -3,7 +3,7 @@ import {
 } from './cookie.js';
 
 (() => {
-  const lang = document.documentElement.lang;
+  const { lang } = document.documentElement;
   const prefix = 'cone';
   const btns = document.querySelectorAll('button[data-action="cookie"]');
   let caption = '';
