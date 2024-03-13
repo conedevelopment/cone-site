@@ -24,7 +24,7 @@ A megoldás nagy előnye, hogy használhatjuk fix szélesség és magasság nél
 ### Hátrányok
 
 - Problémás igazítani a túllógó elemet. Tehát, ha az igazított elem nagyobb, mint a befoglaló elem körülményes megfelelően igazítani.
-- Néhány böngészőben (Chrome-ban futottam bele) a subpixel renderelés miatt az elemünk elmosódhat. Ilyenkor az egyik megoldás, ha az elemre alkalmazzuk a `trasform-style: preserve-3d;` deklarációt!
+- Néhány böngészőben (Chrome-ban futottam bele) a subpixel renderelés miatt az elemünk elmosódhat. Ilyenkor az egyik megoldás, ha az elemre alkalmazzuk a `transform-style: preserve-3d;` deklarációt!
 
 ## Relatív pozicionálás a viewport mértékegységekkel
 

@@ -17,7 +17,7 @@ A tulajdonság [11 értéket vehet fel](https://developer.mozilla.org/en-US/docs
 - **inherit** - örökli a szülő elemnek beállított értéket
 
 ```css
-a.no-ponter-events {
+a.no-pointer-events {
     pointer-events: none;
 }
 ```

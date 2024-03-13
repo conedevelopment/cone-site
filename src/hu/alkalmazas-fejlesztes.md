@@ -40,13 +40,13 @@ accordion:
             description: "<p>Moduláris és skálázható kódot készítünk, amit a későbbiekben könnyebben bővíthető és optimalizálható. A különálló modulok kialakításával könnyebb az egyes iterációk megvalósítása és a felmerülő igényekre optimalizálás úgy, hogy csak 1-1 szegmenst módosítunk.</p>"
         -
             title: "Vue.js a front-end oldalon"
-            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Mindent lefed amire egy egyedi fejlesztéssnek szüksége lehet, ellenben az alkalmazás szerkezete könnyed és átlátható marad. Rugalmas és fluid UI felületeket készítünk majd vele.</p>"
+            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Mindent lefed, amire egy egyedi fejlesztésnek szüksége lehet, ellenben az alkalmazás szerkezete könnyed és átlátható marad. Rugalmas és fluid UI felületeket készítünk majd vele.</p>"
         -
             title: "UI felületet is tervezünk"
             description: "<p>Az egyedi alkalmazások egyedi felhasználó felületet és dizájnt igényelnek. Természetesen a UI felület elkészítésében is tudunk segíteni: megtervezzük, összerakjuk, testre szabjuk, majd beállítjuk neked.</p>"
         -
             title: "Dokumentálunk"
-            description: "<p>Az elkészült kódot megfelelően dokumentáljuk, hogy tényleg jövőtálló és bővíthető legyen. Az dokumentáció nem csak a fejlesztőknek segít, de statikus elemzéseknek is teret enged, így kiszűrve az esetleges szintaktikai hibákat és megelőzve a problémákat.</p>"
+            description: "<p>Az elkészült kódot megfelelően dokumentáljuk, hogy tényleg jövőálló és bővíthető legyen. Az dokumentáció nem csak a fejlesztőknek segít, de statikus elemzéseknek is teret enged, így kiszűrve az esetleges szintaktikai hibákat és megelőzve a problémákat.</p>"
         -
             title: "Tudjuk, hogyan kell kiszolgálni"
             description: "<p>Az általunk készített weboldalakhoz ajánljuk a megfelelő hosztingot, ami skálázható. Egy gyors és könnyen kezelhető szerver szolgáltatás elengedhetetlen ahhoz, hogy megfelelően működjön a kész rendszer.</p>"

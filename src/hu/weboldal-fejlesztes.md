@@ -49,8 +49,8 @@ accordion:
             title: "Reszponzív terv"
             description: "<p>Az általunk készült oldalak, alkalmazások mind reszponzívak, tehát kijelző mérettől függetlenül használhatóak.</p>"
     -
-        title: "WordPress fejlesztésról"
-        subtitle: "A népszerű tartalomkezelőrendszerről és amit kínálunk."
+        title: "WordPress fejlesztésről"
+        subtitle: "A népszerű tartalomkezelő rendszerről és amit kínálunk."
         items:
         -
             title: "WordPress bővítmény fejlesztés"
@@ -69,7 +69,7 @@ accordion:
             description: "<p>Az általunk készített oldalak esetében mindig. Harmadik fél által készített fejlesztés esetben ez ritkább, mivel általában egyik félnek sem előnyös. A <a href='/hu/wordpress-karbantartas/'>karbantartás szükségességéről WordPress esetében</a> már korábban írtunk blogunkban.</p>"
         -
             title: "Korábbi fejlesztések átvétele"
-            description: "<p>A más által készített WordPress alapú oldalad átvételét tudjuk vállalni.</p><p>Általában itt is jobb, ha egyedi fejlesztésről van szó (de vásárolt sablonos, valamint page-builderes oldal is lehet). Többnyire az első lépésben <a href='/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/'>auditálnunk</a> kell. Csak az audit után tudunk aztán pontosabbat mondani.</p>"
+            description: "<p>A más által készített WordPress alapú oldalad átvételét tudjuk vállalni.</p><p>Általában itt is jobb, ha egyedi fejlesztésről van szó (de vásárolt sablonos, valamint page-builder-es oldal is lehet). Többnyire az első lépésben <a href='/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/'>auditálnunk</a> kell. Csak az audit után tudunk aztán pontosabbat mondani.</p>"
 step:
     showNumber: true
     items:
@@ -84,7 +84,7 @@ step:
         description: "A terv elfogadása után rákötjük WordPress-re. A cél, hogy a tartalom majdnem 100%-a szerkeszthető legyen."
     -
         title: "Tesztelünk, javítunk"
-        description: "Folymatosan tesztelünk, amiben neked is komoly szerep jut. Az oldalt csak a hibák javítása után élesítjuk."
+        description: "Folyamatosan tesztelünk, amiben neked is komoly szerep jut. Az oldalt csak a hibák javítása után élesítjük."
 cta:
     title: "Szeretnél egy új weboldalt?"
     classes: "cta--border-block:end"

@@ -31,7 +31,7 @@ Az oldalon névtelen statisztikai adatokat, valamint kapcsolati űrlapon beküld
 
 ### Kapcsolatfelvételi űrlapok
 
-Az oldalon a HTML űrlap segítségével üzenetet küldhetsz nekünkl. Ezeket az adatokat, csak arra használjuk, hogy kommunikáljunk az érdeklődőkkel (akik üzennek nekünk). Az adatokat két évig megőrizzük.
+Az oldalon a HTML űrlap segítségével üzenetet küldhetsz nekünk. Ezeket az adatokat, csak arra használjuk, hogy kommunikáljunk az érdeklődőkkel (akik üzennek nekünk). Az adatokat két évig megőrizzük.
 
 ### Sütik
 

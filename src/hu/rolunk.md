@@ -34,13 +34,13 @@ cta:
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">Képességeink</h2>
                 <div class="post-content">
-                    <p>CSS keretrendszerekkel és a saját CSS frameworkünkkel dolgozunk a front-end oldalon. Számos JS technológiával van tapasztalatunk, mint a Vue.js, Alpine.js, GSAp, de sokszor a szimpla JavaScript-et preferáljuk.</p>
+                    <p>CSS keretrendszerekkel és a saját CSS framework-ünkkel dolgozunk a front-end oldalon. Számos JS technológiával van tapasztalatunk, mint a Vue.js, Alpine.js, GSAp, de sokszor a szimpla JavaScript-et preferáljuk.</p>
                     <p>Laravelt és Vue.js-t kombinálva igazán összetett megoldásokat tudunk készíteni. Szeretjük és tudjuk használni ezt a két rendszert.</p>
                     <p>Szerveroldalon WordPress témákat és bővítményeket fejlesztünk, ha nagyobb feladatról van szó, akkor Laravelt választunk.</p>
                     <p>Tudunk segíteni neked a Laravel projekteddel, mert:</p>
                     <ul>
-                        <li>Számos <a href="https://github.com/laravel/framework/commits?author=iamgergo">PR-unkat</a> mergelték már Laravel Core-ba.</li>
-                        <li>Rendelkezünk hivatalos <a href="https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23">Laravel tanusítvánnyal</a>.</li>
+                        <li>Számos <a href="https://github.com/laravel/framework/commits?author=iamgergo">PR-unkat</a> merge-elték már Laravel Core-ba.</li>
+                        <li>Rendelkezünk hivatalos <a href="https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23">Laravel tanúsítvánnyal</a>.</li>
                         <li>Számos <a href="https://pineco.de/category/laravel/">bejegyzést</a> publikáltunk már Laravel témában.</li>
                         <li><a href="https://packagist.org/users/conedevelopment/packages/">A Laravel csomagjainkat</a> több mint 100.000-szer töltötték le már.</li>
                     </ul>
@@ -70,7 +70,7 @@ cta:
             <div class="text-card text-card--two-column">
                 <h2 class="text-card__title">Szeretünk<br>tanulni</h2>
                 <div class="post-content">
-                    <p>A webfejlesztés egy végtelen terület, ha fejlődésről van szó. Mi egy olyan kihívásnak éljük meg a folyamatosan fejlődő és változó környezetet, amit képesek vagyunk élvezni. Készüljön bármi új, igyekszünk új dolgokat belevinni, mégha a végeredményben ez túlságosan nem is látszik a végfelhasználó számára.</p>
+                    <p>A webfejlesztés egy végtelen terület, ha fejlődésről van szó. Mi egy olyan kihívásnak éljük meg a folyamatosan fejlődő és változó környezetet, amit képesek vagyunk élvezni. Készüljön bármi új, igyekszünk új dolgokat belevinni, még ha a végeredményben ez túlságosan nem is látszik a végfelhasználó számára.</p>
                 </div>
             </div>
             <div class="text-card text-card--two-column">

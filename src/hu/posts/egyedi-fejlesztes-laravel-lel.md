@@ -28,7 +28,7 @@ Az nyílt forráskód egy népszerű minta a weben, nagyrészt ennek köszönhet
 
 ## Mit jelent egy projekt esetén a Laravel függőség?
 
-**Egy ilyen rendszer nagy előnye a robosztussága. Könnyen skálázható, hosszú távon is jól kezelhető.**
+**Egy ilyen rendszer nagy előnye a robusztussága. Könnyen skálázható, hosszú távon is jól kezelhető.**
 
 Ha megfelelő szakértelemmel készül az oldal könnyű új emberek bevonni annak fejlesztésébe, bővítésébe, mivel [bárki megtanulhatja](https://conedevelopment.com/hu/kezdjunk-fejleszteni-laravel-el/). Tesztelhető, moduláris, jól skálázható és nagyon gyors.
 
