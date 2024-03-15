@@ -10,7 +10,7 @@ hreflang:
 hero:
     title:
         caption: "<span class='highlighted'>Writing code</span><br><span><span class='sr-only'>as it should be</span><span id='typewriter' aria-hidden='true'></span>&nbsp;</span>"
-        typewriter: "as it should be, like a maniac, that helps you, like nobady's watching"
+        typewriter: "as it should be, like a maniac, that helps you, like nobody's watching"
     description: "We compose websites and web applications from small to large scale in WordPress and Laravel."
     btn:
     -
