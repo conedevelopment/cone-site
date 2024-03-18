@@ -26,7 +26,7 @@ Ismétlődő fizetésekre is lehetőség van. Ennek a lényege, hogy egy fizeté
 
 Ahogy korábban említettük, nem minden esetben van tökéletes technikai megoldás. Az ismétlődő fizetések esetében a legérdekesebb a helyzet. Abban az esetben, ha periodikusan szeretnénk automatizálni a fizetéseket (pl.: havi/éves feliratkozások), az időzítés a webshop feladata és nem a SimplePay végzi. Ez nem feltétlenül gond, ha az áruház rendelkezik a megfelelő személlyel, aki az ebből fakadó feladatokat és esetleges hibákat ellátja, hárítja. Viszont amennyiben a szolgáltatás nagy felhasználóbázissal rendelkezik, lehet, hogy ez a megoldás nem a legelőnyösebbek.
 
-Ebben az esetben, szerintünk inkább ajánlott valamely nagy szolgáltató megoldása. A magyarországon is elérhető Braintree - _ami egy PayPal termék_ -, amellyel talán érdemesebb próbálkozni abban az esetben, ha ismétlődő fizetéseket szeretnénk kezelni.
+Ebben az esetben, szerintünk inkább ajánlott valamely nagy szolgáltató megoldása. A Magyarországon is elérhető Braintree - _ami egy PayPal termék_ -, amellyel talán érdemesebb próbálkozni abban az esetben, ha ismétlődő fizetéseket szeretnénk kezelni.
 
 Többek közt ezért, az általunk fejlesztett bővítménybe, csak az egyszeri kártyás fizetés és visszatérítés került be, mert a SimplePay ezt tudja hozni megbízhatóan és egyszerűen karbantarthatóan.
 

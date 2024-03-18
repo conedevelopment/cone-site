@@ -12,7 +12,7 @@ thumbnailAlt: ""
 
 ## Szóval mit jelent az initial kulcsszó?
 
-Az `initial` kulcsszó használatával minden létező CSS tulajdonságot visszaállíthatsz a CSS specifikációban meghatározott inital értékre, vagy ha nincs akkor a böngésző alapértelmezett értékére. Itt kell megjegyezni, hogy a böngésző alapértelmezései eltérőek lehetnek a különböző vendorokban. Kódban ez ilyen egyszerűen néz ki:
+Az `initial` kulcsszó használatával minden létező CSS tulajdonságot visszaállíthatsz a CSS specifikációban meghatározott initial értékre, vagy ha nincs akkor a böngésző alapértelmezett értékére. Itt kell megjegyezni, hogy a böngésző alapértelmezései eltérőek lehetnek a különböző vendorokban. Kódban ez ilyen egyszerűen néz ki:
 
 ```css
 .element {

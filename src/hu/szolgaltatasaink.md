@@ -18,7 +18,7 @@ testimonial:
         url: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
         description: "Laravel segítségével robusztus és skálázható alkalmazásokat készítünk, megbízható funkciókkal, intuitív felhasználói felülettel, biztonságos háttérrendszerrel. "
         image: "/img/illustrations/retro-coffee.svg"
-        imageAlt: "Egy rohanó kávéspohár laptoppal a kezében."
+        imageAlt: "Egy rohanó kávés pohár laptoppal a kezében."
     -
         title: "Weboldal fejlesztés"
         url: "/hu/szolgaltatasaink/weboldal-fejlesztes/"
@@ -40,8 +40,8 @@ accordion:
         title: null
         items:
         -
-            title: "Robosztus alkalmazást készítünk"
-            description: "<p>Az elkészített alkalmazás robosztus, könnyen bővíthető, biztoságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
+            title: "Robusztus alkalmazást készítünk"
+            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
         -
             title: "Vue.js a kliens oldalon"
             description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
