@@ -37,7 +37,7 @@
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    gap: spacer('xs') spacer-clamp('s', 'l');
+    gap: spacer('s') spacer-clamp('s', 'l');
   }
 
   &__actions {

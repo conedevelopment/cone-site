@@ -52,14 +52,13 @@ references:
     - "WordPress"
     - "UI Development"
 -
-    title: "Démoszthenész Organization"
-    description: "We made the website for Hungary's most extensive speech therapist organization with expert search functionality and listing."
-    linkUrl: "https://demoszthenesz.hu/"
-    linkCaption: "demoszthenesz.hu"
+    title: "Smart Budapest Forum"
+    description: "A one-page event landing site. Everything you need to know about the next Smart Budapest Forum in a minimalistic UI."
+    linkUrl: "https://smartbudapestforum.bvk.hu/"
+    linkCaption: "smartbudapestforum.bvk.hu"
     tags:
     - "WordPress"
     - "UI Development"
-    - "Accessibility"
 -
     title: "GalleryTool"
     description: "Laravel has proven to be an excellent choice for the GalleryTool Artwork Management Application. Manage, categorize, show, export, embed all of your artworks."

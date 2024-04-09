@@ -132,6 +132,12 @@
         "class": ""
       },
       {
+        "caption": "Shop",
+        "url": "https://shop.conedevelopment.com/",
+        "external": true,
+        "class": ""
+      },
+      {
         "caption": "Kapcsolat",
         "url": "/hu/kapcsolat/",
         "external": false,

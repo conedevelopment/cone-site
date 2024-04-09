@@ -51,14 +51,13 @@ references:
     - "WordPress"
     - "UI Development"
 -
-    title: "Démoszthenész Egyesület"
-    description: "Elkészítettük az ország legkiterjedtebb logopédus szervezetének az oldalát egyedi szakember keresővel és listázó funkcióval."
-    linkUrl: "https://demoszthenesz.hu/"
-    linkCaption: "demoszthenesz.hu"
+    title: "Smart Budapest Fórum"
+    description: "Egyoldalas esemény érkezési oldal. Egyszerű külsőben minden lényeges tartalom, amire szükséged lehet a következő Smart Budapest Fórummal kapcsolatban."
+    linkUrl: "https://smartbudapestforum.bvk.hu/"
+    linkCaption: "smartbudapestforum.bvk.hu"
     tags:
     - "WordPress"
     - "UI Development"
-    - "Akadálymentesítés"
 -
     title: "GalleryTool"
     description: "Egyedi webalkalmazás előfizetéses modellel, portfolió oldallal, PDF generálással. Egy összetett rendszer sok különleges megoldással."
