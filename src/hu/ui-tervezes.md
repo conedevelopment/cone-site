@@ -23,7 +23,7 @@ testimonial:
         title: "Egyszerűség"
         description: "Our designs capture the essence of elegance in layouts and simplicity in navigation, all working harmoniously to elevate user satisfaction."
         image: "/img/illustrations/retro-fries-crooked.svg"
-        imageAlt: "Egy doboz sültkrumpli megőrül."
+        imageAlt: "Egy doboz sült krumpli megőrül."
 accordion:
     title:
         caption: "Miben<br> segíthetünk"

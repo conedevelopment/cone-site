@@ -36,7 +36,7 @@ testimonial:
         url: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
         description: "Laravel segítségével robusztus és skálázható alkalmazásokat készítünk, megbízható funkciókkal, intuitív felhasználói felülettel, biztonságos háttérrendszerrel. "
         image: "/img/illustrations/retro-coffee.svg"
-        imageAlt: "Egy rohanó kávéspohár laptoppal a kezében."
+        imageAlt: "Egy rohanó kávés pohár laptoppal a kezében."
     -
         title: "Weboldal fejlesztés"
         url: "/hu/szolgaltatasaink/weboldal-fejlesztes/"

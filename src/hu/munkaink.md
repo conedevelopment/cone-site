@@ -25,7 +25,7 @@ highlightedReference:
 references:
 -
     title: "Országos IT Megmérettetés"
-    description: "Újraterveztük és újraépítettük magyarország legnépszerűbb IT versenyének háttérrendszerét Laravel alapon."
+    description: "Újraterveztük és újraépítettük Magyarország legnépszerűbb IT versenyének háttérrendszerét Laravel alapon."
     linkUrl: "https://megmerettetes.hu"
     linkCaption: "megmerettetes.hu"
     tags:
@@ -44,7 +44,7 @@ references:
     - "Akadálymentesítés"
 -
     title: "ArtMedic"
-    description: "Egyedi oldal szerkesztőt készítettünk ACF alapon, hogy megvalósítsuk és szerkeszthetővé tegyük a terv sokoldaluságát."
+    description: "Egyedi oldal szerkesztőt készítettünk ACF alapon, hogy megvalósítsuk és szerkeszthetővé tegyük a terv sokoldalúságát."
     linkUrl: "https://artmedic.hu"
     linkCaption: "artmedic.hu"
     tags:
@@ -60,7 +60,7 @@ references:
     - "UI Development"
 -
     title: "GalleryTool"
-    description: "Egyedi webalkalmazás előfizetéses modellel, portfolió oldallal, PDF generálással. Egy összetett rendszer sok különleges megoldással."
+    description: "Egyedi webalkalmazás előfizetéses modellel, portfolio oldallal, PDF generálással. Egy összetett rendszer sok különleges megoldással."
     linkUrl: "https://gallerytool.com"
     linkCaption: "gallerytool.com"
     tags:
