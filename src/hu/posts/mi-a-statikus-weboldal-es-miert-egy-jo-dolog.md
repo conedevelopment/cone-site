@@ -12,7 +12,7 @@ thumbnailAlt: ""
 
 A statikus weboldal úgy kerül megjelenítésre a felhasználó eszközén, ahogyan azt a szerveren tároljuk. Fixen, előre elkészített HTML oldalakat szolgálunk ki a webszerverről. A HTML oldalakat vagy mi hozzuk létre manuálisan, külön-külön, vagy valamilyen generátort használunk, mint az [11ty](https://www.11ty.dev/), [Gatsby](https://www.gatsbyjs.org/).
 
-![Egy ábra a statikus oldal elemeiről: HTML, JS, CSS, valamint a dimanikuséről: HTML, JS, CSS, PHP, MySQL](/img/blog/statikus-oldal-vs-dinamikus-oldal.png) *A különbség a statikus és dinamikus oldal között a felhasznált technológiákban rejlik.*
+![Egy ábra a statikus oldal elemeiről: HTML, JS, CSS, valamint a dinamikuséról: HTML, JS, CSS, PHP, MySQL](/img/blog/statikus-oldal-vs-dinamikus-oldal.png) *A különbség a statikus és dinamikus oldal között a felhasznált technológiákban rejlik.*
 
 Ellenben a dinamikus oldal mögött ott egy adatbázis, valamint egy háttérrendszer (WordPress), nyelv (PHP) ami ír, olvas ebből az adathalmazból. Mindezt kiszolgáláskor teszi (többé kevésbé, cache valamilyen formája általában elérhető), ami annyit tesz, hogy PHP kódból, lekérés után generál HTML kódot, amit aztán meg tud jeleníteni a böngésző.
 
@@ -26,12 +26,12 @@ Ma már jó pár esetben - a technológiai változásoknak köszönhetően - a d
 
 De, ha a dinamikus oldal tud többet, miért létezik még statikus? A kérdés jogos. A válasz azért egészen összetett:
 
-- a mai statikus oldalak már nem a klasszikus kézzel írott HTML oldalak. Nagyon komoly és okos eszközöket használhatunk a generáláshoz. Ez annyit jelent, hogy egy modern környezetben fejleszthetünk és hasonló funkciókat használhatunk (include, változók), mint mondjuk PHP esetében. Általában ezek a generátorok valamilyen hanyományos nyelvre (a [Hugo](https://gohugo.io/) esetében GO nyelvre), vagy framework-re épülnek (Gatsby esetében React-ra).
+- a mai statikus oldalak már nem a klasszikus kézzel írott HTML oldalak. Nagyon komoly és okos eszközöket használhatunk a generáláshoz. Ez annyit jelent, hogy egy modern környezetben fejleszthetünk és hasonló funkciókat használhatunk (include, változók), mint mondjuk PHP esetében. Általában ezek a generátorok valamilyen hagyományos nyelvre (a [Hugo](https://gohugo.io/) esetében GO nyelvre), vagy framework-re épülnek (Gatsby esetében React-ra).
 - Egy dinamikus oldal sokszor túlzás. Miért tartanánk fenn egy bonyolult szervert, ha nincs szükségünk rá. Ma már nem muszáj WordPress-t használnunk, kiválthatjuk egy statikus generátorral.
 - A JS már nem a régi JavaScript. Front-end oldalra ma már nagyon sok mindent át lehet tenni, nem véletlen az SPA-k (Single Page Application) népszerűsége.
 - Egy statikus oldal generátorral, oldallal teljesítmény területén nehéz birokra kelni. Ha a kiszolgálásból kiiktatjuk a dinamikus back-endet (PHP) és csak HTML adunk vissza, az nagyon gyors lesz. Természetesen a teljesítmény nem csak ezen áll, vagy bukik, de sokat jelent.
 - Olyan szolgáltatásokkal, mint a [Netlify](https://www.netlify.com/), vagy [Vercel](https://vercel.com/) nagyon jó áron lehet tömegeket kiszolgálni úgy, hogy a szerverünk egy nagyobb terhelés esetén sem esik össze.
-- A headless CMS-eknek köszönhetően hanyományos tartalmkezelő rendszereket is használhatunk, amiknek a tartalmát aztán használhatjuk generálásnál. Tehát, dinamikus adatokkal generálunk statikus oldalakat.
+- A headless CMS-eknek köszönhetően hagyományos tartalomkezelő rendszereket is használhatunk, amiknek a tartalmát aztán használhatjuk generálásnál. Tehát, dinamikus adatokkal generálunk statikus oldalakat.
 - A kapcsolati űrlap jó példa egy olyan egyszerű funkcióra, ami a legtöbb oldalon szükséges. A [serverless](https://www.gatsbyjs.com/products/cloud/functions/) szolgáltatásoknak köszönhetően könnyen készíthetünk e-mail küldés funkciót szerver beállítás nélkül.
 
 ## Statikus oldalak hátrányai

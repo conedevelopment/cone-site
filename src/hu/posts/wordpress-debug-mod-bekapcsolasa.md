@@ -18,7 +18,7 @@ define('WP_DEBUG', true);
 Beállíthatjuk a hibák kijelzésének módját is (szintén a `wp-config.php`-ban). Ha nem megjeleníteni, hanem logolni szeretnénk az esetleges hibaüzeneteket, akkor kapcsoljuk a `WP_DEBUG_LOG` állandót `true`-ra:
 
 ```php
-// Debugolás külön fájlba (/wp-content/debug.log)
+// Debug-olás külön fájlba (/wp-content/debug.log)
 define('WP_DEBUG_LOG', true);
 ```
 

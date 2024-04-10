@@ -1,5 +1,5 @@
 ---
-title: "WordPress lassúlás. Miért lassú az oldalam?"
+title: "WordPress lassulás. Miért lassú az oldalam?"
 date: "2019-03-03"
 tags: ["wordpress"]
 thumbnail: "/img/blog/wordpress-lassulas-miert-lassu-az-oldalam.jpg"

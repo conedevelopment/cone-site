@@ -18,7 +18,7 @@ Jó pár tartalomkezelő rendszert használtam már, láttam belülről, vagy l�
 
 A helyzet általában az, hogy ezeket a rendszereket inkább eladják, mint fejlesztik. Ehhez hozzátartozik az is, hogy sok feladatot egy rossz rendszer is elláthat, maximum nem annyira hatékonyan.
 
-Sok esetben az is lehet hogy fejlesztik a saját, egyedi rendszereket, de ilyenkor általában kap egy új verziószámot és a te rendszeredet nem mindig tudja frissíteni. Egy minőségi ugrás esetén szerintem ez is rendben van, azonban az, hogy nem lehet migrálni ésszerű keretek között az már nem.
+Sok esetben az is lehet hogy fejlesztik a saját, egyedi rendszereket, de ilyenkor általában kap egy új verziószámot és a te rendszeredet nem mindig tudja frissíteni. Egy minőségi ugrás esetén szerintem ez is rendben van, azonban az, hogy nem lehet migrálni észszerű keretek között az már nem.
 
 Az elavulás egyik oka lehet, hogy nincs meg hozzá a fejlesztői elhatározás, idő vagy pénz. Sok esetben a szakértelem sem, mivel nem biztos, hogy a kódot kellően átlátja mindenki. Ezeket a rendszereket általában egy-két ember fejleszti és általában a dokumentáció is hiányos.
 

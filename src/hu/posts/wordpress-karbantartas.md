@@ -16,15 +16,15 @@ thumbnailAlt: ""
 
 **WordPress esetében a karbantartás alapvető és lényeges lépése a core, tehát maga a CMS frissítése.** Szerencsénkre ma már a biztonsági frissítéseket egy-egy támogatott, fő verzióhoz automatán is megkapjuk (megkaphatjuk, lekapcsolható), ami jóval biztonságosabbá teszi a rendszert egy-egy komolyabb problémával szemben.
 
-Az automata frissítések jó dolgok, ha egy patch frissítésről van szó, ami bugot, hibát javít. Nagyobb fejlesztések frissítés után sokszor célszerűbb egy rövid manuális tesztet végezni és előre tájékozódni a változásokról, módosításokról. Ha érdekel a pontos [támogatott verzió](https://codex.wordpress.org/Supported_Versions) szám, akkor a hivatalos oldalon találsz idevágó információt. Nagy meglepetés nincs benne, hogy hosszabb távon csupán a nagyobb és újabb főverziókat támogatják, ezértis célszerű rendszeresen frissítenünk.
+Az automata frissítések jó dolgok, ha egy patch frissítésről van szó, ami bugot, hibát javít. Nagyobb fejlesztések frissítés után sokszor célszerűbb egy rövid manuális tesztet végezni és előre tájékozódni a változásokról, módosításokról. Ha érdekel a pontos [támogatott verzió](https://codex.wordpress.org/Supported_Versions) szám, akkor a hivatalos oldalon találsz idevágó információt. Nagy meglepetés nincs benne, hogy hosszabb távon csupán a nagyobb és újabb főverziókat támogatják, ezért is célszerű rendszeresen frissítenünk.
 
 Egy-egy rendszerfrissítéssel nem csak biztonsági funkciókat kapunk, hanem számos újdonságot is, amit manapság a Gutenberg szerkesztő tesz ki, de ez kiegészül számos egész használható fejlesztői újdonsággal is.
 
 ## Téma, bővítmények frissítése
 
-**A core (maga a WordPress, mint rendszer) után a témák és bővítmények frissítése a második fontos és kritikus lépés, ha a kódról van szó.** Mégpedig azért mert az oldalak nagyobb részét ezeken keresztül törik fel. Tapasztalat sajnos, hogy általában egy-egy közepesen megírt búvítményen keresztül (az utóbbi évek egyik nagy törése a MailPoet nevezetű e-mail küldő bővítményhez kötődik) könnyen bejuthatnak a támadók, akik aztán különböző módokon eltérítik, módosítják az oldal működését.
+**A core (maga a WordPress, mint rendszer) után a témák és bővítmények frissítése a második fontos és kritikus lépés, ha a kódról van szó.** Mégpedig azért mert az oldalak nagyobb részét ezeken keresztül törik fel. Tapasztalat sajnos, hogy általában egy-egy közepesen megírt bővítményen keresztül (az utóbbi évek egyik nagy törése a MailPoet nevezetű e-mail küldő bővítményhez kötődik) könnyen bejuthatnak a támadók, akik aztán különböző módokon eltérítik, módosítják az oldal működését.
 
-A téma frissítése általában akkor szükséges, amikor egy vásárolt témával dolgozunk. Egy egyedi fejlesztésre is ugyanazok a kritériumok vonatkoznak, azonban ezek többnyire zárt kódok, jóval szolídabb funkcionalitással (persze ettől függetlenül sok múlik a fejlesztőn és az üzemeltetőn is). A vásárolt sablon kódjához könnyű hozzáférnie bárkinek, pár 10 dollárért megvehetjük. Sokan használják őket, „megéri” kárt tenni bennük.
+A téma frissítése általában akkor szükséges, amikor egy vásárolt témával dolgozunk. Egy egyedi fejlesztésre is ugyanazok a kritériumok vonatkoznak, azonban ezek többnyire zárt kódok, jóval szolidabb funkcionalitással (persze ettől függetlenül sok múlik a fejlesztőn és az üzemeltetőn is). A vásárolt sablon kódjához könnyű hozzáférnie bárkinek, pár 10 dollárért megvehetjük. Sokan használják őket, „megéri” kárt tenni bennük.
 
 A népszerű WordPress bővítmények - ingyenes verziói majdnem mindig - open-source projektek, amiknek a kódjához könnyű hozzáférni. Nem meglepő, hogy akad akinek az a hobbija, hogy ezekben sebezhetőséget keres, amivel aztán vissza is él. Természetesen ez nem ilyen egyoldalú. Egy open-source kódon többen dolgoznak, relatív nagyon ritka a sebezhetőség. Ha mégis akad ilyen általában gyorsan jön egy biztonsági patch.
 
@@ -50,7 +50,7 @@ Ha cPanel-el rendelkező szolgáltatót választunk, akkor általában legalább
 
 Az egyszerűen elérhető és könnyen visszaállítható biztonsági mentés minden projekt esetében ugyanolyan fontos. Számos bővítmény alapú szolgáltatás létezik, ami egy nekünk tetszőleges helyre (Google Drive például) kimenti az oldalunk fájljait és adatbázisát.
 
-**Mi a [Jetpack Backup](https://jetpack.com/upgrade/backup/)\-ot (ez egy havídíjas szolgáltatás) szoktuk alkalmazni, ami a wordpress.com infrastruktúráját használja, ami egész jó garancia a megbízható teljesítményre.**
+**Mi a [Jetpack Backup](https://jetpack.com/upgrade/backup/)\-ot (ez egy havidíjas szolgáltatás) szoktuk alkalmazni, ami a wordpress.com infrastruktúráját használja, ami egész jó garancia a megbízható teljesítményre.**
 
 ## Kinek a feladata?
 

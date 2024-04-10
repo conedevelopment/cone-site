@@ -14,7 +14,7 @@ Röviden, a Laravel egy PHP keretrendszer webes alkalmazások fejlesztésére. P
 
 #### De mi is egy keretrendszer? Mi a dolga? Hogyan működik?
 
-A webes alkalmazások kérés alapon működnek. Leegyszerűsítve ez annyit jelent, hogy a fehasználó a böngészőn keresztül kérést indít a kiszolgáló felé. Ez lehet egy űrlap elküldése, egy oldal megjelenítése vagy egy bejelentkezési folyamat. Ezt a kérést az alkalmazásnak tudnia kell kezelni a háttérben, hogy a megfelelő feladatokat ellássa és visszadja a választ a felhasználó részére. A keretrendszerek tulajdonképpen erre nyújtanak egy széleskörű és kidolgozott alapot, amelyre a fejlesztők egyedi megoldásokat tudnak építeni.
+A webes alkalmazások kérés alapon működnek. Leegyszerűsítve ez annyit jelent, hogy a felhasználó a böngészőn keresztül kérést indít a kiszolgáló felé. Ez lehet egy űrlap elküldése, egy oldal megjelenítése vagy egy bejelentkezési folyamat. Ezt a kérést az alkalmazásnak tudnia kell kezelni a háttérben, hogy a megfelelő feladatokat ellássa és visszaadja a választ a felhasználó részére. A keretrendszerek tulajdonképpen erre nyújtanak egy széles körű és kidolgozott alapot, amelyre a fejlesztők egyedi megoldásokat tudnak építeni.
 
 #### De a WordPress is ezt tudja, akkor a WordPress olyan mint a Laravel?
 
@@ -28,11 +28,11 @@ Akár kis méretű projektek esetében is érdemes lehet. Szerintem nem a projek
 
 ## Meg szeretném tanulni? Hogyan kezdjek neki?
 
-Szerencsére a Laravel tanulási görbéje elég barátságos. _De ez nem azt jelenti, hogy fél év és mehet a "Laravel dev" az "Entrepreneur" mellé a twitter bio-ba_. Az amúgy sem feltétlenül baj, ha kicsit alázatosak vagyunk. Ez a tanulásban is nagyon sokat segít, ezt bátran mondhatom.
+Szerencsére a Laravel tanulási görbéje elég barátságos. _De ez nem azt jelenti, hogy fél év és mehet a "Laravel dev" az "Entrepreneur" mellé a Twitter bio-ba_. Az amúgy sem feltétlenül baj, ha kicsit alázatosak vagyunk. Ez a tanulásban is nagyon sokat segít, ezt bátran mondhatom.
 
-Először is fontos, hogy tisztában legyünk az alapokkal. Ismerni kell a PHP-t és a sajátosságait, nem baj, ha tudjuk mi az hogy MVC vagy SOLID. De nem érdemes túlzásba vinni, sokmindent én is közben tanultam meg ezekről, pont a Laravelen keresztül.
+Először is fontos, hogy tisztában legyünk az alapokkal. Ismerni kell a PHP-t és a sajátosságait, nem baj, ha tudjuk mi az hogy MVC vagy SOLID. De nem érdemes túlzásba vinni, sok mindent én is közben tanultam meg ezekről, pont a Laravel-en keresztül.
 
-Aztán, fontos, hogy olvassunk, tanuljunk, nézzünk videókat, értelmezzük, hogy mi és miért történik. Nézzünk bele a core kódba. Kísérletezzünk. Csináljuk valamit másként mint ahogy az oktatóanyban van leírva és nézzük meg mi történik? Apropó, [itt írtunk egy cikket](https://pineco.de/laravel-learning-resources/) néhány minőségi forrásról, ahonnan érdemes tanulni és informálódni.
+Aztán, fontos, hogy olvassunk, tanuljunk, nézzünk videókat, értelmezzük, hogy mi és miért történik. Nézzünk bele a core kódba. Kísérletezzünk. Csináljuk valamit másként, mint ahogy az oktatóanyagban van leírva, és nézzük meg mi történik? Apropó, [itt írtunk egy cikket](https://pineco.de/laravel-learning-resources/) néhány minőségi forrásról, ahonnan érdemes tanulni és informálódni.
 
 A legfontosabb, pedig a gyakorlás, minden mennyiségben. Bátran kísérletezz, mert olyan megoldásokra, rejtett morzsákra lelhetsz, amelyeket máshol nem kapsz meg. Emellett, így alakul ki a saját, preferált fejlesztési stílusod, ez tesz majd bátrabbá, hogy belefogj valós projektekbe. Minden szinten próbálkozz. Nem baj ha megy a kukába a végén. Nincs olyan nekifutás amiből ne tanulna az ember és ez a kulcs itt.
 
@@ -40,9 +40,9 @@ A legfontosabb, pedig a gyakorlás, minden mennyiségben. Bátran kísérletezz,
 
 A dokumentáció kérdése részben az előző ponthoz is tartozik, hiszen a dokumentáció segítségével rengeteget megismerhet az ember az adott rendszerről. Így minden esetben erős ajánlott, hogy legalább átfussuk néhányszor.
 
-Persze, ezt nem minden esetben olyan könnyű megtenni. Amikor a dokumentáció száraz és csak fárasztja a szemet, akkor mindenki inkább nyom egy alt+tab-ot és medvetámadásokat néz youtube-on. Viszont, amikor a dokumentáció jól össze van rakva, és úgy van megfogalmazva, hogy mindenki számára érthető, akkor más a helyzet.
+Persze, ezt nem minden esetben olyan könnyű megtenni. Amikor a dokumentáció száraz és csak fárasztja a szemet, akkor mindenki inkább nyom egy alt+tab-ot és medvetámadásokat néz YouTube-on. Viszont, amikor a dokumentáció jól össze van rakva, és úgy van megfogalmazva, hogy mindenki számára érthető, akkor más a helyzet.
 
-Szerencsére a Laravel remek dokumentációval rendelkezeik. Szerintem pont ez az egyik indok, amiért ekkorát robbant az elmúlt években. Nagy hangsúlyt fektettek az igényes és átlátható dokumentációra, így a nem angol anyanyelvű fejlesztőknek is könnyen érthető.
+Szerencsére a Laravel remek dokumentációval rendelkezik. Szerintem pont ez az egyik indok, amiért ekkorát robbant az elmúlt években. Nagy hangsúlyt fektettek az igényes és átlátható dokumentációra, így a nem angol anyanyelvű fejlesztőknek is könnyen érthető.
 
 ## Összegzés
 

@@ -26,7 +26,7 @@ Egy elemzőt laikusként is tudunk futtatni, azonban ez sok esetben inkább a fe
 
 Ellenőrzés után négy darab szám értéket kapunk, ajánlásokkal. Az biztos, hogy ezeknek nem kell mind 100-nak lenniük, de az is kétségtelen, hogy 80-nál kisebb - _a tapasztalataink szerint_ - nem nagyon lehet.
 
-![A conedevelopment.com oldal Lighhouse pontszámai. Teljesítmény: 98, akadálymentesség: 97, jó gyakorlatok: 92, SEO: 97.](/img/blog/conedevelopment-lighthouse.png) *A conedevelopment.com oldal Lighhouse pontszámai.*
+![A conedevelopment.com oldal Lighthouse pontszámai. Teljesítmény: 98, akadálymentesség: 97, jó gyakorlatok: 92, SEO: 97.](/img/blog/conedevelopment-lighthouse.png) *A conedevelopment.com oldal Lighthouse pontszámai.*
 
 Ezeknek a számoknak a mérése - _főleg a teljesítményé_ - folyamatosan változik, így idővel lejjebb megy majd a kapott érték, ami után újra optimalizálnunk kell.
 
@@ -42,4 +42,4 @@ Ezeknek a számoknak a mérése - _főleg a teljesítményé_ - folyamatosan vá
 
 Az értékekről mindenképpen a fejlesztőnkkel kell konzultálni, önállóan nincs értelme bármit is levonni. Természetesen egy nagyon rossz érték mindenképp riasztó, de ezekre a számokra igaz, hogy minél rosszabb a helyzet, annál könnyebb javítani egy vállalható értékre. Mindig az utolsó pár értéket nehéz elérni (kiakasztani 100-ra például).
 
-**Ha új fejelsztést veszünk át, mi mindenképpen javasoljuk, hogy előtte futtassunk egy ilyen ellenőrzést. Azonban tartsuk észbe, hogy a tervezésnél a kicsinek tűnő megrendelői döntések is lényegesen befolyásolhatják ezeket az értékeket.**
+**Ha új fejlesztést veszünk át, mi mindenképpen javasoljuk, hogy előtte futtassunk egy ilyen ellenőrzést. Azonban tartsuk észbe, hogy a tervezésnél a kicsinek tűnő megrendelői döntések is lényegesen befolyásolhatják ezeket az értékeket.**

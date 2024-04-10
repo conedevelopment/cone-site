@@ -6,7 +6,7 @@ thumbnail: "/img/blog/miert-ne-hosztold-magyar-cegnel-a-weboldalad.png"
 thumbnailAlt: ""
 ---
 
-**A magyar tárhely, vagy hoszting szolgáltatás számunkra mindig egy érdekes jelenség volt. Úgy gondoljuk, hogy ezen a területen biztosan létezik egy külföldi, magyar minőségbeni ellentét, ami nem vet túl jó fényt az utóbbira.**
+**A magyar tárhely, vagy hoszting szolgáltatás számunkra mindig egy érdekes jelenség volt. Úgy gondoljuk, hogy ezen a területen biztosan létezik egy külföldi, magyar minőségbeli ellentét, ami nem vet túl jó fényt az utóbbira.**
 
 Fejlesztőként sokat használjuk a különböző hoszting szolgáltatók rendszereit és habár igaz, hogy egy [cPanel](https://cpanel.net/) sok mindent megold, ez sokat nem ér, ha az egyedi, saját rendszerek kibabrálnak velünk.
 

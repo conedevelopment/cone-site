@@ -33,7 +33,7 @@ Ha megfelelően nevezzük el a fájljainkat nem csak magunknak könnyítjük meg
 
 ## 2. Mindig adjunk meg a megfelelő alt értéket
 
-Az alt tulajdonság a kép alternatívájaként funkciónál, ha annak valamiért meghiúsul a letöltése, vagy más okból nem tudjuk feldolgozni. Ez fontos az akadálymentesség szempontjából, hiszen vannak olyan embertásaink, akik látáskárosultak. Ezzel a tulajdonsággal plusz információt adhatunk a képünk mellet.
+Az alt tulajdonság a kép alternatívájaként funkciónál, ha annak valamiért meghiúsul a letöltése, vagy más okból nem tudjuk feldolgozni. Ez fontos az akadálymentesség szempontjából, hiszen vannak olyan embertársaink, akik látáskárosultak. Ezzel a tulajdonsággal plusz információt adhatunk a képünk mellet.
 
 ```html
 <img src="sotetkek-noi-futocipo-rozsaszin-csikkal.jpg" alt="Sötétkék női futócipő rózsaszín csíkkal">

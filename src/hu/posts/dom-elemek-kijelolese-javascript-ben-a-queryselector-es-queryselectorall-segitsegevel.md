@@ -10,7 +10,7 @@ thumbnailAlt: ""
 
 Az egyik legjobb funkció jQuery-ben az, hogy egyszerűen férünk hozzá a DOM-hoz. Bármit - _és többet_ - kijelölhetünk, ugyanazzal a logikával, amivel a CSS-ben tennénk. Ez a megoldás egy hatalmas fejlődés volt a korábbi, ID és osztályalapú JS megoldásokhoz képest.
 
-A Selectors API megjelenésével - _akárcsak a [classList API](https://conedevelopment.com/hu/html-osztalyok-kezelese-classlist-tel-javascript-ben/) az osztályok esetény_ - ma már sokkal könnyebb dolgunk van, amikor elem manipulálásról van szó.
+A Selectors API megjelenésével - _akárcsak a [classList API](https://conedevelopment.com/hu/html-osztalyok-kezelese-classlist-tel-javascript-ben/) az osztályok esetén_ - ma már sokkal könnyebb dolgunk van, amikor elem manipulálásról van szó.
 
 ## A Selectors API és az új eljárások
 
@@ -62,7 +62,7 @@ warnings.forEach((el) => {
 
 ## NodeList bejárása JavaScript-tel
 
-Míg az egyszerű verzióval csak egy elemet kapunk vissza, addig az összes eljárással már egy objektum listát. Éppen ezért fontos, hogy tudjuk hogyan tudunk bejártni egy NodeList-et JS segítségével.
+Míg az egyszerű verzióval csak egy elemet kapunk vissza, addig az összes eljárással már egy objektum listát. Éppen ezért fontos, hogy tudjuk hogyan tudunk bejárni egy NodeList-et JS segítségével.
 
 A NodeList egy objektum típus ami node-ok gyűjteményét tartalmazza. Ez az objektum típus tömb szerű, amit a `forEach()-el` bejárhatunk.
 

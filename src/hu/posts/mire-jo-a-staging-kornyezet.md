@@ -26,4 +26,4 @@ Amennyiben a hiba javításra kerül és a tesztek sikeresen lefutnak, úgy bizt
 
 Hogy ne legyen túl drága a staging környezet fenntartása, úgy érdemes lehet az erőforrásokat a minimumon tartani, hiszen a terhelés minimális.
 
-**A staging környezet tehát egy átmeneti szerver, aminek a konfigurációja megegyezik az élesével. Célja, hogy teszteljünk, hibákat javítsunk. Általánban a kritikusabb projekteknél fontos, mint egy webalkalmazás, webáruház, ahol egy kisebb hibának is látható kára van. Egy portfólió oldal esetén felesleges többnyire felesleges többletmunkát eredményez.**
+**A staging környezet tehát egy átmeneti szerver, aminek a konfigurációja megegyezik az élesével. Célja, hogy teszteljünk, hibákat javítsunk. Általában a kritikusabb projekteknél fontos, mint egy webalkalmazás, webáruház, ahol egy kisebb hibának is látható kára van. Egy portfólió oldal esetén felesleges többnyire felesleges többletmunkát eredményez.**

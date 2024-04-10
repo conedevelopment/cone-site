@@ -34,7 +34,7 @@ A legegyszerűbb hogy elkerüld, hogy feltörjék a jelszavad, ha erőset haszn�
 
 ## Frissítsük a WordPress-t, a témát és a bővítményeket
 
-**Ez valami elképesztően alapvető és mégsem az.** Azért kell frissítened a lehető leggyorsabban, mert könnyen lehet hogy napvilágra kerül egy biztonsági rés, amit patchelnek. Mindez semmit nem ér majd, ha a tiédet nem frissíted…
+**Ez valami elképesztően alapvető és mégsem az.** Azért kell frissítened a lehető leggyorsabban, mert könnyen lehet hogy napvilágra kerül egy biztonsági rés, amit patch-elnek. Mindez semmit nem ér majd, ha a tiédet nem frissíted…
 
 A WordPress core biztonsági frissítéseit általában alapból megkapjuk. Bővítmény, téma esetén már nem ilyen egyszerű. Azért sem, mert ezek frissítésével akár problémánk is lehet, így jobb ha mi kezeljük őket manuálisan.
 
@@ -46,4 +46,4 @@ A legjobb megoldás azonban az, ha egy alkalmazunk egy külső szolgáltatást a
 
 ## Összegzés - WordPress biztonság
 
-A biztonságot sose hagyagoljuk. Minden projekt más és más, így nehéz általánosítani. Alapvetően a naprakész kód és a megfelelő szerver már a problémáink nagy részét megoldhatják, de ettől függetlenül is figyelmesen kezeljük oldalainkat.
+A biztonságot sose hanyagoljuk. Minden projekt más és más, így nehéz általánosítani. Alapvetően a naprakész kód és a megfelelő szerver már a problémáink nagy részét megoldhatják, de ettől függetlenül is figyelmesen kezeljük oldalainkat.

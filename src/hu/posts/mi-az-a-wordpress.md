@@ -6,7 +6,7 @@ thumbnail: "/img/blog/mi-az-a-wordpress.jpg"
 thumbnailAlt: ""
 ---
 
-**A WordPress-ről szinte már mindenki hallott valamilyen formában. Ez érthető, jelenleg a becslések alapján az interneten lévő weboldalak 34%-át WP hajta, ami egy nagyon magas szám.**
+**A WordPress-ről szinte már mindenki hallott valamilyen formában. Ez érthető, jelenleg a becslések alapján az interneten lévő weboldalak 34%-át WP hajtja, ami egy nagyon magas szám.**
 
 A WordPress egy tartalomkezelő rendszer. Ez röviden azt jelenti, hogy a felhasználó tudja kezelni a tartalmat dinamikusan. Számos ilyen termék van a piacon, de mégis ez lett a legnépszerűbb.
 
@@ -38,4 +38,4 @@ A bonyolultabb feladatokhoz - _mint a webáruház_ - már WordPress fejlesztőre
 
 A vásárolt témák nagy terhet jelenthetnek, mivel sok esetben nem túl optimálisak. Ki szeretné, hogy a felhasználónak lassan töltsön be az oldal? A teljesítmény általános probléma, amit azért lehet optimalizálni is.
 
-Sok megkeresést akarunk, hogy egy meglévő WordPress oldalt kellene tovább fejleszteni, amire sok bíztatót nem tudunk mondani. WP-ben mindent meg lehet sokféleképpen csinálni, ha valaki mindent bővítménnyel old meg - _méghozzá nem a legjobb minőségűekkel_ - az általában már rossz jel a későbbiekre nézve. Probléma, hogy egy ilyen oldal előzetes átnézése is jó pár óra és nehéz bármi becslést adni rá, mert sok esetben nehezen látható át még az átnézés után is.
+Sok megkeresést akarunk, hogy egy meglévő WordPress oldalt kellene tovább fejleszteni, amire sok biztatót nem tudunk mondani. WP-ben mindent meg lehet sokféleképpen csinálni, ha valaki mindent bővítménnyel old meg - _méghozzá nem a legjobb minőségűekkel_ - az általában már rossz jel a későbbiekre nézve. Probléma, hogy egy ilyen oldal előzetes átnézése is jó pár óra és nehéz bármi becslést adni rá, mert sok esetben nehezen látható át még az átnézés után is.

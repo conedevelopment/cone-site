@@ -17,10 +17,10 @@ Egy ilyen rendszerben lényegében bármilyen szerkeszthető egység integrálha
 **Hogy legyen elképzelésünk, nézzünk pár alapvető modult, egységet:**
 
 - Oldalaink, bejegyzéseinket szabadon tudjuk szerkeszteni és formázni.
-- Képekeket tudunk feltölteni, méretezni.
-- Rendelkezésünkre állnak SEO eszközök, mint a közösségi metadat szerkesztő.
+- Képeket tudunk feltölteni, méretezni.
+- Rendelkezésünkre állnak SEO eszközök, mint a közösségi metaadat szerkesztő.
 - A tartalmakat akár időzíthetjük is, ha nem azonnal szeretnénk őket közzétenni.
-- Az adminisztrációs felületetre csak jogosultsággal tudunk belépni. Lehetséges több szintű felhasználókezelés is.
+- Az adminisztrációs felületre csak jogosultsággal tudunk belépni. Lehetséges több szintű felhasználókezelés is.
 - A nyelvesített tartalom gyakori szükség, főleg egy céges weboldal esetén. Egy CMS-ben könnyen oldhatjuk meg ezt is.
 
 ## Népszerű CMS-ek
@@ -29,7 +29,7 @@ Alapvetően három nagy tartalomkezelő rendszer volt és van: Joomla!, [Drupal]
 
 ## A tartalomkezelő rendszer előnye
 
-A legtöbb ilyen rendszerrel akár magunk is hozhatunk létre egy használható honlapot. A CMS-el az irányítás nagy része a te kezedben lesz, mint tulajdonos/felhasználó. Te döntöd el, hogy mikor, milyen tartalmat teszel közzé. A már említett open-source (nyiltforráskódú) rendszerek biztonságosak, folyamatos támogatást kapnak. A népszerűségük miatt könnyebb hozzájuk fejlesztőt találni.
+A legtöbb ilyen rendszerrel akár magunk is hozhatunk létre egy használható honlapot. A CMS-el az irányítás nagy része a te kezedben lesz, mint tulajdonos/felhasználó. Te döntöd el, hogy mikor, milyen tartalmat teszel közzé. A már említett open-source (nyílt forráskódú) rendszerek biztonságosak, folyamatos támogatást kapnak. A népszerűségük miatt könnyebb hozzájuk fejlesztőt találni.
 
 ## Az ilyen rendszerek hátrányai
 
