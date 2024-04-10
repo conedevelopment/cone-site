@@ -43,7 +43,7 @@ Tehát, ebben az esetben a fenti számokkal operálva, a Stripe tranzakciónkén
 
 > Nem vettük számításba a közvetett költségeket, mint a SimplePay esetében a bővítmények megvásárlását és beállítását (amennyiben nem ingyenes), ami akár újabb 30-40 000 HUF is lehet. Valamint ne felejtsük el, hogy minél nagyobb a vásárlás értéke, a SimplePay annál drágább a Stripe-hoz képest.
 >
-> Stripe esetén [hivatalos bővítmény](https://woocommerce.com/products/stripe/) létezik például WooCommerce-hez igyenesen. Természetesen beállítási költsége ennek is lehet, amennyiben nem magunknak végezzük el.
+> Stripe esetén [hivatalos bővítmény](https://woocommerce.com/products/stripe/) létezik például WooCommerce-hez ingyenesen. Természetesen beállítási költsége ennek is lehet, amennyiben nem magunknak végezzük el.
 
 ## II. Stabilitás, SLA (Service Level Agreement), elérhetőség, API státusz
 

@@ -8,7 +8,7 @@ thumbnailAlt: ""
 
 **Egy cég esetében a weboldal elengedhetetlen kellék így 2019-ben. Sajnos, ez idehaza is hagy némi kivetnivalót maga után. Nem csak arról van szó, hogy sok vállalkozás kevésbé található meg online, hanem hogy a meglévő oldaluk használhatatlan.**
 
-De mégis mire kell figyelni az oldalunkal kapcsolatban? Egyszerű válasz nincs, hiszen más-más a cél és más-más a szolgáltatás. Alapvetően az információátadás és a megtalálhatóság a kulcs. A weboldal fejlesztés hosszadalmas és összetett folyamat, de a végeredmény célja, hogy kielégítse az egyéni igényeket.
+De mégis mire kell figyelni az oldalunkkal kapcsolatban? Egyszerű válasz nincs, hiszen más-más a cél és más-más a szolgáltatás. Alapvetően az információátadás és a megtalálhatóság a kulcs. A weboldal fejlesztés hosszadalmas és összetett folyamat, de a végeredmény célja, hogy kielégítse az egyéni igényeket.
 
 A megfelelő online jelenlét növelheti egy cég megítélését, valamint annak bevételét. Ma már mindenki interneten keres. Ha a céged - _és az éppen szükséges információk_ - megtalálhatóak könnyen online, megbízhatóan fest az oldalad, akkor nagyobb az esély, hogy megnyered a leendő ügyfelet.
 

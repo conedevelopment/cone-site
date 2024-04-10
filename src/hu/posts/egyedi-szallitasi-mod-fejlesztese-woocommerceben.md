@@ -1,5 +1,5 @@
 ---
-title: "Egyedi szállítási mód fejlesztése WooCommerceben"
+title: "Egyedi szállítási mód fejlesztése WooCommerce-ben"
 date: "2019-03-08"
 tags: ["wordpress"]
 thumbnail: "/img/blog/egyedi-szallitasi-mod-fejlesztese-woocommerceben.png"
@@ -24,7 +24,7 @@ add_filter('woocommerce_shipping_methods', function ($methods) {
 
 ## Az egyedi szállítási mód kódja
 
-Mindenek előtt, lássuk a kódot, majd a magyarázatot is hozzáfűzzük az egyes blokkokhoz. Mint minden Woo modul, itt is egy alap osztályt kell kiegészítenünk, amely már tartalmazza az alapvető funkcionalitásokat, amellyekkel már tudunk dolgozni.
+Mindenek előtt, lássuk a kódot, majd a magyarázatot is hozzáfűzzük az egyes blokkokhoz. Mint minden Woo modul, itt is egy alap osztályt kell kiegészítenünk, amely már tartalmazza az alapvető funkcionalitásokat, amelyekkel már tudunk dolgozni.
 
 ```php
 class Shipping extends WC_Shipping_Method
@@ -130,11 +130,11 @@ class Shipping extends WC_Shipping_Method
 }
 ```
 
-Az attribútomok a kód elején, csak az adminfelületen lesznek használatosak, illetve a szállítási mód azonosítására kellenek. Így ezeket nyugodtan "beégethetjük" a kódba.
+Az attribútumok a kód elején, csak az admin felületen lesznek használatosak, illetve a szállítási mód azonosítására kellenek. Így ezeket nyugodtan "beégethetjük" a kódba.
 
-A konstruktorban, az admin mezők kerülnek beállításra, majd a "Settings API" meghívása történik. Innentől kinyerni és menteni is tudunk a szállítási módhoz kapcsolódó beállításokat. Valamint, a "hookok" regisztálása történik
+A konstruktorban, az admin mezők kerülnek beállításra, majd a "Settings API" meghívása történik. Innentől kinyerni és menteni is tudunk a szállítási módhoz kapcsolódó beállításokat. Valamint, a "hookok" regisztrálása történik
 
-A `registerHooks()` methódus, egy egyedileg definiált metódus. Azért érdemes ilyes jellegű gyűjtő funkciókat alkalmazni, hogy a hook-visszahívás beállításainkat egy csoportba tudjuk rendezni, valamint, hogy a megfelelő időben kerüljenek regisztrálásra. Jelen esetben a konstruktor tökéletesen megfelel erre a célra.
+A `registerHooks()` metódus, egy egyedileg definiált metódus. Azért érdemes ilyen jellegű gyűjtő funkciókat alkalmazni, hogy a hook-visszahívás beállításainkat egy csoportba tudjuk rendezni, valamint, hogy a megfelelő időben kerüljenek regisztrálásra. Jelen esetben a konstruktor tökéletesen megfelel erre a célra.
 
 A lényeges folyamat a `calculate_shipping()` metódusban zajlik, hiszen itt számolható ki a konkrét szállítási ár. Látható, hogy könnyen kialakítható az egyedi logika ami alapján a számítás megtörténik. A `$packages` változó könnyen felhasználható, ha a szállítandó termékeket illetve a címet szeretnénk felhasználni a számítás során.
 

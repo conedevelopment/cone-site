@@ -57,7 +57,7 @@ main.classList.add('has-sidebar', 'is-dark-style');
 <div class="main is-sub-page has-sidebar is-dark-style"></div>
 ```
 
-Az a jó ezekkel a függvényekbn, hogy akkor sem dobnak hibát, ha valami nem stimmel. Például ha olyan osztályt adsz hozzá, amivel már rendelkezik a kiválasztott elem, ebben az esetben nem lesz még egyszer hozzáadva. Ugyanez igaz akkor is, ha eltávolítanál. Nincs hiba, ha az osztály nem létezik.
+Az a jó ezekben a függvényekben, hogy akkor sem dobnak hibát, ha valami nem stimmel. Például ha olyan osztályt adsz hozzá, amivel már rendelkezik a kiválasztott elem, ebben az esetben nem lesz még egyszer hozzáadva. Ugyanez igaz akkor is, ha eltávolítanál. Nincs hiba, ha az osztály nem létezik.
 
 ## Osztály(ok) eltávolítása
 

@@ -1,5 +1,5 @@
 ---
-title: "UI tervezes"
+title: "UI tervezés"
 permalink: "/hu/szolgaltatasaink/ui-tervezes/"
 layout: "layout/development.html"
 hreflang:

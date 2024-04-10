@@ -14,7 +14,7 @@ Elméletben lehetséges, hogy egy gyors WordPress témát készítsünk mindenf�
 
 ## Mitől lesz gyors egy WordPress oldal?
 
-Hogy lássuk, miben segíthet nekünk a [WP Rocket](https://wp-rocket.me/) elsőként látnunk kell a teljes képet. A teljesítmény egy web alapú projekt esetén szinte minden területen jelen van. Optimalizálni kell a médiafájlokat (kép, videó), tömöríteni és egyesíteni a CSS/JS erőforrásokat, csökkentenil az adatbázis lekéréseket és így tovább.
+Hogy lássuk, miben segíthet nekünk a [WP Rocket](https://wp-rocket.me/) elsőként látnunk kell a teljes képet. A teljesítmény egy web alapú projekt esetén szinte minden területen jelen van. Optimalizálni kell a médiafájlokat (kép, videó), tömöríteni és egyesíteni a CSS/JS erőforrásokat, csökkenteni az adatbázis lekéréseket és így tovább.
 
 > Megjegyzés: a teljesítmény sosem könnyű és mindig egyedi. A következő részben általános információt találsz a WordPress részekről.
 
@@ -22,14 +22,14 @@ Hogy lássuk, miben segíthet nekünk a [WP Rocket](https://wp-rocket.me/) első
 
 - Egyedi témára, ami csak azt tartalmazza, ami feltétlen szükséges. Ha te készíted (vagy megbízol valakit vele), akkor te tudod meghatározni, hogy mit tartalmazzon. Egy több célra reklámozott ThemeForest oldal 20.000+ sor CSS-el, amiből csupán az 1%-át használja az oldalunk nem biztos, hogy a legjobb választás.
 - Segít, ha előre tervezel a bővítmény használattal. Az önmagában nem gond, ha sok bővítményed van, a WordPress egy jól bővíthető rendszer. Az azonban nem elhanyagolható tényező, hogy ezek mekkora terhet rónak az oldalra.
-- Alapvetően jó irány, ha limitáljuk a harmadikfél által fejlesztett kiegészítőket.
+- Alapvetően jó irány, ha limitáljuk a harmadik fél által fejlesztett kiegészítőket.
 - Optimalizált képekre és videókra van szükséged. Az interneten a legtöbb sávszélességet a média fájlok foglalják le. Épp ezért az oldalad nagy részét is ezek fogják kitenni. Fontos, hogy figyelj a megfelelő optimalizálására.
 - Megbízható és gyors hosztingra van szükséged. A megfelelő tárhely szolgáltatás mindennek az alapja. Mi WordPress-hez az A2 Hosting-ot ajánljuk!
 - És a legvégén, kell egy bővítmény ami összességében segít neked optimalizálni. Ez a bővítmény nem képes kijavítani az előző pont hibáit. Nem tesz mást, mint plusz rétegben javít a honlapunk teljesítményén.
 
 ## Mi az a WP Rocket?
 
-**A WP Rocket volt az egyik első kereskedelmi WordPress teljesítmény bővítmény, amit egy komolyabb fejlesztő csapat készít és támogat**. A licenszeddel kapsz egy részletes [dokumentációs oldalt](https://docs.wp-rocket.me/), ahol minden lényeges információt megtalálsz, valamint ticketeken keresztül személyes támogatást is kérhetsz. Egy minden az egyben optimalizáló kiegészítő, amit folyamatosan fejlesztenek. Az egyik kulcs funkciója, hogy laikusként is könnyen kezelhető.
+**A WP Rocket volt az egyik első kereskedelmi WordPress teljesítmény bővítmény, amit egy komolyabb fejlesztő csapat készít és támogat**. A licenszeddel kapsz egy részletes [dokumentációs oldalt](https://docs.wp-rocket.me/), ahol minden lényeges információt megtalálsz, valamint ticket-eken keresztül személyes támogatást is kérhetsz. Egy minden az egyben optimalizáló kiegészítő, amit folyamatosan fejlesztenek. Az egyik kulcs funkciója, hogy laikusként is könnyen kezelhető.
 
 ![](/img/blog/wp-rocket-file-optimization-kepernyo.png) *A fájl optimalizálási beállítások a WP Rocket admin felületén.*
 

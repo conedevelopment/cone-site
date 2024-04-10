@@ -53,7 +53,7 @@ Ha megvan a kulcsunk, akkor navigáljunk a **Kapcsolat -> Integrációk** menüp
 
 Az [Akismet](https://hu.wordpress.org/plugins/akismet/) egy magas szintű spam szűrő API az Automattic-tól. Minden új WordPress telepítéssel felkerül. Hatalmas mennyiségű spamet szűr napról-napra.
 
-A bővítmény bekapcsolása után szükségünk lesz egy felhasználói fiókra, amit készíthetünk ingyenesen is személyes használatra. Ha összekötöttük az Akismetet a felhasználói fiókunkkal már csak a megfelelő módosításokat kell elvégeznünk az űrlapokon.
+A bővítmény bekapcsolása után szükségünk lesz egy felhasználói fiókra, amit készíthetünk ingyenesen is személyes használatra. Ha összekötöttük az Akismet-et a felhasználói fiókunkkal, már csak a megfelelő módosításokat kell elvégeznünk az űrlapokon.
 
 Ez annyit jelent, hogy meg kell mondanunk a CF7-nek hogy milyen mezőt milyen feltétel alapján adjon tovább az Akismet-nek vizsgálatra. A bővítmény alapbeállításként tudja kezelni az ilyen típusú spam szűrést, csupán bővíteni kell az alap mezőket.
 

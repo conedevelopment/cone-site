@@ -23,9 +23,9 @@ $upgrading = time();
 
 Lényegében az `$upgrading` változónak állítunk be idő értéket, így előidézve az aktív módot. Bármilyen UNIX formázott időbélyeget megadhatunk.
 
-A `.maintenance` fájl egy átmenti fájl, amit a WordPress használ a frissétéses során (amikor ki/be lép a karbantartási módba). Figyeljünk rá, hogy lehetséges, hogy ezt a fájlt felülírhatja egyhagyományos frissítés. Épp ezért ha hosszabb ideig szeretnénk így hagyni az oldalunkat nem biztos ez a legjobb megoldás.
+A `.maintenance` fájl egy átmenti fájl, amit a WordPress használ a frissítése során (amikor ki/be lép a karbantartási módba). Figyeljünk rá, hogy lehetséges, hogy ezt a fájlt felülírhatja egyhagyományos frissítés. Épp ezért ha hosszabb ideig szeretnénk így hagyni az oldalunkat nem biztos ez a legjobb megoldás.
 
-**Ha bővítmény, vagy téma frissítésekor berakadtunk a karbantartási módba, akkor keressük meg ezt a fájlt a gyökérkönyvtárban és töröljük!**
+**Ha bővítmény, vagy téma frissítésekor beragadtunk a karbantartási módba, akkor keressük meg ezt a fájlt a gyökérkönyvtárban és töröljük!**
 
 ### Karbantartási mód üzenet testreszabása
 
@@ -33,7 +33,7 @@ Természetesen ezt a megjelenő üzenetet testre is szabhatjuk. Beállíthatjuk 
 
 ## Karbantartás mód témából
 
-Hatékony, egyszerű és hoszsútávú megoldás lehet, ha egy rövid saját kóddal kényszerítünk ki egy karbantartási módot. A következő kódot helyezzük el a témánk `functions.php` (vagy bárhova, ahol megfelelően lefuthat) fájlába:
+Hatékony, egyszerű és hosszútávú megoldás lehet, ha egy rövid saját kóddal kényszerítünk ki egy karbantartási módot. A következő kódot helyezzük el a témánk `functions.php` (vagy bárhova, ahol megfelelően lefuthat) fájljába:
 
 ```php
 function cone_maintenance_mode() {

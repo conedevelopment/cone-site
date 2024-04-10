@@ -22,7 +22,7 @@ a.no-pointer-events {
 }
 ```
 
-Nézzünk egy alap példát! A következőkben egy a teljes elemet elfoglaló hivatkozás található a szöveg felett, ebben az esetben a szöveget nem tudnánk kijelölni, hiszen van egy elem felette a z tengely mentén. Ahhoz, hogy kitudjuk jelölni a szöveget, nincs más teendőnk, mint az elemet kitakaró elemhez rendelni a `pointer-events: none;` tulajdonság/érték párt!
+Nézzünk egy alap példát! A következőkben egy a teljes elemet elfoglaló hivatkozás található a szöveg felett, ebben az esetben a szöveget nem tudnánk kijelölni, hiszen van egy elem felette a z tengely mentén. Ahhoz, hogy ki tudjuk jelölni a szöveget, nincs más teendőnk, mint az elemet kitakaró elemhez rendelni a `pointer-events: none;` tulajdonság/érték párt!
 
 <p class="codepen" style="height: 374px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-height="374" data-theme-id="2175" data-default-tab="css,result" data-user="adamlaki" data-slug-hash="19f4a0a1d17031c3fb6d9d7a3c0a05bd" data-pen-title="Pointer Evets Demo 01">See the Pen <a href="https://codepen.io/adamlaki/pen/19f4a0a1d17031c3fb6d9d7a3c0a05bd">Pointer Evets Demo 01</a> by Adam Laki (<a href="https://codepen.io/adamlaki">@adamlaki</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>

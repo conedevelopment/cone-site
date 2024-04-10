@@ -27,7 +27,7 @@ További információt a [hivatalos dokumentációs](https://www.w3.org/TR/html5
 
 Ellentétben a `<section>` elemmel a `<div>` elemnek nincsen jelentése önmagában. Adhatunk neki osztályt, ID-t (hogy érthetőbb legyen a fejlesztőknek), de szemantikailag nem tehetünk többet.
 
-Gyakori használi megoldás a szerkezetek kialakítása:
+Gyakori megoldás a szerkezetek kialakítása:
 
 ```html
 <div class="container">
@@ -46,7 +46,7 @@ Az alapvető különbséget a szemantika jelenti. Ha van egy részünk, aminek v
 
 ## Melyiket használjuk mikor?
 
-Ahogy korábban is írtam, a `<section>` elemmel logikai egységet jelezhetünk, így az értelmezhető lesz a kisegítő eszközök számára is (képernyőfelolvasó). Mindig jó megközelítés, ha ezt tartjuk szemelőtt.
+Ahogy korábban is írtam, a `<section>` elemmel logikai egységet jelezhetünk, így az értelmezhető lesz a kisegítő eszközök számára is (képernyőfelolvasó). Mindig jó megközelítés, ha ezt tartjuk szem előtt.
 
 Gondolkozz el azon, hogy mi az amit egy oldalon, alkalmazáson logikailag össze lehet vonni. Ha például van egy oldalsáv (`<aside>`), azon belül widget-ek, akkor ezeknek a `<section>` elem egy jó választás lehet. Figyeljünk arra, hogy kell egy címsor, hogy megfelelően navigálható legyen minden eszközön.
 
@@ -59,6 +59,6 @@ Gondolkozz el azon, hogy mi az amit egy oldalon, alkalmazáson logikailag össze
 </aside>
 ```
 
-## Használjuk a landmark (határkő) elmeket
+## Használjuk a landmark (határkő) elemeket
 
 Ez a bejegyzés egy egyszerű összehasonlítás a `<div>` és `<section>` elemek között. Ha inkluzívabb HTML oldalakat akarsz készíteni, akkor használd az összes HTML landmark elemet!

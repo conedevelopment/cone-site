@@ -11,7 +11,7 @@ thumbnailAlt: ""
 ## Mi is pontosan a Spruce CSS könyvtár?
 
 - Sass-t használ, kicsi és alapból csak kevés utility osztállyal dolgozik.
-- Kihasználja a Sass által nyújtott fő funkciókat, mint a változók, mixinek és függvények.
+- Kihasználja a Sass által nyújtott fő funkciókat, mint a változók, mixin-ek és függvények.
 - Kihasználja a Sass modulokat, így @use-t és namespace-eket használ importhoz.
 - [Relatív kicsi](https://github.com/conedevelopment/sprucecss), jelenleg durván ~1400 sor kódból áll a fordított verzió, de Sass-al használva [teljes kontrollunk van a generált kód felett](https://sprucecss.com/docs/elements/generators/).
 - Modern, a legújabb CSS megoldásokat használja, mint a gridet, aspect-ratio-t, logikai tulajdonságokat, értékeket.
@@ -25,7 +25,7 @@ További részletekért keresd fel a [hivatalos dokumentációt](https://sprucec
 
 Egy ideje már nem használtunk semmilyen CSS keretrendszert és nehezebb lett több projektet megfelelően karbantartani, frissíteni. Azzal, hogy nem egy nagyobb külső keretrendszert használsz, hanem elkészíted a sajátod szinte mindenre lesz ráhatásod.
 
-Megalkodhatod azt ami a leginkább hasznos és kezes neked. Persze, mindezt tovább fejleszteni és fenntartani máskérdés. Úgy voltunk vele, hogy a legjobb megoldás az lesz, ha open-source módon publikáljuk és [elérhetővé tesszük npm-en](https://www.npmjs.com/package/sprucecss).
+Megalkothatod azt, ami a leginkább hasznos és kezes neked. Persze, mindezt tovább fejleszteni és fenntartani más kérdés. Úgy voltunk vele, hogy a legjobb megoldás az lesz, ha open-source módon publikáljuk és [elérhetővé tesszük npm-en](https://www.npmjs.com/package/sprucecss).
 
 ## Hogyan kezd el használni a Spruce CSS-t
 

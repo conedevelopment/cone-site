@@ -1,5 +1,5 @@
 ---
-title: "Ezért fontos a megfelelő analítika az oldaladon"
+title: "Ezért fontos a megfelelő analitika az oldaladon"
 date: "2019-03-27"
 tags: ["seo"]
 thumbnail: "/img/blog/ezert-fontos-a-megfelelo-analitika-az-oldaladon.png"

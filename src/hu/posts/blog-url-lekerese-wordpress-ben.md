@@ -22,7 +22,7 @@ A `get_option()` függvénnyel lekérhetjük a page_for_posts option értékét.
 echo esc_url(get_permalink(get_option('page_for_posts')));
 ```
 
-WordPress 4.5.0.-tól használhatjuk a [get_post_type_archive_link()](https://developer.wordpress.org/reference/functions/get_post_type_archive_link/) függvényt, hogy lekérjük a post (bejegyzések) tartalomtípus listaoldalunk URL-jét.
+WordPress 4.5.0-tól használhatjuk a [get_post_type_archive_link()](https://developer.wordpress.org/reference/functions/get_post_type_archive_link/) függvényt, hogy lekérjük a post (bejegyzések) tartalomtípus listaoldalunk URL-jét.
 
 ```php
 echo esc_url(get_post_type_archive_link('post'));

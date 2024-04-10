@@ -35,8 +35,8 @@ cta:
                 <h2 class="text-card__title">Képességeink</h2>
                 <div class="post-content">
                     <p>CSS keretrendszerekkel és a saját CSS framework-ünkkel dolgozunk a front-end oldalon. Számos JS technológiával van tapasztalatunk, mint a Vue.js, Alpine.js, GSAp, de sokszor a szimpla JavaScript-et preferáljuk.</p>
-                    <p>Laravelt és Vue.js-t kombinálva igazán összetett megoldásokat tudunk készíteni. Szeretjük és tudjuk használni ezt a két rendszert.</p>
-                    <p>Szerveroldalon WordPress témákat és bővítményeket fejlesztünk, ha nagyobb feladatról van szó, akkor Laravelt választunk.</p>
+                    <p>Laravel-t és Vue.js-t kombinálva igazán összetett megoldásokat tudunk készíteni. Szeretjük és tudjuk használni ezt a két rendszert.</p>
+                    <p>Szerveroldalon WordPress témákat és bővítményeket fejlesztünk, ha nagyobb feladatról van szó, akkor Laravel-t választunk.</p>
                     <p>Tudunk segíteni neked a Laravel projekteddel, mert:</p>
                     <ul>
                         <li>Számos <a href="https://github.com/laravel/framework/commits?author=iamgergo">PR-unkat</a> merge-elték már Laravel Core-ba.</li>
@@ -44,7 +44,7 @@ cta:
                         <li>Számos <a href="https://pineco.de/category/laravel/">bejegyzést</a> publikáltunk már Laravel témában.</li>
                         <li><a href="https://packagist.org/users/conedevelopment/packages/">A Laravel csomagjainkat</a> több mint 100.000-szer töltötték le már.</li>
                     </ul>
-                    <p>Kedveljük a statik oldalakat is. Ha ilyenre van szükséged, akkor a választásunk az <a href="https://www.11ty.dev/">11ty</a>, ami egy egyszerű JS alapú generátor.</p>
+                    <p>Kedveljük a statikus oldalakat is. Ha ilyenre van szükséged, akkor a választásunk az <a href="https://www.11ty.dev/">11ty</a>, ami egy egyszerű JS alapú generátor.</p>
                 </div>
             </div>
             <div class="text-card text-card--two-column">

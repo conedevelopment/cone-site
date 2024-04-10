@@ -40,9 +40,9 @@ Ha már szóba kerültek a JS keretrendszerek: ne mixeljük őket. Egy darab is 
 
 ## Nem tudunk túl sokat
 
-Szeretjük azt hinni magunkról, hogy pengék vagyunk abban amit csinálunk, közben meg a legtöbb fejlesztő nem tudja, hogy pontosan mit is jelent a „this” kulcsszó JS-ben. Egyszerű kritizálni valamit, de zavarbaejtő, ha akkor tesszük, amikor nem értjük teljesen.
+Szeretjük azt hinni magunkról, hogy pengék vagyunk abban amit csinálunk, közben meg a legtöbb fejlesztő nem tudja, hogy pontosan mit is jelent a „this” kulcsszó JS-ben. Egyszerű kritizálni valamit, de zavarba ejtő, ha akkor tesszük, amikor nem értjük teljesen.
 
-Mindennek megvannak a buktatói és minden lehet elavult, de ettől még kezelhetjük a helyén. Minden eszköznek megvan a maga helye. Például végtelen számú CSS rács rendszert használunk (valamilyen keretrendszerben, mint a Bootstrap), de mégis miért? Ma már van Flexbox és Grid natívan CSS-ben, amik segítségével egyszerűbben írhatunk jobb layoutot. Mindez egy döntés, amit meghoztunk egy kontextusban.
+Mindennek megvannak a buktatói és minden lehet elavult, de ettől még kezelhetjük a helyén. Minden eszköznek megvan a maga helye. Például végtelen számú CSS rács rendszert használunk (valamilyen keretrendszerben, mint a Bootstrap), de mégis miért? Ma már van Flexbox és Grid natívan CSS-ben, amik segítségével egyszerűbben írhatunk jobb layout-ot. Mindez egy döntés, amit meghoztunk egy kontextusban.
 
 ## Összegzés
 

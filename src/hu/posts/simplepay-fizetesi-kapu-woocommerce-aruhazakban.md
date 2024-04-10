@@ -22,7 +22,7 @@ De hogyan is működik? A vásárló a fizetésnél a SimplePay kapun keresztül
 
 A visszatérítés két irányú lehet. Indítható a SimplePay oldaláról és a webshop felületéről is. Ha a bővítmény megfelelően alkalmazza a visszaigazolásokat és hitelesítéseket, mindkettő megfelelően működhet.
 
-Ismétlődő fizetésekre is lehetőség van. Ennek a lényege, hogy egy fizetés során a kártya párosításra kerül egy egyedi tokennel. A token tárolásra kerül, így a későbbiekben a token segítségével fizetés indítható a kártya adatok nélkül, akár a kereskedő oldaláról is. Ezt tipikusan ismétlődő fizetések esetén haználatos, illetve, ha visszatérő vásárlóként időt akarunk spórolni és kérjük a kártyaadatok tárolását a gyorsabb vásárlás érdekében.
+Ismétlődő fizetésekre is lehetőség van. Ennek a lényege, hogy egy fizetés során a kártya párosításra kerül egy egyedi tokennel. A token tárolásra kerül, így a későbbiekben a token segítségével fizetés indítható a kártya adatok nélkül, akár a kereskedő oldaláról is. Ez tipikusan ismétlődő fizetések esetén használatos, illetve, ha visszatérő vásárlóként időt akarunk spórolni és kérjük a kártyaadatok tárolását a gyorsabb vásárlás érdekében.
 
 Ahogy korábban említettük, nem minden esetben van tökéletes technikai megoldás. Az ismétlődő fizetések esetében a legérdekesebb a helyzet. Abban az esetben, ha periodikusan szeretnénk automatizálni a fizetéseket (pl.: havi/éves feliratkozások), az időzítés a webshop feladata és nem a SimplePay végzi. Ez nem feltétlenül gond, ha az áruház rendelkezik a megfelelő személlyel, aki az ebből fakadó feladatokat és esetleges hibákat ellátja, hárítja. Viszont amennyiben a szolgáltatás nagy felhasználóbázissal rendelkezik, lehet, hogy ez a megoldás nem a legelőnyösebbek.
 
@@ -34,7 +34,7 @@ Többek közt ezért, az általunk fejlesztett bővítménybe, csak az egyszeri 
 
 **Hogy a SimplePay integrálható legyen az oldalunkon, előbb szerződni kell az OTP SimplePay-jel.** A szerződés előtt kapcsolatba kell lépni velük, majd kellő adatok megadása után, a szerződés elkészül.
 
-Szerződés után mind a teszt fiókhoz és az éles fiókhoz is hozzáférést kapunk. Érdemes mindeképpen a teszt felülettel kísérletezni egy darabig, hogy az esetlegesen felmerülő hibákat javítsuk, illetve, hogy átlássuk, hogy mi hogyan működik pontosan.
+Szerződés után mind a teszt fiókhoz és az éles fiókhoz is hozzáférést kapunk. Érdemes mindenképpen a teszt felülettel kísérletezni egy darabig, hogy az esetlegesen felmerülő hibákat javítsuk, illetve, hogy átlássuk, hogy mi hogyan működik pontosan.
 
 ## SimplePay fizetési kapu WooCommerce áruházakhoz
 

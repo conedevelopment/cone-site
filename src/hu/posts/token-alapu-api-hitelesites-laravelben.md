@@ -1,5 +1,5 @@
 ---
-title: "Token alapú API hitelesítés Laravelben"
+title: "Token alapú API hitelesítés Laravel-ben"
 date: "2019-02-16"
 tags: ["laravel"]
 thumbnail: "/img/blog/token-alapu-api-hitelesites-laravelben.png"
@@ -16,9 +16,9 @@ Képzeljük csak el, egy felület, ahova Django, Laravel, WordPress, Rails, node
 
 Látható, hogy ezek a felületek széles körben is használhatóak, így nagy kérdés, hogy miként lehet megoldani az egységes hitelesítési formát, amennyiben az API igényli. Tehát lássuk, hogy a Laravel hogyan oldja meg ezt a kérdést.
 
-## API felületek Laravelben
+## API felületek Laravel-ben
 
-A keretrendszer alapértelmezetten nyújt egyszerű API integrációt. Az API felületek kialaításánál annyi a teendőnk, hogy az adott útvonalakat az „api” middleware csoportba soroljuk. A színfalak mögött ez sok változtatást eszközöl a útvonalon és az ahhoz tartozó kontrolleren – hiszen állapotfüggőből állapotmentessé alakul – de hitelesítés szempontjából így is nagyon egyszerű dolgunk van.
+A keretrendszer alapértelmezetten nyújt egyszerű API integrációt. Az API felületek kialakításánál annyi a teendőnk, hogy az adott útvonalakat az „api” middleware csoportba soroljuk. A színfalak mögött ez sok változtatást eszközöl a útvonalon és az ahhoz tartozó kontrolleren – hiszen állapotfüggőből állapotmentessé alakul – de hitelesítés szempontjából így is nagyon egyszerű dolgunk van.
 
 Azokat az API útvonalakat, amelyek hitelesítést igényelnek, az „auth:api” middleware-rel kell ellátni. A hitelesítéshez a felhasználókhoz tartozó „api\_token” használható, amelyet a HTTP kéréskor az „Authorization” fejlécben „Bearer” tokenként vagy az URL egy paramétereként az „api\_token” kulccsal tudunk elküldeni.
 
@@ -56,7 +56,7 @@ axios.defaults.headers.common = {
 window.Vue.prototype.$http = axios;
 ```
 
-Tulajdonképpen nincs más hátra, mint a kontrollerben lekezelni a kérést. Hasonlóan mint a munkamenet alapú folyamatokál, itt is a kérésen keresztül kapjuk meg az azonosított felhasználót.
+Tulajdonképpen nincs más hátra, mint a kontrollerben lekezelni a kérést. Hasonlóan mint a munkamenet alapú folyamatoknál, itt is a kérésen keresztül kapjuk meg az azonosított felhasználót.
 
 ```php
 // app/Http/Controllers/SomeApiController.php

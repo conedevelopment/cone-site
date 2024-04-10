@@ -1,5 +1,5 @@
 ---
-title: "Bazar: egy e-commerce csomag Laravelhez"
+title: "Bazar: egy e-commerce csomag Laravel-hez"
 date: "2020-11-01"
 tags: ["bazar", "laravel"]
 thumbnail: "/img/blog/bazar-cover.jpg"

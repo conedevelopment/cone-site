@@ -8,7 +8,7 @@ thumbnailAlt: ""
 
 **Az initial CSS kulcsszó elsőre sok fejlesztőnek rejtély, pedig nem tesz mást, mint reseteli a tulajdonságainkat.**
 
-Én vagyok az a fajta fejlesztő, aki ha alapértelmezett értékre van szüksége, akkor megkeresi a tényleges értéket, ami a tulajdonsághoz tartozik - _ez többnyire auto, 0, normal, vagy valami hasonló_. Nem tudom miért, de nekem ez a kulcsszó fehér folt volt, nem igazán használtam. Éppen ezért kutattam kicsit és utána jártam, hogy mi is ez a zavarba ejtően ésszerű funkció.
+Én vagyok az a fajta fejlesztő, aki ha alapértelmezett értékre van szüksége, akkor megkeresi a tényleges értéket, ami a tulajdonsághoz tartozik - _ez többnyire auto, 0, normal, vagy valami hasonló_. Nem tudom miért, de nekem ez a kulcsszó fehér folt volt, nem igazán használtam. Éppen ezért kutattam kicsit és utána jártam, hogy mi is ez a zavarba ejtően észszerű funkció.
 
 ## Szóval mit jelent az initial kulcsszó?
 

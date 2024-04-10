@@ -33,7 +33,7 @@ Természetesen sok olyan szektor van, ahol nincs hiány a munkában, megrendelé
 
 ## Milyen típusú céges weboldalak léteznek?
 
-A céges [weboldal típusai nincsnek kőbe vésve](https://conedevelopment.com/hu/weboldal-tipusok-es-azok-celjai/), rengeteg variáció létezik.
+A céges [weboldal típusai nincsenek kőbe vésve](https://conedevelopment.com/hu/weboldal-tipusok-es-azok-celjai/), rengeteg variáció létezik.
 
 ### Portfólió oldal
 

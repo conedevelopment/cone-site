@@ -22,7 +22,7 @@ import {
         </div>`;
     } else if (lang === 'hu') {
       caption = `<div class="cookie-consent" tabindex="-1">
-          <div class="cookie-consent__caption">Ez az oldal sütiket használ. Több információért kerest fel az <a href="/hu/adatvedelem/">adatvédelmünket</a>.</div>
+          <div class="cookie-consent__caption">Ez az oldal sütiket használ. Több információért keresd fel az <a href="/hu/adatvedelem/">adatvédelmünket</a>.</div>
           <div class="cookie-consent__btns">
             <button class="btn btn--primary" data-action="cookie-accept">Elfogadás</button>
             <button class="btn btn--outline-primary" data-action="cookie-decline">Elutasítás</button>

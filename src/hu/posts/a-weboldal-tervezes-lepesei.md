@@ -18,7 +18,7 @@ A weboldal és az alkalmazás alapvetően eltér egymástól, de a legvégén a 
 
 Az hogy mit szeretnél elkészíttetni csak te tudod, aki kitalálta, megálmodta a projektet. Ezt az információt megfelelően, a lehető legrészletesebben kell átadni a fejlesztőknek, ahhoz hogy a megfelelő végeredményt kapjuk.
 
-Csak egy használható specifikációval a kézben érdemes nekünk bármilyen kalkulációt is végeznünk. Ha belegondolsz ez mind a két félnek jó. Ezen tudás ismeretében mi megfelelően be tudjuk osztani az időnket, míg tégen a legkevésbé verünk plusz költségekbe.
+Csak egy használható specifikációval a kézben érdemes nekünk bármilyen kalkulációt is végeznünk. Ha belegondolsz ez mind a két félnek jó. Ezen tudás ismeretében mi megfelelően be tudjuk osztani az időnket, míg téged a legkevésbé verünk plusz költségekbe.
 
 Míg egy weboldal esetén lehet hogy jobb áron kijön egy nem kalkulált kiadás, addig egy egyedi alkalmazás esetén ez szinte biztosan nagyobb összeg lesz.
 

@@ -24,7 +24,7 @@ Ha valamit nyomtatni akarsz egy weboldalról a hivatkozások problémát okozhat
 }
 ```
 
-Ezt a problémát az `attr()` függvénnyel egyszerűen orvosolhatjuk. Hogy használhatóbb legyen a nyomtatási nézet, annyit kell tennünk csupán, hogy az `<a>` tagek href értékét kiiratjuk a `::after` elemre.
+Ezt a problémát az `attr()` függvénnyel egyszerűen orvosolhatjuk. Hogy használhatóbb legyen a nyomtatási nézet, annyit kell tennünk csupán, hogy az `<a>` tagek href értékét kiíratjuk a `::after` elemre.
 
 ## Egyszerű tooltip megoldás
 

@@ -10,7 +10,7 @@ thumbnailAlt: ""
 
 ## Mi az a keretrendszer?
 
-A keretrendszer egy eszközkészlet, ami megkönnyíti, stabilabbá, skálázhatóbbá teszi az alkalmazás fejlesztést. A Laravel egy PHP alapú, igen népszerű és komolytudású rendszer.
+A keretrendszer egy eszközkészlet, ami megkönnyíti, stabilabbá, skálázhatóbbá teszi az alkalmazás fejlesztést. A Laravel egy PHP alapú, igen népszerű és komoly tudású rendszer.
 
 ## Mi is a skálázás?
 
@@ -38,9 +38,9 @@ A hivatalos dokumentáció: [https://laravel.com/docs/master/eloquent-relationsh
 
 ## Queue
 
-A queue (sor) kezelés a Laravel talán egyik legnagyszerűbb eszköze. Lényege, hogy olyan erőforrás igényes feladatokat (email küldés, riport készítés, stb.) nem azonnal végzi el a rendszer, hanem sorba állítja a háttérben futó queueba. A queue a beérkező feladatokon (job) végigmegy és elvégzi a kívánt folyamatokat. Tehát az idő és erőforrás igényes feladatok nem szinkron futnak le, hanem aszinkron a háttérben.
+A queue (sor) kezelés a Laravel talán egyik legnagyszerűbb eszköze. Lényege, hogy olyan erőforrás igényes feladatokat (email küldés, riport készítés, stb.) nem azonnal végzi el a rendszer, hanem sorba állítja a háttérben futó queue-ba. A queue a beérkező feladatokon (job) végigmegy és elvégzi a kívánt folyamatokat. Tehát az idő és erőforrás igényes feladatok nem szinkron futnak le, hanem aszinkron a háttérben.
 
-A Laraveles implementáció egyik legnagyobb előnye, hogy nagyon jól paraméterezhető, hogy az adott feladatot hogyan dolgozza fel a queue a háttérben, így a lehető legnagyobb rugalmasságot biztosítva.
+A Laravel-es implementáció egyik legnagyobb előnye, hogy nagyon jól paraméterezhető, hogy az adott feladatot hogyan dolgozza fel a queue a háttérben, így a lehető legnagyobb rugalmasságot biztosítva.
 
 A hivatalos dokumentáció: [https://laravel.com/docs/master/queues](https://laravel.com/docs/master/queues)
 
