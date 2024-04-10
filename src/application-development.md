@@ -42,7 +42,7 @@ accordion:
             description: "<p>These two are popular application development buzzwords but still crucial ones. To create a testable, extendable application, you need modularity and scalability.</p><p>To support and maintain something long-term, you need solid and good architecture from the start.</p>"
         -
             title: "We prefer Vue.js on the front-end"
-            description: "<p><a href='https://vuejs.org/' target='_blank' rel='noopener'>Vue.js</a> is the perfect tool to extend Laravel on the front-end. It covers everything you need on a modern and capable application.</p><p>Depending on the context, we can also opt for <a href='https://alpinejs.dev/' target='_blank' rel='noopener'>Apline.js</a> or <a href='https://react.dev/' target='_blank' rel='noopener'>React</a>.</p>"
+            description: "<p><a href='https://vuejs.org/' target='_blank' rel='noopener'>Vue.js</a> is the perfect tool to extend Laravel on the front-end. It covers everything you need on a modern and capable application.</p><p>Depending on the context, we can also opt for <a href='https://alpinejs.dev/' target='_blank' rel='noopener'>Alpine.js</a> or <a href='https://react.dev/' target='_blank' rel='noopener'>React</a>.</p>"
         -
             title: "UI and UX matters"
             description: "<p>A proper application requires unique UI and UX solutions as well. We can also help you to design a clean and straightforward user interface that is easy to use.</p><p>We create the UI tailored to the project needs from the ground up.</p>"
@@ -51,7 +51,7 @@ accordion:
             description: "<p>We write the code adopting the coding and documenting standards from the <a href='https://laravel.com/' target='_blank' rel='noopener'>official documentation of Laravel</a> to make the application easily understandable and futureproof.</p><p>Writing code as we do makes it possible to do better static analysis and integrate the project into any CI workflow. </p><p>We are serious about the quality of our code, which can also help you create a project for the future (with or without us).</p>"
         -
             title: "Hosting and DevOps"
-            description: "<p>We will only be your developers. Unfortunately, we don't deliver hosting or any DevOps tasks. For more straightforward web applications, we can utilize Laravcel Forge, but for more critical ones, you also need a person or a team to manage the serving of the project.</p><p>We can suggest a good college of ours if needed for this purpose.</p>"
+            description: "<p>We will only be your developers. Unfortunately, we don't deliver hosting or any DevOps tasks. For more straightforward web applications, we can utilize Laravel Forge, but for more critical ones, you also need a person or a team to manage the serving of the project.</p><p>We can suggest a good college of ours if needed for this purpose.</p>"
     -
         title: "FAQ"
         subtitle: "Some frequent questions in advance."
