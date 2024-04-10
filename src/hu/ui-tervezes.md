@@ -16,12 +16,12 @@ testimonial:
     cards:
     -
         title: "Intuitív tervek"
-        description: "Our UI & UX design expertise revolves around creating digital spaces that users love toexplore. We specialize in crafting intuitive interfaces that guide users effortlessly through everyinteraction."
+        description: "UI & UX tervezési szakértelmünk olyan digitális terek létrehozása körül forog, amelyeket a felhasználók szívesen fedeznek fel. Olyan intuitív felületek kialakítására szakosodtunk, amelyek könnyedén vezetik a felhasználókat minden interakción keresztül."
         image: "/img/illustrations/retro-cocktail-plays-guitar.svg"
         imageAlt: "Egy koktél játszik a gitáron."
     -
         title: "Egyszerűség"
-        description: "Our designs capture the essence of elegance in layouts and simplicity in navigation, all working harmoniously to elevate user satisfaction."
+        description: "Dizájnjaink megragadják az elegancia lényegét az elrendezésben és az egyszerű navigációban, és mindez harmonikusan működik a felhasználói elégedettség növelése érdekében."
         image: "/img/illustrations/retro-fries-crooked.svg"
         imageAlt: "Egy doboz sült krumpli megőrül."
 accordion:
