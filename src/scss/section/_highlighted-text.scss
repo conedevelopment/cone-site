@@ -1,15 +1,14 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .highlighted-text {
-  background-color: color('background', 'highlighted');
-
   &__inner {
     align-items: start;
-    border-radius: config('border-radius-lg', $display);
+    background-color: color('background', 'highlighted');
+    border-radius: config('border-radius-xl', $display);
     display: flex;
     flex-direction: column;
     gap: spacer('m') spacer-clamp('l', 'xl');
-    padding-block: get-css-variable(--section-gap);
+    padding: get-css-variable(--section-gap);
 
     @include breakpoint('md') {
       align-items: center;

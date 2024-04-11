@@ -31,7 +31,7 @@
   &__preview {
     --columns: 1;
     background-color: color('tertiary');
-    border-radius: config('border-radius-lg', $display);
+    border-radius: config('border-radius-xl', $display);
     display: grid;
     gap: spacer-clamp('m', 'l');
     grid-template-columns: repeat(var(--columns), minmax(0, 1fr));

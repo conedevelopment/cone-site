@@ -1,13 +1,4 @@
 {
-  "name": "cone-site",
-  "version": "1.0.0",
-  "author": "Cone (https://conedevelopment.com)",
-  "babel": {
-    "presets": [
-      "latest"
-    ]
-  },
-  "main": ".eleventy.js",
   "scripts": {
     "delete:dist": "del-cli --force dist",
     "dev:sass": "sass --load-path=node_modules --watch --no-source-map --update --style=expanded src/scss:src/css",
