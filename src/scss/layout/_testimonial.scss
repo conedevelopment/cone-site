@@ -63,8 +63,12 @@
       --column: 2;
 
       > * + * {
-        border-block-start: 0;
         border-inline-start: 1px solid color('border');
+      }
+
+      > *:nth-child(3n),
+      > *:nth-child(4n) {
+        border-block-start: 1px solid color('border');
       }
     }
   }

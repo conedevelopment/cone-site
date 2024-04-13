@@ -26,15 +26,53 @@ testimonial:
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "Egy mogyoróvajas szendvics lekvárt eszik."
     -
+        title: "Weboldal és alkalmazás audit"
+        url: "/hu/szolgaltatasaink/audit/"
+        description: "Egy részletes audit segítségével felmérheted a projekted állapotát, tovább fejleszthetőségét, gyengeségeit, erősségeit."
+        image: "/img/illustrations/retro-donut-screams-loudly.svg"
+        imageAlt: "Egy retró fánk hangosan kiabál."
+    -
         title: "UI tervezés"
         url: "/hu/szolgaltatasaink/ui-tervezes/"
         description: "Nem csak kódolunk, hanem tervezünk is. Alapvető célunk, hogy egy funkcionális és egyszerűen érthető felhasználói felület készüljön. Ezenkívül számos, egyéb a webhez köthető dologban is tudunk segíteni."
         image: "/img/illustrations/retro-chocolate-fancy.svg"
         imageAlt: "Egy bulizó tábla csoki napszemüvegben."
+grid:
+    title:
+        caption: "Ebben segítünk"
+        image: "./src/img/title-helper-primary.svg"
+    blocks:
+    -
+        title: null
+        items:
+        -
+            image: "./src/img/icon/retro-01.svg"
+            title: "Robusztus alkalmazást készítünk"
+            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
+        -
+            image: "./src/img/icon/retro-02.svg"
+            title: "Vue.js a kliens oldalon"
+            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
+        -
+            image: "./src/img/icon/retro-03.svg"
+            title: "Megfelelő CMS"
+            description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
+        -
+            image: "./src/img/icon/retro-04.svg"
+            title: "Tervezés és UI"
+            description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
+        -
+            image: "./src/img/icon/retro-02.svg"
+            title: "Megfelelő technikai SEO"
+            description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
+        -
+            image: "./src/img/icon/retro-02.svg"
+            title: "Teljesítményre tervezve"
+            description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
 accordion:
     title:
-        caption: "Ebben<br> segítünk"
-        image: "./src/img/title-helper-primary.svg"
+        caption: "Ebben <br> segítünk"
+        image: "./src/img/title-helper-tertiary.svg"
     blocks:
     -
         title: null

@@ -1,0 +1,31 @@
+<div class="l-grid">
+    <div class="container">
+        <div class="l-grid__inner">
+            {% if grid.title %}
+                <h2 class="section-title">
+                    {% svgIcon grid.title.image %}
+                    {{ grid.title.caption | safe }}
+                </h2>
+            {% endif %}
+            <div class="l-grid__body">
+                {% for block in grid.blocks %}
+                    {% if block.items %}
+                        {% for item in block.items %}
+                            <div class="grid-card">
+                                <div class="grid-card__header">
+                                    <div class="grid-card__icon">
+                                        {% svgIcon item.image %}
+                                    </div>
+                                    <h3 class="grid-card__title">{{ item.title }}</h3>
+                                </div>
+                                <div class="grid-card__content">
+                                    {{ item.description | safe }}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
