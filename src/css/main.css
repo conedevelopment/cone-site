@@ -361,17 +361,18 @@ template {
   --cone-base-color-blockquote-border: hsl(216, 100%, 50%);
   --cone-base-color-border: hsl(215, 63%, 93%);
   --cone-base-color-code-background: #f0f6ff;
-  --cone-base-color-code-foreground: hsl(230, 100%, 11%);
-  --cone-base-color-heading: hsl(230, 100%, 11%);
+  --cone-base-color-code-foreground: hsl(0, 0%, 0%);
+  --cone-base-color-heading: hsl(0, 0%, 0%);
   --cone-base-color-link: hsl(216, 100%, 50%);
   --cone-base-color-link-hover: #0052cc;
   --cone-base-color-mark-background: hsl(50, 100%, 80%);
-  --cone-base-color-mark-foreground: hsl(230, 100%, 11%);
+  --cone-base-color-mark-foreground: hsl(0, 0%, 0%);
   --cone-base-color-marker: hsl(216, 100%, 50%);
   --cone-base-color-primary: hsl(216, 100%, 50%);
   --cone-base-color-secondary: hsl(326, 100%, 49%);
-  --cone-base-color-strong: hsl(230, 100%, 11%);
+  --cone-base-color-strong: hsl(0, 0%, 0%);
   --cone-base-color-text: hsl(208, 9%, 42%);
+  --cone-base-color-primary-dark: hsl(230, 100%, 11%);
   --cone-base-color-tertiary: hsl(169, 100%, 50%);
 }
 
@@ -395,7 +396,7 @@ template {
 :root {
   --cone-form-color-background: hsl(0, 0%, 100%);
   --cone-form-color-background-disabled: hsl(0, 0%, 95%);
-  --cone-form-color-border: hsl(230, 100%, 11%);
+  --cone-form-color-border: hsl(0, 0%, 0%);
   --cone-form-color-border-disabled: hsl(215, 63%, 93%);
   --cone-form-color-border-focus: hsl(216, 100%, 50%);
   --cone-form-color-check-background: hsl(216, 100%, 50%);
@@ -405,14 +406,14 @@ template {
   --cone-form-color-group-label-foreground: hsl(208, 9%, 42%);
   --cone-form-color-invalid: hsl(0, 71%, 51%);
   --cone-form-color-invalid-focus-ring: rgba(219, 41, 41, 0.25);
-  --cone-form-color-label: hsl(230, 100%, 11%);
-  --cone-form-color-legend: hsl(230, 100%, 11%);
+  --cone-form-color-label: hsl(0, 0%, 0%);
+  --cone-form-color-legend: hsl(0, 0%, 0%);
   --cone-form-color-placeholder: hsl(208, 7%, 40%);
   --cone-form-color-range-thumb-background: hsl(216, 100%, 50%);
   --cone-form-color-range-thumb-focus-ring: hsl(216, 100%, 50%);
   --cone-form-color-range-track-background: hsl(215, 63%, 93%);
   --cone-form-color-ring-focus: rgba(0, 102, 255, 0.25);
-  --cone-form-color-select-foreground: hsl(230, 100%, 11%);
+  --cone-form-color-select-foreground: hsl(0, 0%, 0%);
   --cone-form-color-text: hsl(208, 9%, 42%);
   --cone-form-color-valid: hsl(150, 100%, 33%);
   --cone-form-color-valid-focus-ring: rgba(0, 168, 84, 0.25);
@@ -432,7 +433,7 @@ template {
 :root {
   --cone-table-color-border: hsl(215, 63%, 93%);
   --cone-table-color-caption: hsl(208, 9%, 42%);
-  --cone-table-color-heading: hsl(230, 100%, 11%);
+  --cone-table-color-heading: hsl(0, 0%, 0%);
   --cone-table-color-hover: hsla(0, 0%, 0%, 0.05);
   --cone-table-color-stripe: hsla(0, 0%, 0%, 0.025);
   --cone-table-color-text: hsl(208, 9%, 42%);
@@ -474,7 +475,7 @@ template {
 }
 
 :root {
-  --cone-reference-color-background: hsl(230, 100%, 11%);
+  --cone-reference-color-background: hsl(0, 0%, 0%);
   --cone-reference-color-box-shadow: hsla(0, 0%, 0%, 0.15);
   --cone-reference-color-icon: hsla(0, 0%, 100%, 0.25);
   --cone-reference-color-link: hsla(0, 0%, 100%, 0.8);
@@ -504,7 +505,7 @@ template {
   --cone-line-height-sm: 1.2;
   --cone-border-radius-lg: 1.5rem;
   --cone-border-radius-sm: 0.425rem;
-  --cone-border-radius-xl: 3rem;
+  --cone-border-radius-xl: 2.5rem;
   --cone-container-inline-size: 84rem;
   --cone-page-margin: 2cm;
   --cone-hidden-elements: header, footer, aside, nav, form, iframe, [class^="aspect-ratio"];
@@ -1119,7 +1120,7 @@ html[dir=rtl] .form-control--valid, html[dir=rtl] .form-control--invalid {
 }
 
 select.form-control:not([multiple]):not([size]) {
-  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%28230, 100%, 11%%29;"/%3e%3c/svg%3e');
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%280, 0%, 0%%29;"/%3e%3c/svg%3e');
   background-position: center right 0.5em;
   background-repeat: no-repeat;
   background-size: 1.25em auto;
@@ -1436,11 +1437,15 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"%3e%3cpath d="M12,12.507l-3.816,-3.815c-0.171,-0.172 -0.45,-0.172 -0.622,-0l-0.933,0.933c-0.172,0.172 -0.172,0.451 0,0.623l5.06,5.06c0.172,0.172 0.45,0.172 0.622,0l5.06,-5.06c0.172,-0.172 0.172,-0.451 -0,-0.623l-0.933,-0.933c-0.172,-0.172 -0.451,-0.172 -0.622,-0l-3.816,3.815Z" style="fill:hsl%280, 0%, 100%%29;"/%3e%3c/svg%3e');
 }
 
-.cta {
-  padding-block: calc(var(--cone-section-gap) / 1.25);
-}
-.cta--dark {
+.cta--dark .cta__inner {
   background-color: var(--cone-cta-color-background);
+  border-radius: var(--cone-border-radius-xl);
+  padding: calc(var(--cone-section-gap) / 1.25) calc(var(--cone-section-gap) / 2);
+}
+@media (min-width: 64em) {
+  .cta--dark .cta__inner {
+    padding: var(--cone-section-gap);
+  }
 }
 .cta--dark .cta__title {
   color: hsl(0, 0%, 100%);
@@ -1463,6 +1468,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   flex-wrap: wrap;
   gap: 1.5rem 3rem;
   justify-content: space-between;
+  padding-block: var(--cone-section-gap);
 }
 .cta__title {
   font-size: clamp(2.0751953125rem, 2vw + 1rem, 2.44140625rem);
@@ -1811,17 +1817,19 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   display: flex;
   flex-direction: column;
   gap: 1.5rem clamp(3rem, 5vw, 4.5rem);
-  padding: var(--cone-section-gap);
+  padding: calc(var(--cone-section-gap) / 1.25) calc(var(--cone-section-gap) / 2);
 }
 @media (min-width: 64em) {
   .highlighted-text__inner {
     align-items: center;
     flex-direction: row;
+    padding: var(--cone-section-gap);
   }
 }
 .highlighted-text p {
   color: hsl(0, 0%, 95%);
   font-size: var(--cone-font-size-lead);
+  margin-block: 0;
   max-width: 60ch;
 }
 .highlighted-text p .highlighted {
@@ -1992,16 +2000,26 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   border-block-start: 1px solid var(--cone-base-color-border);
 }
 
+.accordion-list > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.accordion-list > * + * {
+  margin-block-start: 1rem;
+}
+
 .accordion-card {
   background-color: var(--cone-base-color-background);
-}
-.accordion-card--js .accordion-card__title {
-  padding: 0;
+  border: 1px solid var(--cone-base-color-border);
+  border-radius: var(--cone-border-radius-lg);
 }
 .accordion-card__title {
   font-size: clamp(1.0625rem, 2vw + 1rem, 1.25rem);
   margin-block: 0;
-  padding-block: 1.5rem;
+  padding: 1.5rem;
+}
+.accordion-card__title:has(.accordion-card__toggle) {
+  padding: 0;
 }
 .accordion-card__toggle {
   background: none;
@@ -2016,34 +2034,76 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   gap: 1.5rem;
   inline-size: 100%;
   justify-content: space-between;
-  padding-block: 1.5rem;
+  padding: 1.5rem;
   text-align: start;
 }
-.accordion-card__toggle svg {
-  --dimension: 1.5rem;
+.accordion-card__toggle:focus-visible .accordion-card__icon:focus {
+  outline: 2px solid var(--cone-btn-color-primary-background);
+  outline-offset: 2px;
+}
+.accordion-card__toggle[aria-expanded=true] svg {
+  rotate: 90deg;
+}
+.accordion-card__toggle[aria-expanded=true] .horizontal-line {
+  opacity: 0;
+}
+.accordion-card__icon {
+  --size: 1.75rem;
+  align-items: center;
   background-color: var(--cone-btn-color-primary-background);
-  block-size: var(--dimension);
+  block-size: var(--size);
   border-radius: var(--cone-border-radius-sm);
   color: var(--cone-btn-color-primary-foreground);
+  display: flex;
   flex-shrink: 0;
-  inline-size: var(--dimension);
+  inline-size: var(--size);
+  justify-content: center;
 }
-.accordion-card__toggle[aria-expanded=true] .vertical-line {
-  display: none;
+.accordion-card__icon svg {
+  --size: 1.25rem;
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
+  block-size: var(--size);
+  inline-size: var(--size);
+}
+.accordion-card__icon .horizontal-line {
+  transition-duration: var(--cone-duration);
+  transition-property: all;
+  transition-timing-function: var(--cone-timing-function);
 }
 .accordion-card__content {
-  max-inline-size: 70ch;
+  transition-duration: var(--cone-duration);
+  transition-property: grid-template-rows;
+  transition-timing-function: var(--cone-timing-function);
+  display: grid;
+  padding-inline: 1.5rem;
+}
+.accordion-card__content[aria-hidden=true] {
+  grid-template-rows: 0fr;
+}
+.accordion-card__content[aria-hidden=false] {
+  grid-template-rows: 1fr;
   padding-block-end: 1.5rem;
 }
-.accordion-card__content > * {
+.accordion-card__content > div {
+  overflow: hidden;
+}
+.accordion-card__content > div > * {
   margin-block-end: 0;
   margin-block-start: 0;
 }
-.accordion-card__content > * + * {
+.accordion-card__content > div > * + * {
+  margin-block-start: 0.5rem;
+}
+.accordion-card__content > div * + h2,
+.accordion-card__content > div * + h3,
+.accordion-card__content > div * + h4,
+.accordion-card__content > div * + h5 {
   margin-block-start: 1rem;
 }
-.accordion-card__content * + h3 {
-  margin-block-start: 1.5rem;
+.accordion-card__content a:hover {
+  font-weight: 700;
 }
 
 .cookie-consent-wrapper {
@@ -2330,10 +2390,6 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   font-size: clamp(1.0625rem, 2vw + 1rem, 1.25rem);
 }
 
-.step-card {
-  border-inline-start: 1px solid hsla(0, 0%, 100%, 0.25);
-  padding-inline-start: 1.5rem;
-}
 .step-card > * {
   margin-block-end: 0;
   margin-block-start: 0;
@@ -2548,10 +2604,11 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   border: 0;
 }
 .l-testimonial__cards {
+  --column: 1;
   border: 1px solid var(--cone-base-color-border);
   border-radius: var(--cone-border-radius-lg);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(var(--column), minmax(0, 1fr));
   overflow: hidden;
 }
 .l-testimonial__cards > * + * {
@@ -2559,7 +2616,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 }
 @media (min-width: 64em) {
   .l-testimonial__cards {
-    flex-direction: row;
+    --column: 2;
   }
   .l-testimonial__cards > * + * {
     border-block-start: 0;
@@ -2617,17 +2674,19 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   margin-block-start: 3rem;
 }
 
-.l-step {
-  background-color: var(--cone-highlighted-color-background);
-  padding-block: var(--cone-section-gap);
-}
 .l-step__inner {
+  --column: 1;
   display: grid;
-  gap: 3rem;
+  background-color: var(--cone-highlighted-color-background);
+  border-radius: var(--cone-border-radius-xl);
+  gap: clamp(1.5rem, 5vw, 3rem);
+  grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+  padding: calc(var(--cone-section-gap) / 1.25) calc(var(--cone-section-gap) / 2);
 }
-@supports (inline-size: min(15rem, 100%)) {
+@media (min-width: 64em) {
   .l-step__inner {
-    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    --column: 2;
+    padding: var(--cone-section-gap);
   }
 }
 .l-step .section-title {
@@ -2743,8 +2802,4 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   :root {
     font-size: 1.1375rem;
   }
-}
-
-strong {
-  color: var(--cone-base-color-heading);
 }

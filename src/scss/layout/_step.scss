@@ -1,11 +1,19 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .l-step {
-  background-color: color('background', 'highlighted');
-  padding-block: get-css-variable(--section-gap);
-
   &__inner {
-    @include layout-grid('l', 15rem);
+    --column: 1;
+    display: grid;
+    background-color: color('background', 'highlighted');
+    border-radius: config('border-radius-xl', $display);
+    gap: spacer-clamp('m', 'l');
+    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+    padding: calc(#{get-css-variable(--section-gap)} / 1.25) calc(#{get-css-variable(--section-gap)} / 2);
+
+    @include breakpoint('md') {
+      --column: 2;
+      padding: get-css-variable(--section-gap);
+    }
   }
 
   .section-title {

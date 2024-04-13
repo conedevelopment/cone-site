@@ -2,10 +2,17 @@
 
 .cta {
   $this: &;
-  padding-block: calc(#{get-css-variable(--section-gap)} / 1.25);
 
   &--dark {
-    background-color: color('background', 'cta');
+    #{$this}__inner {
+      background-color: color('background', 'cta');
+      border-radius: config('border-radius-xl', $display);
+      padding: calc(#{get-css-variable(--section-gap)} / 1.25) calc(#{get-css-variable(--section-gap)} / 2);
+
+      @include breakpoint('md') {
+        padding: get-css-variable(--section-gap);
+      }
+    }
 
     #{$this}__title {
       color: hsl(0deg 0% 100%);
@@ -34,6 +41,7 @@
     flex-wrap: wrap;
     gap: spacer('m') spacer('l');
     justify-content: space-between;
+    padding-block: get-css-variable(--section-gap);
   }
 
   &__title {

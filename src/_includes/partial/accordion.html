@@ -21,8 +21,10 @@
                                 {% for item in block.items %}
                                     <div class="accordion-card">
                                         <h3 class="accordion-card__title">{{ item.title }}</h3>
-                                        <div class="accordion-card__content">
-                                            {{ item.description | safe }}
+                                        <div class="accordion-card__content" aria-hidden="true">
+                                            <div>
+                                                {{ item.description | safe }}
+                                            </div>
                                         </div>
                                     </div>
                                 {% endfor %}

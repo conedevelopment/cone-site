@@ -1,20 +1,23 @@
 @use 'sprucecss/scss/spruce' as *;
 
+.accordion-list {
+  @include layout-stack('s');
+}
+
 .accordion-card {
   $this: &;
-
   background-color: color('background');
-
-  &--js {
-    #{$this}__title {
-      padding: 0;
-    }
-  }
+  border: 1px solid color('border');
+  border-radius: config('border-radius-lg', $display);
 
   &__title {
     font-size: font-size('h4');
     margin-block: 0;
-    padding-block: spacer('m');
+    padding: spacer('m');
+
+    &:has(#{$this}__toggle) {
+      padding: 0;
+    }
   }
 
   &__toggle {
@@ -24,43 +27,78 @@
     gap: spacer('m');
     inline-size: 100%;
     justify-content: space-between;
-    padding-block: spacer('m');
+    padding: spacer('m');
     text-align: start;
 
     &:focus-visible {
-      svg {
-        @include focus-ring(
-          $type: config('focus-ring-type', $btn),
-          $ring-color: color('primary'),
-          $ring-size: config('focus-ring-size', $btn),
-          $ring-offset: config('focus-ring-offset', $btn)
-        );
+      #{$this}__icon {
+        @include short-ring('button', 'primary');
       }
     }
 
-    svg {
-      --dimension: 1.5rem;
+    &[aria-expanded='true'] {
+      svg {
+        rotate: 90deg;
+      }
 
-      background-color: color('primary-background', 'btn');
-      block-size: var(--dimension);
-      border-radius: config('border-radius-sm', $display);
-      color: color('primary-foreground', 'btn');
-      flex-shrink: 0;
-      inline-size: var(--dimension);
+      .horizontal-line {
+        opacity: 0;
+      }
+    }
+  }
+
+  &__icon {
+    --size: 1.75rem;
+    align-items: center;
+    background-color: color('primary-background', 'btn');
+    block-size: var(--size);
+    border-radius: config('border-radius-sm', $display);
+    color: color('primary-foreground', 'btn');
+    display: flex;
+    flex-shrink: 0;
+    inline-size: var(--size);
+    justify-content: center;
+
+    svg {
+      --size: 1.25rem;
+      @include transition;
+      block-size: var(--size);
+      inline-size: var(--size);
     }
 
-    &[aria-expanded='true'] .vertical-line {
-      display: none;
+    .horizontal-line {
+      @include transition;
     }
   }
 
   &__content {
-    @include layout-stack('s');
-    max-inline-size: 70ch;
-    padding-block-end: spacer('m');
+    @include transition($property: grid-template-rows);
+    display: grid;
+    padding-inline: spacer('m');
 
-    * + h3 {
-      margin-block-start: spacer('m');
+    &[aria-hidden="true"] {
+      grid-template-rows: 0fr;
+    }
+
+    &[aria-hidden="false"] {
+      grid-template-rows: 1fr;
+      padding-block-end: spacer('m');
+    }
+
+    > div {
+      @include layout-stack('xs');
+      overflow: hidden;
+
+      * + h2,
+      * + h3,
+      * + h4,
+      * + h5 {
+        margin-block-start: spacer('s');
+      }
+    }
+
+    a:hover {
+      font-weight: 700;
     }
   }
 }
