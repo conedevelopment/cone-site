@@ -21,7 +21,6 @@
     color: hsl(0deg 0% 95%);
     font-size: config('font-size-lead', $typography);
     margin-block: 0;
-    max-width: 60ch;
 
     .highlighted {
       color: color('secondary');

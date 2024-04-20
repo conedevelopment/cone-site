@@ -17,6 +17,10 @@
     #{$this}__logo {
       --block-size: 1.15rem;
     }
+
+    #{$this}__column {
+      row-gap: spacer('xs');
+    }
   }
 
   &--open {
@@ -33,6 +37,7 @@
   }
 
   &__column {
+    @include transition($property: row-gap);
     align-items: center;
     display: flex;
     flex-grow: 1;

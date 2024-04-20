@@ -1,17 +1,19 @@
-{% if highlighted.title %}
+{% if highlighted.description %}
     <div class="highlighted-text">
         <div class="container">
             <div class="highlighted-text__inner">
-                <h2 class="section-title section-title--vertical section-title--light">
-                    {% svgIcon highlighted.title.image %}
-                    {% if highlighted.title.url %}
-                        <a href="{{ highlighted.title.url }}" class="section-title__link">
-                    {% endif %}
-                        {{ highlighted.title.caption | safe }}
-                    {% if highlighted.title.url %}
-                        </a>
-                    {% endif %}
-                </h2>
+                {% if highlighted.title %}
+                    <h2 class="section-title section-title--vertical section-title--light">
+                        {% svgIcon highlighted.title.image %}
+                        {% if highlighted.title.url %}
+                            <a href="{{ highlighted.title.url }}" class="section-title__link">
+                        {% endif %}
+                            {{ highlighted.title.caption | safe }}
+                        {% if highlighted.title.url %}
+                            </a>
+                        {% endif %}
+                    </h2>
+                {% endif %}
                 {{ highlighted.description | safe }}
             </div>
         </div>
