@@ -3,10 +3,6 @@
 .l-grid {
   padding-block: get-css-variable(--section-gap);
 
-  &__inner {
-
-  }
-
   &__body {
     --column: 1;
     display: grid;

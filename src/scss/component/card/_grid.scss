@@ -17,10 +17,10 @@
     --size: 2.25rem;
     align-items: center;
     background-color: color('tertiary');
+    block-size: var(--size);
     border-radius: config('border-radius-sm', $display);
     color: color('heading');
     display: flex;
-    block-size: var(--size);
     flex-shrink: 0;
     inline-size: var(--size);
     justify-content: center;
