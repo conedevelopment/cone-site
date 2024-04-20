@@ -38,34 +38,31 @@ testimonial:
         image: "/img/illustrations/retro-chocolate-fancy.svg"
         imageAlt: "Egy bulizó tábla csoki napszemüvegben."
 grid:
-    blocks:
+    items:
     -
-        title: null
-        items:
-        -
-            image: "./src/img/icon/shape-01.svg"
-            title: "Robusztus alkalmazást készítünk"
-            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
-        -
-            image: "./src/img/icon/shape-02.svg"
-            title: "Vue.js a kliens oldalon"
-            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
-        -
-            image: "./src/img/icon/shape-03.svg"
-            title: "Megfelelő CMS"
-            description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
-        -
-            image: "./src/img/icon/shape-04.svg"
-            title: "Tervezés és UI"
-            description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
-        -
-            image: "./src/img/icon/shape-05.svg"
-            title: "Megfelelő technikai SEO"
-            description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
-        -
-            image: "./src/img/icon/shape-06.svg"
-            title: "Teljesítményre tervezve"
-            description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
+        image: "./src/img/icon/shape-01.svg"
+        title: "Robusztus alkalmazást készítünk"
+        description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
+    -
+        image: "./src/img/icon/shape-02.svg"
+        title: "Vue.js a kliens oldalon"
+        description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
+    -
+        image: "./src/img/icon/shape-03.svg"
+        title: "Megfelelő CMS"
+        description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
+    -
+        image: "./src/img/icon/shape-04.svg"
+        title: "Tervezés és UI"
+        description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
+    -
+        image: "./src/img/icon/shape-05.svg"
+        title: "Megfelelő technikai SEO"
+        description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
+    -
+        image: "./src/img/icon/shape-06.svg"
+        title: "Teljesítményre tervezve"
+        description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
 accordion:
     title:
         caption: "Ami <br> érdekelhet <br> még"

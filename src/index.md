@@ -43,12 +43,6 @@ testimonial:
         description: "We create visually stunning and highly functional websites built on WordPress or Eleventy."
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "A peanutbutter sandwich eating jelly from a jar."
-    -
-        title: "UI Design"
-        url: "/services/ui-design/"
-        description: "We not just write code but design interfaces too. Our goal is to make functional and straightforward UI. Also, we can help you with many other web-related things."
-        image: "/img/illustrations/retro-chocolate-fancy.svg"
-        imageAlt: "A party bar of chocolate with sunglasses."
 highlightedReference:
     title:
         caption: "What<br>We<br>Make"
