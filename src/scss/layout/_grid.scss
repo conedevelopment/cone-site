@@ -1,0 +1,28 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-grid {
+  padding-block: get-css-variable(--section-gap);
+
+  &__inner {
+
+  }
+
+  &__body {
+    --column: 1;
+    display: grid;
+    gap: spacer-clamp('m', 'l');
+    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+
+    @include breakpoint('md') {
+      --column: 2;
+    }
+
+    @include breakpoint('lg') {
+      --column: 3;
+    }
+  }
+
+  + .l-accordion {
+    padding-block-start: 0;
+  }
+}

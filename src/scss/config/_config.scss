@@ -22,6 +22,7 @@ $color-tertiary: hsl(169deg 100% 50%);
   $color-secondary: $color-secondary,
   $colors: (
     'base': (
+      'primary-dark': hsl(230deg 100% 11%),
       'tertiary': $color-tertiary,
     ),
     'btn': (
@@ -34,7 +35,7 @@ $color-tertiary: hsl(169deg 100% 50%);
       'pagination-foreground-hover': hsl(0deg 0% 100%),
     ),
     'cta': (
-      'background': $color-black,
+      'background': hsl(230deg 100% 11%),
     ),
     'form': (
       'border': $color-black,
@@ -47,7 +48,7 @@ $color-tertiary: hsl(169deg 100% 50%);
       'gradient-end': hsl(194deg 85% 56%),
     ),
     'highlighted': (
-      'background': $color-black,
+      'background': hsl(230deg 100% 11%),
     ),
     'navigation': (
       'arrow': hsl(0deg 0% 0% / 15%),
@@ -80,6 +81,10 @@ $color-tertiary: hsl(169deg 100% 50%);
     ),
   ),
   $dark-colors: dark.$colors,
+  $display: (
+    'border-radius-lg': 1.5rem,
+    'border-radius-xl': 2.5rem,
+  ),
   $generators: (
     'content': (
       'accessibility': true,

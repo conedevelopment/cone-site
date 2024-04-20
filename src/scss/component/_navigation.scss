@@ -30,10 +30,18 @@
       background-color: transparent;
       display: flex !important;
       flex-direction: row;
-      gap: spacer('l');
+      gap: spacer('m');
       inset: auto;
       padding: 0;
       position: relative;
+    }
+
+    @include breakpoint('lg') {
+      gap: 2rem;
+    }
+
+    @include breakpoint('xl') {
+      gap: spacer('l');
     }
   }
 
@@ -57,10 +65,10 @@
     }
 
     svg {
-      --dimension: 0.65em;
-      block-size: var(--dimension);
+      --size: 0.65em;
+      block-size: var(--size);
       color: color('arrow', 'navigation');
-      inline-size: var(--dimension);
+      inline-size: var(--size);
     }
   }
 }

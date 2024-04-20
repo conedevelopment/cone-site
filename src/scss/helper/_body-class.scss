@@ -1,0 +1,9 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.page {
+  &--projektjeink {
+    .l-reference-list {
+      border-block-end: 1px solid color('border');
+    }
+  }
+}

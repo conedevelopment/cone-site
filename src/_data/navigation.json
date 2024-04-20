@@ -120,6 +120,12 @@
         "class": ""
       },
       {
+        "caption": "Projektjeink",
+        "url": "/hu/projektjeink/",
+        "external": false,
+        "class": ""
+      },
+      {
         "caption": "Blog",
         "url": "/hu/blog/",
         "external": false,
@@ -201,11 +207,6 @@
           {
             "caption": "Spruce CSS",
             "url": "https://sprucecss.com/",
-            "external": true
-          },
-          {
-            "caption": "SimplePay x WooCommerce",
-            "url": "https://simplepay.conedevelopment.com/",
             "external": true
           }
         ]

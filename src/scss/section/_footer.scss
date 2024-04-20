@@ -22,8 +22,8 @@
   }
 
   &__logo {
-    --dimension: 1.8rem;
-    block-size: var(--dimension);
+    --size: 1.8rem;
+    block-size: var(--size);
     display: inline-flex;
 
     &-wrapper {
@@ -68,10 +68,10 @@
     }
 
     svg {
-      --dimension: 0.65em;
-      block-size: var(--dimension);
+      --size: 0.65em;
+      block-size: var(--size);
       color: color('border');
-      inline-size: var(--dimension);
+      inline-size: var(--size);
     }
   }
 

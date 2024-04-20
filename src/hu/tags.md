@@ -7,5 +7,5 @@ pagination:
     alias: "tag"
 permalink: "/hu/cimke/{{ tag | slug }}/"
 eleventyComputed:
-    title: "Címke: {{ tag }}"
+    title: "#{{ tag }}"
 ---

@@ -29,7 +29,7 @@
             {% include "partial/hreflang.html" %}
         {% endif %}
     </head>
-    <body>
+    <body class="page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %}">
         <a class="btn btn--primary skip-link" href="#content">Skip to content</a>
         {% include "partial/header.html" %}
 

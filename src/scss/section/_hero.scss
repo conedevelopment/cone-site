@@ -44,6 +44,11 @@
   &--center {
     text-align: center;
 
+    #{$this}__title {
+      margin-inline: auto;
+      max-inline-size: 60rem;
+    }
+
     #{$this}__description {
       margin-inline: auto;
     }

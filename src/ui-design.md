@@ -17,12 +17,12 @@ testimonial:
     cards:
     -
         title: "Intuitive designs"
-        description: "Our UI & UX design expertise revolves around creating digital spaces that users love to explore. We specialize in crafting intuitive interfaces that guide users effortlessly through every interaction."
+        description: "We specialize in creating user-intuitive interfaces with common UI and UX patterns."
         image: "/img/illustrations/retro-cocktail-plays-guitar.svg"
         imageAlt: "A cocktail is playing a guitar."
     -
         title: "Simplicity"
-        description: "Our designs capture the essence of elegance in layouts and simplicity in navigation, all working harmoniously to elevate user satisfaction."
+        description: "We offer simplicity. Besides the interactive and animated elements, we aim to create something minimalistic."
         image: "/img/illustrations/retro-fries-crooked.svg"
         imageAlt: "A pack of french fries gets crazy."
 accordion:

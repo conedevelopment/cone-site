@@ -38,10 +38,10 @@
     }
 
     svg {
-      --dimension: 0.65em;
-      block-size: var(--dimension);
+      --size: 0.65em;
+      block-size: var(--size);
       color: color('icon', 'reference');
-      inline-size: var(--dimension);
+      inline-size: var(--size);
     }
   }
 }

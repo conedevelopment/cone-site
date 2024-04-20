@@ -10,7 +10,7 @@
 
     #{$this}__inner {
       background-color: color('primary');
-      border-radius: config('border-radius-lg', $display);
+      border-radius: config('border-radius-xl', $display);
       padding: spacer-clamp('m', 'xl');
     }
 
@@ -24,7 +24,7 @@
 
     #{$this}__inner {
       background-color: color('secondary');
-      border-radius: config('border-radius-lg', $display);
+      border-radius: config('border-radius-xl', $display);
       padding: spacer-clamp('m', 'xl');
     }
 
@@ -38,7 +38,7 @@
 
     #{$this}__inner {
       background-color: color('tertiary');
-      border-radius: config('border-radius-lg', $display);
+      border-radius: config('border-radius-xl', $display);
       padding: spacer-clamp('m', 'xl');
     }
 
@@ -48,10 +48,11 @@
   }
 
   &__cards {
+    --column: 1;
     border: 1px solid color('border');
     border-radius: config('border-radius-lg', $display);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
     overflow: hidden;
 
     > * + * {
@@ -59,11 +60,15 @@
     }
 
     @include breakpoint('md') {
-      flex-direction: row;
+      --column: 2;
 
       > * + * {
-        border-block-start: 0;
         border-inline-start: 1px solid color('border');
+      }
+
+      > *:nth-child(3n),
+      > *:nth-child(4n) {
+        border-block-start: 1px solid color('border');
       }
     }
   }

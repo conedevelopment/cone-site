@@ -1,0 +1,49 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.grid-card {
+  border-block-end: 1px solid color('border');
+  display: flex;
+  flex-direction: column;
+  gap: spacer('s');
+  padding-bottom: spacer-clamp('m', 'l');
+
+  &__header {
+    align-items: center;
+    display: flex;
+    gap: spacer('s');
+  }
+
+  &__icon {
+    --size: 2.25rem;
+    align-items: center;
+    background-color: color('tertiary');
+    border-radius: config('border-radius-sm', $display);
+    color: color('heading');
+    display: flex;
+    block-size: var(--size);
+    flex-shrink: 0;
+    inline-size: var(--size);
+    justify-content: center;
+
+    svg {
+      --size: 1.05rem;
+      block-size: var(--size);
+      inline-size: var(--size);
+    }
+  }
+
+  &__title {
+    font-size: font-size('h4');
+    font-weight: 500;
+    margin-block: 0;
+
+    a {
+      color: color('heading');
+      text-decoration: none;
+    }
+  }
+
+  &__content {
+    @include layout-stack('xs');
+  }
+}

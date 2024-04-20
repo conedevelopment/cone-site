@@ -1,26 +1,26 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .highlighted-text {
-  background-color: color('background', 'highlighted');
-
   &__inner {
     align-items: start;
-    border-radius: config('border-radius-lg', $display);
+    background-color: color('background', 'highlighted');
+    border-radius: config('border-radius-xl', $display);
     display: flex;
     flex-direction: column;
     gap: spacer('m') spacer-clamp('l', 'xl');
-    padding-block: get-css-variable(--section-gap);
+    padding: calc(#{get-css-variable(--section-gap)} / 1.25) calc(#{get-css-variable(--section-gap)} / 2);
 
     @include breakpoint('md') {
       align-items: center;
       flex-direction: row;
+      padding: get-css-variable(--section-gap);
     }
   }
 
   p {
     color: hsl(0deg 0% 95%);
     font-size: config('font-size-lead', $typography);
-    max-width: 60ch;
+    margin-block: 0;
 
     .highlighted {
       color: color('secondary');

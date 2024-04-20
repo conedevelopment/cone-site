@@ -63,7 +63,7 @@ module.exports = config => {
     config.addTransform('htmlmin', htmlMinTransform);
   }
 
-  config.setUseGitIgnore(false);
+  config.setUseGitIgnore(true);
 
   return {
     markdownTemplateEngine: 'njk',
