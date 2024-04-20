@@ -27,7 +27,7 @@ testimonial:
         imageAlt: "Egy mogyoróvajas szendvics lekvárt eszik."
     -
         title: "Weboldal és alkalmazás audit"
-        url: "/hu/szolgaltatasaink/audit/"
+        url: "/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/"
         description: "Egy részletes audit segítségével felmérheted a projekted állapotát, tovább fejleszthetőségét, gyengeségeit, erősségeit."
         image: "/img/illustrations/retro-donut-screams-loudly.svg"
         imageAlt: "Egy retró fánk hangosan kiabál."
@@ -38,63 +38,45 @@ testimonial:
         image: "/img/illustrations/retro-chocolate-fancy.svg"
         imageAlt: "Egy bulizó tábla csoki napszemüvegben."
 grid:
+    blocks:
+    -
+        title: null
+        items:
+        -
+            image: "./src/img/icon/shape-01.svg"
+            title: "Robusztus alkalmazást készítünk"
+            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
+        -
+            image: "./src/img/icon/shape-02.svg"
+            title: "Vue.js a kliens oldalon"
+            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
+        -
+            image: "./src/img/icon/shape-03.svg"
+            title: "Megfelelő CMS"
+            description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
+        -
+            image: "./src/img/icon/shape-04.svg"
+            title: "Tervezés és UI"
+            description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
+        -
+            image: "./src/img/icon/shape-05.svg"
+            title: "Megfelelő technikai SEO"
+            description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
+        -
+            image: "./src/img/icon/shape-06.svg"
+            title: "Teljesítményre tervezve"
+            description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
+accordion:
     title:
-        caption: "Ebben segítünk"
+        caption: "Ami <br> érdekelhet <br> még"
         image: "./src/img/title-helper-primary.svg"
     blocks:
     -
         title: null
         items:
         -
-            image: "./src/img/icon/retro-01.svg"
-            title: "Robusztus alkalmazást készítünk"
-            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
-        -
-            image: "./src/img/icon/retro-02.svg"
-            title: "Vue.js a kliens oldalon"
-            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
-        -
-            image: "./src/img/icon/retro-03.svg"
-            title: "Megfelelő CMS"
-            description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
-        -
-            image: "./src/img/icon/retro-04.svg"
-            title: "Tervezés és UI"
-            description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
-        -
-            image: "./src/img/icon/retro-02.svg"
-            title: "Megfelelő technikai SEO"
-            description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
-        -
-            image: "./src/img/icon/retro-02.svg"
-            title: "Teljesítményre tervezve"
-            description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
-accordion:
-    title:
-        caption: "Ebben <br> segítünk"
-        image: "./src/img/title-helper-tertiary.svg"
-    blocks:
-    -
-        title: null
-        items:
-        -
-            title: "Robusztus alkalmazást készítünk"
-            description: "<p>Az elkészített alkalmazás robusztus, könnyen bővíthető, biztonságos lesz. Erről mi és a Laravel keretrendszer gondoskodik.</p>"
-        -
-            title: "Vue.js a kliens oldalon"
-            description: "<p>A Vue.js egy tökéletes eszköz, hogy kiegészítsük Laravel-t front-end oldalról. Rugalmas UI felületeket készítünk majd vele.</p>"
-        -
-            title: "Megfelelő CMS"
-            description: "<p>A változó tartalom felhasználói kezelése alapvető egy jó weboldal esetében. Ha CMS-ről van szó, mi WordPress-t használunk.</p>"
-        -
-            title: "Tervezés és UI"
-            description: "<p>Megoldjuk az oldal grafikai tervezését. Felmérjük és számításba vesszük a konkurenciát, a trendeket.</p>"
-        -
-            title: "Megfelelő technikai SEO"
-            description: "<p>A keresőoptimalizálás egyik területe a technikai oldal. Igyekszünk, hogy az elkészült oldallal ne okozzon hátrányt ezen a területen.</p>"
-        -
-            title: "Teljesítményre tervezve"
-            description: "<p>Nem szeretnénk lassú oldalt, vagy alkalmazást kiadni a kezünkből. Ami kikerül, az optimalizált lesz!</p>"
+            title: "GitHub-ot használunk"
+            description: "<p>Az általunk készített kódot GitHub-on tároljuk és osztjuk meg veled. A projekt kezelés egyéb feladatait is szeretjük ezen a platformon kezelni.</p>"
         -
             title: "Amikkel dolgozunk"
             description: "<p><strong>Fejlesztés</strong>: Laravel, MySQL, Redis, Vue.js, Alpine.js, Bootstrap, Root, Bazar, Spruce CSS, Webpack, Yarn, npm.</p><p><strong>Integráció</strong>: PayPal, Braintree, Stripe, SimplePay, MailChimp, Google Maps, Google Tag Manager.</p><p><strong>Szerver</strong>: Netlify, A2 Hosting, Laravel Forge, AWS.</p>"
