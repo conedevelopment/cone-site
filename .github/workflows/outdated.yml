@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow
+
+name: "Outdated packages"
+
+on:
+    push:
+        branches: [ main ]
+    pull_request:
+        branches: [ main ]
+    workflow_dispatch: null
+
+permissions: {}
+
+concurrency:
+    group: "${{ github.workflow }}-${{ github.ref }}"
+    cancel-in-progress: true
+
+env:
+    NPM_CONFIG_FUND: "false"
+
+jobs:
+    front_end_packages:
+        name: "Node.js packages"
+        runs-on: "ubuntu-22.04"
+        timeout-minutes: 5
+        steps:
+        -
+            name: "Checkout repository"
+            uses: "actions/checkout@v4"
+        -
+            name: "Set up Node.js"
+            uses: "actions/setup-node@v4"
+            with:
+                node-version: "20"
+                cache: "npm"
+        -
+            name: "Configure npm"
+            run: "npm config set engine-strict true"
+        -
+            name: "Install production dependencies"
+            run: "npm ci"
+        -
+            name: "Check for outdated production packages"
+            run: "npm outdated"
