@@ -1,7 +1,7 @@
 ---
 title: "Egy WordPress weboldal fenntartásának költségei"
 date: "2024-04-21"
-tags: ["fejlesztés"]
+tags: ["wordpress"]
 thumbnail: "/img/blog/egy-wordpress-weboldal-fenntartasanak-koltsegei.png"
 thumbnailAlt: ""
 ---
