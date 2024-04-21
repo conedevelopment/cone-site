@@ -82,7 +82,7 @@ Természetesen mindezt úgy írjuk, hogy az oldalad költségvetését neked kel
 
 Az egyedi témád (vagy bővítmény) kódját tárolni kell valahol. Mi GitHub-ot használunk erre. A GitHub egy kódtároló megoldás a Git verziókezelőhöz.
 
-Arról, hogy mik a [verziókezelés előnyei](http://localhost:8080/hu/a-verziokezeles-elonyei/) már írtunk korábban. Ami ebben az esetbe fontos, hogy habár GitHub-ot bizonyos megkötések mellett tudjuk ingyenesen használni, de lehetnek olyan esetek, amikor már nem.
+Arról, hogy mik a [verziókezelés előnyei](/hu/a-verziokezeles-elonyei/) már írtunk korábban. Ami ebben az esetbe fontos, hogy habár GitHub-ot bizonyos megkötések mellett tudjuk ingyenesen használni, de lehetnek olyan esetek, amikor már nem.
 
 Az oldalunkat telepíteni is kell, lehetőleg nem FTP keresztül, manuálisan. Azért fontos egy continuous deployment megoldás, hogy az új fejlesztéseket, javításokat biztonságosan és egyszerűen tudjuk használni.
 
