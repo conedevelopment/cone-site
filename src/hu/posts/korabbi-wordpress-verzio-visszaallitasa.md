@@ -22,7 +22,7 @@ Töltsük le a szükséges [WordPress verziót](https://hu.wordpress.org/downloa
 
 ### 2. lépés
 
-FTP program (vagy cPanel fájlkezelő) segítségével készítsünk biztonsági mentést a jelenlegi verzióról! Csak a **wp-admin**, **wp-includes** és a **gyökér könyvtárban található fájlokat** fogjuk módosítani. Tehát a wp-content mappát – ahol a témák, bővítmények, feltöltések találhatóak – nem (semmi olyanhoz nem nyúlunk, ami az oldalunk egyedi tartalmában szerepet játszik). Fontos, hogy a gyökérkönyvtárból a **.htacces** és **wp-config.php** fájlt szintén meg kell tartanunk (de ezeket egy a hivatalos oldalról letöltött verzióban nem is találjuk meg, mivel telepítés során hozzuk őket létre). Ezek oldal specifikus információt tartalmaznak, utóbbi például az adatbázis kapcsolat adatait.
+FTP program (vagy cPanel fájlkezelő) segítségével készítsünk biztonsági mentést a jelenlegi verzióról! Csak a **wp-admin**, **wp-includes** és a **gyökér könyvtárban található fájlokat** fogjuk módosítani. Tehát a wp-content mappát – ahol a témák, bővítmények, feltöltések találhatóak – nem (semmi olyanhoz nem nyúlunk, ami az oldalunk egyedi tartalmában szerepet játszik). Fontos, hogy a gyökérkönyvtárból a **.htaccess** és **wp-config.php** fájlt szintén meg kell tartanunk (de ezeket egy a hivatalos oldalról letöltött verzióban nem is találjuk meg, mivel telepítés során hozzuk őket létre). Ezek oldal specifikus információt tartalmaznak, utóbbi például az adatbázis kapcsolat adatait.
 
 ### 3. lépés
 
