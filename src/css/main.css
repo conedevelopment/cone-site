@@ -1327,6 +1327,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   --cone-base-color-marker: hsl(194, 85%, 56%);
   --cone-base-color-primary: hsl(194, 85%, 56%);
   --cone-base-color-secondary: hsl(326, 100%, 65%);
+  --cone-base-color-strong: hsl(0, 0%, 95%);
   --cone-base-color-text: hsl(0, 0%, 90%);
 }
 
@@ -1671,9 +1672,9 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   justify-content: center;
 }
 .post-heading__title {
-  font-size: clamp(2.25rem, 5vw + 1rem, 4.5rem);
+  font-size: clamp(1.75rem, 5vw + 1rem, 3.5rem);
   margin-block: 0;
-  max-inline-size: 70rem;
+  max-inline-size: 60rem;
   text-wrap: balance;
 }
 .post-heading__meta {
@@ -2485,10 +2486,10 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   --size: 2.25rem;
   align-items: center;
   background-color: var(--cone-base-color-tertiary);
+  block-size: var(--size);
   border-radius: var(--cone-border-radius-sm);
   color: var(--cone-base-color-heading);
   display: flex;
-  block-size: var(--size);
   flex-shrink: 0;
   inline-size: var(--size);
   justify-content: center;
@@ -2745,9 +2746,9 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 
 .l-step__inner {
   --column: 1;
-  display: grid;
   background-color: var(--cone-highlighted-color-background);
   border-radius: var(--cone-border-radius-xl);
+  display: grid;
   gap: clamp(1.5rem, 5vw, 3rem);
   grid-template-columns: repeat(var(--column), minmax(0, 1fr));
   padding: calc(var(--cone-section-gap) / 1.25) calc(var(--cone-section-gap) / 2);
