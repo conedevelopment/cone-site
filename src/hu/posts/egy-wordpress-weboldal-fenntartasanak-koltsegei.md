@@ -22,13 +22,13 @@ Onnantól, hogy az oldaladon felhasználók regisztrálhatnak és végezhetnek m
 
 A legalapvetőbb költségünk a domain és szerver vásárlás, bérlés költsége lesz. **Domain esetén durván éves szinten 3 - 5 000 forint közötti árral érdemes számolnunk.**
 
-Tárhely esetén már nem lesz ennyire az egyszerű a becslés. **A legolcsóbb tárhely mindig a shared-hoszting lesz**, ami azt jelenti, hogy egy olyan szerveren vásárolhatsz tárhelyet, amit sokan mások is használnak. Te megveszed ennek a tárhelynek egy szeletét, ami többnyire fizikai tárhelyet jelent és valamilyen formán fixált teljesítményt (felhasználható memória és CPU mag).
+Tárhely esetén már nem lesz ennyire az egyszerű a becslés. **A legolcsóbb tárhely mindig a shared-hosting lesz**, ami azt jelenti, hogy egy olyan szerveren vásárolhatsz tárhelyet, amit sokan mások is használnak. Te megveszed ennek a tárhelynek egy szeletét, ami többnyire fizikai tárhelyet jelent és valamilyen formán fixált teljesítményt (felhasználható memória és CPU mag).
 
 **A megosztott tárhely szinte mindig jó választás lehet, ha egy sima portfólió oldalról beszélünk**, havi pár ezer egyedi látogatóval.
 
 Egy ilyen tárhely **durván 20 000 forintba kerül évente** ~10 GB tárhellyel (fájl + e-mail).
 
-**Ha a WordPress oldalad nem csak egy portfólió oldal, hanem egy webáruház, vagy bármi más, ami inkább viselkedik már alkalmazásként (a felhasználók be tudnak lépni) már érdemes elgondolkodni egy VPS-en**, vagy bármilyen premium - célzott - hoszting szolgáltatáson, aminek a havi díja körülbelül ott mozog majd, ahol a shared-hoszting **éves díja (10 - 20 000 forint/hónap)**.
+**Ha a WordPress oldalad nem csak egy portfólió oldal, hanem egy webáruház, vagy bármi más, ami inkább viselkedik már alkalmazásként (a felhasználók be tudnak lépni) már érdemes elgondolkodni egy VPS-en**, vagy bármilyen prémium - célzott - hoszting szolgáltatáson, aminek a havi díja körülbelül ott mozog majd, ahol a shared-hosting **éves díja (10 - 20 000 forint/hónap)**.
 
 A VPS (Virtual Private Server) magyarul “virtuális dedikált szervert” jelent, ami csak téged szolgál és nem osztozol rajta a hagyományos értelemben másokkal. Ebből vásárolhatsz olyat, amin már van előre telepített program is (cPanel), de olyat is, ahol te telepítesz szabadon mindent.
 
@@ -58,7 +58,7 @@ Mindez egy webáruház esetén már érdekesebben néz ki, mivel nagy az esély 
 
 - legalább kell egy fizetési kapu bővítmény, mint [a mi SimplePay WooCommerce integrációnk](https://simplepay.conedevelopment.com/).
 - Kell egy szállítást kezelő (például csomagpont választó) bővítmény.
-- Kell egy számlázást kezelő integrációs bővítmény (Billingo, vagy számlázz.hu).
+- Kell egy számlázást kezelő integrációs bővítmény (Billingo, vagy Számlázz.hu).
 
 **Egy dolog biztos:** legyen bármilyen bővítmény az oldaladban (ingyenes, fizetős) mindig frissítened kell, mert WordPress oldal esetén magas a feltörési kockázat (lévén nagyon népszerű rendszerről van szó),  így ha van az oldaladban egy fizetős bővítmény, az egy fix és előre kalkulálható költség.
 
@@ -66,13 +66,13 @@ Mindez egy webáruház esetén már érdekesebben néz ki, mivel nagy az esély 
 
 **A legjobb példa az extra költségekre talán az e-mail küldés**, amit triviálisnak tekintünk, hiszen természetes része az életünknek. Az e-mail küldés nem az, amit felhasználóként veszünk igénybe a hétköznapokban.
 
-Szeretnéd, hogy az e-mailjeid oda is érjenek a felhasználókhoz? A legegyszerűbb és legbiztosabb megoldás az lesz, ha fizetsz egy 3rd-party szolgáltatónak (mint a SendGrid), aki garanciát vállal, hogy a küldött e-mailek 99.9% oda is fog érni a felhasználóhoz (valamint nem kerül spambe). Ennek az ára durván $20-tól kezdődik havonta, attól függően, hogy mennyi a kiküldött e-mailek száma.
+Szeretnéd, hogy az e-mailjeid oda is érjenek a felhasználókhoz? A legegyszerűbb és legbiztosabb megoldás az lesz, ha fizetsz egy 3rd-party szolgáltatónak (mint a SendGrid), aki garanciát vállal, hogy a küldött e-mailek 99.9% oda is fog érni a felhasználóhoz (valamint nem kerül spam-be). Ennek az ára durván $20-tól kezdődik havonta, attól függően, hogy mennyi a kiküldött e-mailek száma.
 
-Az hogy miért nem akarsz a saját tárhelyről e-mailt küldeni? Mert osztozol a küldőn sok másik felhasználóval. Nem tudhatod mikor kerül feketelistára (aminek a közvetlen következménye lesz, hogy spambe kerülsz) az egész szerver, amit simán okozhatsz te is. Gondolj bele abba, hogy egy webáruház esetén csupán egy rendeléshez hány db e-mailt kell kiküldeni (rendelés rögzítés, állapotváltozások, fizetés, visszaigazolások, admin értesítések).
+Az hogy miért nem akarsz a saját tárhelyről e-mailt küldeni? Mert osztozol a küldőn sok másik felhasználóval. Nem tudhatod mikor kerül feketelistára (aminek a közvetlen következménye lesz, hogy spam-be kerülsz) az egész szerver, amit simán okozhatsz te is. Gondolj bele abba, hogy egy webáruház esetén csupán egy rendeléshez hány db e-mailt kell kiküldeni (rendelés rögzítés, állapotváltozások, fizetés, visszaigazolások, admin értesítések).
 
-**Az e-mail küldés kritikus része lesz egy webáruháznak, vagy bármilyen regisztrációt kezelő WordPress alapú webalakalmazásnak.**
+**Az e-mail küldés kritikus része lesz egy webáruháznak, vagy bármilyen regisztrációt kezelő WordPress alapú webalkalmazásnak.**
 
-Ciki kiírni, hogy “légyszíves nézd meg a spam mappát is”, plusz az e-maileddel történhet ezer más dolog is. Ezért jó, ha van egy dedikált felület, ahol meg tudod nézni, hogy melyik e-mail, milyen hibával nem ért oda. Amire aztán tudsz reagálni.
+Ciki kiírni, hogy “légy szíves nézd meg a spam mappát is”, plusz az e-maileddel történhet ezer más dolog is. Ezért jó, ha van egy dedikált felület, ahol meg tudod nézni, hogy melyik e-mail, milyen hibával nem ért oda. Amire aztán tudsz reagálni.
 
 Természetesen mindezt úgy írjuk, hogy az oldalad költségvetését neked kell megtervezned. Ha tudod mennyi a havi bevételed, már tudsz is kalkulálni, hogy mennyi jut a fenntartásra.
 
@@ -108,5 +108,5 @@ Ahhoz, hogy egy ilyet meg lehessen oldani fizetnünk kell valakinek, aki felügy
 ## Összefoglalás: mennyibe kerül egy WordPress oldal üzemeltetése?
 
 - **Egy “statikus” portfólió oldal**, ahol te szerkeszted a tartalmat és nem kell továbbfejleszteni durván 25-30 000 Ft-ból kijön évente (havi 1-10 ezer egyedi látogatóval) a hoszting + domain. Ehhez jönnek hozzá az egyedi bővítmények és fejlesztések (óradíj alapon), ami egyedi igény mindig.
-- **Egy kisebb, közepes áruház esetén**, ahol havi 2 500 - 5 000 rendeléssel számolunk már egy shared hoszting nem a legjobb választás, legalább szükségünk lesz egy VPS-re, vagy egy premium tárhelyre. Ennek a költség havi szinten 10 - 20 000 Ft között mozoghat. E-mail küldésért célszerű fizetnünk, ez durván $25 havonta (110 000 Ft / év). A fizetési kapu bővítmény valószínűleg fizetős lesz: 15 - 40 000 Ft között évente. A végösszeg durván 300 000 Ft plusz óradíjas fejlesztések, rendszerfelügyelet.
+- **Egy kisebb, közepes áruház esetén**, ahol havi 2 500 - 5 000 rendeléssel számolunk már egy shared hoszting nem a legjobb választás, legalább szükségünk lesz egy VPS-re, vagy egy prémium tárhelyre. Ennek a költség havi szinten 10 - 20 000 Ft között mozoghat. E-mail küldésért célszerű fizetnünk, ez durván $25 havonta (110 000 Ft / év). A fizetési kapu bővítmény valószínűleg fizetős lesz: 15 - 40 000 Ft között évente. A végösszeg durván 300 000 Ft plusz óradíjas fejlesztések, rendszerfelügyelet.
 - **Nagyobb áruház esetén (+5 000 rendelés havonta)**, el kell indulni a lehető legkisebb optimális felállással és megnézni, hogy hogyan lehet skálázni. A közepes áruházak költségei lehetnek jó alapok, de mivel többet termel, többet szolgál ki ezért a költségek majd arányosan növekednek. Azt mindig látod, ha valamivel hiba van, vagy elfogy a szerver, de ezt általában nem éri meg megvárni.
