@@ -28,7 +28,7 @@ Ha választottunk egy nyelvet (mint például a PHP), akkor valószínűleg egy 
 
 A programnyelv csak az egyik példa. Igaz mindez az adatbázisra (MySQL), a webkiszolgálóra (Apache, NGINX), valamint a front-end oldalra is.
 
-**Az elavulás egy olyan ár, amit vagy így, vagy úgy de megfizetünk.** Ha nem olyan hatékony az oldalunk, alkalmazásunk, mint lehetne, akkor elmulasztott értékeesítést kockáztatunk. Ha beragadunk egy régi verzióba, akkor nagy az esély, hogy nehezebb lesz tovább fejleszteni, mert nem lesz, aki elvállalja nagyobb ráfordítás nélkül.
+**Az elavulás egy olyan ár, amit vagy így, vagy úgy de megfizetünk.** Ha nem olyan hatékony az oldalunk, alkalmazásunk, mint lehetne, akkor elmulasztott értékesítést kockáztatunk. Ha beragadunk egy régi verzióba, akkor nagy az esély, hogy nehezebb lesz tovább fejleszteni, mert nem lesz, aki elvállalja nagyobb ráfordítás nélkül.
 
 ## A WordPress weboldalad frissíteni kell, amit akár te is megtehetsz
 
@@ -38,7 +38,7 @@ Ha van egy jól elkészített oldalunk, egy egyedi témával, kevés függőség
 
 Fontos, ha így döntünk utána mindig teszteljünk manuálisan, főleg a számunkra kritikus funkciókat (webáruház esetén a vásárlás folyamatot).
 
-**Téma frissítésnél általában a legnagyobb gondot mindig egy 3rd-party téma**, valamilyen builderrel okozza majd. Ezek különösen problémásak biztonság szempontjából, ezért mindig frissítsük őket!
+**Téma frissítésnél általában a legnagyobb gondot mindig egy 3rd-party téma**, valamilyen builder-rel okozza majd. Ezek különösen problémásak biztonság szempontjából, ezért mindig frissítsük őket!
 
 ## Webfejlesztés nincs fenntartás nélkül
 
