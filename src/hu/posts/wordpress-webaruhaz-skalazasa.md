@@ -40,7 +40,7 @@ A revíziók kikapcsolásához adjuk a következő sort a `wp-config.php` fájlh
 define('WP_POST_REVISIONS', false);
 ```
 
-### Valamilyen caching eszköz használata
+### Gyorsítótár használata
 
 A WordPress egy PHP alkalmazás. A felhasználó felkeres egy weboldalt, a PHP kód lekér az adatbázisból, összeállítja a HTML fájlt (és a többi erőforrást), majd visszaküldi a felhasználónak.
 
