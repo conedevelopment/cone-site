@@ -44,7 +44,7 @@ define('WP_POST_REVISIONS', false);
 
 A WordPress egy PHP alkalmazás. A felhasználó felkeres egy weboldalt, a PHP kód lekér az adatbázisból, összeállítja a HTML fájlt (és a többi erőforrást), majd visszaküldi a felhasználónak.
 
-Ez igaz minden lekérésre, ami nem jó, ha olyan tartalmat adunk vissza, ami nem változik. Ezért célszerű a lehető legtöbb mindent a lehető legjobban cachelnünk. Azért, hogy ne üssük feleslegesen az adatbázist, valamint, hogy a felhasználó ne kérje le újra és újra a statikusz fájlokat.
+Ez igaz minden lekérésre, ami nem jó, ha olyan tartalmat adunk vissza, ami nem változik. Ezért célszerű a lehető legtöbb mindent a lehető legjobban cache-elnünk. Azért, hogy ne üssük feleslegesen az adatbázist, valamint, hogy a felhasználó ne kérje le újra és újra a statikus fájlokat.
 
 Egy olyan bővítménnyel, mint a [WP Rocket](https://wp-rocket.me/) ezen problémák nagy részét feloldhatjuk.
 
@@ -93,13 +93,13 @@ A képek optimalizálása az egyik legegyszerűbb győzelmünk lehet. Egy WooCom
 
 A horizontális skálázás esetén, a teljesítmény növekedést inkább erősebb vagy modernebb hardveres támogatással éri el, amelynek költségvonzata is magasabb.
 
-### Válasszunk megfelelő hoszting szolgáltatót
+### Válasszunk megfelelő hosting szolgáltatót
 
-Általában igaz lesz, hogy a hoszting szolgáltatásunk ára egyenes arányban lesz annak teljesítményével. Egy WordPress webáruház egészen erőforrásigényes lehet.
+Általában igaz lesz, hogy a hosting szolgáltatásunk ára egyenes arányban lesz annak teljesítményével. Egy WordPress webáruház egészen erőforrás igényes lehet.
 
 Ne higgyük el a marketing szöveget, hogy fizetünk egy tárhelyért éves szinten 20-30 ezer forintot és mindenünk “korlátlan”. Egy szerveren nem valószínű, hogy a tárhelyünk fogy el elsőnek.
 
-Egy komolyabb oldalnál neked legalább egy VPS, vagy egy premium hoszting kell, ahol azt kapod, amit vállal a szolgáltató.
+Egy komolyabb oldalnál neked legalább egy VPS, vagy egy prémium hosting kell, ahol azt kapod, amit vállal a szolgáltató.
 
 Az is hasznos, ha van egy személy, aki felügyeli a szervered, beállítja neked, ahogy kell, valamint optimalizálja a WordPress példányodat. Ez plusz költség, de egy pénztermelő áruház esetén már megéri.
 
@@ -109,11 +109,11 @@ A CDN (Content Delivery Network) egy több szerverből álló hálózat, aminek 
 
 Ha a szerver amin a WordPress weboldalad van az USA-ban található és te Magyarországról akarod megnézni, akkor az lassú lesz. Mégpedig azért, mert fizikailag messze van tőled.
 
-Ezt oldhatod meg egy CDN-nel, ami tükrözi az oldalad a saját szerverre szerte a világban (így valahova európába is), elősegítve, hogy fizikailag is közelebb legyen hozzád a lekért tartalom.
+Ezt oldhatod meg egy CDN-nel, ami tükrözi az oldalad a saját szerverre szerte a világban (így valahova Európába is), elősegítve, hogy fizikailag is közelebb legyen hozzád a lekért tartalom.
 
-Egy CDN sok más problémát is megold, amiről többet megtudhatsz a [CloudFlare](https://www.cloudflare.com/) oldalán.
+Egy CDN sok más problémát is megold, amiről többet megtudhatsz a [Cloudflare](https://www.cloudflare.com/) oldalán.
 
-Ha csak magyarországon értékesítesz, akkor a fizikai távolság nem lesz gond, viszont a CDN sok mást is megold neked, mint a képek optimalizálását, vagy a fokozott biztonságot.
+Ha csak Magyarországon értékesítesz, akkor a fizikai távolság nem lesz gond, viszont a CDN sok mást is megold neked, mint a képek optimalizálását, vagy a fokozott biztonságot.
 
 [![Mi az a CDN (Content Delivery Network)?](https://img.youtube.com/vi/Bsq5cKkS33I/maxresdefault.jpg)](https://www.youtube.com/watch?v=Bsq5cKkS33I)
 
