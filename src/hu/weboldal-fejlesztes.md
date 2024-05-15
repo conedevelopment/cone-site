@@ -1,5 +1,6 @@
 ---
 title: "Egyedi WordPress weboldal fejlesztés"
+metaDesc: "Egyedi és minőségi WordPress weboldal és bővítmény fejlesztés. Teljesítmény, biztonság és fenntarthatóság jegyében."
 permalink: "/hu/szolgaltatasaink/weboldal-fejlesztes/"
 layout: "layout/development.html"
 hreflang:
@@ -9,55 +10,70 @@ hreflang:
 hero:
     title:
         caption: "Egyedi <span class='highlighted'>WordPress</span> alapú weboldal fejlesztés"
-    description: "Gyors és egyszerűen használható egyedi weboldalak elkészítésében tudunk segíteni neked, vagy a vállalkozásodnak."
+    description: "Gyors, fenntartható és biztonságos egyedi WordPress weboldalak, webáruházakat fejlesztünk."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
-    classes: "l-testimonial--tertiary"
+    classes: "l-testimonial--primary"
     cards:
     -
-        title: "Miért válaszd a WordPress-t?"
-        description: "A WordPress egy népszerű és igen hatékony tartalomkezelő rendszer, amivel számos fejlesztés megoldható, legyen szó kisebb, vagy nagyobb weboldalakról. A rendszer nagy előnye a folyamatos fejlesztés és a rugalmasság."
+        title: "Egyedi weboldalakat fejlesztünk"
+        description: "WordPress segítségével egy teljesen egyedi oldalt és témát készítünk neked. Előre elkészített és részletese specifikációval dolgozunk, közösen tervezünk."
         image: "/img/illustrations/retro-milk-on-a-scooter.svg"
         imageAlt: "Retró tejes doboz rollerezik."
     -
-        title: "Miért válaszd az 11ty-t?"
-        description: "Az 11ty (Eleventy) egy népszerű statikus oldal generátor. Használatával nagyon gyors és biztonságos weboldalakat készíthetünk opcionálisan CMS szerkesztéssel."
+        title: "Központban a tartalom"
+        description: "A WordPress jó társ a szerkeszthető tartalomban. Az oldaladon a tartalom majdnem teljes egésze szerkeszthető és könnyen bővíthető lesz."
+        image: "/img/illustrations/retro-butter-toast.svg"
+        imageAlt: "Retró tejes doboz rollerezik."
+    -
+        title: "WooCommerce, ha webáruház kell"
+        description: "Megtervezzük és elkészítjük az egyedi WooCommerce alapú webáruházad. Szükség esetén egyedi szállítási, számlázási vagy fizetési integrációkat készítünk."
         image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
         imageAlt: "Retró pattogatott kukorica rohan a mozi filmre."
+    -
+        title: "Technikai keresőoptimalizálás"
+        description: "Egy egyedi és gyors oldal többnyire egy jó első lépés, hogy a keresőben is jobban helyezkedj. A technikailag helyes oldal a tartalommal kombinálva a lehető legtöbbet nyújtja majd."
+        image: "/img/illustrations/retro-fries-crooked.svg"
+        imageAlt: "Retró pattogatott kukorica rohan a mozi filmre."
+grid:
+    items:
+    -
+        image: "./src/img/icon/shape-01.svg"
+        title: "Figyelünk arra, amit készítünk"
+        description: "<p>A kódot általában sem a megrendelő, sem a végfelhasználó nem látja. Ahol számít, az a fenntarthatóság.</p>"
+    -
+        image: "./src/img/icon/shape-02.svg"
+        title: "Törekszünk az egyszerűségre"
+        description: "<p>Egy komplex rendszernek is átláthatónak és bizonyos értelemben egyszerűnek kell lennie. Ha ezt elérjük, tudjuk hogy jó végeredményt hoztunk létre.</p>"
+    -
+        image: "./src/img/icon/shape-03.svg"
+        title: "A jó teljesítmény a cél"
+        description: "<p>Minden területen szeretünk figyelni arra, hogy a végeredmény egy teljesítményorientált megoldás legyen.</p>"
+    -
+        image: "./src/img/icon/shape-04.svg"
+        title: "Egyedi fejlesztés"
+        description: "<p>A kész weboldal egyedi lesz, nem használunk vásárolt témát. Az készül el, amit az igények alapján megtervezünk, nincs felesleg.</p>"
+    -
+        image: "./src/img/icon/shape-05.svg"
+        title: "Modern, minimalista terv"
+        description: "<p>Tervezésnél a célunk az információátadás. Ezt a leghatékonyabban úgy tudjuk megtenni, ha oldalunk egyszerű, nem zajos.</p>"
+    -
+        image: "./src/img/icon/shape-06.svg"
+        title: "Fenntartható"
+        description: "<p>Végzi a dolgát, nem törik frissítésnél, lassan avul el. Tervezésnél legalább öt évben gondolkodunk.</p>"
 accordion:
     title:
-        caption: "Hasznos<br> információk"
+        caption: "Amit még <br> jó ha tudsz"
         image: "./src/img/title-helper-primary.svg"
     blocks:
     -
-        title: "A fejlesztésről"
-        subtitle: "Mindenki másként fejleszt, mi nagy vonalakban így."
         items:
         -
-            title: "Figyelünk arra, amit készítünk"
-            description: "<p>A kódot általában sem a megrendelő, sem a végfelhasználó nem látja. Ez azonban nem mentség, nálunk a kódminőség, kezelhetőség prioritás.</p>"
-        -
-            title: "Törekszünk az egyszerűségre"
-            description: "<p>Egy komplex rendszernek is átláthatónak és bizonyos értelemben egyszerűnek kell lennie. Ha ezt elérjük, tudjuk hogy jó végeredményt hoztunk létre.</p>"
-        -
-            title: "Szeretjük a teljesítményt"
-            description: "<p>Minden területen szeretünk figyelni arra, hogy a végeredmény egy teljesítményorientált megoldás legyen.</p>"
-        -
-            title: "Egyedi fejlesztés"
-            description: "<p>A kész weboldal egyedi lesz, nem használunk vásárolt témát. Az készül el, amit az igények alapján megtervezünk.</p>"
-        -
-            title: "Reszponzív terv"
-            description: "<p>Az általunk készült oldalak, alkalmazások mind reszponzívak, tehát kijelző mérettől függetlenül használhatóak.</p>"
-    -
-        title: "WordPress fejlesztésről"
-        subtitle: "A népszerű tartalomkezelő rendszerről és amit kínálunk."
-        items:
+            title: "WordPress előnyei"
+            description: "<p>A WordPress egy népszerű és igen hatékony tartalomkezelő rendszer, amivel számos fejlesztés megoldható, legyen szó kisebb, vagy nagyobb weboldalakról. A rendszer nagy előnye a folyamatos fejlesztés és a rugalmasság.</p><ul><li><strong>Jól ismerjük:</strong> nagyon nagy szélességben tudunk egyedi oldalakat és megoldásokat készíteni vele. Legyen az kicsi portfólió oldal, vagy egy összetett webáruház.</li><li><strong>Hatalmas ökoszisztéma:</strong> számos bővítmény és forrásanyag létezik ehhez a CMS-hez, így mindenki megtalálja a számításait.</li><li><strong>Egy jó rendszer:</strong> ha arra használjuk, amire célszerű nagyon kezes eszköz. Mi igyekszünk kevesebb és megbízhatóbb függőségeket használni.</li><li><strong>Egyszerűen karbantartható:</strong> akár te is frissítheted minden probléma nélkül, de mi is vállaljuk, ha erre van szükséged.</li><li><strong>A keresők kedvelik:</strong> ha relatív gyors az oldal és fent a megfelelő SEO bővítmény - amit aztán megfelelően használunk - sokat ki lehet belőle hozni.</li><li><strong>Tudjuk bővíteni:</strong> saját bővítményeket is tudunk írni, amivel nagyon sok funkcionalitást letudunk fedni.</li></ul>"
         -
             title: "WordPress bővítmény fejlesztés"
             description: "<p>A WordPress egy jól bővíthető rendszer, ha szükséged van egy egyedi plugin-ra, akkor tudunk segíteni.</p><p>Készítettünk már <a href='/hu/simplepay-fizetesi-kapu-woocommerce-aruhazakban/'>SimplePay</a>, DHL és egyedi termék bővítményt WooCommerce-hez. Úgy látjuk, hogy a legtöbb bővítmény fejlesztés majdnem mindig egy meglévő plugin bővítéséről szól.</p><p>Ezen a ponton fontos megjegyezni, hogy van, amit nem érdemes WordPress-el fejleszteni. Ezek általában olyan megoldások, amiket nem tudunk biztosan támogatni. A WP folyamatosan változik, ezzel lépést tartani költséges és erőforrás igényes. Ha így alakul, akkor <a href='/hu/szolgaltatasaink/alkalmazas-fejlesztes/'>egyedi alkalmazást ajánlunk</a> majd.</p>"
-        -
-            title: "WordPress előnyei"
-            description: "<ul><li><strong>Jól ismerjük:</strong> nagyon nagy szélességben tudunk egyedi oldalakat és megoldásokat készíteni vele. Legyen az kicsi portfólió oldal, vagy egy összetett webáruház.</li><li><strong>Hatalmas ökoszisztéma:</strong> számos bővítmény és forrásanyag létezik ehhez a CMS-hez, így mindenki megtalálja a számításait.</li><li><strong>Egy jó rendszer:</strong> ha arra használjuk, amire célszerű nagyon kezes eszköz. Mi igyekszünk kevesebb és megbízhatóbb függőségeket használni.</li><li><strong>Egyszerűen karbantartható:</strong> akár te is frissítheted minden probléma nélkül, de mi is vállaljuk, ha erre van szükséged.</li><li><strong>A keresők kedvelik:</strong> ha relatív gyors az oldal és fent a megfelelő SEO bővítmény - amit aztán megfelelően használunk - sokat ki lehet belőle hozni.</li><li><strong>Tudjuk bővíteni:</strong> saját bővítményeket is tudunk írni, amivel nagyon sok funkcionalitást letudunk fedni.</li></ul>"
         -
             title: "Nem dolgozunk vásárolt WordPress sablonnal"
             description: "<p>A nálunk készült oldalak egyedi fejlesztések. Ez a végtermék szempontjából annyit jelent, hogy a fejlesztés az előzetes igényeknek megfelelően készül és csak azt tartalmazza, ami szükséges.</p><p>Előfordul, hogy vállalunk olyan megkeresést, amiben egyedi sablonnal kell dolgozni, de ezt általában csak óradíjban tudjuk megtenni.</p>"
@@ -71,6 +87,9 @@ accordion:
             title: "Korábbi fejlesztések átvétele"
             description: "<p>A más által készített WordPress alapú oldalad átvételét tudjuk vállalni.</p><p>Általában itt is jobb, ha egyedi fejlesztésről van szó (de vásárolt sablonos, valamint page-builder-es oldal is lehet). Többnyire az első lépésben <a href='/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/'>auditálnunk</a> kell. Csak az audit után tudunk aztán pontosabbat mondani.</p>"
 step:
+    title:
+        caption: "Így néz ki a folyamat"
+        image: "./src/img/title-helper-primary.svg"
     showNumber: true
     items:
     -
@@ -85,6 +104,12 @@ step:
     -
         title: "Tesztelünk, javítunk"
         description: "Folyamatosan tesztelünk, amiben neked is komoly szerep jut. Az oldalt csak a hibák javítása után élesítjük."
+    -
+        title: "Frissítünk, fenntartunk"
+        description: "Amennyiben szeretnéd, úgy felügyeljük, frissítjük az oldalad havonta."
+    -
+        title: "Tovább fejlesztjük"
+        description: "Amennyiben új igények, funkciók merülnek fel, akkor segítünk tovább fejleszteni."
 cta:
     title: "Szeretnél egy új weboldalt?"
     classes: "cta--border-block:end"

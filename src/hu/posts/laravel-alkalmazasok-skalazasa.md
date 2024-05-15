@@ -32,7 +32,7 @@ Fontos, hogy a táblák és az oszlopok az adott adatszerkezet "alakját" vegyé
 
 A hibás tervezésen felül egy másik gyakori hiba az úgy nevezett "N+1 query". Ennek lényege röviden az, hogy az eredetileg betöltött _N_ számú rekord mindegyike 1 újabb SQL kérést futtat le. Ennek több oka is lehet, például az adott rekord egy kapcsolatához szeretnénk hozzáférni.
 
-Szerencsére a Laravel ebben is segítséget nyújt nekünk. Az "eager loading" segítségével, az N+1 kérés helyett 2 db SQL kéréssel meg tudjuk oldani az újabb adatok betöltését. Ez jelentősen leredukálja a pontenciális kérések számát, csökkentve az erőforrásigényt és a futási időt.
+Szerencsére a Laravel ebben is segítséget nyújt nekünk. Az "eager loading" segítségével, az N+1 kérés helyett 2 db SQL kéréssel meg tudjuk oldani az újabb adatok betöltését. Ez jelentősen leredukálja a potenciális kérések számát, csökkentve az erőforrásigényt és a futási időt.
 
 A hivatalos dokumentáció: [https://laravel.com/docs/master/eloquent-relationships#eager-loading](https://laravel.com/docs/master/eloquent-relationships#eager-loading)
 

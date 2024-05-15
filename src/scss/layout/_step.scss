@@ -5,14 +5,20 @@
     --column: 1;
     background-color: color('background', 'highlighted');
     border-radius: config('border-radius-xl', $display);
-    display: grid;
-    gap: spacer-clamp('m', 'l');
-    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
     padding: calc(#{get-css-variable(--section-gap)} / 1.25) calc(#{get-css-variable(--section-gap)} / 2);
 
     @include breakpoint('md') {
-      --column: 2;
       padding: get-css-variable(--section-gap);
+    }
+  }
+
+  &__list {
+    display: grid;
+    gap: spacer-clamp('m', 'l');
+    grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+
+    @include breakpoint('md') {
+      --column: 2;
     }
   }
 

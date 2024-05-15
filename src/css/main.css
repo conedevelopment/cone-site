@@ -2748,15 +2748,21 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   --column: 1;
   background-color: var(--cone-highlighted-color-background);
   border-radius: var(--cone-border-radius-xl);
-  display: grid;
-  gap: clamp(1.5rem, 5vw, 3rem);
-  grid-template-columns: repeat(var(--column), minmax(0, 1fr));
   padding: calc(var(--cone-section-gap) / 1.25) calc(var(--cone-section-gap) / 2);
 }
 @media (min-width: 64em) {
   .l-step__inner {
-    --column: 2;
     padding: var(--cone-section-gap);
+  }
+}
+.l-step__list {
+  display: grid;
+  gap: clamp(1.5rem, 5vw, 3rem);
+  grid-template-columns: repeat(var(--column), minmax(0, 1fr));
+}
+@media (min-width: 64em) {
+  .l-step__list {
+    --column: 2;
   }
 }
 .l-step .section-title {
