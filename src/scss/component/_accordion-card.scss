@@ -38,11 +38,7 @@
     }
 
     &[aria-expanded='true'] {
-      svg {
-        rotate: 90deg;
-      }
-
-      .horizontal-line {
+      .vertical-line {
         opacity: 0;
       }
     }
