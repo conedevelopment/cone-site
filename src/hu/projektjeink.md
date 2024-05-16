@@ -46,4 +46,12 @@ references:
     tags:
     - "WordPress"
     - "WooCommerce"
+-
+    title: "Barion WooCommerce integráció"
+    description: "Barion fizetési kapu integráció WooCommerce-hez."
+    linkUrl: "https://barion.conedevelopment.com/"
+    linkCaption: "barion.conedevelopment.com"
+    tags:
+    - "WordPress"
+    - "WooCommerce"
 ---
