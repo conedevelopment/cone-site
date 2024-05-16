@@ -18,19 +18,6 @@ jobs:
             name: Checkout repository
             uses: actions/checkout@v4
         -
-            name: Run Lychee
-            uses: lycheeverse/lychee-action@v1
-            with:
-                args: >-
-                    --verbose
-                    --no-progress
-                    --require-https
-                    --max-concurrency 2
-                    --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
-                    './**/*.md'
-                output: ${{ runner.temp }}/lychee/out.md
-                fail: true
-        -
             name: Set up Node.js
             uses: actions/setup-node@v4
             with:
@@ -56,6 +43,19 @@ jobs:
         -
             name: Search for misspellings
             uses: crate-ci/typos@master
+        -
+            name: Run Lychee
+            uses: lycheeverse/lychee-action@v1
+            with:
+                args: >-
+                    --verbose
+                    --no-progress
+                    --require-https
+                    --max-concurrency 2
+                    --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+                    './**/*.md'
+                output: ${{ runner.temp }}/lychee/out.md
+                fail: true
 
     lint_front_matter:
         name: Lint Front Matter
