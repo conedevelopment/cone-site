@@ -1,0 +1,33 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.l-post-section {
+
+  &--more {
+    padding-block: get-css-variable(--section-gap);
+
+    .section-title {
+      margin-block: 0 spacer('l');
+    }
+  }
+
+  &__inner {
+    border-block-end: 1px solid color('border');
+    padding-block: get-css-variable(--section-gap);
+  }
+
+  &__list {
+    --columns: 1;
+
+    @include clear-list;
+    display: grid;
+    gap: spacer('l');
+    grid-template-columns: repeat(var(--columns), minmax(0, 2fr));
+
+    @include breakpoint(sm) { --columns: 2; }
+    @include breakpoint(md) { --columns: 3; }
+
+    > * + * {
+      margin-block-start: 0;
+    }
+  }
+}

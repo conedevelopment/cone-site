@@ -1,9 +1,5 @@
 @use 'sprucecss/scss/spruce' as *;
 
-.accordion-list {
-  @include layout-stack('s');
-}
-
 .accordion-card {
   $this: &;
   background-color: color('background');
@@ -96,10 +92,6 @@
       * + h5 {
         margin-block-start: spacer('s');
       }
-    }
-
-    a:hover {
-      font-weight: 700;
     }
   }
 }

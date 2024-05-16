@@ -1,5 +1,9 @@
 {% extends "layout/base.html" %}
 
+{% block styles %}
+    <link rel="stylesheet" href="/css/blog.css?{{ assetHash }}">
+{% endblock %}
+
 {% block content %}
     {% include "partial/hero.html" %}
     {% include "partial/testimonial.html" %}
@@ -7,5 +11,6 @@
     {% include "partial/grid.html" %}
     {% include "partial/accordion.html" %}
     {% include "partial/step.html" %}
+    {% include "partial/post-section.html" %}
     {% include "partial/cta.html" %}
 {% endblock %}

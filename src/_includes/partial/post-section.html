@@ -1,0 +1,32 @@
+{% if blogSection.tag %}
+    {% set posts = collections[blogSection.tag] %}
+
+    <div class="l-post-section">
+        <div class="container">
+            <div class="l-post-section__inner">
+                {% if blogSection.title %}
+                    <h2 class="section-title">
+                        {% svgIcon './src/img/title-helper-tertiary.svg' %}
+                        {% if blogSection.title.url %}
+                            <a href="{{ blogSection.title.url }}" class="section-title__link">
+                        {% endif %}
+                            {{ blogSection.title.caption | safe }}
+                        {% if blogSection.title.url %}
+                            </a>
+                        {% endif %}
+                    </h2>
+                {% endif %}
+                <ol class="l-post-section__list">
+                    {% for post in posts %}
+                        {% set tags = post.data.tags %}
+                        {% if loop.index0 < 3 %}
+                            <li>
+                                {% include "partial/blog-card.html" %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+    </div>
+{% endif %}

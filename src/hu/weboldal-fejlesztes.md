@@ -110,6 +110,11 @@ step:
     -
         title: "Tovább fejlesztjük"
         description: "Amennyiben új igények, funkciók merülnek fel, akkor segítünk tovább fejleszteni."
+blogSection:
+    title:
+        caption: "Blogunkból"
+        image: "./src/img/title-helper-primary.svg"
+    tag: "wordpress"
 cta:
     title: "Szeretnél egy új weboldalt?"
     classes: "cta--border-block:end"
