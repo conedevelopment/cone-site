@@ -1,6 +1,5 @@
 {% if tags %}
-    <p class="sr-only" id="tags-desc">A bejegyzés a következő címkékkel van ellátva:</p>
-    <ul class="blog-card__tags" aria-describedby="tags-desc">
+    <ul class="blog-card__tags">
         {% for tag in tags %}
         <li>
             <a href="/hu/cimke/{{ tag | slug }}/">#{{ tag | replace(' ', '') }}</a>
