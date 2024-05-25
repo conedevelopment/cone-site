@@ -2704,9 +2704,6 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   grid-template-columns: repeat(var(--column), minmax(0, 1fr));
   overflow: hidden;
 }
-.l-testimonial__cards > * + * {
-  border-block-start: 1px solid var(--cone-base-color-border);
-}
 @media (min-width: 64em) {
   .l-testimonial__cards {
     --column: 2;
