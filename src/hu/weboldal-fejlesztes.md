@@ -17,14 +17,14 @@ testimonial:
     cards:
     -
         title: "Egyedi weboldalakat fejlesztünk"
-        description: "WordPress segítségével egy teljesen egyedi oldalt és témát készítünk neked. Előre elkészített és részletese specifikációval dolgozunk, közösen tervezünk."
+        description: "WordPress segítségével egy teljesen egyedi oldalt és témát készítünk neked. Előre elkészített és részletes specifikációval dolgozunk, közösen tervezünk."
         image: "/img/illustrations/retro-milk-on-a-scooter.svg"
-        imageAlt: "Retró tejes doboz rollerezik."
+        imageAlt: "Retró tejesdoboz rollerezik."
     -
         title: "Központban a tartalom"
         description: "A WordPress jó társ a szerkeszthető tartalomban. Az oldaladon a tartalom majdnem teljes egésze szerkeszthető és könnyen bővíthető lesz."
         image: "/img/illustrations/retro-butter-toast.svg"
-        imageAlt: "Retró tejes doboz rollerezik."
+        imageAlt: "Retró tejesdoboz rollerezik."
     -
         title: "WooCommerce, ha webáruház kell"
         description: "Megtervezzük és elkészítjük az egyedi WooCommerce alapú webáruházad. Szükség esetén egyedi szállítási, számlázási vagy fizetési integrációkat készítünk."

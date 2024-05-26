@@ -26,7 +26,7 @@
                                 {% if card.url %}
                                     <a href="{{ card.url }}" class="testimonial-card__link">
                                 {% endif %}
-                                    {{ card.title }}
+                                    {{ card.title | safe }}
                                 {% if card.url %}
                                     </a>
                                 {% endif %}

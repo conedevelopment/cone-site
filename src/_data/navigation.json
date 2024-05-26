@@ -165,8 +165,13 @@
             "external": false
           },
           {
-            "caption": "Weboldal készítés",
+            "caption": "Weboldal fejlesztés",
             "url": "/hu/szolgaltatasaink/weboldal-fejlesztes/",
+            "external": false
+          },
+          {
+            "caption": "WooCommerce fejlesztés",
+            "url": "/hu/szolgaltatasaink/woocommerce-fejlesztes/",
             "external": false
           },
           {
