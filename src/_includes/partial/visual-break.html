@@ -1,1 +1,3 @@
-<div class="visual-break" style="background-image: url('{{ visual.background }}');"></div>
+{% if visual.background %}
+    <div class="visual-break" style="background-image: url('{{ visual.background }}');"></div>
+{% endif %}

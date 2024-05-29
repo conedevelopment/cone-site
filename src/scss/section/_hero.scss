@@ -60,6 +60,12 @@
     }
   }
 
+  &--padding-block\:small-end {
+    #{$this}__inner {
+      padding-block-end: calc(#{get-css-variable(--section-gap)} / 3);
+    }
+  }
+
   &__inner {
     @include layout-stack('l');
     padding-block: calc(#{get-css-variable(--section-gap)} + #{get-css-variable(--header-block-size)}) get-css-variable(--section-gap);

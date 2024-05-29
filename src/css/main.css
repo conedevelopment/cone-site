@@ -1612,6 +1612,9 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 .hero--padding-block\:small .hero__inner {
   padding-block: calc(var(--cone-section-gap) + var(--cone-header-block-size)) var(--cone-section-gap);
 }
+.hero--padding-block\:small-end .hero__inner {
+  padding-block-end: calc(var(--cone-section-gap) / 3);
+}
 .hero__inner {
   padding-block: calc(var(--cone-section-gap) + var(--cone-header-block-size)) var(--cone-section-gap);
 }
