@@ -99,7 +99,7 @@ cta:
                 </div>
             </div>
             <div class="text-card text-card--two-column">
-                <h2 class="text-card__title">Project Managment</h2>
+                <h2 class="text-card__title">Project Management</h2>
                 <div class="post-content">
                     <p>We like to keep the project management lean and clean. We always use version management, preferably GitHub, but we have experience with any major solutions.</p>
 
