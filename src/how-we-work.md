@@ -33,6 +33,7 @@ cta:
                         <li>We created a web app for the biggest competition in Hungary, which had seven weekly rounds and up to 2000 players.</li>
                         <li>We made an inventory application for art galleries with portfolio showcase options, embeddable galleries to 3rd-party pages, and various PDF exports.</li>
                         <li>We shipped a custom motion handling application for a non-profit organization.</li>
+                        <li><a href="https://shop.conedevelopment.com/">We built our own webshop</a>, that manages licenses to our premium WordPress and Composer packages. The shop is based on Laravel, Root, Bazar and Spruce CSS – our open source packages – integrated with Stripe and Billingo.</li>
                     </ul>
 
                     <p><strong>We have a routine with the following Laravel - related - tools:</strong></p>
