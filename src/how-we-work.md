@@ -1,6 +1,6 @@
 ---
 title: "How We Work"
-metaDesc: "Are you looking for a long-term and reliable developer subcontractor? Say hello to us, and let's schedule an online meeting!"
+metaDesc: "We leave typos on our marketing website!"
 layout: "layout/about.html"
 hero:
     title:
