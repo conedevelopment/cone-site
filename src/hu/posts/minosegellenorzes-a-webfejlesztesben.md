@@ -16,11 +16,11 @@ Egyszerű példa lehet bármi, amit gyártunk, mint az élelmiszer, elektronika,
 
 És hogy ki határozza meg, hogy mi a minőségi elvárás? A gyártó, vagy/és a megrendelő. Például úgy, hogy alkalmaz ez gyártási szabványt, mint az [ISO 9000-es](https://www.iso.org/standards/popular/iso-9000-family) család. Azt, hogy ezt betartjuk egy külső auditor hitelesíti. Értelemszerűen magunkat auditálni nem nehéz szubjektív feltételek mentén, így nem is igazán ér sokat.
 
-## Nem mindegy, hogy egy portfólió oldalról, webshopról, vagy alakalmazásról van szó
+## Nem mindegy, hogy egy portfólió oldalról, webshopról, vagy alkalmazásról van szó
 
 Természetesen nem mindegy, hogy mekkora kódbázist akarunk ellenőrizni. Egy portfólió oldalon nem igazán lesz olyan kritikus funkció, ami úgy igazán elromolhat.
 
-Egy webáruház, vagy alkalmazás esetén már teljesen más a helyzet. Például honnan tudod, hogy az e-mailjeid megérkeznek, nem kerülnek a spam mappába? Nem szembeszülthetsz csak akkor egy hibával, ha valaki már személyesen jelenti neked.
+Egy webáruház, vagy alkalmazás esetén már teljesen más a helyzet. Például honnan tudod, hogy az e-mailjeid megérkeznek, nem kerülnek a spam mappába? Nem szembesülhetsz csak akkor egy hibával, ha valaki már személyesen jelenti neked.
 
 ## Miért veszik el a minőségellenőrzés a webfejlesztésben?
 
@@ -30,9 +30,9 @@ Fejlesztői részről azt látjuk, hogy a fejlődés nehezen megy. Minőségelle
 
 És itt nem arra gondolunk, hogy egy ISO szabványt kell követni, de alapvető elvárásnak kell lennie a minőségnek és a fenntarthatóságnak.
 
-A minőség többnyire a kontrolról, ellenőrzésről szól. Ha nincs aki, vagy ami ellenőrizzen (lehetőleg objektíven, valamilyen szabvány mentén), akkor nincs minek megfelelnünk.
+A minőség többnyire a kontrollról, ellenőrzésről szól. Ha nincs aki, vagy ami ellenőrizzen (lehetőleg objektíven, valamilyen szabvány mentén), akkor nincs minek megfelelnünk.
 
-Kód írásánál ennek elmaradása azért is probléma mert azt ellenőrizhetjük számos objektív elv mentén, automatán. Egy style guide és megfelelő lint bevezetésével minden commitunkat ellenőrizhetjük, hogy megfeleljen a projekthez létrehozott elvárásoknak.
+Kód írásánál ennek elmaradása azért is probléma mert azt ellenőrizhetjük számos objektív elv mentén, automatán. Egy style guide és megfelelő lint bevezetésével minden commit-unkat ellenőrizhetjük, hogy megfeleljen a projekthez létrehozott elvárásoknak.
 
 Ugyanígy, minden frissítésnél (új telepítésnél) ellenőrizhetjük (külső eszközt integrálva), oldalunk teljesítményét is.
 
@@ -44,9 +44,9 @@ Egyszerű példa: ha [Laravel kód készül](/hu/szolgaltatasaink/alkalmazas-fej
 
 Ugyanez a felállás szinte bármilyen keretrendszerre igaz lesz. Ha például WordPress fejlesztés készül, akkor megint csak érdemes alkalmazkodunk annak elvárásaihoz, vagy követnünk valamilyen általános PHP sztenderdet.
 
-A kódunk linetélse segíthet, hogy egy előre definiált stílusban, következetesen írjuk azt. Egyszerű elvárás, ami nagyban segít abban, hogy hosszú távon is átlátható és kezelhető kód készüljön.
+A kódunk lint-elése segíthet, hogy egy előre definiált stílusban, következetesen írjuk azt. Egyszerű elvárás, ami nagyban segít abban, hogy hosszú távon is átlátható és kezelhető kód készüljön.
 
-Mert a végső és elsődleges célunk a minőségellenőrzéssel, hogy a kódunk megfelelően fenntartható és továbbfejleszthető legyen. A hanyagságnak itt ára van, [minden rossz döntést megfizetünk valahogyg](https://conedevelopment.com/hu/jarulekos-karok-a-webfejlesztesben/), még ha most most nem is látjuk.
+Mert a végső és elsődleges célunk a minőségellenőrzéssel, hogy a kódunk megfelelően fenntartható és továbbfejleszthető legyen. A hanyagságnak itt ára van, [minden rossz döntést megfizetünk valahogy](https://conedevelopment.com/hu/jarulekos-karok-a-webfejlesztesben/), még ha most most nem is látjuk.
 
 Ha nem akarsz, vagy szeretnél megbízni a fejlesztődben a legjobb, ha behozol egy személyt auditra. Értelemszerűen ezt előre kell/illik kommunikálnod és már korán meg kell fogalmaznod a minőségi elvárásaidat, hogy tudjanak is alkalmazkodni.
 
