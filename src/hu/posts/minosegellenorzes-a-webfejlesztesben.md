@@ -16,7 +16,7 @@ Egyszerű példa lehet bármi, amit gyártunk, mint az élelmiszer, elektronika,
 
 És hogy ki határozza meg, hogy mi a minőségi elvárás? A gyártó, vagy/és a megrendelő. Például úgy, hogy alkalmaz ez gyártási szabványt, mint az [ISO 9000-es](https://www.iso.org/standards/popular/iso-9000-family) család. Azt, hogy ezt betartjuk egy külső auditor hitelesíti. Értelemszerűen magunkat auditálni nem nehéz szubjektív feltételek mentén, így nem is igazán ér sokat.
 
-## Nem mindegy, hogy egy portfólió oldalról, webshopról, vagy alakalmazásról van szó
+## Nem mindegy, hogy egy portfólió oldalról, webshopról, vagy alkalmazásról van szó
 
 Természetesen nem mindegy, hogy mekkora kódbázist akarunk ellenőrizni. Egy portfólió oldalon nem igazán lesz olyan kritikus funkció, ami úgy igazán elromolhat.
 
