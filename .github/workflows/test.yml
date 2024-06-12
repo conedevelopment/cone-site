@@ -59,8 +59,9 @@ jobs:
             run: |
                 {
                     echo '```'
-                    git diff --diff-filter=AM HEAD^ -- 'src/hu/' 'src/_data/*.json' ':!:*.png' \
+                    git diff HEAD^ -- 'src/hu/' 'src/_data/*.json' ':!:*.png' \
                         | sed -e '/^diff --git/,/^@@ /d' \
+                        | sed -ne 's#^+\(.\+\)#\1#p' \
                         | hunspell -d ./libreoffice-dictionaries/hu_HU/hu_HU -p hunspell.txt -l \
                         | sort -f \
                         | uniq -i
