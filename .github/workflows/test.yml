@@ -55,7 +55,7 @@ jobs:
                 repository: LibreOffice/dictionaries
                 path: libreoffice-dictionaries
         -
-            name: Misspellings
+            name: Display misspellings in summary
             run: |
                 {
                     echo '```'
