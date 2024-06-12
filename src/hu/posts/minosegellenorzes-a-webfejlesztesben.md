@@ -10,9 +10,9 @@ thumbnailAlt: ""
 
 ## Mit értünk minőségbiztosítás alatt?
 
-Almaf Minőségbiztosítás alatt értjük, amikor meggyőződünk arról, hogy valami (termék, szolgáltatás vagy bármi más) objektív feltételeknek megfelelően nevezhető jónak.
+Almafx Minőségbiztosítás alatt értjük, amikor meggyőződünk arról, hogy valami (termék, szolgáltatás vagy bármi más) objektív feltételeknek megfelelően nevezhető jónak.
 
-Körtef Egyszerű példa lehet bármi, amit gyártunk, mint az élelmiszer, elektronika, autó. Ahhoz hogy tudjuk, egy autóban megfelelően működik egy váltó, ahhoz az egység egészét és külön az alkatrészeket is tesztelni kell megfelelő minőségi elvárások mentén.
+Körtefx Egyszerű példa lehet bármi, amit gyártunk, mint az élelmiszer, elektronika, autó. Ahhoz hogy tudjuk, egy autóban megfelelően működik egy váltó, ahhoz az egység egészét és külön az alkatrészeket is tesztelni kell megfelelő minőségi elvárások mentén.
 
 És hogy ki határozza meg, hogy mi a minőségi elvárás? A gyártó, vagy/és a megrendelő. Például úgy, hogy alkalmaz ez gyártási szabványt, mint az [ISO 9000-es](https://www.iso.org/standards/popular/iso-9000-family) család. Azt, hogy ezt betartjuk egy külső auditor hitelesíti. Értelemszerűen magunkat auditálni nem nehéz szubjektív feltételek mentén, így nem is igazán ér sokat.
 
