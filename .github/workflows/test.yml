@@ -43,6 +43,27 @@ jobs:
         -
             name: Search for misspellings
             uses: crate-ci/typos@master
+        -
+            name: Install Hunspell
+            run: sudo -- apt-get install -y hunspell gettext
+        -
+            name: Checkout dictionaries
+            uses: actions/checkout@v4
+            with:
+                repository: LibreOffice/dictionaries
+                path: libreoffice-dictionaries
+        -
+            name: Misspellings
+            run: |
+                {
+                    echo '```'
+                    git diff --diff-filter=A HEAD~10 -- 'src/hu/' 'src/_data/*.json' ':!:*.png' \
+                        | sed -e '/^diff --git/,/^@@ /d' \
+                        | hunspell -d ./libreoffice-dictionaries/hu_HU/hu_HU -p hunspell.txt -l \
+                        | sort -f \
+                        | uniq -i
+                    echo '```'
+                } >>"${GITHUB_STEP_SUMMARY}"
 
     lint_links:
         name: Lint Links
