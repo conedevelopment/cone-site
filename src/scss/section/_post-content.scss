@@ -7,7 +7,7 @@
     font-size: 1.0375rem;
   }
 
-  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote, form) {
+  :is(dd, dl, dl, h1, h2, h3, h4, h5, h6, hr, ul, ol, pre, p, blockquote, form, .brand-logo) {
     @include layout-center(null, 40rem);
   }
 
@@ -47,6 +47,20 @@
       display: block;
       margin-block-start: spacer('s');
       text-align: center;
+    }
+  }
+
+  .brand-logo {
+    margin-block-start: spacer('l');
+
+    + h2 {
+      margin-block-start: spacer('m');
+    }
+
+    img {
+      border-radius: 0;
+      inline-size: auto;
+      max-block-size: 2rem;
     }
   }
 }
