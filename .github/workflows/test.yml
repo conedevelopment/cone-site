@@ -17,6 +17,8 @@ jobs:
         -
             name: Checkout repository
             uses: actions/checkout@v4
+            with:
+                fetch-depth: 2
         -
             name: Set up Node.js
             uses: actions/setup-node@v4
@@ -43,6 +45,28 @@ jobs:
         -
             name: Search for misspellings
             uses: crate-ci/typos@master
+        -
+            name: Install Hunspell
+            run: sudo -- apt-get install -y hunspell gettext
+        -
+            name: Checkout dictionaries
+            uses: actions/checkout@v4
+            with:
+                repository: LibreOffice/dictionaries
+                path: libreoffice-dictionaries
+        -
+            name: Display misspellings in summary
+            run: |
+                {
+                    echo '```'
+                    git diff HEAD^ -- 'src/hu/' 'src/_data/*.json' ':!:*.png' \
+                        | sed -e '/^diff --git/,/^@@ /d' \
+                        | sed -ne 's#^+\(.\+\)#\1#p' \
+                        | hunspell -d ./libreoffice-dictionaries/hu_HU/hu_HU -p hunspell.txt -l \
+                        | sort -f \
+                        | uniq -i
+                    echo '```'
+                } >>"${GITHUB_STEP_SUMMARY}"
 
     lint_links:
         name: Lint Links
