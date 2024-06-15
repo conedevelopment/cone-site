@@ -29,7 +29,7 @@ Mindez annak is köszönhető, hogy az OTP megoldása, ami hazánk legnagyobb ba
 ### Miért jó választás SimplePay?
 
 - Magyar fejlesztési fizetési megoldás.
-- Nagyon elterjedt, szinte mindenkinek használható lesz, mivel nem csak egy webáruház fizetési megoldást ítanak, hanem külön alkalmazást is a vásárlóknak Simple néven.
+- Nagyon elterjedt, szinte mindenkinek használható lesz, mivel nem csak egy webáruház fizetési megoldást biztosítanak, hanem külön alkalmazást is a vásárlóknak Simple néven.
 - A fiók regisztrációnak és a kártyatárolásnak köszönhetően könnyű vele újra fizetni.
 - Bankfüggetlen. Habár az OTP terméke, bármelyik banknál vezethetjük a számlát.
 - A személyes támogatás, support jónak mondható, gyorsan reagálnak.
