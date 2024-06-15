@@ -1,5 +1,5 @@
 ---
-title: "WooCommerce fejlesztés"
+title: "WooCommerce webáruház fejlesztés"
 metaDesc: "Komplett WooCommerce webáruház és egyedi integráció fejlesztés, legyen az fizetési kapu, CRM kapcsolat, vagy szállítási megoldás."
 permalink: "/hu/szolgaltatasaink/woocommerce-fejlesztes/"
 layout: "layout/development.html"
