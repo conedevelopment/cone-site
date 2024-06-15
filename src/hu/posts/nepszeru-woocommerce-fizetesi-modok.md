@@ -45,7 +45,7 @@ Ehhez a megoldáshoz [saját integrációt fejlesztettünk](https://simplepay.co
 
 ## Barion WooCommerce fizetési kapu
 
-A [Barion](http://localhost:8080/hu/barion-fizetesi-kapu-woocommerce-aruhazakhoz/) a SimplePay legnagyobb, szintén magyar tulajdonú konkurense az online, integrálható fizetési megoldások területén. Dinamikusan fejlődő megoldás, ami már 16 országban érhető el, több mint 400 000 felhasználóval és 15 000 kereskedővel.
+A [Barion](/hu/barion-fizetesi-kapu-woocommerce-aruhazakhoz/) a SimplePay legnagyobb, szintén magyar tulajdonú konkurense az online, integrálható fizetési megoldások területén. Dinamikusan fejlődő megoldás, ami már 16 országban érhető el, több mint 400 000 felhasználóval és 15 000 kereskedővel.
 
 Nem csak fizetést vehetünk igénybe, hanem komplett ecommerce megoldást, mint a Pixel névre hallgató összetett analitika megoldás.
 
