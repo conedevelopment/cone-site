@@ -14,7 +14,7 @@ Webáruházaknál az egyik alapvető és első integráció a fizetési kapu. Fi
 
 **Woo-hoz rengeteg megoldás közül választhatunk, legyen az globális, vagy inkább helyi megoldás.** Mindenki megtalálhatja a vállalkozásának a legmegfelelőbbet, azonban ehhez érdemes egy kicsit kutakodunk is.
 
-Általánosságban elmondható, hogy itthon a magyar fejlesztésű, tulajdonú online fizetési megoldásokat részesítjük előnyben, mint a SimplePay vagy a Barion. Természetesen ez nem jelenti azt, hogy a többit ne használnák sokan itthon is. Mi például a Stripe-pot szoktuk használni, ki mit preferál. Előnye és hátránya mindegyiknek van és lesz. Ami a felhasználók szerencsére, hogy van miből választani.
+Általánosságban elmondható, hogy itthon a magyar fejlesztésű, tulajdonú online fizetési megoldásokat részesítjük előnyben, mint a SimplePay vagy a Barion. Természetesen ez nem jelenti azt, hogy a többit ne használnák sokan itthon is. Mi például a Stripe-ot szoktuk használni, ki mit preferál. Előnye és hátránya mindegyiknek van és lesz. Ami a felhasználók szerencsére, hogy van miből választani.
 
 <div class="brand-logo">
     <img src="/img/logo/simplepay.svg" alt="SimplePay">
