@@ -81,7 +81,7 @@ accordion:
             description: "<p>We will only be your developers. Unfortunately, we don't deliver hosting or any DevOps tasks. For more straightforward web applications, we can utilize Laravel Forge, but for more critical ones, you also need a person or a team to manage the serving of the project.</p><p>We can suggest a good college of ours if needed for this purpose.</p>"
         -
             title: "How we work"
-            description: "<p>If you want to know more about how we work with Laravel, please <a href='https://conedevelopment.com/how-we-work/'>visit our related page</a>.</p>"
+            description: "<p>If you want to know more about how we work with Laravel, please <a href='/how-we-work/'>visit our related page</a>.</p>"
     -
         title: "FAQ"
         subtitle: "Some frequent questions in advance."
