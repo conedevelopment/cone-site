@@ -15,7 +15,7 @@ testimonial:
     classes: "l-testimonial--secondary"
     cards:
     -
-        title: "Application Development"
+        title: "Laravel Development"
         url: "/services/application-development/"
         description: "With Laravel, we create robust and scalable web applications that seamlessly integrate potent features, intuitive user interfaces, and secure backend functionality."
         image: "/img/illustrations/retro-coffee.svg"

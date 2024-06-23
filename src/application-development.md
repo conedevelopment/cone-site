@@ -9,25 +9,49 @@ hreflang:
     url: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
 hero:
     title:
-        caption: "We Are Crafting<br><span class='highlighted'>Web Based Applications</span>"
-    description: "With the help of Laravel and other reliable technologies, we can help you to achieve your goals better."
+        caption: "We Are Crafting <br> <span class='highlighted'>Laravel</span> <br> Applications"
+    description: "Using Laravel we help you create your next performant, scalable and extendable application."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 testimonial:
     classes: "l-testimonial--primary"
     cards:
     -
-        title: "Why you need an application?"
-        description: "When your idea requires complex and unique solutions that are not easy to implement with a simple CMS or any other ready-to-use solution, the time has come to think about a web application."
-        image: "/img/illustrations/retro-cup-of-tea.svg"
-        imageAlt: "A smiling retro tea cup."
+        title: "Laravel is a good choice"
+        description: "Laravel is the most popular and loved PHP framework out there, with a complete ecosystem. It is a great system for developing any secure, performant, and easy-to-export application."
+        image: "/img/illustrations/retro-milk-on-a-scooter.svg"
+        imageAlt: "Retro milk on a scooter illustration."
     -
-        title: "We're developing with Laravel"
-        description: "Laravel is a great choice when it’s about application development. It’s a complex and powerful PHP framework with a huge ecosystem around it. We have a deep knowledge of it and we are contributors as well."
+        title: "Laravel development services"
+        description: "Whether you need a standalone application, a website, an API, or an e-commerce solution, Laravel can and will help."
+        image: "/img/illustrations/retro-butter-toast.svg"
+        imageAlt: "A peanutbutter sandwich eating jelly from a jar."
+    -
+        title: "Just the perfect ecosystem"
+        description: "Laravel offers enterprise scale without the complexity. With Forge, server management is simpler, and with Vapor, you can experience the exciting world of going serverless with AWS."
         image: "/img/illustrations/retro-pie-shows-tongue.svg"
         imageAlt: "A retro slice of pie shows tongue."
+    -
+        title: "Your Laravel expert"
+        description: "If you need someone who does not just use Laravel but also understands it on a higher level, we can be a good choice."
+        image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
+        imageAlt: "Retro popcorn rushed to the movies illustration."
+grid:
+    items:
+    -
+        image: "./src/img/icon/shape-01.svg"
+        title: "Secure solutions"
+        description: "<p>With baked-in security, Laravel utilizes good practices like SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) protection.</p>"
+    -
+        image: "./src/img/icon/shape-02.svg"
+        title: "Performance in focus"
+        description: "<p>Design and optimize for performance with features like Eloquent ORM for efficient database interactions. Utilizing Redis, you can set up advanced caching mechanisms.</p>"
+    -
+        image: "./src/img/icon/shape-03.svg"
+        title: "Extendable"
+        description: "<p>With its modular architecture and massive collection of packages, Laravel is highly extendable.</p>"
 accordion:
     title:
-        caption: "About<br> the<br> workflow"
+        caption: "About<br> the<br> work"
         image: "./src/img/title-helper-primary.svg"
     blocks:
     -
@@ -35,23 +59,29 @@ accordion:
         subtitle: "Developing an application can be complicated; here, you can find some helpful information to understand it better."
         items:
         -
-            title: "It is nice to know what kind of system you need"
-            description: "<p>Modern applications have multiple layers to serve users' needs efficiently. You may need an API layer to serve a mobile application or connect two systems. Or you need a custom e-commerce solution that can communicate properly with your CRM.</p><p>Both are applications but do different things. An application can achieve many things, but the first step is to define what you need.</p>"
+            title: "Knowing what kind of system you need"
+            description: "<p>Modern applications have multiple layers to serve users' needs efficiently. You may need an API layer to serve a mobile application or connect two systems. Or you need a custom e-commerce solution that can communicate properly with your CRM.</p><p>Both are applications but do different things. An application can achieve many things, but the first step is to define what you need, the specification.</p>"
         -
-            title: "Modularity and scalability are what you always want"
+            title: "Modularity and scalability"
             description: "<p>These two are popular application development buzzwords but still crucial ones. To create a testable, extendable application, you need modularity and scalability.</p><p>To support and maintain something long-term, you need solid and good architecture from the start.</p>"
         -
-            title: "We prefer Vue.js on the front-end"
+            title: "We prefer Vue.js and Alpine.js"
             description: "<p><a href='https://vuejs.org/' target='_blank' rel='noopener'>Vue.js</a> is the perfect tool to extend Laravel on the front-end. It covers everything you need on a modern and capable application.</p><p>Depending on the context, we can also opt for <a href='https://alpinejs.dev/' target='_blank' rel='noopener'>Alpine.js</a> or <a href='https://react.dev/' target='_blank' rel='noopener'>React</a>.</p>"
-        -
-            title: "UI and UX matters"
-            description: "<p>A proper application requires unique UI and UX solutions as well. We can also help you to design a clean and straightforward user interface that is easy to use.</p><p>We create the UI tailored to the project needs from the ground up.</p>"
         -
             title: "Documentation and code quality matters to us"
             description: "<p>We write the code adopting the coding and documenting standards from the <a href='https://laravel.com/' target='_blank' rel='noopener'>official documentation of Laravel</a> to make the application easily understandable and futureproof.</p><p>Writing code as we do makes it possible to do better static analysis and integrate the project into any CI workflow. </p><p>We are serious about the quality of our code, which can also help you create a project for the future (with or without us).</p>"
         -
+            title: "SPA or MPA"
+            description: "<p>The Single-Page Application (SPA) is a popular trend in opposition to the Multi-Page Application (MPA). Both have pros and cons.</p><p>From the development and maintenance perspective, we prefer simplicity the most, so there is no simple answer to what to choose. There are many techniques to create any of the solutions, which we will see after the specifications.</p>"
+        -
+            title: "UI and UX matters"
+            description: "<p>A proper application requires unique UI and UX solutions as well. We can also help you to design a clean and straightforward user interface that is easy to use.</p><p>We create the UI tailored to the project needs from the ground up.</p>"
+        -
             title: "Hosting and DevOps"
             description: "<p>We will only be your developers. Unfortunately, we don't deliver hosting or any DevOps tasks. For more straightforward web applications, we can utilize Laravel Forge, but for more critical ones, you also need a person or a team to manage the serving of the project.</p><p>We can suggest a good college of ours if needed for this purpose.</p>"
+        -
+            title: "How we work"
+            description: "<p>If you want to know more about how we work with Laravel, please <a href='https://conedevelopment.com/how-we-work/'>visit our related page</a>.</p>"
     -
         title: "FAQ"
         subtitle: "Some frequent questions in advance."
@@ -80,10 +110,16 @@ step:
     -
         title: "Testing and iterating"
         description: "Testing is essential. This is why we pay huge attention to writing tests and fix the bugs we or you find. Then iterate."
+    -
+        title: "Updating and maintaining"
+        description: "We can and will maintain and update your application. With Laravel, migrating to the newest versions is always a good idea."
+    -
+        title: "Adding the next feature"
+        description: "Want to extend your Laravel application? That is no problem. Your system is easily upgradable."
 cta:
     title: "Want to develop your Laravel application with us?"
     classes: "cta--border-block:end"
-    description: "Do you have a project idea and don’t know where to start? Write to us, and maybe we can help!"
+    description: "Do you have a project idea but don’t know what to do next? Write to us, and maybe we can help!"
     btn:
         url: "/contact/"
         caption: "Contact"
