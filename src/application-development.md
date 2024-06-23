@@ -34,7 +34,7 @@ testimonial:
         title: "Your Laravel expert"
         description: "If you need someone who does not just use Laravel but also understands it on a higher level and is a contributor as well, we can be a good choice."
         image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
-        imageAlt: "Retro popcorn rushed to the movies illustration."
+        imageAlt: "Retro popcorn rushes to the movies illustration."
 grid:
     items:
     -
