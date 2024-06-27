@@ -24,7 +24,7 @@ testimonial:
         title: "Why choose 11ty?"
         description: "11ty (Eleventy) is a popular and handy static website generator. Using it, we can create high performant and secure websites with optional content management system."
         image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
-        imageAlt: "Retro popcorn rushed to the movies illustration."
+        imageAlt: "Retro popcorn rushes to the movies illustration."
 accordion:
     title:
         caption: "How we<br> work"
