@@ -24,6 +24,14 @@ highlightedReference:
         image: "./src/img/preview/megmerettetes.jpg"
 references:
 -
+    title: "Hybrid SA"
+    description: "Elkészítettük a modern és minimalista vállalati weboldalát a svájci mikroelektronika gyártó Hybridnek. Fókuszban a szolgáltatásokkal és megoldásokkal."
+    linkUrl: "https://hybrid.swiss/"
+    linkCaption: "hybrid.swiss"
+    tags:
+    - "WordPress"
+    - "Alpine.js"
+-
     title: "Országos IT Megmérettetés"
     description: "Újraterveztük és újraépítettük Magyarország legnépszerűbb IT versenyének háttérrendszerét Laravel alapon."
     linkUrl: "https://megmerettetes.hu"

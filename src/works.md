@@ -25,6 +25,14 @@ highlightedReference:
         image: "./src/img/preview/megmerettetes.jpg"
 references:
 -
+    title: "Hybrid SA"
+    description: "We have created a modern, minimalistic corporate website for the Swiss microelectronics manufacturer Hybrid. In focus on the services and solutions."
+    linkUrl: "https://hybrid.swiss/"
+    linkCaption: "hybrid.swiss"
+    tags:
+    - "WordPress"
+    - "Alpine.js"
+-
     title: "National IT Competition (OITM)"
     description: "We redesigned and rebuilt the complete application with Laravel and manage the whole competition for the 3rd year now."
     linkUrl: "https://megmerettetes.hu"
