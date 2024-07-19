@@ -25,7 +25,7 @@ highlightedReference:
 references:
 -
     title: "Hybrid SA"
-    description: "Elkészítettük a modern és minimalista vállalati weboldalát a svájci mikroelektronika gyártó Hybridnek. Fókuszban a szolgáltatásokkal és megoldásokkal."
+    description: "Elkészítettük a modern és minimalista üzleti portfólió weboldalát a svájci mikroelektronika gyártó Hybridnek. Fókuszban a szolgáltatásokkal és megoldásokkal."
     linkUrl: "https://hybrid.swiss/"
     linkCaption: "hybrid.swiss"
     tags:

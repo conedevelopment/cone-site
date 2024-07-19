@@ -12,7 +12,7 @@ Mindebből következik, hogy számos kategóriát tudunk meghatározni. Ebben a 
 
 ## Blog
 
-**A blog egy rendszeresen publikált bejegyzés folyam.** Népszerű formája a változó tartalom közlésének (mint a hírek). Bármit közzé tehetünk egy blog alatt, ami tartalom. A kezdetekkor ez elsősorban főként személyes bejegyzéseket tartalmazó oldal típus volt, ahol kiírhattuk magunkból a gondolatainkat. Ma már teljesen mainstream és gyakori, hogy egy céges oldalon is van blog, amit a vállalat (főként egyoldalú) kommunikációra is használ.
+**A blog egy rendszeresen publikált bejegyzés folyam.** Népszerű formája a változó tartalom közlésének (mint a hírek). Bármit közzé tehetünk egy blog alatt, ami tartalom. A kezdetekkor ez elsősorban főként személyes bejegyzéseket tartalmazó oldal típus volt, ahol kiírhattuk magunkból a gondolatainkat. Ma már teljesen mainstream és gyakori, hogy egy céges oldalon is van blog, amit a vállalkozás (főként egyoldalú) kommunikációra is használ.
 
 Ebből következik, hogy a blog ma már nem csak egy különálló oldal, hanem egy másik típus alrésze is lehet. Ahogy a mi oldalunkon (Cone) is a blog menüpont alatt olvasod ezt a bejegyzést. **A tartalomstratégia megvalósításához a blog egy tökéletes eszköz.**
 
