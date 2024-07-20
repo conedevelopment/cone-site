@@ -10,13 +10,13 @@ thumbnailAlt: ""
 
 Természetesen itt is igaz ugyanaz, ami WordPress esetében bármikor: az hogy el tudjuk magunk is készíteni nem feltétlenül jelenti azt, hogy egy optimális megoldást kapunk. Ha ezt észben tartjuk, és egy kicsit technikailag is képben vagyunk, valamint hajlandóak vagyunk beletenni a munkát, egész költséghatékonyan tudunk majd elindulni.
 
-A webáruház fejlesztés mindig egy bonyolult feladat lesz. Azon ne lepődjünk meg, ha az általunk készített oldalt nehéz lesz továbbfejleszteni, vagy ha idővel elkezd néhány érdekes bugot produkálni. Egy WooCommerce webshopban rengeteg változó van, látszólag sok mindent meg tudunk oldani bővítményekkel, ami néha visszaüthet.
+A webáruház fejlesztés mindig egy bonyolult feladat lesz. Azon ne lepődjünk meg, ha az általunk készített oldalt nehéz lesz továbbfejleszteni, vagy ha idővel elkezd néhány érdekes bug-ot produkálni. Egy WooCommerce webshopban rengeteg változó van, látszólag sok mindent meg tudunk oldani bővítményekkel, ami néha visszaüthet.
 
 **Amennyiben egyedi igényünk van, úgy lehet, hogy az elején érdemes már szakember segítségét kérnünk, aki kimondottan [WooCommerce-re specializálódott fejlesztő](https://conedevelopment.com/hu/szolgaltatasaink/woocommerce-fejlesztes/).** Rengeteg nagyobb, későbbi buktatót lehet kiküszöbölni, ha már az elejétől körültekintően tervezünk.
 
 ## Mi a WooCommerce?
 
-A [WooCommerce](https://woocommerce.com/) egy WordPress bővítmény, amit tekinthetünk first-party-nak. Mindez azt jelenti, hogy a legnagyobb WP-hez köthető fejlesztő cég készíti (akik az open source kód fenntartásában is komolyan kiveszik a részüket), az Automattic, ami a wordpress.com-ot üzemelteti és akinek az alapítója a WordPress egyik eredeti szerzője volt. Ez egész nagy garanciát jelent a hosszútávú támogatásra.
+A [WooCommerce](https://woocommerce.com/) egy WordPress bővítmény, amit tekinthetünk first-party-nak. Mindez azt jelenti, hogy a legnagyobb WordPress-hez köthető fejlesztő cég készíti (akik az open source kód fenntartásában is komolyan kiveszik a részüket), az Automattic, ami a wordpress.com-ot üzemelteti és akinek az alapítója a WordPress egyik eredeti szerzője volt. Ez egész nagy garanciát jelent a hosszútávú támogatásra.
 
 **Jelenleg több, [mint 5 millió WooCommerce webáruház érhető el online](https://trends.builtwith.com/shop/WooCommerce), ez egy hatalmas szám.** A WordPress népszerűségének köszönhetően a Woo is hatalmas piacot ér el és fed le, ha webáruházakról van szó.
 
@@ -61,7 +61,7 @@ Google Analytics-el kiegészítve a [WooCommerce statisztika](https://woocommerc
 
 Bármit eladhatsz, legyen az fizikai, digitális termék, vagy szolgáltatás. Lehet komplett webshopod több ezer termékkel és variációval, vagy csak egy termék.
 
-Egy olyan bővítménnyel, mint a [WooCommerce Subsciprtions](https://woocommerce.com/products/woocommerce-subscriptions/), kombinálva egy [SimplePay fizetési kapuval](https://simplepay.conedevelopment.com/) akár ismétlődő szolgáltatást, előfizetést is árulhatsz.
+Egy olyan bővítménnyel, mint a [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/), kombinálva egy [SimplePay fizetési kapuval](https://simplepay.conedevelopment.com/) akár ismétlődő szolgáltatást, előfizetést is árulhatsz.
 
 ### 6. Egészen költséghatékony lehet
 
@@ -93,7 +93,7 @@ Mint mindennek, úgy a WooCommerce használatnak is vannak hátrányai. Értelem
 
 - **Erőforrás igényes.** A WordPress általában az, Woo-val (mellé még nyelvesítéssel, Elementor témával) kombinálva már okozhat olyan problémákat, amiket nehéz feloldani újraírás nélkül.
 - **Komplikált lehet.** Ha magunk készítenénk az áruházunkat megtehetjük, azonban egész gyorsan lehet bonyolult. Nagy az esély, hogy egy célzott e-commerce megoldás, mint a Shopify jobb megoldást nyújt nekünk a korlátozottabb funkcióival.
-- **Könnyebben hackelhető.** Ha nem frissíted a weboldalt (témát, bővítményt), akkor bizony könnyebben fogják feltörni. Idáig nem szabad eljutni, a megfelelő, legalább havi karbantartást be kell ütemezni.
+- **Könnyebben hekkelhető.** Ha nem frissíted a weboldalt (témát, bővítményt), akkor bizony könnyebben fogják feltörni. Idáig nem szabad eljutni, a megfelelő, legalább havi karbantartást be kell ütemezni.
 - **Magával hozza azt, ami WordPress.** Ez általában a sok felesleget (bloat) jelenti. Hozzáértő fejlesztéssel és odafigyeléssel csökkenthető.
 - **Meg kell fizetnünk.** Hiába open source, a legtöbb bővítményt éves díj ellenében árulják. Ha van 4-6 fizetős bővítményünk, azt már érezni fogjuk a kiadás oldalon.
 
@@ -101,12 +101,12 @@ Mint mindennek, úgy a WooCommerce használatnak is vannak hátrányai. Értelem
 
 A WooCommerce egy olyan megoldás, amit általában te hosztolsz, vagyis te vásárolod hozzá a szervert, majd telepíted. Ellentétben egy Shopify, Shoprenter, vagy Unas webáruházzal, ahol bérled azt havi, vagy éves díj ellenében.
 
-Ettől függetlenül a [wordpress.com](https://wordpress.com/)-ot használva te is “bérelhetsz” WooCommerce-et és használhatod hasonlóan, mint a Shopify-t. Nem a te gondod lesz a telepítés, a szerver felügyelete. Veszel egy kész szolgáltatást, amit aztán testreszabsz és kezded az értékesítést.
+Ettől függetlenül a [wordpress.com](https://wordpress.com/)-ot használva te is “bérelhetsz” WooCommerce-et és használhatod hasonlóan, mint a Shopify-t. Nem a te gondod lesz a telepítés, a szerver felügyelete. Veszel egy kész szolgáltatást, amit aztán testre szabsz és kezded az értékesítést.
 
 **Itt fontos megjegyezni, hogy két WordPress van:**
 
 - az open source wordpress.org, ami az alkalmazás fejlesztését felügyeli szabad keretek között. Bárki hozzáférhet, használhatja, fejlesztheti, bővítheti a WordPress forráskódját, a kód mindenkié.
-- A legnagyobb kereskedelmi WordPress megoldás a wordpress.com, ami az Automattic szolgáltatása. Itt vásárolhatsz kész, prémium megoldást, ami a nagyon jó minőségű szervert jelenti, majd testreszabod, ahogy szeretnéd.
+- A legnagyobb kereskedelmi WordPress megoldás a wordpress.com, ami az Automattic szolgáltatása. Itt vásárolhatsz kész, prémium megoldást, ami a nagyon jó minőségű szervert jelenti, majd testre szabod, ahogy szeretnéd.
 
 ## Válasszuk a WooCommerce-et a webáruházunkhoz
 
