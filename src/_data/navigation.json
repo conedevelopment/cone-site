@@ -14,13 +14,13 @@
       },
       {
         "caption": "Works",
-        "url": "https://pineco.de/",
+        "url": "/works/",
         "external": false,
         "class": ""
       },
       {
         "caption": "Blog",
-        "url": "/works/",
+        "url": "https://pineco.de/",
         "external": false,
         "class": ""
       },
