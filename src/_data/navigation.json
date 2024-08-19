@@ -14,6 +14,12 @@
       },
       {
         "caption": "Works",
+        "url": "https://pineco.de/",
+        "external": false,
+        "class": ""
+      },
+      {
+        "caption": "Blog",
         "url": "/works/",
         "external": false,
         "class": ""
