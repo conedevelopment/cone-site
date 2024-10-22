@@ -1,5 +1,5 @@
 ---
-title: "Laravel Application Development"
+title: "Laravel alkalmazás fejlesztés"
 permalink: "/hu/szolgaltatasaink/alkalmazas-fejlesztes/"
 layout: "layout/development.html"
 hreflang:
