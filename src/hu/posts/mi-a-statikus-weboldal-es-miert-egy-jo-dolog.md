@@ -10,7 +10,7 @@ thumbnailAlt: ""
 
 ## Statikus vs dinamikus weblap
 
-A statikus weboldal úgy kerül megjelenítésre a felhasználó eszközén, ahogyan azt a szerveren tároljuk. Fixen, előre elkészített HTML oldalakat szolgálunk ki a webszerverről. A HTML oldalakat vagy mi hozzuk létre manuálisan, külön-külön, vagy valamilyen generátort használunk, mint az [11ty](https://www.11ty.dev/), [Gatsby](https://www.gatsbyjs.org/).
+A statikus weboldal úgy kerül megjelenítésre a felhasználó eszközén, ahogyan azt a szerveren tároljuk. Fixen, előre elkészített HTML oldalakat szolgálunk ki a webszerverről. A HTML oldalakat vagy mi hozzuk létre manuálisan, külön-külön, vagy valamilyen generátort használunk, mint az [11ty](https://www.11ty.dev/), [Gatsby](https://www.gatsbyjs.com/).
 
 ![Egy ábra a statikus oldal elemeiről: HTML, JS, CSS, valamint a dinamikuséról: HTML, JS, CSS, PHP, MySQL](/img/blog/statikus-oldal-vs-dinamikus-oldal.png) *A különbség a statikus és dinamikus oldal között a felhasznált technológiákban rejlik.*
 
@@ -32,7 +32,7 @@ De, ha a dinamikus oldal tud többet, miért létezik még statikus? A kérdés 
 - Egy statikus oldal generátorral, oldallal teljesítmény területén nehéz birokra kelni. Ha a kiszolgálásból kiiktatjuk a dinamikus back-endet (PHP) és csak HTML adunk vissza, az nagyon gyors lesz. Természetesen a teljesítmény nem csak ezen áll, vagy bukik, de sokat jelent.
 - Olyan szolgáltatásokkal, mint a [Netlify](https://www.netlify.com/), vagy [Vercel](https://vercel.com/) nagyon jó áron lehet tömegeket kiszolgálni úgy, hogy a szerverünk egy nagyobb terhelés esetén sem esik össze.
 - A headless CMS-eknek köszönhetően hagyományos tartalomkezelő rendszereket is használhatunk, amiknek a tartalmát aztán használhatjuk generálásnál. Tehát, dinamikus adatokkal generálunk statikus oldalakat.
-- A kapcsolati űrlap jó példa egy olyan egyszerű funkcióra, ami a legtöbb oldalon szükséges. A [serverless](https://www.gatsbyjs.com/products/cloud/functions/) szolgáltatásoknak köszönhetően könnyen készíthetünk e-mail küldés funkciót szerver beállítás nélkül.
+- A kapcsolati űrlap jó példa egy olyan egyszerű funkcióra, ami a legtöbb oldalon szükséges. A [serverless](https://www.gatsbyjs.com/docs/reference/functions/) szolgáltatásoknak köszönhetően könnyen készíthetünk e-mail küldés funkciót szerver beállítás nélkül.
 
 ## Statikus oldalak hátrányai
 
