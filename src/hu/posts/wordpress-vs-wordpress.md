@@ -8,7 +8,7 @@ thumbnailAlt: ""
 
 **A WordPress fejlesztés érdekes jelenség napjainkban. Egy bizonyos szinten mindig az volt. Már korán túl népszerű volt (jelenleg durván a weboldalak 35%-a ezen a rendszeren fut) és a népszerűséggel jó pár minden jár. Sok feltört oldal, hozzá nem értő fejlesztők és az örökös eszmefuttatás arról, hogy ez egy rossz termék.**
 
-Pedig ez egy vállalható rendszer. Az biztos, hogy bizonyos részei elavultak ma már és míg a [Drupalnak](https://www.drupal.org/) sikerült egy technikai irányváltást végigvinnie, addig a WP Core csapat ilyet nem akar(t). Ma már megy a kapkodás, hogy legyen előrehaladás (Gutenberg), de anélkül, hogy a fejlesztők lemennének a nullára ez egy rögös út (ahogy látjuk).
+Pedig ez egy vállalható rendszer. Az biztos, hogy bizonyos részei elavultak ma már és míg a [Drupalnak](https://new.drupal.org/home) sikerült egy technikai irányváltást végigvinnie, addig a WP Core csapat ilyet nem akar(t). Ma már megy a kapkodás, hogy legyen előrehaladás (Gutenberg), de anélkül, hogy a fejlesztők lemennének a nullára ez egy rögös út (ahogy látjuk).
 
 ## A népszerűség és a következményei
 

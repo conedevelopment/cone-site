@@ -95,7 +95,7 @@ Egy adminisztrációs felület, mint a WordPress, amin keresztül a weboldalad, 
 
 Amikor egy termék oldalaláról egy kapcsolódó és a vásárlónak szintén hasznos másik termékre hivatkozunk. Ez lehet egy kiegészítő termék is, ami növeli a felhasználó elégedettségét a termékkel kapcsolatban.
 
- ## Dropshipping
+## Dropshipping
 
 A dropshipping egy olyan értékesítési forma, ahol te csak az eladást csinálod, annak teljesítését (termék raktározását, csomagolását, küldését) már egy harmadik fél csinálja. Te egy proxy vagy az ügyfél és az eladó között, így részesülsz a jutalékból.
 

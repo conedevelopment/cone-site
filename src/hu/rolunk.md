@@ -40,7 +40,6 @@ cta:
                     <p>Tudunk segíteni neked a Laravel projekteddel, mert:</p>
                     <ul>
                         <li>Számos <a href="https://github.com/laravel/framework/commits?author=iamgergo">PR-unkat</a> merge-elték már Laravel Core-ba.</li>
-                        <li>Rendelkezünk hivatalos <a href="https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23">Laravel tanúsítvánnyal</a>.</li>
                         <li>Számos <a href="https://pineco.de/category/laravel/">bejegyzést</a> publikáltunk már Laravel témában.</li>
                         <li><a href="https://packagist.org/users/conedevelopment/packages/">A Laravel csomagjainkat</a> több mint 100.000-szer töltötték le már.</li>
                     </ul>

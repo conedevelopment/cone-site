@@ -32,5 +32,3 @@ Megalkothatod azt, ami a leginkább hasznos és kezes neked. Persze, mindezt tov
 Bármilyen open-source projekt esetén a dokumentáció épp ugyanolyan fontos, mint maga a kód. A dokumentációnk, akárcsak a kód folyamatos fejlesztés alatt áll, [így ez a legjobb kiindulási pont](https://sprucecss.com/docs/getting-started/installation/).
 
 Mindemellett jó ha ismered a [Sass új modul rendszerét](https://sass-lang.com/blog/the-module-system-is-launched).
-
-Projekt szintű integráláshoz pedig ajánljuk a [kezdő projektet](https://github.com/conedevelopment/sprucecss-starter-kit), amiben mintát találsz arra, hogy hogyan kell behúznod a saját kódbázisodba.

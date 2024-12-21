@@ -47,7 +47,7 @@ Tehát, ebben az esetben a fenti számokkal operálva, a Stripe tranzakciónkén
 
 ## II. Stabilitás, SLA (Service Level Agreement), elérhetőség, API státusz
 
-Egy másik kardinális pont, a szolgáltatás stabilitása. Tulajdonképpen ez a kiváltó ok, amiért ez a cikk létrejött. Az elmúlt hetekben, hónapokban, az általunk fejlesztett [WooCommerce bővítmény GitHub felületén](https://github.com/conedevelopment/simplepay-gateway) és e-mailben is több ízben kaptunk visszajelzéseket (valamint tapasztaltuk meg személyesen is), hogy fizetéskor nem volt elérhető a rendszer vagy időtúllépés miatt leállt a fizetés folyamata. Sőt, [a SimplePay Facebook oldalán](https://www.facebook.com/SimplePay-674589696081156/) is többen számoltak be erről a jelenségről kommentek formájában.
+Egy másik kardinális pont, a szolgáltatás stabilitása. Tulajdonképpen ez a kiváltó ok, amiért ez a cikk létrejött. Az elmúlt hetekben, hónapokban, az általunk fejlesztett [WooCommerce bővítmény GitHub felületén](https://github.com/conedevelopment/simplepay-gateway) és e-mailben is több ízben kaptunk visszajelzéseket (valamint tapasztaltuk meg személyesen is), hogy fizetéskor nem volt elérhető a rendszer vagy időtúllépés miatt leállt a fizetés folyamata. Sőt, [a SimplePay Facebook oldalán](https://www.facebook.com/profile.php?id=100051744885981) is többen számoltak be erről a jelenségről kommentek formájában.
 
 A [SimplePay ÁSZF-ben](https://simplepay.hu/wp-content/uploads/2020/09/simplepay_b2b_aszf_20201001.pdf) az SLA-t illetően az áll, hogy:
 

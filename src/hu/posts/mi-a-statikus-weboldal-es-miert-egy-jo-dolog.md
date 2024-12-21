@@ -32,7 +32,7 @@ De, ha a dinamikus oldal tud többet, miért létezik még statikus? A kérdés 
 - Egy statikus oldal generátorral, oldallal teljesítmény területén nehéz birokra kelni. Ha a kiszolgálásból kiiktatjuk a dinamikus back-endet (PHP) és csak HTML adunk vissza, az nagyon gyors lesz. Természetesen a teljesítmény nem csak ezen áll, vagy bukik, de sokat jelent.
 - Olyan szolgáltatásokkal, mint a [Netlify](https://www.netlify.com/), vagy [Vercel](https://vercel.com/) nagyon jó áron lehet tömegeket kiszolgálni úgy, hogy a szerverünk egy nagyobb terhelés esetén sem esik össze.
 - A headless CMS-eknek köszönhetően hagyományos tartalomkezelő rendszereket is használhatunk, amiknek a tartalmát aztán használhatjuk generálásnál. Tehát, dinamikus adatokkal generálunk statikus oldalakat.
-- A kapcsolati űrlap jó példa egy olyan egyszerű funkcióra, ami a legtöbb oldalon szükséges. A [serverless](https://www.gatsbyjs.com/products/cloud/functions/) szolgáltatásoknak köszönhetően könnyen készíthetünk e-mail küldés funkciót szerver beállítás nélkül.
+- A kapcsolati űrlap jó példa egy olyan egyszerű funkcióra, ami a legtöbb oldalon szükséges. A serverless szolgáltatásoknak köszönhetően könnyen készíthetünk e-mail küldés funkciót szerver beállítás nélkül.
 
 ## Statikus oldalak hátrányai
 

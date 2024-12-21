@@ -43,7 +43,6 @@ cta:
                         <li>
                             <a href="https://github.com/laravel/framework/commits?author=iamgergo">Many of our PRs</a> were merged into the Laravel Core and also in other first-party repos as well.
                         </li>
-                        <li>We have an <a href="https://exam.laravelcert.com/is/D-Nagy-Gergo/certified-since/2020-06-23">official Laravel certification</a> which was taken by Gergő. </li>
                         <li>We wrote <a href="https://pineco.de/category/laravel/">many articles</a> about Laravel that helped many developers solve their problems.</li>
                         <li>
                             <a href="https://packagist.org/users/conedevelopment/packages/">Our Laravel packages</a> were downloaded more than 100.000 times until today.
