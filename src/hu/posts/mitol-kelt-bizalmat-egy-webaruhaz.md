@@ -1,7 +1,7 @@
 ---
 title: "Mitől kelt bizalmat egy webáruház?"
 date: "2020-04-23"
-tags: ["webaruhaz"]
+tags: ["webáruház"]
 thumbnail: "/img/blog/mitol-kelt-bizalmat-egy-online-aruhaz.png"
 thumbnailAlt: ""
 ---

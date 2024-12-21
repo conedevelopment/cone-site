@@ -1,7 +1,7 @@
 ---
 title: "SimplePay tapasztalatok"
 date: "2021-03-31"
-tags: ["webaruhaz", "woocommerce"]
+tags: ["webáruház", "woocommerce"]
 thumbnail: "/img/blog/tapasztalatok-a-simplepay-rol-mint-szolgaltatas.png"
 thumbnailAlt: ""
 ---
