@@ -14,7 +14,7 @@ Az ismétlődő fizetés esetében fontos megjegyezni, hogy nagyon számít a k�
 
 Ehhez a legtöbb esetben fejlesztőre, vagy más hozzáértő személyre lesz szükségünk. WordPress és Woo esetében elég lehet a WooCommerce Subscriptions bővítmény is, ami kifejezetten ezt a problémakört oldja meg, mint first-party bővítmény.
 
-A rendszeres és automata terhelések technikailag már nem a legegyszerűbb megoldások. Kell hozzá egy megbízható szerver, egy kód, ami rendszeresen terhel, valamint megoldás arra, hogy bármilyen hibát debugol-junk és feloldjunk.
+A rendszeres és automata terhelések technikailag már nem a legegyszerűbb megoldások. Kell hozzá egy megbízható szerver, egy kód, ami rendszeresen terhel, valamint megoldás arra, hogy bármilyen hibát debug-oljunk és feloldjunk.
 
 A kezelendő változók száma nagy, így a hibák lehetősége is.
 
