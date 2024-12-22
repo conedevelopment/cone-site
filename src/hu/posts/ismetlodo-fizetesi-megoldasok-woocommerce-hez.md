@@ -14,7 +14,7 @@ Az ismétlődő fizetés esetében fontos megjegyezni, hogy nagyon számít a k�
 
 Ehhez a legtöbb esetben fejlesztőre, vagy más hozzáértő személyre lesz szükségünk. WordPress és Woo esetében elég lehet a WooCommerce Subscriptions bővítmény is, ami kifejezetten ezt a problémakört oldja meg, mint first-party bővítmény.
 
-A rendszeres és automata terhelések technikailag már nem a legegyszerűbb megoldások. Kell hozzá egy megbízható szerver, egy kód, ami rendszeresen terhel, valamint megoldás arra, hogy bármilyen hibát debugoljunk és feloldjunk.
+A rendszeres és automata terhelések technikailag már nem a legegyszerűbb megoldások. Kell hozzá egy megbízható szerver, egy kód, ami rendszeresen terhel, valamint megoldás arra, hogy bármilyen hibát debugol-junk és feloldjunk.
 
 A kezelendő változók száma nagy, így a hibák lehetősége is.
 
@@ -38,7 +38,7 @@ A bővítmény rengeteg dolgot old meg értékesítői oldalról, mint:
 Korábban írtunk egy bejegyzést a magyar területen [népszerű Woo fizetési megoldásokról](/hu/nepszeru-woocommerce-fizetesi-modok/), ahol már leírtuk azok előnyeit, ezért itt külön ezt már nem részletezzük.
 
 - **Amennyiben SimplePay-t szeretnénk használni az ismétlődő fizetés kezeléséhez**, úgy annak nincs akadálya. Ingyenesen nem tudunk olyan Woo bővítményről, ami ebben tud segíteni, mindenképpen fizetnünk kell érte. Többnyire az ismétlődő fizetés feláras szolgáltatás, az [általunk fejlesztett SimplePay bővítmény esetében nem](https://simplepay.conedevelopment.com/), itt megkapod az alap árért cserébe (egy ár, egy bővítmény). A beállítás menetéről részletes információt ebben a [bejegyzésben találsz](https://simplepay.conedevelopment.com/tamogatas/igy-hasznald/ismetlodo-fizetesek/).
-- **Barion esetén is igaz minden, ami SimplePay esetében.** Fizetős bővítménnyel tudunk ismétlődő fizetést kezelni, általában felárét. Az általunk fejlesztett [Barion WooCommerce integrációnál](https://barion.conedevelopment.com/) nincs felár, az alapár ellenében már használhatod is.
+- **Barion esetén is igaz minden, ami SimplePay esetében.** Fizetős bővítménnyel tudunk ismétlődő fizetést kezelni, általában felárért. Az általunk fejlesztett [Barion WooCommerce integrációnál](https://barion.conedevelopment.com/) nincs felár, az alapár ellenében már használhatod is.
 - **Stripe esetében** [ingyenesen elérhető a 1st-party bővítmény](https://woocommerce.com/products/stripe/), ami támogatja az ismétlődő fizetést. Ahogy mindig, úgy a Stripe továbbra is a legrobusztusabb választás, ha online fizetés kezelésről van szó.
 - **Paylike-hoz szintén** [ingyenesen érhető el](https://paylike.io/plugins/woocommerce) a 1st-party bővítmény, ami támogatja az ismétlődő fizetést.
 - **PayPal esetében** a [Braintree-t kell keresnünk](https://woocommerce.com/products/woocommerce-gateway-paypal-powered-by-braintree/), amihez ingyenesen érhető el a bővítmény. A Braintree egy PayPal márka, ami kifejezetten az előfizetések kezelésére jött létre.
