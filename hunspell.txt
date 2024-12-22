@@ -1,3 +1,4 @@
+11ty
 adamlaki
 admin
 caption
@@ -9,6 +10,7 @@ date
 define
 description
 div
+Gatsby
 href
 html
 icon
@@ -26,6 +28,7 @@ public
 querySelector
 Rocket
 section
+serverless
 SimplePay
 spam
 src
