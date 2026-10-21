@@ -88,6 +88,7 @@ $color-tertiary: hsl(169deg 100% 50%);
   $generators: (
     'content': (
       'accessibility': true,
+      'dark-mode': true,
       'default': true,
       'display': true,
       'divider': true,
@@ -123,5 +124,6 @@ $color-tertiary: hsl(169deg 100% 50%);
   $typography: (
     'font-family-base': #{'Manrope', sans-serif},
     'font-family-heading': #{'Inter', sans-serif},
+    'line-height-base': 1.8,
   ),
 );
