@@ -32,9 +32,9 @@ testimonial:
         image: "/img/illustrations/retro-donut-screams-loudly.svg"
         imageAlt: "Egy retró fánk hangosan kiabál."
     -
-        title: "UI tervezés"
-        url: "/hu/szolgaltatasaink/ui-tervezes/"
-        description: "Nem csak kódolunk, hanem tervezünk is. Alapvető célunk, hogy egy funkcionális és egyszerűen érthető felhasználói felület készüljön. Ezenkívül számos, egyéb a webhez köthető dologban is tudunk segíteni."
+        title: "WooCommerce fejlesztés"
+        url: "/hu/szolgaltatasaink/woocommerce-fejlesztes/"
+        description: "Egyedi WooCommerce webáruházakat készítünk, és bővítjük a meglévőket. Fizetési kapu, szállítási mód, számlázás vagy CRM kapcsolat: az integrációkat is megírjuk."
         image: "/img/illustrations/retro-chocolate-fancy.svg"
         imageAlt: "Egy bulizó tábla csoki napszemüvegben."
 grid:

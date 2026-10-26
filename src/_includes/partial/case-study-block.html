@@ -1,9 +1,12 @@
 {% set caseStudies = collections.caseStudiesHu if lang == 'hu' else collections.caseStudiesEn %}
 
-{# Every case study, newest first. #}
-<section class="case-study-block"{% if caseStudy.title %} aria-labelledby="case-study-block-title"{% endif %}>
+{# Every case study, newest first, or only the ones tagged with caseStudy.tag. #}
+<section class="case-study-block"{% if caseStudy.heading %} aria-labelledby="{{ caseStudy.heading.id }}"{% elif caseStudy.title %} aria-labelledby="case-study-block-title"{% endif %}>
     <div class="container">
-        {% if caseStudy.title %}
+        {% if caseStudy.heading %}
+            {% set heading = caseStudy.heading %}
+            {% include "partial/block/block-heading.html" %}
+        {% elif caseStudy.title %}
             <h2 class="section-title" id="case-study-block-title">
                 {% svgIcon caseStudy.title.image %}
                 {% if caseStudy.title.url %}
@@ -17,26 +20,28 @@
         {% endif %}
         <div class="case-study-block__list">
             {% for item in caseStudies | sort(true, false, 'date') %}
-                {% set card = item.data.card %}
-                <div class="case-study-block__inner">
-                    <div class="case-study-block__media">
-                        <div class="case-study-block__browser">
-                            <span class="case-study-block__frame" aria-hidden="true"><i></i><i></i><i></i><span class="case-study-block__url">{{ card.media.url }}</span></span>
-                            <img src="{{ card.media.desktop.src }}" alt="{{ card.media.alt }}" width="{{ card.media.desktop.width }}" height="{{ card.media.desktop.height }}" loading="lazy">
-                        </div>
-                        {% if card.media.mobile %}
-                            <div class="case-study-block__phone">
-                                <span class="case-study-block__phone-bar" aria-hidden="true"><i></i></span>
-                                <img src="{{ card.media.mobile.src }}" alt="" width="{{ card.media.mobile.width }}" height="{{ card.media.mobile.height }}" loading="lazy">
+                {% if not caseStudy.tag or caseStudy.tag in item.data.hero.tags %}
+                    {% set card = item.data.card %}
+                    <div class="case-study-block__inner">
+                        <div class="case-study-block__media">
+                            <div class="case-study-block__browser">
+                                <span class="case-study-block__frame" aria-hidden="true"><i></i><i></i><i></i><span class="case-study-block__url">{{ card.media.url }}</span></span>
+                                <img src="{{ card.media.desktop.src }}" alt="{{ card.media.alt }}" width="{{ card.media.desktop.width }}" height="{{ card.media.desktop.height }}" loading="lazy">
                             </div>
-                        {% endif %}
+                            {% if card.media.mobile %}
+                                <div class="case-study-block__phone">
+                                    <span class="case-study-block__phone-bar" aria-hidden="true"><i></i></span>
+                                    <img src="{{ card.media.mobile.src }}" alt="" width="{{ card.media.mobile.width }}" height="{{ card.media.mobile.height }}" loading="lazy">
+                                </div>
+                            {% endif %}
+                        </div>
+                        <div class="case-study-block__content">
+                            <p class="case-study-block__eyebrow">{{ i18n[lang].caseStudy.eyebrow }} · <span class="case-study-block__company">{{ item.data.client }}</span></p>
+                            <p class="case-study-block__lead">{{ card.lead }}</p>
+                            <a class="btn btn--outline-primary case-study-block__link" href="{{ item.url }}">{{ i18n[lang].caseStudy.readMore }}<span class="sr-only">: {{ item.data.client }}</span></a>
+                        </div>
                     </div>
-                    <div class="case-study-block__content">
-                        <p class="case-study-block__eyebrow">{{ i18n[lang].caseStudy.eyebrow }} · <span class="case-study-block__company">{{ item.data.client }}</span></p>
-                        <p class="case-study-block__lead">{{ card.lead }}</p>
-                        <a class="btn btn--outline-primary case-study-block__link" href="{{ item.url }}">{{ i18n[lang].caseStudy.readMore }}<span class="sr-only">: {{ item.data.client }}</span></a>
-                    </div>
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

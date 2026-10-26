@@ -2,101 +2,195 @@
 title: "WooCommerce webáruház fejlesztés"
 metaDesc: "Komplett WooCommerce webáruház és egyedi integráció fejlesztés, legyen az fizetési kapu, CRM kapcsolat, vagy szállítási megoldás."
 permalink: "/hu/szolgaltatasaink/woocommerce-fejlesztes/"
-layout: "layout/development.html"
+layout: "layout/woocommerce.html"
+hreflang:
+-
+    lang: "en"
+    url: "/services/woocommerce-development/"
 hero:
     title:
         caption: "<span class='highlighted'>WooCommerce</span> webáruház fejlesztés és bővítés"
     description: "Komplett WooCommerce webáruház és egyedi integráció fejlesztés, legyen az fizetési kapu, CRM kapcsolat, vagy szállítási megoldás."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
-testimonial:
-    classes: "l-testimonial--primary"
-    cards:
+featureMediaBlock:
+    heading:
+        eyebrow: "Miért velünk?"
+        title: "Nem csak használjuk a WooCommerce-t, fejlesztünk is rá"
+        text: "A SimplePay és a Barion bővítményt is mi fejlesztjük, így közelről ismerjük a fizetés, a szállítás és a számlázás buktatóit."
+        id: "woo-why-title"
+    items:
     -
-        title: "Egyedi webáruházakat <br> fejlesztünk"
-        description: "WordPress és WooCommerce használatával teljesen egyedi webáruházat és témát készítünk. Előre elkészített és részletes specifikációval dolgozunk, közösen tervezünk."
+        eyebrow: "Egyedi webáruház"
+        title: "Egyedi webáruházakat fejlesztünk"
+        text: "WordPress és WooCommerce használatával teljesen egyedi webáruházat és témát készítünk. Előre elkészített és részletes specifikációval dolgozunk, közösen tervezünk."
+        points:
+        - "Egyedi téma, felesleges bővítmények és builderek nélkül"
+        - "Részletes, közösen elkészített specifikáció"
+        - "Gyors és hosszú távon is fenntartható kód"
         image: "/img/illustrations/retro-milk-on-a-scooter.svg"
-        imageAlt: "Retró tejesdoboz rollerezik."
+        alt: "Retró tejesdoboz rollerezik."
     -
+        eyebrow: "Integrációk"
         title: "Egyedi integrációkat, bővítményeket készítünk"
-        description: "Szükség esetén egyedi integrációkat fejlesztünk WooCommerce-hez, legyen az szállítási opció, számlázási összekötés, fizetési kapu, vagy CRM összekötés."
+        text: "Szükség esetén egyedi integrációkat fejlesztünk WooCommerce-hez, legyen az szállítási opció, számlázási összekötés, fizetési kapu, vagy CRM összekötés."
+        points:
+        - "Fizetési kapuk"
+        - "Szállítási módok"
+        - "Számlázás és CRM kapcsolat"
         image: "/img/illustrations/retro-popcorn-rushes-to-the-movies.svg"
-        imageAlt: "Retró pattogatott kukorica rohan a mozi filmre."
-grid:
-    title:
-        caption: "Miért WooCommerce?"
-        image: "./src/img/title-helper-tertiary.svg"
+        alt: "Retró pattogatott kukorica rohan a mozi filmre."
+        link:
+            caption: "A SimplePay bővítményünk"
+            url: "https://simplepay.conedevelopment.com/"
+featuresBlock:
+    heading:
+        eyebrow: "WooCommerce"
+        title: "Miért WooCommerce?"
+        text: "Stabil, nyílt forráskódú alap, amire hosszú távon is építhetsz."
+        id: "woo-features-title"
+    muted: true
     items:
     -
         image: "./src/img/icon/shape-04.svg"
         title: "Stabil támogatás"
-        description: "<p>A WooCommerce egy 1st-party WordPress bővítmény, amit az Automattic fejleszt.</p>"
+        text: "A WooCommerce egy 1st-party WordPress bővítmény, amit az Automattic fejleszt."
     -
         image: "./src/img/icon/shape-03.svg"
         title: "Ismerős WordPress felület"
-        description: "<p>Lévén, hogy WordPress bővítményről van szó, biztosan egyszerűen látod majd át te is az adminisztrációs felületet.</p>"
+        text: "Lévén, hogy WordPress bővítményről van szó, biztosan egyszerűen látod majd át te is az adminisztrációs felületet."
     -
         image: "./src/img/icon/shape-01.svg"
         title: "Rengeteg integráció"
-        description: "<p>Számtalan jó minőségű bővítmény közül válogathatunk lefedve az egyedi igényeket.</p>"
+        text: "Számtalan jó minőségű bővítmény közül válogathatunk lefedve az egyedi igényeket."
     -
         image: "./src/img/icon/shape-02.svg"
         title: "Megfelelően bővíthető"
-        description: "<p>Legyen az CRM integráció, fizetési vagy szállítási bővítmény, annak integrációja megvalósítható.</p>"
+        text: "Legyen az CRM integráció, fizetési vagy szállítási bővítmény, annak integrációja megvalósítható."
     -
         image: "./src/img/icon/shape-06.svg"
         title: "Open Source kódbázis"
-        description: "<p>Akárcsak a WordPress, úgy a WooCommerce is open source. Tiéd - is - a kód.</p>"
+        text: "Akárcsak a WordPress, úgy a WooCommerce is open source. Tiéd - is - a kód."
     -
         image: "./src/img/icon/shape-05.svg"
         title: "Eladhatsz bármit"
-        description: "<p>Nem számít, hogy fizikai, digitális termék, esetleg komplett előfizetésre van szükséged, Woo-val meg tudod valósítani.</p>"
-accordion:
-    title:
-        caption: "WooCommerce <br> fejlesztői <br> szolgáltatásaink"
-        image: "./src/img/title-helper-primary.svg"
-    blocks:
+        text: "Nem számít, hogy fizikai, digitális termék, esetleg komplett előfizetésre van szükséged, Woo-val meg tudod valósítani."
+caseStudy:
+    heading:
+        eyebrow: "Munkáink"
+        title: "Legutóbbi webáruházunk"
+        id: "woo-case-study-title"
+    tag: "WooCommerce"
+servicesBlock:
+    heading:
+        eyebrow: "Szolgáltatások"
+        title: "WooCommerce fejlesztői szolgáltatásaink"
+        id: "woo-services-title"
+        align: "start"
+    services:
     -
-        items:
-        -
-            title: "Egyedi téma fejlesztés"
-            description: "<p>Az általunk készített WooCommerce oldalak egyedi témát kapnak, ami célirányosan csak a projekt elvárásainak felel meg és nincs benne felesleg.</p><p>Ennek a szemléletnek köszönhetően és annak, hogy kerüljük a felesleges bővítményeket és builder-eket az oldal gyorsabb lesz, valamint egyszerűbb lesz bővíteni, fenntartani.</p>"
-        -
-            title: "WordPress bővítmény, integráció fejlesztés"
-            description: "<p>Webáruházak esetében az egyedi bővítések mindig gyakoribbak. Általában egy külső CRM-el történő készletkezelés, egyedi fizetési kapu, vagy szállítási mód integrálása egészen gyakran szükséges.</p><p>Ezek elkészítésében magas minőségben tudunk segíteni. Készítettünk már:</p><ul><li> <strong>SimplePay integrációt:</strong> az <a href='https://simplepay.conedevelopment.com/'>OTP népszerű fizetési megoldásának Woo bővítményét</a> rengetegen használják és stabilan fut már ötödik éve.</li><li><strong>Barion integrációt:</strong> fizetési megoldás az egyik népszerű magyar tulajdonú <a href='https://barion.conedevelopment.com/'>online vásárlási megoldáshoz</a>.</li><li><strong>DHL szállítási megoldást:</strong> az egyik hazai, egyedi billentyűzeteket készítő, de nemzetközi gyártónak készítettünk a meglévő oldalába DHL integrációt.</li><li><strong>Egyedi termék rendelést:</strong> ajándékgyártó cégnek készítettünk egyedi és intuitív rendelési folyamatot.</li></ul>"
-        -
-            title: "WooCommerce karbantartás"
-            description: "<p>Az elkészült webáruházat fenn és karban is kell tartani. Számíthatsz ránk ebben, valamint bármilyen továbbfejlesztésben is.</p>"
-        -
-            title: "Webáruház átvétele"
-            description: "<p>Egy WordPress oldal átvétele sokszor nem egyszerű, ha WooCommerce-et használ, akkor ez hatványozottan igaz. Ettől függetlenül igyekszünk teljeskörűen segíteni ezen a téren is, így vállalunk oldal továbbfejlesztést és átvételt.</p><p>Ennek költsége és mikéntje teljesen egyedi, így előzetes megbeszélést, konzultációt igényel.</p>"
-step:
-    title:
-        caption: "Így néz ki a folyamat"
-        image: "./src/img/title-helper-primary.svg"
-    showNumber: true
+        title: "Egyedi téma fejlesztés"
+        text: "Célirányosan a projekt elvárásaira írt téma, felesleg nélkül. Kerüljük a felesleges bővítményeket és buildereket, így az oldal gyorsabb lesz, és egyszerűbb lesz bővíteni, fenntartani."
+        deliverables:
+        - "HTML alapú terv"
+        - "Egyedi WordPress téma"
+        - "Szinte teljesen szerkeszthető tartalom"
+    -
+        title: "Bővítmény és integráció fejlesztés"
+        text: "Külső CRM-mel történő készletkezelés, egyedi fizetési kapu vagy szállítási mód: ha nincs jó megoldás, megírjuk. Ezeket már elkészítettük:"
+        deliverables:
+        - "<a href='https://simplepay.conedevelopment.com/'>SimplePay</a> integráció"
+        - "<a href='https://barion.conedevelopment.com/'>Barion</a> integráció"
+        - "DHL szállítási megoldás"
+        - "Egyedi termék rendelés"
+    -
+        title: "WooCommerce karbantartás"
+        text: "Az elkészült webáruházat fenn és karban is kell tartani. Számíthatsz ránk ebben, valamint bármilyen továbbfejlesztésben is."
+        deliverables:
+        - "Havi frissítések"
+        - "Felügyelet"
+        - "Továbbfejlesztés"
+    -
+        title: "Webáruház átvétele"
+        text: "Egy WooCommerce-et használó oldal átvétele sokszor nem egyszerű, de ebben is segítünk. Ennek költsége és mikéntje egyedi, így előzetes konzultációval kezdünk."
+        deliverables:
+        - "Előzetes konzultáció"
+        - "Átvétel"
+        - "Továbbfejlesztés"
+productsBlock:
+    heading:
+        eyebrow: "Bővítményeink"
+        title: "WooCommerce fizetési bővítményeink"
+        text: "Saját fejlesztésű fizetési integrációk, biztonsági és kompatibilitási frissítésekkel."
+        id: "woo-products-title"
+    muted: true
     items:
     -
-        title: "Megbeszélünk, igényeket egyeztetünk"
-        description: "Az első lépése az együttműködésnek a fejlesztési leírás elkészítés közösen, ami alapján dolgozni tudunk majd."
+        name: "SimplePay x WooCommerce"
+        description: "Integráld a SimplePay fizetési megoldást az áruházadba megbízható és stabil bővítményünk segítségével."
+        price: "15 000 Ft"
+        period: "/ év"
+        features:
+        - "Apple Pay és Google Pay fizetés"
+        - "Ismétlődő fizetés (WooCommerce Subscriptions támogatás)"
+        - "Kártyatárolásos és qvik fizetés"
+        - "SZÉP-kártyás fizetés"
+        - "Visszatérítés kezelés"
+        - "HPOS és Block Checkout támogatás"
+        details:
+            caption: "Részletek"
+            url: "https://simplepay.conedevelopment.com/"
     -
-        title: "Tervezünk"
-        description: "A kapott információkra építve elkészítjük a tervet HTML alapon, ami már egyből nézhető és tesztelhető minden eszközön."
+        name: "Barion x WooCommerce"
+        description: "Megbízható és jól támogatott Barion integráció WooCommerce webáruházakhoz."
+        price: "15 000 Ft"
+        period: "/ év"
+        features:
+        - "Minden Barion által támogatott fizetési mód"
+        - "Integrált Apple Pay fizetés"
+        - "Ismétlődő fizetés"
+        - "Szinkronizált visszatérítés"
+        - "Teljes Barion Pixel támogatás"
+        - "HPOS támogatás"
+        details:
+            caption: "Részletek"
+            url: "https://barion.conedevelopment.com/"
+faqBlock:
+    heading:
+        eyebrow: "GYIK"
+        title: "Gyakori kérdések"
+        text: "Amit a legtöbbször kérdeznek tőlünk egy webáruház kapcsán."
+        id: "woo-faq-title"
+        align: "start"
+    items:
     -
-        title: "Weboldal fejlesztés"
-        description: "A terv elfogadása után rákötjük WordPress-re. A cél, hogy a tartalom majdnem 100%-a szerkeszthető legyen."
+        question: "Mennyi idő alatt készül el egy webáruház?"
+        answer: "Ez leginkább a termékek számán, az egyedi funkciókon és az integrációkon múlik. A pontos ütemezést a közösen elkészített fejlesztési leírás alapján adjuk meg, még a munka megkezdése előtt."
     -
-        title: "Tesztelünk, javítunk"
-        description: "Folyamatosan tesztelünk, amiben neked is komoly szerep jut. Az oldalt csak a hibák javítása után élesítjük."
+        question: "Át tudjátok költöztetni a meglévő webáruházamat?"
+        answer: "Igen. A termékeket, a vásárlókat és a rendeléseket átemeljük az új áruházba. Hogy ez pontosan hogyan történik, az a jelenlegi rendszertől függ, ezt az első egyeztetésen átbeszéljük."
     -
-        title: "Frissítünk, fenntartunk"
-        description: "Amennyiben szeretnéd, úgy felügyeljük, frissítjük az oldalad havonta."
+        question: "Milyen fizetési és szállítási módokat tudtok bekötni?"
+        answer: "A népszerű fizetési kapukat és szállítási szolgáltatókat jellemzően meglévő bővítménnyel kötjük be. Ha nincs megfelelő, akkor megírjuk, ahogy a SimplePay, a Barion és a DHL integráció esetében is tettük."
     -
-        title: "Tovább fejlesztjük"
-        description: "Amennyiben új igények, funkciók merülnek fel, akkor segítünk tovább fejleszteni."
-blogSection:
-    title:
-        caption: "Blogunkból"
-        image: "./src/img/title-helper-primary.svg"
+        question: "Én magam is szerkeszthetem a termékeket és a tartalmat?"
+        answer: "Igen. A termékeket, a rendeléseket és az oldal tartalmának szinte egészét a megszokott WordPress felületen kezelheted. Átadáskor megmutatjuk, mi hol található."
+    -
+        question: "Mi történik az átadás után?"
+        answer: "Ha szeretnéd, havonta frissítjük és felügyeljük az áruházat, és a további fejlesztésekben is számíthatsz ránk. Ha nem, akkor a kód és az oldal teljes egészében a tiéd."
+    help:
+        title: "További kérdésed van?"
+        text: "Írj nekünk a részletekkel, szívesen segítünk."
+        action: "Kapcsolat"
+        url: "/hu/kapcsolat/"
+blogBlock:
+    heading:
+        eyebrow: "Blog"
+        title: "Blogunkból"
+        id: "woo-blog-title"
+        align: "start"
+    action:
+        caption: "Összes bejegyzés"
+        url: "/hu/blog/"
     tag: "wordpress"
 cta:
     title: "WooCommerce fejlesztőt keresel?"

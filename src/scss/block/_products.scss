@@ -1,0 +1,95 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.products-block {
+  padding-block: spacer-clamp('xl', 'xxl');
+
+  &--muted {
+    background-color: color('surface-muted');
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: spacer('l');
+  }
+
+  &__list {
+    display: grid;
+    gap: spacer('m');
+
+    @include breakpoint('md') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+
+// A product with its price: built on the Spruce UI pricing card.
+.product-card {
+  background-color: color('surface');
+  border: config('border-width-base', $display) solid color('border');
+  border-radius: radius('lg');
+  box-shadow: shadow('sm');
+  display: flex;
+  flex-direction: column;
+  gap: spacer('m');
+  padding: spacer-clamp('m', 'l');
+
+  &__header {
+    @include layout-stack('xxs');
+  }
+
+  &__title {
+    font-size: font-size('h3');
+  }
+
+  &__description {
+    color: color('muted');
+  }
+
+  &__price {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('xxs');
+    margin-block: 0;
+  }
+
+  &__amount {
+    color: color('heading');
+    font-family: config('font-family-heading', $typography);
+    font-size: font-size('h2');
+    font-weight: config('font-weight-heading', $typography);
+    line-height: 1;
+  }
+
+  &__period {
+    color: color('muted');
+  }
+
+  &__features {
+    @include clear-list;
+    @include layout-stack('xs');
+    flex-grow: 1;
+
+    // The check stays on the first line when a feature wraps.
+    li {
+      align-items: flex-start;
+      display: flex;
+      gap: spacer('xs');
+    }
+  }
+
+  &__check {
+    block-size: 1rem;
+    color: color('primary');
+    flex-shrink: 0;
+    inline-size: 1rem;
+    margin-block-start: 0.25em;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('xs');
+  }
+}

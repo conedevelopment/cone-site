@@ -1,0 +1,21 @@
+{% if featuresBlock %}
+    <section class="features-block{% if featuresBlock.muted %} features-block--muted{% endif %}" aria-labelledby="{{ featuresBlock.heading.id }}">
+        <div class="container">
+            <div class="features-block__inner">
+                {% set heading = featuresBlock.heading %}
+                {% include "partial/block/block-heading.html" %}
+                {#- Three columns when the items fill rows of three but not rows of four (like 6 or 9), four otherwise. -#}
+                {% set columns = 3 if (featuresBlock.items.length % 4 != 0 and featuresBlock.items.length % 3 == 0) else 4 %}
+                <ul class="features-block__grid features-block__grid--{{ columns }}" role="list">
+                    {% for item in featuresBlock.items %}
+                        <li class="features-block__item">
+                            <span class="features-block__icon">{% svgIcon item.image %}</span>
+                            <h3 class="features-block__title">{{ item.title }}</h3>
+                            <p class="features-block__text">{{ item.text }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+{% endif %}

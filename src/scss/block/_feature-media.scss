@@ -1,0 +1,98 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.feature-media-block {
+  padding-block: spacer-clamp('xl', 'xxl');
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: spacer('xl');
+  }
+
+  &__row {
+    align-items: center;
+    display: grid;
+    gap: spacer-clamp('l', 'xl');
+
+    @include breakpoint('md') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      &:nth-of-type(even) .feature-media-block__media {
+        order: 2;
+      }
+    }
+  }
+
+  // The illustrations are square SVGs: they sit centered on a tinted panel.
+  &__media {
+    align-items: center;
+    aspect-ratio: 4 / 3;
+    background-color: color-alpha('primary', 0.08);
+    border-radius: radius('lg');
+    display: flex;
+    justify-content: center;
+    padding: spacer-clamp('m', 'l');
+  }
+
+  &__row:nth-of-type(even) &__media {
+    background-color: color-alpha('tertiary', 0.15);
+  }
+
+  &__image {
+    block-size: auto;
+    inline-size: min(100%, 18rem);
+  }
+
+  &__content {
+    @include layout-stack('s');
+  }
+
+  &__eyebrow {
+    color: color('primary');
+    font-size: config('font-size-sm', $typography);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: font-size('h2');
+  }
+
+  &__points {
+    list-style: none;
+    padding: 0;
+    @include layout-stack('xxs');
+
+    // The check stays on the first line when a point wraps.
+    li {
+      align-items: flex-start;
+      color: color('heading');
+      display: flex;
+      gap: spacer('xs');
+    }
+  }
+
+  &__check {
+    block-size: 1.1rem;
+    color: color('primary');
+    flex-shrink: 0;
+    inline-size: 1.1rem;
+    margin-block-start: 0.2em;
+  }
+
+  &__link {
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover span {
+      display: inline-block;
+      translate: 0.25em 0;
+    }
+  }
+}
+
+[dir='rtl'] .feature-media-block__link span {
+  display: inline-block;
+  scale: -1 1;
+}

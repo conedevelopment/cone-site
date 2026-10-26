@@ -63,8 +63,8 @@
             "external": false
           },
           {
-            "caption": "UI Design",
-            "url": "/services/ui-design/",
+            "caption": "WooCommerce Development",
+            "url": "/services/woocommerce-development/",
             "external": false
           }
         ]
@@ -178,11 +178,6 @@
           {
             "caption": "WooCommerce fejlesztés",
             "url": "/hu/szolgaltatasaink/woocommerce-fejlesztes/",
-            "external": false
-          },
-          {
-            "caption": "UI tervezés",
-            "url": "/hu/szolgaltatasaink/ui-tervezes/",
             "external": false
           },
           {

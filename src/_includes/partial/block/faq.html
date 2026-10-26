@@ -1,0 +1,27 @@
+{% if faqBlock %}
+    <section class="faq-block" aria-labelledby="{{ faqBlock.heading.id }}">
+        <div class="container">
+            <div class="faq-block__inner">
+                <div class="faq-block__aside">
+                    {% set heading = faqBlock.heading %}
+                    {% include "partial/block/block-heading.html" %}
+                    {% if faqBlock.help %}
+                        <div class="faq-block__help">
+                            <h3 class="faq-block__help-title">{{ faqBlock.help.title }}</h3>
+                            <p>{{ faqBlock.help.text }}</p>
+                            <a class="btn btn--primary btn--sm" href="{{ faqBlock.help.url }}">{{ faqBlock.help.action }}</a>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="faq-block__list">
+                    {% for item in faqBlock.items %}
+                        <details name="faq-block"{% if loop.first %} open{% endif %}>
+                            <summary>{{ item.question }}</summary>
+                            <p>{{ item.answer }}</p>
+                        </details>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

@@ -1,0 +1,26 @@
+{% if servicesBlock %}
+    <section class="services-block" aria-labelledby="{{ servicesBlock.heading.id }}">
+        <div class="container">
+            <div class="services-block__inner">
+                {% set heading = servicesBlock.heading %}
+                {% include "partial/block/block-heading.html" %}
+                <ol class="services-block__list" role="list">
+                    {% for service in servicesBlock.services %}
+                        <li class="services-block__service">
+                            <span class="services-block__number" aria-hidden="true">{{ ('0' + loop.index) if loop.index < 10 else loop.index }}</span>
+                            <div class="services-block__body">
+                                <h3 class="services-block__title">{{ service.title }}</h3>
+                                <p class="services-block__text">{{ service.text }}</p>
+                            </div>
+                            <ul class="services-block__deliverables" role="list" aria-label="{{ i18n[lang].blocks.deliverables }}">
+                                {% for item in service.deliverables %}
+                                    <li><span>{{ item | safe }}</span></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+    </section>
+{% endif %}

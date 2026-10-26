@@ -1,0 +1,30 @@
+{% if featureMediaBlock %}
+    <section class="feature-media-block" aria-labelledby="{{ featureMediaBlock.heading.id }}">
+        <div class="container">
+            <div class="feature-media-block__inner">
+                {% set heading = featureMediaBlock.heading %}
+                {% include "partial/block/block-heading.html" %}
+                {% for item in featureMediaBlock.items %}
+                    <article class="feature-media-block__row">
+                        <div class="feature-media-block__media">
+                            <img class="feature-media-block__image" src="{{ item.image }}" alt="{{ item.alt }}" width="220" height="220" loading="lazy">
+                        </div>
+                        <div class="feature-media-block__content">
+                            <p class="feature-media-block__eyebrow">{{ item.eyebrow }}</p>
+                            <h3 class="feature-media-block__title">{{ item.title }}</h3>
+                            <p>{{ item.text }}</p>
+                            <ul class="feature-media-block__points" role="list">
+                                {% for point in item.points %}
+                                    <li><svg class="feature-media-block__check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg> {{ point }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% if item.link %}
+                                <p class="feature-media-block__more"><a class="feature-media-block__link" href="{{ item.link.url }}">{{ item.link.caption }} <span aria-hidden="true">→</span></a></p>
+                            {% endif %}
+                        </div>
+                    </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}

@@ -26,6 +26,12 @@ testimonial:
         description: "We create visually stunning and highly functional websites built on WordPress or Eleventy."
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "A peanutbutter sandwich eating jelly from a jar."
+    -
+        title: "WooCommerce Development"
+        url: "/services/woocommerce-development/"
+        description: "We build custom WooCommerce stores and extend existing ones, including payment gateway, shipping, invoicing and CRM integrations."
+        image: "/img/illustrations/retro-chocolate-fancy.svg"
+        imageAlt: "A partying chocolate bar in sunglasses."
 accordion:
     title:
         caption: "How We<br>Can Help"

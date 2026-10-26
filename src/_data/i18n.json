@@ -12,7 +12,7 @@
         "Website development",
         "WordPress development",
         "Laravel development",
-        "UI design",
+        "WooCommerce development",
         "Laravel/WordPress/Accessibility audit",
         "Subcontractor"
       ],
@@ -38,6 +38,9 @@
       "story": "The story",
       "toc": "In this case study",
       "readMore": "Read the case study"
+    },
+    "blocks": {
+      "deliverables": "What you get"
     }
   },
   "hu": {
@@ -53,7 +56,7 @@
         "Weboldal fejlesztés",
         "WordPress fejlesztés",
         "Laravel fejlesztés",
-        "UI tervezés",
+        "WooCommerce fejlesztés",
         "Laravel/WordPress/Akadálymentesség audit",
         "Alvállalkozó"
       ],
@@ -79,6 +82,9 @@
       "story": "A történet",
       "toc": "Ebben az esettanulmányban",
       "readMore": "Elolvasom az esettanulmányt"
+    },
+    "blocks": {
+      "deliverables": "Amit kapsz"
     }
   }
 }

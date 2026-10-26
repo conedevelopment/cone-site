@@ -1,0 +1,23 @@
+{% if blogBlock.tag %}
+    <section class="blog-block" aria-labelledby="{{ blogBlock.heading.id }}">
+        <div class="container">
+            <div class="blog-block__inner">
+                <div class="blog-block__header">
+                    {% set heading = blogBlock.heading %}
+                    {% include "partial/block/block-heading.html" %}
+                    {% if blogBlock.action %}
+                        <a class="btn btn--outline-primary" href="{{ blogBlock.action.url }}">{{ blogBlock.action.caption }}</a>
+                    {% endif %}
+                </div>
+                <div class="blog-block__grid">
+                    {% for post in collections[blogBlock.tag] %}
+                        {% set tags = post.data.tags %}
+                        {% if loop.index0 < 3 %}
+                            {% include "partial/blog-card.html" %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}
