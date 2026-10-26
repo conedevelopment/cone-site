@@ -1,0 +1,32 @@
+<section class="hero-case-block" aria-labelledby="hero-case-title">
+    <div class="container">
+        <div class="hero-case-block__inner">
+            <div class="hero-case-block__intro">
+                <div class="hero-case-block__heading">
+                    <p class="hero-case-block__eyebrow">{{ i18n[lang].caseStudy.eyebrow }} · {{ client }}</p>
+                    <h1 class="hero-case-block__title" id="hero-case-title">{{ hero.title }}</h1>
+                    <p class="hero-case-block__summary">{{ hero.summary }}</p>
+                    {% if hero.tags %}
+                        <ul class="hero-case-block__tags" role="list" aria-label="{{ i18n[lang].caseStudy.technologies }}">
+                            {% for tag in hero.tags %}
+                                <li class="badge">{{ tag }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <dl class="hero-case-block__facts">
+                    {% for fact in hero.facts %}
+                        <div class="hero-case-block__fact">
+                            <dt>{{ fact.label }}</dt>
+                            <dd>{{ fact.value | safe }}</dd>
+                        </div>
+                    {% endfor %}
+                </dl>
+            </div>
+            <figure class="hero-case-block__cover">
+                <img src="{{ hero.image.src }}" alt="{{ hero.image.alt }}" width="{{ hero.image.width }}" height="{{ hero.image.height }}" fetchpriority="high">
+                <figcaption>{{ hero.image.caption }}</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>

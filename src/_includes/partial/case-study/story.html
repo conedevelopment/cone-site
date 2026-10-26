@@ -1,0 +1,41 @@
+<section class="story-block" aria-labelledby="story-title" data-story>
+    <div class="container">
+        <div class="story-block__inner">
+            <h2 class="sr-only" id="story-title">{{ i18n[lang].caseStudy.story }}</h2>
+            <nav class="story-block__nav" aria-labelledby="story-nav-title">
+                <p class="story-block__nav-title" id="story-nav-title">{{ i18n[lang].caseStudy.toc }}</p>
+                <ol class="story-block__toc" role="list">
+                    {% for chapter in chapters %}
+                        <li><a class="story-block__toc-link" href="#{{ chapter.id }}" data-story-link><span class="story-block__toc-number" aria-hidden="true">{{ ('0' + loop.index) if loop.index < 10 else loop.index }}</span>{{ chapter.title }}</a></li>
+                    {% endfor %}
+                </ol>
+            </nav>
+            <div class="story-block__content">
+                {% for chapter in chapters %}
+                    <article class="story-block__chapter" id="{{ chapter.id }}" aria-labelledby="{{ chapter.id }}-title" data-story-chapter>
+                        <div class="story-block__heading">
+                            <p class="story-block__eyebrow" aria-hidden="true">{{ ('0' + loop.index) if loop.index < 10 else loop.index }}</p>
+                            <h3 class="story-block__title" id="{{ chapter.id }}-title">{{ chapter.title }}</h3>
+                        </div>
+                        {% for paragraph in chapter.paragraphs %}
+                            <p>{{ paragraph | safe }}</p>
+                        {% endfor %}
+                        {% if chapter.list %}
+                            <ul class="story-block__list">
+                                {% for item in chapter.list %}
+                                    <li>{{ item | safe }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                        {% if chapter.figure %}
+                            <figure class="story-block__figure">
+                                <img src="{{ chapter.figure.src }}" alt="{{ chapter.figure.alt }}" width="{{ chapter.figure.width }}" height="{{ chapter.figure.height }}" loading="lazy">
+                                <figcaption>{{ chapter.figure.caption }}</figcaption>
+                            </figure>
+                        {% endif %}
+                    </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -28,6 +28,14 @@ module.exports = config => {
     return [...collection.getFilteredByGlob('./src/hu/posts/*.md')];
   });
 
+  config.addCollection('caseStudiesEn', collection => {
+    return [...collection.getFilteredByGlob('./src/case-studies/*.md')];
+  });
+
+  config.addCollection('caseStudiesHu', collection => {
+    return [...collection.getFilteredByGlob('./src/hu/esettanulmanyok/*.md')];
+  });
+
   config.addNunjucksAsyncShortcode('svgIcon', async (src, cls) => {
     const metadata = await Image(src, {
       formats: ['svg'],

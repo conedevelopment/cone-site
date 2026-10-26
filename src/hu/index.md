@@ -43,23 +43,11 @@ testimonial:
         description: "Vizuálisan egyszerű és funkcionális weboldalakat készítünk, ahol a teljesítmény van a középpontban. WordPress-t és Eleventy-t használunk, a felmerült igények kielégítésére."
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "Egy mogyoróvajas szendvics lekvárt eszik."
-highlightedReference:
+caseStudy:
     title:
-        caption: "Ezt <br>készítettük"
+        caption: "Ezt készítettük"
         image: "./src/img/title-helper-primary.svg"
         url: "/hu/munkaink/"
-    classes: "highlighted-reference--align-end"
-    items:
-    -
-        title: "Sárvár"
-        linkUrl: "https://sarvar.hu"
-        linkCaption: "sarvar.hu"
-        image: "./src/img/preview/sarvar.jpg"
-    -
-        title: "OITM"
-        linkUrl: "https://megmerettetes.hu"
-        linkCaption: "megmerettetes.hu"
-        image: "./src/img/preview/megmerettetes.jpg"
 cta:
     title: "Ismerj meg minket"
     classes: "cta--border-block:end"

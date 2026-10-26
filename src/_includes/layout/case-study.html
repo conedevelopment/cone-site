@@ -1,0 +1,17 @@
+{% extends "layout/base.html" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/css/case-study.css?{{ assetHash }}">
+{% endblock %}
+
+{% block content %}
+    <div class="l-page">
+        {% include "partial/case-study/hero.html" %}
+        {% include "partial/case-study/story.html" %}
+    </div>
+    {% include "partial/cta.html" %}
+{% endblock %}
+
+{% block scripts %}
+    <script src="/js/story.js?{{ assetHash }}" defer></script>
+{% endblock %}

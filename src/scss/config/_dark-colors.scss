@@ -26,6 +26,8 @@ $colors: (
     'primary': $color-primary,
     'secondary': $color-secondary,
     'strong': $color-white,
+    'surface': color.scale($color-black, $lightness: 5%),
+    'surface-muted': hsl(192deg 100% 6%),
     'text': $color-gray,
   ),
   'btn': (

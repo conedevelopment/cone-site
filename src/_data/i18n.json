@@ -29,6 +29,15 @@
     },
     "email": {
       "back": "Back to home"
+    },
+    "caseStudy": {
+      "eyebrow": "Case study",
+      "back": "All work",
+      "backUrl": "/works/",
+      "technologies": "Technologies",
+      "story": "The story",
+      "toc": "In this case study",
+      "readMore": "Read the case study"
     }
   },
   "hu": {
@@ -61,6 +70,15 @@
     },
     "email": {
       "back": "Vissza a főoldalra"
+    },
+    "caseStudy": {
+      "eyebrow": "Esettanulmány",
+      "back": "Összes munkánk",
+      "backUrl": "/hu/munkaink/",
+      "technologies": "Technológiák",
+      "story": "A történet",
+      "toc": "Ebben az esettanulmányban",
+      "readMore": "Elolvasom az esettanulmányt"
     }
   }
 }

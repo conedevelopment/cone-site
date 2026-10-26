@@ -43,23 +43,11 @@ testimonial:
         description: "We create visually stunning and highly functional websites built on WordPress or Eleventy."
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "A peanutbutter sandwich eating jelly from a jar."
-highlightedReference:
+caseStudy:
     title:
-        caption: "What<br>We<br>Make"
+        caption: "What We Make"
         image: "./src/img/title-helper-primary.svg"
         url: "/works/"
-    classes: "highlighted-reference--align-end"
-    items:
-    -
-        title: "Sárvár"
-        linkUrl: "https://sarvar.hu"
-        linkCaption: "sarvar.hu"
-        image: "./src/img/preview/sarvar.jpg"
-    -
-        title: "OITM"
-        linkUrl: "https://megmerettetes.hu"
-        linkCaption: "megmerettetes.hu"
-        image: "./src/img/preview/megmerettetes.jpg"
 cta:
     title: "Get to Know Us"
     classes: "cta--border-block:end"

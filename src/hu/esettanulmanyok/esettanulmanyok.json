@@ -1,0 +1,4 @@
+{
+  "layout": "layout/case-study.html",
+  "permalink": "/hu/esettanulmanyok/{{ page.fileSlug }}/index.html"
+}

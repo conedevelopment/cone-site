@@ -46,5 +46,6 @@
         <script src="/js/header.js?{{ assetHash }}" async></script>
         <script src="/js/cookie-consent.js?{{ assetHash }}" type="module"></script>
         <script src="/js/scripts.js?{{ assetHash }}" type="module"></script>
+        {% block scripts %}{% endblock %}
     </body>
 </html>

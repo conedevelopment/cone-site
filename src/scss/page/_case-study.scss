@@ -1,0 +1,31 @@
+@use 'sprucecss/scss/spruce' as *;
+
+// A page composed only of blocks: every block brings its own spacing.
+.l-page {
+  // The site header is fixed, so the page starts below it.
+  margin-block-start: get-css-variable(--header-block-size);
+
+  // One background, one padding: a block that follows a block on the same background drops its top padding,
+  // the bottom padding of the previous one already separates them.
+  > * + * {
+    padding-block-start: 0;
+  }
+
+  // The chapter list sticks below the fixed (5rem high on scroll) site header.
+  .story-block__nav {
+    @include breakpoint('lg') {
+      inset-block-start: calc(5rem + #{spacer('l')});
+    }
+  }
+}
+
+// The cover and the figures are website screenshots, mostly on white: a border keeps their edge.
+.hero-case-block__cover img,
+.story-block__figure img {
+  border: config('border-width-base', $display) solid color('border');
+}
+
+// The chapter links (#client, #goal) land below the fixed site header.
+html:has(.story-block) {
+  scroll-padding-block-start: calc(5rem + #{spacer('l')});
+}

@@ -6,15 +6,18 @@ $color-secondary: hsl(326deg 100% 49%);
 $color-tertiary: hsl(169deg 100% 50%);
 
 @use 'sprucecss/scss/spruce' with (
-  $btn: (
+$btn: (
     'border-radius': 2rem,
     'border-width': 1px,
     'font-family': #{'Manrope', sans-serif},
+    'font-size': 0.935rem,
     'font-weight': 600,
+    'icon-size': 0.8rem,
     'icon-padding': 0.85em,
     'padding': 0.85em 1.75em,
   ),
   $btn-lg: (
+    'font-size': 0.935rem,
     'padding': clamp(0.9em, 3vw, 1em) clamp(1.5em, 3vw, 1.75em),
   ),
   $color-black: $color-black,
@@ -124,6 +127,7 @@ $color-tertiary: hsl(169deg 100% 50%);
   $typography: (
     'font-family-base': #{'Manrope', sans-serif},
     'font-family-heading': #{'Inter', sans-serif},
-    'line-height-base': 1.8,
+    'font-size-lead': clamp(1.075rem, 4vw, 1.2rem),
+    'line-height-base': 1.7,
   ),
 );

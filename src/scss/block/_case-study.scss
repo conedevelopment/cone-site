@@ -1,0 +1,202 @@
+@use 'sprucecss/scss/spruce' as *;
+
+.case-study-block {
+  &__list {
+    display: grid;
+    gap: spacer-clamp('l', 'xl');
+  }
+
+  &__inner {
+    align-items: center;
+    background-color: color('surface');
+    border: config('border-width-base', $display) solid color('border');
+    border-radius: radius('lg');
+    display: grid;
+    overflow: hidden;
+
+    @include breakpoint('lg') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  // The preview: the site in a browser window and on a phone, on the tertiary brand color.
+  &__media {
+    align-self: stretch;
+    background-color: color-tint('primary', 10%);
+    display: grid;
+    padding: spacer-clamp('m', 'l');
+    padding-block-end: spacer-clamp('xl', 'xxl');
+    place-items: center;
+    position: relative;
+  }
+
+  &__browser {
+    background-color: color('surface');
+    border-radius: radius('md');
+    box-shadow: shadow('xl');
+    inline-size: 100%;
+    overflow: hidden;
+
+    img {
+      aspect-ratio: 16 / 10;
+      display: block;
+      inline-size: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  &__frame {
+    align-items: center;
+    border-block-end: config('border-width-base', $display) solid color('border');
+    display: flex;
+    gap: spacer('xxs');
+    padding: spacer('xs') spacer('s');
+
+    i {
+      background-color: color('border-strong');
+      block-size: 0.5rem;
+      border-radius: 50%;
+      flex-shrink: 0;
+      inline-size: 0.5rem;
+    }
+  }
+
+  &__url {
+    background-color: color('surface-muted');
+    border-radius: radius('pill');
+    color: color('muted');
+    flex-grow: 1;
+    font-size: 0.7rem;
+    line-height: 1.6;
+    margin-inline: spacer('xs');
+    max-inline-size: 16rem;
+    overflow: hidden;
+    padding-inline: spacer('s');
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // The phone follows the browser window: the same surface, a top bar and the screenshot.
+  &__phone {
+    background-color: color('surface');
+    // It overlaps the browser window: the border keeps its edge on the same surface.
+    border: config('border-width-base', $display) solid color('border');
+    border-radius: radius('md');
+    box-shadow: shadow('xl');
+    inline-size: clamp(6rem, 26%, 9rem);
+    inset-block-end: spacer('m');
+    inset-inline-end: spacer-clamp('m', 'l');
+    overflow: hidden;
+    position: absolute;
+
+    img {
+      aspect-ratio: 390 / 823;
+      display: block;
+      inline-size: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  &__phone-bar {
+    border-block-end: config('border-width-base', $display) solid color('border');
+    display: flex;
+    justify-content: center;
+    padding-block: spacer('xs');
+
+    i {
+      background-color: color('border-strong');
+      block-size: 0.375rem;
+      border-radius: radius('pill');
+      inline-size: 30%;
+    }
+  }
+
+  &__content {
+    padding: spacer-clamp('m', 'xl');
+    @include layout-stack('m');
+  }
+
+  &__eyebrow {
+    color: color('primary');
+    font-weight: 700;
+  }
+
+  &__company {
+    color: color('heading');
+  }
+
+  &__figure {
+    margin-inline: 0;
+    @include layout-stack('m');
+  }
+
+  // Without a client quote, the summary of the case study takes its place.
+  &__quote,
+  &__lead {
+    border: 0;
+    color: color('heading');
+    font-family: config('font-family-heading', $typography);
+    font-size: responsive-font-size(1.75rem, 25, '2vw + 1rem');
+    line-height: 1.35;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__author {
+    align-items: center;
+    display: flex;
+    gap: spacer('s');
+    text-align: start;
+
+    img {
+      block-size: 3rem;
+      border-radius: 50%;
+      inline-size: 3rem;
+      object-fit: cover;
+    }
+
+    strong,
+    span span {
+      display: block;
+    }
+
+    span span {
+      color: color('muted');
+      font-size: config('font-size-sm', $typography);
+    }
+  }
+
+  &__metrics {
+    border-block-start: config('border-width-base', $display) solid color('border');
+    display: grid;
+    gap: spacer('s');
+    grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr));
+    padding-block-start: spacer('m');
+
+    div {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    dt {
+      color: color('muted');
+      font-size: config('font-size-sm', $typography);
+      font-weight: 400;
+    }
+
+    dd {
+      color: color('heading');
+      font-family: config('font-family-heading', $typography);
+      font-size: font-size('h2');
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+
+  &__link {
+    justify-self: start;
+  }
+}
