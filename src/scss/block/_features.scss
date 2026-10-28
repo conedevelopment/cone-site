@@ -1,10 +1,12 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .features-block {
+  border-radius: clamp(3rem, 5vw, 6rem);
+  margin-inline: spacer-clamp('s', 'l');
   padding-block: spacer-clamp('xl', 'xxl');
 
   &--muted {
-    background-color: color('surface-muted');
+    background: linear-gradient(180deg, hsl(216deg 100% 50% / 3%) 0%, hsl(216deg 100% 50% / 4%) 100%);
   }
 
   &__inner {
@@ -48,11 +50,6 @@
     padding: spacer-clamp('m', 'l');
     @include layout-stack('xs');
     @include transition($property: 'box-shadow, translate');
-
-    &:hover {
-      box-shadow: shadow('md');
-      translate: 0 -2px;
-    }
   }
 
   &__icon {

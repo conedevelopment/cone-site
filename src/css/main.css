@@ -3424,10 +3424,6 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   box-shadow: 0 2px 0 0 var(--cone-form-color-border);
 }
 
-.page--projektjeink .l-reference-list {
-  border-block-end: 1px solid var(--cone-base-color-border);
-}
-
 @media (min-width: 64em) {
   .hidden\:md {
     display: none;

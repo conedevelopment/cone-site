@@ -13,11 +13,6 @@ hero:
     description: "Komplett WooCommerce webáruház és egyedi integráció fejlesztés, legyen az fizetési kapu, CRM kapcsolat, vagy szállítási megoldás."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 featureMediaBlock:
-    heading:
-        eyebrow: "Miért velünk?"
-        title: "Nem csak használjuk a WooCommerce-t, fejlesztünk is rá"
-        text: "A SimplePay és a Barion bővítményt is mi fejlesztjük, így közelről ismerjük a fizetés, a szállítás és a számlázás buktatóit."
-        id: "woo-why-title"
     items:
     -
         eyebrow: "Egyedi webáruház"

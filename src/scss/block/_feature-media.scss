@@ -15,10 +15,14 @@
     gap: spacer-clamp('l', 'xl');
 
     @include breakpoint('md') {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
 
-      &:nth-of-type(even) .feature-media-block__media {
-        order: 2;
+      &:nth-of-type(even) {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+
+        .feature-media-block__media {
+          order: 2;
+        }
       }
     }
   }
@@ -26,8 +30,8 @@
   // The illustrations are square SVGs: they sit centered on a tinted panel.
   &__media {
     align-items: center;
-    aspect-ratio: 4 / 3;
-    background-color: color-alpha('primary', 0.08);
+    aspect-ratio: 1;
+    background-color: color('secondary');
     border-radius: radius('lg');
     display: flex;
     justify-content: center;
@@ -35,12 +39,12 @@
   }
 
   &__row:nth-of-type(even) &__media {
-    background-color: color-alpha('tertiary', 0.15);
+    background-color: color('tertiary');
   }
 
   &__image {
     block-size: auto;
-    inline-size: min(100%, 18rem);
+    inline-size: min(100%, 22rem);
   }
 
   &__content {
