@@ -33,6 +33,7 @@
 
   &__toc {
     border-inline-start: config('border-width-base', $display) solid color('border');
+    line-height: config('line-height-md', $typography);
     list-style: none;
     padding: 0;
     @include layout-stack('xxs');

@@ -3,10 +3,7 @@
 {# Every case study, newest first, or only the ones tagged with caseStudy.tag. #}
 <section class="case-study-block"{% if caseStudy.heading %} aria-labelledby="{{ caseStudy.heading.id }}"{% elif caseStudy.title %} aria-labelledby="case-study-block-title"{% endif %}>
     <div class="container">
-        {% if caseStudy.heading %}
-            {% set heading = caseStudy.heading %}
-            {% include "partial/block/block-heading.html" %}
-        {% elif caseStudy.title %}
+        {% if caseStudy.title %}
             <h2 class="section-title" id="case-study-block-title">
                 {% svgIcon caseStudy.title.image %}
                 {% if caseStudy.title.url %}

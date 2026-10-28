@@ -224,6 +224,7 @@
 }
 .story-block__toc {
   border-inline-start: var(--cone-border-width-base) solid var(--cone-base-color-border);
+  line-height: var(--cone-line-height-md);
   list-style: none;
   padding: 0;
 }

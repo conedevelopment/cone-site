@@ -1,29 +1,7 @@
 @use 'sprucecss/scss/spruce' as *;
 
 .lang-switcher {
-  @include clear-list;
-  align-items: center;
-  display: flex;
-  gap: spacer('xs');
-
-  > * + * {
-    margin-block-start: 0;
-  }
-
-  a {
-    align-items: center;
-    aspect-ratio: 1;
-    color: color('text');
-    display: flex;
-    text-decoration: none;
-
-    &:hover {
-      color: color('primary');
-    }
-
-    &[data-state='active'] {
-      color: color('heading');
-      font-weight: 700;
-    }
+  select {
+    inline-size: auto;
   }
 }

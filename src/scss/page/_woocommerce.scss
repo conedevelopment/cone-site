@@ -10,10 +10,6 @@
 
   // The case study block brings no spacing of its own, and its cards follow a block heading here, not a section title.
   .case-study-block {
-    padding-block: spacer-clamp('xl', 'xxl');
-
-    .block-heading {
-      margin-block-end: spacer('l');
-    }
+    padding-block-end: spacer-clamp('xl', 'xxl');
   }
 }

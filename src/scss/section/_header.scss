@@ -5,6 +5,8 @@
   @include transition;
   backdrop-filter: saturate(180%) blur(.25rem);
   background-color: color('background', 'header');
+  font-family: config('font-family-base', $typography);
+  font-weight: 400;
   inset: 0 0 auto;
   position: fixed;
   z-index: 25;
@@ -72,11 +74,8 @@
   }
 
   &__navigation {
+    font-size: 0.9375rem;
     margin-inline-start: auto;
-
-    @include breakpoint('md') {
-      margin-inline-start: 0;
-    }
 
     ul {
       border-block: 1px solid color('border');

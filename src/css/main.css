@@ -534,6 +534,7 @@ template {
   --cone-border-radius-sm: 0.425rem;
   --cone-border-width-base: 1px;
   --cone-border-radius-xl: 2.5rem;
+  --cone-container: 94rem;
   --cone-shadow-xs: 0 1px 2px hsla(0, 0%, 0%, 0.05);
   --cone-shadow-sm: 0 1px 3px hsla(0, 0%, 0%, 0.1), 0 1px 2px -1px hsla(0, 0%, 0%, 0.1);
   --cone-shadow-md: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
@@ -2024,6 +2025,8 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   transition-timing-function: var(--cone-timing-function);
   backdrop-filter: saturate(180%) blur(0.25rem);
   background-color: var(--cone-header-color-background);
+  font-family: var(--cone-font-family-base);
+  font-weight: 400;
   inset: 0 0 auto;
   position: fixed;
   z-index: 25;
@@ -2086,12 +2089,8 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   inline-size: auto;
 }
 .site-header__navigation {
+  font-size: 0.9375rem;
   margin-inline-start: auto;
-}
-@media (min-width: 64em) {
-  .site-header__navigation {
-    margin-inline-start: 0;
-  }
 }
 .site-header__navigation ul {
   border-block: 1px solid var(--cone-base-color-border);
@@ -2611,30 +2610,8 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   margin-block-start: 1rem;
 }
 
-.lang-switcher {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  display: flex;
-  gap: 0.5rem;
-}
-.lang-switcher > * + * {
-  margin-block-start: 0;
-}
-.lang-switcher a {
-  align-items: center;
-  aspect-ratio: 1;
-  color: var(--cone-base-color-text);
-  display: flex;
-  text-decoration: none;
-}
-.lang-switcher a:hover {
-  color: var(--cone-base-color-primary);
-}
-.lang-switcher a[data-state=active] {
-  color: var(--cone-base-color-heading);
-  font-weight: 700;
+.lang-switcher select {
+  inline-size: auto;
 }
 
 .reference-text-card {
@@ -2663,6 +2640,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 .reference-text-card__tag {
   border: 1px solid var(--cone-base-color-border);
   border-radius: 2rem;
+  font-size: 0.9rem;
   padding: 0.35em 1.25em;
 }
 .reference-text-card__link {
@@ -3590,9 +3568,9 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   border: 0;
   color: var(--cone-base-color-heading);
   font-family: var(--cone-font-family-heading);
-  font-size: clamp(1.3125rem, 2vw + 1rem, 1.75rem);
-  line-height: 1.35;
-  margin: 0;
+  font-size: clamp(1.2rem, 2vw + 1rem, 1.6rem);
+  line-height: var(--cone-line-height-md);
+  margin: 0.5rem 0 0;
   padding: 0;
 }
 .case-study-block__author {

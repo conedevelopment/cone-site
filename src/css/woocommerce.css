@@ -458,8 +458,5 @@
   padding-block-start: 0;
 }
 .l-blocks .case-study-block {
-  padding-block: clamp(4.5rem, 5vw, 7rem);
-}
-.l-blocks .case-study-block .block-heading {
-  margin-block-end: 3rem;
+  padding-block-end: clamp(4.5rem, 5vw, 7rem);
 }

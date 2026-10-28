@@ -139,9 +139,9 @@
     border: 0;
     color: color('heading');
     font-family: config('font-family-heading', $typography);
-    font-size: responsive-font-size(1.75rem, 25, '2vw + 1rem');
-    line-height: 1.35;
-    margin: 0;
+    font-size: responsive-font-size(1.6rem, 25, '2vw + 1rem');
+    line-height: config(line-height-md, $typography);
+    margin: spacer('xs') 0 0;
     padding: 0;
   }
 

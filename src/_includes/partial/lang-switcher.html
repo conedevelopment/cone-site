@@ -1,12 +1,12 @@
-<ul class="lang-switcher">
-    {% if lang == 'hu' %}
-        <li>
-            <a href="/" hreflang="en" aria-label="English" {{ helpers.getActiveLang('en', lang) | safe }}>en</a>
-        </li>
-    {% endif %}
-    {% if lang == 'en' %}
-        <li>
-            <a href="/hu/" hreflang="hu" aria-label="Magyar" {{ helpers.getActiveLang('hu', lang) | safe }}>hu</a>
-        </li>
-    {% endif %}
-</ul>
+{% set languages = [
+    { code: 'en', displayName: 'EN', name: 'English', url: '/' },
+    { code: 'hu', displayName: 'HU', name: 'Magyar', url: '/hu/' }
+] %}
+<div class="lang-switcher">
+    <label class="sr-only" for="lang-switcher">{{ i18n[lang].language }}</label>
+    <select class="form-control form-control--sm" id="lang-switcher" data-lang-switcher>
+        {% for language in languages %}
+        <option value="{{ language.url }}" lang="{{ language.code }}" title="{{ language.name }}" {% if language.code == lang %}selected{% endif %}>{{ language.displayName }}</option>
+        {% endfor %}
+    </select>
+</div>
