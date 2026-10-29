@@ -21,6 +21,11 @@
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+
+  // One product per row: the summary on the side, the features next to it.
+  &--split &__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 // A product with its price: built on the Spruce UI pricing card.
@@ -91,5 +96,116 @@
     display: flex;
     flex-wrap: wrap;
     gap: spacer('xs');
+  }
+}
+
+// A wide product row: summary panel with an accent edge, features in columns.
+.product-row {
+  background-color: color('surface');
+  border: config('border-width-base', $display) solid color('border');
+  border-radius: radius('lg');
+  box-shadow: shadow('sm');
+  display: grid;
+  overflow: hidden;
+
+  @include breakpoint('md') {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  }
+
+  &__summary {
+    border-block-start: 0.375rem solid color('secondary');
+    display: flex;
+    flex-direction: column;
+    gap: spacer('m');
+    padding: spacer-clamp('m', 'l');
+
+    @include breakpoint('md') {
+      border-block-start: 0;
+      border-inline-start: 0.375rem solid color('secondary');
+      border-inline-end: config('border-width-base', $display) solid color('border');
+    }
+  }
+
+  &:nth-of-type(even) &__summary {
+    border-color: color('tertiary');
+
+    @include breakpoint('md') {
+      border-inline-end-color: color('border');
+    }
+  }
+
+  &__header {
+    @include layout-stack('xxs');
+  }
+
+  &__title {
+    font-size: font-size('h3');
+  }
+
+  &__description {
+    color: color('muted');
+  }
+
+  &__price {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('xxs');
+    margin-block: auto 0;
+  }
+
+  &__amount {
+    color: color('heading');
+    font-family: config('font-family-heading', $typography);
+    font-size: font-size('h2');
+    font-weight: config('font-weight-heading', $typography);
+    line-height: 1;
+  }
+
+  &__period {
+    color: color('muted');
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: spacer('xs');
+  }
+
+  &__features {
+    @include clear-list;
+    align-content: center;
+    display: grid;
+    gap: spacer('s') spacer('m');
+    padding: spacer-clamp('m', 'l');
+
+    @include breakpoint('sm') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    // The check stays on the first line when a feature wraps.
+    li {
+      align-items: flex-start;
+      color: color('heading');
+      display: flex;
+      gap: spacer('xs');
+    }
+  }
+
+  &__check {
+    align-items: center;
+    background-color: color('primary');
+    block-size: 1.375rem;
+    border-radius: 50%;
+    color: color('surface');
+    display: inline-flex;
+    flex-shrink: 0;
+    inline-size: 1.375rem;
+    justify-content: center;
+
+    svg {
+      block-size: 0.75rem;
+      inline-size: 0.75rem;
+    }
   }
 }

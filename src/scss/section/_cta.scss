@@ -37,6 +37,7 @@
 
   &__inner {
     align-items: center;
+    border-block-start: 1px solid color('border');
     display: flex;
     flex-wrap: wrap;
     gap: spacer('m') spacer('l');

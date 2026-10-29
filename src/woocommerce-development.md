@@ -13,11 +13,6 @@ hero:
     description: "Complete WooCommerce stores and custom integrations, whether it's a payment gateway, a CRM connection or a shipping solution."
     classes: "hero--center hero--font-size:small hero--padding-block:small"
 featureMediaBlock:
-    heading:
-        eyebrow: "Why work with us"
-        title: "We don't just use WooCommerce, we build for it"
-        text: "We develop the SimplePay and Barion plugins, so we know the pitfalls of payment, shipping and invoicing first-hand."
-        id: "woo-why-title"
     items:
     -
         eyebrow: "Custom stores"
@@ -74,6 +69,18 @@ featuresBlock:
         image: "./src/img/icon/shape-05.svg"
         title: "Sell anything"
         text: "Physical products, digital goods or full subscriptions, you can do it all with Woo."
+    -
+        image: "./src/img/icon/shape-01.svg"
+        title: "No platform fees"
+        text: "There's no monthly subscription or sales commission, you only pay for hosting and the plugins you need."
+    -
+        image: "./src/img/icon/shape-04.svg"
+        title: "Your data stays yours"
+        text: "Products, orders and customer data live on your own server, not on a third-party platform."
+    -
+        image: "./src/img/icon/shape-03.svg"
+        title: "A huge community"
+        text: "Millions of stores run on WooCommerce, so developers, documentation and solutions are easy to find."
 caseStudy:
     heading:
         eyebrow: "Our work"
@@ -123,6 +130,7 @@ productsBlock:
         text: "Payment integrations we build ourselves, with security and compatibility updates."
         id: "woo-products-title"
     muted: true
+    layout: "split"
     items:
     -
         name: "SimplePay x WooCommerce"

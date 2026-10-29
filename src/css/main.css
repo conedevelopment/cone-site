@@ -1994,6 +1994,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
 }
 .cta__inner {
   align-items: center;
+  border-block-start: 1px solid var(--cone-base-color-border);
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem 3rem;
@@ -2166,7 +2167,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   margin-block: 0;
 }
 .hero__title {
-  font-size: clamp(3rem, 5vw + 1rem, 6rem);
+  font-size: clamp(2.5rem, 5vw + 1rem, 5rem);
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2772,6 +2773,7 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   text-decoration: none;
 }
 .testimonial-card__description {
+  font-size: clamp(0.9775rem, 2vw + 1rem, 1.15rem);
   transition-duration: var(--cone-duration);
   transition-property: all;
   transition-timing-function: var(--cone-timing-function);

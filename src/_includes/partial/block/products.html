@@ -1,5 +1,5 @@
 {% if productsBlock %}
-    <section class="products-block{% if productsBlock.muted %} products-block--muted{% endif %}" aria-labelledby="{{ productsBlock.heading.id }}">
+    <section class="products-block{% if productsBlock.muted %} products-block--muted{% endif %}{% if productsBlock.layout %} products-block--{{ productsBlock.layout }}{% endif %}" aria-labelledby="{{ productsBlock.heading.id }}">
         <div class="container">
             <div class="products-block__inner">
                 {% set heading = productsBlock.heading %}
@@ -7,21 +7,41 @@
                 <div class="products-block__list">
                     {% for product in productsBlock.items %}
                         {% set productId = productsBlock.heading.id + '-' + loop.index %}
-                        <article class="product-card" aria-labelledby="{{ productId }}">
-                            <header class="product-card__header">
-                                <h3 class="product-card__title" id="{{ productId }}">{{ product.name }}</h3>
-                                <p class="product-card__description">{{ product.description }}</p>
-                            </header>
-                            <p class="product-card__price"><span class="product-card__amount">{{ product.price }}</span> <span class="product-card__period">{{ product.period }}</span></p>
-                            <ul class="product-card__features" role="list">
-                                {% for feature in product.features %}
-                                    <li><svg class="product-card__check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg> {{ feature }}</li>
-                                {% endfor %}
-                            </ul>
-                            <div class="product-card__actions">
-                                <a class="btn btn--primary" href="{{ product.details.url }}">{{ product.details.caption }}<span class="sr-only">: {{ product.name }}</span></a>
-                            </div>
-                        </article>
+                        {% if productsBlock.layout == 'split' %}
+                            <article class="product-row" aria-labelledby="{{ productId }}">
+                                <div class="product-row__summary">
+                                    <header class="product-row__header">
+                                        <h3 class="product-row__title" id="{{ productId }}">{{ product.name }}</h3>
+                                        <p class="product-row__description">{{ product.description }}</p>
+                                    </header>
+                                    <p class="product-row__price"><span class="product-row__amount">{{ product.price }}</span> <span class="product-row__period">{{ product.period }}</span></p>
+                                    <div class="product-row__actions">
+                                        <a class="btn btn--primary" href="{{ product.details.url }}">{{ product.details.caption }}<span class="sr-only">: {{ product.name }}</span></a>
+                                    </div>
+                                </div>
+                                <ul class="product-row__features" role="list">
+                                    {% for feature in product.features %}
+                                        <li><span class="product-row__check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg></span> {{ feature }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </article>
+                        {% else %}
+                            <article class="product-card" aria-labelledby="{{ productId }}">
+                                <header class="product-card__header">
+                                    <h3 class="product-card__title" id="{{ productId }}">{{ product.name }}</h3>
+                                    <p class="product-card__description">{{ product.description }}</p>
+                                </header>
+                                <p class="product-card__price"><span class="product-card__amount">{{ product.price }}</span> <span class="product-card__period">{{ product.period }}</span></p>
+                                <ul class="product-card__features" role="list">
+                                    {% for feature in product.features %}
+                                        <li><svg class="product-card__check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg> {{ feature }}</li>
+                                    {% endfor %}
+                                </ul>
+                                <div class="product-card__actions">
+                                    <a class="btn btn--primary" href="{{ product.details.url }}">{{ product.details.caption }}<span class="sr-only">: {{ product.name }}</span></a>
+                                </div>
+                            </article>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

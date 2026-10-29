@@ -69,6 +69,18 @@ featuresBlock:
         image: "./src/img/icon/shape-05.svg"
         title: "Eladhatsz bármit"
         text: "Nem számít, hogy fizikai, digitális termék, esetleg komplett előfizetésre van szükséged, Woo-val meg tudod valósítani."
+    -
+        image: "./src/img/icon/shape-01.svg"
+        title: "Nincs platformdíj"
+        text: "Nincs havi előfizetés vagy jutalék az eladások után, csak a tárhelyért és a szükséges bővítményekért fizetsz."
+    -
+        image: "./src/img/icon/shape-04.svg"
+        title: "Az adatok a tieid maradnak"
+        text: "A termékek, rendelések és vásárlói adatok a saját szervereden vannak, nem egy külső platformon."
+    -
+        image: "./src/img/icon/shape-03.svg"
+        title: "Hatalmas közösség"
+        text: "Milliónyi webáruház fut WooCommerce-en, így könnyű fejlesztőt, dokumentációt és megoldást találni."
 caseStudy:
     heading:
         eyebrow: "Munkáink"
@@ -118,6 +130,7 @@ productsBlock:
         text: "Saját fejlesztésű fizetési integrációk, biztonsági és kompatibilitási frissítésekkel."
         id: "woo-products-title"
     muted: true
+    layout: "split"
     items:
     -
         name: "SimplePay x WooCommerce"

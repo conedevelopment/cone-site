@@ -1,10 +1,12 @@
 {#- Set a `heading` object ({ eyebrow, title, text, id, align }) before the include. -#}
-<header class="block-heading{% if heading.align == 'start' %} block-heading--start{% endif %}">
-    {% if heading.eyebrow %}
-        <p class="block-heading__eyebrow">{{ heading.eyebrow }}</p>
-    {% endif %}
-    <h2 class="block-heading__title" id="{{ heading.id }}">{{ heading.title }}</h2>
-    {% if heading.text %}
-        <p class="block-heading__text">{{ heading.text }}</p>
-    {% endif %}
-</header>
+{% if heading %}
+    <header class="block-heading{% if heading.align == 'start' %} block-heading--start{% endif %}">
+        {% if heading.eyebrow %}
+            <p class="block-heading__eyebrow">{{ heading.eyebrow }}</p>
+        {% endif %}
+        <h2 class="block-heading__title" id="{{ heading.id }}">{{ heading.title }}</h2>
+        {% if heading.text %}
+            <p class="block-heading__text">{{ heading.text }}</p>
+        {% endif %}
+    </header>
+{% endif %}

@@ -49,6 +49,7 @@
   }
 
   &__description {
+    font-size: responsive-font-size(1.15rem);
     @include transition;
   }
 

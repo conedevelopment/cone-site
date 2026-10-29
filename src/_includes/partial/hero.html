@@ -10,7 +10,7 @@
                     {% if (hero.btn) %}
                         <div class="hero__actions">
                             {% for btn in hero.btn %}
-                                <a href="{{ btn.url }}" class="btn btn--lg btn--outline-primary">
+                                <a href="{{ btn.url }}" class="btn btn--lg btn--{{ btn.type or 'outline-primary' }}">
                                     {{ btn.caption }}
                                     {% svgIcon './src/img/icon/arrow-flat.svg', 'btn__icon' %}
                                 </a>

@@ -16,6 +16,7 @@ hero:
     -
         url: "/services/application-development/"
         caption: "Laravel Development"
+        type: "primary"
     -
         url: "/services/website-development/"
         caption: "Website Development"
