@@ -7,7 +7,7 @@
 {% block content %}
     {% include "partial/hero.html" %}
     {% include "partial/testimonial.html" %}
-    {% include "partial/audit-hu.html" %}
+    {% include "partial/audit-" + (locale or "en") + ".html" %}
     {% include "partial/grid.html" %}
     {% include "partial/accordion.html" %}
     {% include "partial/step.html" %}

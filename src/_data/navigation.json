@@ -66,6 +66,11 @@
             "caption": "WooCommerce Development",
             "url": "/services/woocommerce-development/",
             "external": false
+          },
+          {
+            "caption": "Audit",
+            "url": "/services/application-and-website-audit/",
+            "external": false
           }
         ]
       },

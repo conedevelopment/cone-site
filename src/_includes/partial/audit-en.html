@@ -1,0 +1,44 @@
+{% if audit %}
+    <div class="l-column l-column--border-block:end">
+        <div class="container">
+            <div class="l-column__inner">
+                <div class="info-card">
+                    <div class="info-card__header">
+                        {% svgIcon "./src/img/laravel-logo.svg", "info-card__icon" %}
+                        <h3 class="info-card__title">Laravel audit</h3>
+                    </div>
+                    <div class="post-content info-card__body">
+                        <p>For a custom application, a regular audit can be an essential task. We help you fully review your Laravel application, whether you are switching developers or just preparing for what comes next.</p>
+                        <p><strong>What can you expect from the Laravel audit?</strong></p>
+                        <ul>
+                            <li>We check how up to date Laravel and its server environment are.</li>
+                            <li>We review the dependencies and estimate which ones could likely have been replaced with a simple custom solution.</li>
+                            <li>Based on PSR and the Laravel coding guidelines, we check how closely the code follows them or where it deviates from them.</li>
+                            <li>We examine the application's architecture and look for points where we would suggest a different structure, other solutions or simply a refactor.</li>
+                            <li>We also take a <em>quick</em> look at the front-end and UI code and make suggestions for missing or problematic areas.</li>
+                        </ul>
+                        <p><strong>Price: €190</strong></p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-card__header">
+                        {% svgIcon "./src/img/wordpress-logo.svg", "info-card__icon" %}
+                        <h3 class="info-card__title">WordPress audit</h3>
+                    </div>
+                    <div class="post-content info-card__body">
+                        <p>WordPress is a huge system. You can build a simple portfolio site with it or a store with 1000+ products. Auditing these sites is often not easy. When it comes to code quality, the large ecosystem is often a disadvantage.</p>
+                        <p><strong>What can you expect from the WordPress audit?</strong></p>
+                        <ul>
+                            <li>We look at the WordPress instance: the number of plugins and the state of the system. In the long run, it's usually true that the fewer dependencies, the more manageable the system.</li>
+                            <li>We examine the theme in use and its dependencies.</li>
+                            <li>We make general UI and UX suggestions.</li>
+                            <li>We measure how the site performs. Performance is fundamental for a website, and we point out where it falls short.</li>
+                            <li>With WordPress, updates are key. An up-to-date system is a secure system. The site (its theme or one of its plugins) may well be stuck on an older version that takes a lot of work to move off. We point this out too.</li>
+                        </ul>
+                        <p><strong>Price: €125</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}

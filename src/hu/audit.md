@@ -2,6 +2,10 @@
 title: "Alkalmazás és weboldal audit, állapotfelmérés"
 permalink: "/hu/szolgaltatasaink/alkalmazas-es-weboldal-audit-allapotfelmeres/"
 layout: "layout/development.html"
+hreflang:
+-
+    lang: "en"
+    url: "/services/application-and-website-audit/"
 hero:
     title:
         caption: "Alkalmazás és <br> weboldal <span class='highlighted'>audit</span>"

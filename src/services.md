@@ -27,6 +27,12 @@ testimonial:
         image: "/img/illustrations/retro-butter-toast.svg"
         imageAlt: "A peanutbutter sandwich eating jelly from a jar."
     -
+        title: "Website and Application Audit"
+        url: "/services/application-and-website-audit/"
+        description: "A detailed audit helps you assess your project's current state, its potential for further development, its weaknesses and its strengths."
+        image: "/img/illustrations/retro-donut-screams-loudly.svg"
+        imageAlt: "A retro donut screaming loudly."
+    -
         title: "WooCommerce Development"
         url: "/services/woocommerce-development/"
         description: "We build custom WooCommerce stores and extend existing ones, including payment gateway, shipping, invoicing and CRM integrations."

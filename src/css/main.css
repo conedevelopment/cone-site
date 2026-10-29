@@ -2383,6 +2383,11 @@ html[dir=rtl] select.form-control:not([multiple]):not([size]) {
   font-size: var(--cone-font-size-lead);
   margin-block: 0;
 }
+@media (min-width: 64em) {
+  .highlighted-text p {
+    font-size: clamp(1.275rem, 2vw + 1rem, 1.5rem);
+  }
+}
 .highlighted-text p .highlighted {
   color: var(--cone-base-color-secondary);
 }
